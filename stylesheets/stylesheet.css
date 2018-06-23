@@ -270,6 +270,7 @@ html {
 }
 
 body {
+  background: #000;
   color: ghostwhite;
   font-family: keepCalm;
 }
