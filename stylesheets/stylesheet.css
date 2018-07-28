@@ -197,6 +197,16 @@ section {
   width: 25%;
 }
 
+#call-for-abstracts #abstract-deadline {
+  font-size: 1.5em;
+}
+
+#call-for-abstracts #abstract-deadline img {
+  width: 5%;
+  margin-top: 0.5em;
+  margin-bottom: -0.5em;
+}
+
 #topics-of-interest:after {
   content: '';
   display: block;
@@ -205,6 +215,7 @@ section {
 
 #proposal-questions {
   padding: 1em;
+  margin-top: 1.5em;
   margin-left: 2em;
   margin-right: 2em;
   text-align: left;
@@ -243,6 +254,16 @@ Small Device Styles
 }
 
 @media screen and (max-width: 1120px) {
+  #call-for-abstracts #abstract-deadline {
+    font-size: 1.2em;
+  }
+
+  #call-for-abstracts #abstract-deadline img {
+    width: 5%;
+    margin-top: 0.3em;
+    margin-bottom: -0.3em;
+  }
+
   #proposal-questions {
     font-size: 0.7em;
   }
@@ -266,6 +287,10 @@ Small Device Styles
 
   #call-for-abstracts #topics-of-interest li {
     width: 100%;
+  }
+
+  #call-for-abstracts #abstract-deadline img {
+    display: none;
   }
 
   #proposal-questions {
