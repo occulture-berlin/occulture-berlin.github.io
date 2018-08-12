@@ -11,3 +11,9 @@ $(document).ready(function() {
     $("#"+selected).show();
   });
 });
+
+goToPage = function(path){
+  // update urls when clicking a link
+  // github pages use a frameset which is fucked, that's the short version.
+  top.window.location.href = path
+}
