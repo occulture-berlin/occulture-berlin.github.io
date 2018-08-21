@@ -57,6 +57,10 @@ body {
   font-family: keepCalm;
 }
 
+#tickets #buy-ticket-button {
+  margin-top: 3em;
+}
+
 /* https://stackoverflow.com/a/20352949/2128691 */
 body::after {
   content: '';
@@ -174,6 +178,14 @@ hr {
   margin-bottom: 5px;
   border: none;
   background: url('../images/bg_hr.png') repeat-x center;
+}
+
+.button {
+  background: white;
+  padding: 1em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .center {
