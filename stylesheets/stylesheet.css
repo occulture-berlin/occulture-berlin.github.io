@@ -55,6 +55,36 @@ body {
   background: #000;
   color: #DCE0DF;
   font-family: keepCalm;
+  overflow-x: hidden;
+}
+
+#enochian-alphabet {
+  position: absolute;
+  right: -100px;
+  top: -200px;
+  animation: reverseSpin 120s infinite linear;
+  -moz-animation: reverseSpin 120s infinite linear;
+  -webkit-animation: reverseSpin 120s infinite linear;
+}
+
+@-moz-keyframes reverseSpin {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+
+@-webkit-keyframes reverseSpin {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+
+@keyframes reverseSpin {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+
+#enochian-alphabet img {
+  width: 66em;
+  opacity: 0.33;
 }
 
 #main-ticket-button {
