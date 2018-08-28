@@ -57,6 +57,12 @@ body {
   font-family: keepCalm;
 }
 
+#main-ticket-button {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 2em;
+}
+
 #tickets #ticket-prices-banner {
   font-size: 1.5em;
   margin-top: 1em;
@@ -82,9 +88,10 @@ body {
   text-align: right;
 }
 
-#tickets #buy-ticket-button {
-  margin-top: 3em;
-  margin-bottom: 3em;
+#tickets .buy-ticket-button {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1.5em;
 }
 
 /* https://stackoverflow.com/a/20352949/2128691 */
