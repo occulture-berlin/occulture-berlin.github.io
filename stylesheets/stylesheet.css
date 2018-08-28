@@ -278,7 +278,8 @@ section {
 
 #nav li {
   display: inline-block;
-  margin-right: 1em;
+  margin-right: 0.75em;
+  font-size: 1.7em;
 }
 
 #nav-wrap:after {
