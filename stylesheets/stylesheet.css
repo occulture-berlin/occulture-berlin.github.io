@@ -400,7 +400,7 @@ section {
 .tab-button {
   color: darkred;
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .outer {
@@ -464,6 +464,10 @@ Small Device Styles
 
   .button {
     padding: 0.75em;
+  }
+
+  #nav li {
+    font-size: 1.65em;
   }
 }
 
