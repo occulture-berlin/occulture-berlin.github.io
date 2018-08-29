@@ -118,7 +118,7 @@ body {
 
 #tickets #ticket-columns #prices td {
   font-family: 'Metamorphous';
-  font-size: 1.1em;
+  font-size: 1.2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
@@ -460,6 +460,10 @@ Small Device Styles
 @media screen and (max-width: 970px) {
   #tickets #ticket-columns #ticket-prices-banner {
     font-size: 0.9em;
+  }
+
+  #tickets #ticket-columns #prices td {
+    font-size: 1em;
   }
 
   .button {
