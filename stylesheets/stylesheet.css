@@ -41,6 +41,7 @@ table {
 Theme Styles
 *******************************************************************************/
 
+/* Set keepCalm font-family from file */
 @font-face {
   font-family: keepCalm;
   src: url("../fonts/KeepCalm-Medium.ttf");
@@ -51,10 +52,10 @@ html {
 }
 
 body {
+  font-family: 'Raleway', cursive;
   min-height: 100%;
   background: #000;
   color: #DCE0DF;
-  font-family: keepCalm;
   overflow-x: hidden;
 }
 
@@ -77,35 +78,66 @@ body {
   font-size: 2em;
 }
 
-#tickets #ticket-prices-banner {
-  font-size: 1.5em;
+#tickets #ticket-columns:after {
+  content: '';
+  display: block;
+  clear: both;
+  margin-bottom: 1em;
+}
+
+#tickets #ticket-columns .column {
+  float: left;
+  width: 33%;
+}
+
+#tickets #ticket-columns #left-column img {
+  float: left;
+}
+
+#tickets #ticket-columns #right-column img {
+  float: right;
+}
+
+#tickets #ticket-columns img {
+  width: 90%;
+  margin-top: 2em;
+  opacity: 0.75
+}
+
+#tickets #ticket-columns #ticket-prices-banner {
+  font-family: 'Metamorphous';
+  font-size: 1.25em;
   margin-top: 1em;
 }
 
-#tickets #prices {
+#tickets #ticket-columns #prices {
   margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
 }
 
-#tickets #prices td {
-  font-size: 1.2em;
-  padding-left: 1.2em;
-  padding-right: 1.2em;
+#tickets #ticket-columns #prices td {
+  font-family: 'Metamorphous';
+  font-size: 1.1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
-#tickets #prices .ticket-type {
+#tickets #ticket-columns #prices .ticket-type {
   text-align: left;
 }
 
-#tickets #prices .ticket-price {
+#tickets #ticket-columns #prices .ticket-price {
   text-align: right;
 }
 
-#tickets .buy-ticket-button {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  font-size: 1.5em;
+#tickets #ticket-columns .buy-ticket-button {
+  font-size: 1.2em;
+  margin-top: 2.5em;
+}
+
+#tickets #call-for-volunteers {
+  clear: both;
 }
 
 /* https://stackoverflow.com/a/20352949/2128691 */
@@ -228,6 +260,8 @@ hr {
 }
 
 .button {
+  font-family: keepCalm;
+  text-transform: uppercase;
   background: white;
   padding: 1em;
   -webkit-border-radius: 5px;
@@ -237,6 +271,11 @@ hr {
 
 .center {
   text-align: center;
+}
+
+.justifed {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .hidden {
@@ -251,7 +290,7 @@ hr {
 Full-Width Styles
 *******************************************************************************/
 section {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 #header_wrap .inner {
@@ -269,6 +308,8 @@ section {
 }
 
 #high-priority-information {
+  color: darkred;
+  font-family: 'Metamorphous', cursive;
   font-size: 2.5em;
 }
 
@@ -277,9 +318,21 @@ section {
 }
 
 #nav li {
+  font-family: 'Metamorphous', cursive;
+  text-transform: uppercase;
   display: inline-block;
-  margin-right: 0.75em;
-  font-size: 1.7em;
+  margin-right: 1em;
+}
+
+#call-for-content-sub-nav {
+  margin-top: -3em;
+}
+
+.sub-nav li {
+  font-family: 'Metamorphous', cursive;
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 1.3em;
 }
 
 #nav-wrap:after {
@@ -303,6 +356,7 @@ section {
 }
 
 #call-for-abstracts #abstract-deadline {
+  font-family: 'Metamorphous', cursive;
   font-size: 1.5em;
 }
 
@@ -374,6 +428,11 @@ Small Device Styles
   #call-for-abstracts #abstract-deadline td.image-holder {
     width: 25%;
   }
+
+  #tickets #ticket-columns .buy-ticket-button {
+    font-size: 1.1em;
+    margin-top: 1.75em;
+  }
 }
 
 @media screen and (max-width: 1120px) {
@@ -392,6 +451,20 @@ Small Device Styles
   #proposal-questions {
     font-size: 0.7em;
   }
+
+  #tickets #ticket-columns .buy-ticket-button {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  #tickets #ticket-columns #ticket-prices-banner {
+    font-size: 0.9em;
+  }
+
+  .button {
+    padding: 0.75em;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -400,8 +473,14 @@ Small Device Styles
   }
 
   #nav li {
+    font-size: 1.7em;
     display: list-item;
     margin-bottom: 0.5em;
+  }
+
+  .sub-nav li {
+    display: list-item;
+    margin-top: 0.5em;
   }
 
   #call-for-abstracts #topics-of-interest {
@@ -424,6 +503,24 @@ Small Device Styles
 
   #proposal-questions {
     font-size: 0.6em;
+  }
+
+  #tickets #ticket-columns #prices td {
+    font-size: 0.7em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+  }
+
+  #tickets #ticket-columns .buy-ticket-button {
+    font-size: 0.8em;
+    margin-top: 1.35em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #tickets #ticket-columns .buy-ticket-button {
+    font-size: 0.5em;
+    margin-top: 1.35em;
   }
 }
 

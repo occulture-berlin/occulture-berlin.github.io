@@ -16,6 +16,10 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
+    <!-- fonts loaded from google fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
     <script>
@@ -57,20 +61,26 @@
     <!-- Nav buttons -->
     <div id="nav-wrap" class="outer">
       <ul id="nav" class="inner center">
-        <li id="call-for-abstracts-button" class="tab-button">
-          Call for Abstracts
-        </li>
-        <li id="art-and-exhibitions-button" class="tab-button">
-          Art and Exhibitions
-        </li>
-        <li id="evening-of-divination-button" class="tab-button">
-          Evening of Divination
+        <li id="call-for-content-button" class="tab-button">
+          Call for Content
         </li>
         <li id="tickets-button" class="tab-button">
           Tickets
         </li>
         <li id="contact-button" class="tab-button">
           Contact
+        </li>
+      </ul>
+
+      <ul id="call-for-content-sub-nav" class='sub-nav inner center hidden'>
+        <li id="call-for-abstracts-button" class="tab-button">
+          Lectures/Workshops
+        </li>
+        <li id="call-for-artists-button" class="tab-button">
+          Exhibition of Art
+        </li>
+        <li id="call-for-diviners-button" class="tab-button">
+          Divination
         </li>
       </ul>
     </div>
@@ -82,11 +92,14 @@
       </a>
     </div>
 
-    <div id="call-for-abstracts-wrap" class="outer">
-      <section id="call-for-abstracts" class="tab inner center hidden">
+    <div id="call-for-content-wrap" class="outer">
+      <section id='call-for-content' class='tab sub-navigable inner center hidden'>
+        Our intention is to bring together the esoteric circles of Europe to
+        share knowledge intellectually, emotionally and experientially.
+      </section>
+
+      <section id="call-for-abstracts" class="tab sub-tab inner center hidden">
         <p>
-          Our intention is to bring together the esoteric circles of Europe to
-          share knowledge through lectures, discussions, workshops and rituals.
           While we are happy to accept proposals on any branch of the occult,
           we are particularly interested in the following areas of
           study:
@@ -152,23 +165,24 @@
       </section>
     </div>
 
-    <div id="art-and-exhibitions-wrap" class="outer">
-      <section id="art-and-exhibitions" class="tab inner center hidden">
-        During the conference, various artists will be exhibiting their work on
-        themes related to esoterica. If you'd like to exhibit your work, please
-        send us your portfolio as well as a description of the work you intend
-        to exhibit - you should include details such as the medium, dimensions,
-        selling price (if you wish to sell your work), and a brief artist's
-        statement.
+    <div id="call-for-artists-wrap" class="outer">
+      <section id="call-for-artists" class="tab sub-tab inner center hidden">
+        During the conference, we will have several spaces in which artists can
+        exhibit their work on themes related to esoterica. If you'd like to
+        exhibit your work, please send us your portfolio as well as a
+        description of the work you intend to exhibit - you should include
+        details such as the medium, dimensions, selling price (if you wish to
+        sell your work), and a brief artist's statement.
       </section>
     </div>
 
-    <div id="evening-of-divination-wrap" class="outer">
-      <section id="evening-of-divination" class="tab inner center hidden">
+    <div id="call-for-diviners-wrap" class="outer">
+      <section id="call-for-diviners" class="tab sub-tab inner center hidden">
         <p>
           One evening will be dedicated to divination of all types. During this
-          evening you will be able to try out different kinds of divination, such
-          as tarot, astrology, palmistry, stone gazing and many more.
+          evening participants will be able to try out different kinds of
+          divination, such as tarot, astrology, palmistry, stone gazing and many
+          more.
         </p>
 
         <p>
@@ -193,43 +207,62 @@
 
         <p>Join your will with ours this November in Berlin.</p>
 
-        <div id='ticket-prices-banner'>Ticket Prices:</div>
+        <section id='ticket-columns'>
+          <div id="left-column" class="column">
+            <div class='image-holder left-image'>
+              <img src="images/alchemical-pointer-left.png" alt="Alchemical Pointer">
+            </div>
+          </div>
 
-        <table id='prices'>
-          <tr>
-            <td class='ticket-type'>Initiate</td>
-            <td class='ticket-price'>77.7€</td>
-          </tr>
-          <tr>
-            <td class='ticket-type'>Novice</td>
-            <td class='ticket-price'>99.9€</td>
-          </tr>
-          <tr>
-            <td class='ticket-type'>Adept</td>
-            <td class='ticket-price'>111€</td>
-          </tr>
-          <tr>
-            <td class='ticket-type'>Master</td>
-            <td class='ticket-price'>133.3€</td>
-          </tr>
-        </table>
+          <div id="center-column" class="column">
+            <div id='ticket-prices-banner'>Ticket Prices:</div>
 
-        <div class='buy-ticket-button'>
-          <a class='button'
-            href=https://www.universe.com/events/occulture-esoteric-conference-tickets-berlin-KGY0F5>
-            Buy Tickets
-          </a>
+            <table id='prices'>
+              <tr>
+                <td class='ticket-type'>Initiate</td>
+                <td class='ticket-price'>77.7€</td>
+              </tr>
+              <tr>
+                <td class='ticket-type'>Novice</td>
+                <td class='ticket-price'>99.9€</td>
+              </tr>
+              <tr>
+                <td class='ticket-type'>Adept</td>
+                <td class='ticket-price'>111€</td>
+              </tr>
+              <tr>
+                <td class='ticket-type'>Master</td>
+                <td class='ticket-price'>133.3€</td>
+              </tr>
+            </table>
+
+            <div class='buy-ticket-button'>
+              <a class='button'
+                href=https://www.universe.com/events/occulture-esoteric-conference-tickets-berlin-KGY0F5>
+                Buy Tickets
+              </a>
+            </div>
+          </div>
+
+          <div id='right-column' class="column">
+            <div class='image-holder right-image'>
+              <img src="images/alchemical-pointer-right.png" alt="Alchemical Pointer">
+            </div>
+          </div>
+        </section>
+
+
+        <div id="call-for-volunteers">
+          <p>
+            We will also be taking on a select number of volunteers to aid us
+            before, during and after the event in return for free or discounted
+            tickets.
+          </p>
+
+          <p>
+            If you're interested in volunteering, please contact us.
+          </p>
         </div>
-
-        <p>
-          We will also be taking on a select number of volunteers to aid us
-          before, during and after the event in return for free or discounted
-          tickets.
-        </p>
-
-        <p>
-          If you're interested in volunteering, please contact us.
-        </p>
       </section>
     </div>
 
