@@ -393,8 +393,12 @@ section {
   background: #222;
 }
 
-#contact-us {
+#contact {
   font-size: 1.3em;
+}
+
+#sponsors img {
+  width: 35%;
 }
 
 .tab-button {
