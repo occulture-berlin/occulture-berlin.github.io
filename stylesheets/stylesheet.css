@@ -397,7 +397,8 @@ section {
   font-size: 1.3em;
 }
 
-#sponsors img {
+/* adblock hides this if it's called 'sponsors' */
+#sponsorsxyz img {
   width: 50%;
 }
 
