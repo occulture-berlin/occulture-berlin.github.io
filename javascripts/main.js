@@ -33,6 +33,20 @@ $(document).ready(function() {
   });
 });
 
+// load all speakers by default, or show a given number
+loadSpeakers = function(numberOfSpeakers = abstracts.length) {
+  $.get("./speakers.html", function(template) {
+    // the 'abstracts' variable is set in data/abstracts.js
+    var shuffled = abstracts.sort(() => .5 - Math.random());
+    var selected = shuffled.slice(0,numberOfSpeakers)
+    var speakerData = selected.map(function(abstract){
+      return Mustache.to_html(template, abstract)
+    })
+
+    $("#lineup-wrap #lineup").html(speakerData);
+  }, "html");
+}
+
 goToPage = function(path){
   // update urls when clicking a link
   // github pages use a frameset which is fucked, that's the short version.
