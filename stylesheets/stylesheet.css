@@ -192,19 +192,18 @@ a {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 1.7em;
   font-weight: 700;
 }
 
 h2 {
   padding-bottom: 10px;
-  font-size: 32px;
+  font-size: 1.5px;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
@@ -393,6 +392,44 @@ section {
   background: #222;
 }
 
+#lineup .speaker-wrap {
+  margin-bottom: 3em;
+  float: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#lineup .speaker-wrap .info-wrap {
+  text-align: left;
+  margin-left: 2em;
+}
+
+#lineup .speaker-wrap .avatar {
+  margin-bottom: 0.5em;
+  margin-left: 3em;
+  margin-right: 2em;
+  float: left;
+}
+
+#lineup .speaker-wrap .avatar img {
+  width: 250px;
+  height: 250px;
+  opacity: 0.9;
+}
+
+#lineup .speaker-wrap .info-wrap .title {
+  font-family: 'Metamorphous';
+}
+
+#lineup .speaker-wrap .info-wrap .name {
+  font-family: 'KeepCalm';
+  font-size: 123%;
+}
+
+#lineup .speaker-wrap .info-wrap .abstract {
+  font-size: 0.8em;
+}
+
 #contact {
   font-size: 1.3em;
 }
@@ -414,7 +451,7 @@ section {
 
 .inner {
   position: relative;
-  max-width: 70%;
+  max-width: 75%;
   padding: 15px 10px;
   margin: 0 auto;
 }
@@ -423,24 +460,20 @@ section {
 Small Device Styles
 *******************************************************************************/
 
-@media screen and (max-width: 1680px) {
+@media (min-width: 1650px) {
   #call-for-abstracts #topics-of-interest li {
     width: 33%;
   }
 }
 
-@media screen and (max-width: 1270px) {
-  #call-for-abstracts #abstract-deadline td.image-holder {
-    width: 25%;
-  }
-
+@media (min-width: 1200px) and (max-width: 1649px) {
   #tickets #ticket-columns .buy-ticket-button {
     font-size: 1.1em;
     margin-top: 1.75em;
   }
 }
 
-@media screen and (max-width: 1120px) {
+@media (max-width: 1120px) {
   #call-for-abstracts #abstract-deadline {
     font-size: 1.2em;
   }
@@ -462,7 +495,12 @@ Small Device Styles
   }
 }
 
-@media screen and (max-width: 970px) {
+@media (min-width: 800px) and (max-width: 970px) {
+  #lineup .speaker-wrap {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   #tickets #ticket-columns #ticket-prices-banner {
     font-size: 0.9em;
   }
@@ -480,7 +518,11 @@ Small Device Styles
   }
 }
 
-@media screen and (max-width: 800px) {
+@media (min-width: 0px) and (max-width: 800px) {
+  #logo {
+    width: 100%;
+  }
+
   #nav {
     margin-bottom: 0;
   }
@@ -514,6 +556,29 @@ Small Device Styles
     width: 80%;
   }
 
+  #lineup .speaker-wrap {
+    margin-bottom: 3em;
+    float: none;
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  #lineup .speaker-wrap .avatar {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+
+  #lineup .speaker-wrap .info-wrap {
+    margin-left: 0;
+  }
+
+  #lineup .speaker-wrap .info-wrap .main-info {
+    text-align: center;
+  }
+
   #proposal-questions {
     font-size: 0.6em;
   }
@@ -530,7 +595,7 @@ Small Device Styles
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #tickets #ticket-columns .buy-ticket-button {
     font-size: 0.5em;
     margin-top: 1.35em;
