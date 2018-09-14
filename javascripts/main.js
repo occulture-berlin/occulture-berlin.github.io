@@ -43,7 +43,9 @@ loadSpeakers = function(numberOfSpeakers = abstracts.length) {
       return Mustache.to_html(template, abstract)
     })
 
-    $("#lineup-wrap #lineup").html(speakerData);
+    $("#lineup-wrap #lineup").html(speakerData).append(
+      "<p>...and many more to come</p>"
+    );
   }, "html");
 }
 
