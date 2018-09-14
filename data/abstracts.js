@@ -12,6 +12,12 @@ abstracts = [
     "abstract": "<p>The signal event of the Haitian Revolution was a Vodou ceremony that took place in Bwa Kayiman (Alligator Woods) in August 1791. According to popular legend the Houngan Dutty Boukman and Mambo Cecile Fatiman oversaw a rite in which a Kreyol pig was sacrificed to the Black God of the African slaves and to the Spirit of Liberty. Scholarly speculation about the specific nature of the rite is divided between those who believe it to have been a Dahomian blood-oath, binding the cult to its emancipatory mission, and those who see it as a Petro rite summoning the fierce and violent loa (Vodou spirits) of insurrection.<p></p>A more esoteric theory proposes that, through a special Petro-Zandor rite, an egregor of malevolent loa was created and that a character called Jean-Babtiste Vixamar Legrand offered himself up for sacrifice during the ceremony. Haiti’s historic misfortunes since the revolution, advocates of this theory claim, are a consequence of the egregor’s continued existence. Only after an unbinding rite will this conglomeration of dark-matter entities cease wreaking havoc in the country. For this presentation I will discuss the Simbi-Makaya thesis and the occult notion of the egregor, relating them to traditional accounts of the Bwa Kayiman ceremony and to the traditions of the Bizango secret societies of Haiti.</p>"
   },
   {
+    "name": "Dr. Dirk Schlottmann",
+    "title": "Korean Shamanism in the New Millenium",
+    "avatar-path": "images/speakers/schlottmann-dirk-red.png",
+    "abstract": "<p>In this visual anthropological lecture, Dr. Dirk Schlottmann presents Korean shamanism in the new millennium. The lecture is on one hand designed as a short introduction to different ethnological theories and will help to understand the confusing tangle of definitions that goes along with the terms shamanism, musok and neoshamanism.  On the other hand, the collection of photographs in combination with the explanations will allow a rare and intimate view into the exotic, modern world of Korean shamans and transport a visual aesthetic of religion that is difficult to approach by words alone.<p>"
+  },
+  {
     "name": "Helene Arts",
     "title": "The Left-Hand Path",
     "avatar-path": "images/speakers/arts-helene-red.jpg",
