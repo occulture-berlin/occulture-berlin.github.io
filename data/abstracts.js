@@ -13,7 +13,7 @@ abstracts = [
   },
   {
     "name": "Dr. Dirk Schlottmann",
-    "title": "Korean Shamanism in the New Millenium",
+    "title": "Korean Shamanism in the New Millennium",
     "avatar-path": "images/speakers/schlottmann-dirk-red.png",
     "abstract": "<p>In this visual anthropological lecture, Dr. Dirk Schlottmann presents Korean shamanism in the new millennium. The lecture is on one hand designed as a short introduction to different ethnological theories and will help to understand the confusing tangle of definitions that goes along with the terms shamanism, musok and neoshamanism.  On the other hand, the collection of photographs in combination with the explanations will allow a rare and intimate view into the exotic, modern world of Korean shamans and transport a visual aesthetic of religion that is difficult to approach by words alone.<p>"
   },
