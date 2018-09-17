@@ -1,12 +1,15 @@
-<div  class='speaker-wrap'>
+<div class='speaker-wrap'>
   <div class='avatar'>
-    <img src={{avatar-path}} alt='{{name}}'></img>
+    <a onclick="goToPage('./speakers-2018.html#{{searchString}}')">
+      <img src='{{avatar-path}}' alt='{{name}}'></img>
+    </a>
   </div>
   <div class='info-wrap'>
-    <div class='main-info'>
-      <h1 class='title'>{{title}}</h1>
-      <h2 class='name'>{{name}}</h2>
-    </div>
+      <div class='main-info' onclick="goToPage('./speakers-2018.html#{{searchString}}')">
+        <h1 class='title'>{{title}}</h1>
+        <h2 class='name'>{{name}}</h2>
+      </div>
+    </a>
     <div class='abstract'>{{{abstract}}}</div>
   </div>
 </div>
