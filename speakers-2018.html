@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Occulture Berlin</title>
+
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description"          content="Occulture Esoteric Conference Berlin">
+    <meta property="og:url"           content="http://www.occultureberlin.org" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Occulture Berlin | Lineup" />
+    <meta property="og:description"   content="Occulture Esoteric Conference Berlin" />
+    <meta property="og:image"         content="" />
+    <meta property="og:site_name"     content="Occulture Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1');
+    </script>
+  </head>
+
+  <body onLoad="loadSpeakers()">
+
+    <!-- HEADER -->
+    <div id="enochian-alphabet">
+      <img src='images/enochian-alphabet-alpha.png'>
+    </div>
+
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <img id="logo" src="images/occulture-logo-alpha.png" alt="Occulture Berlin">
+      </header>
+    </div>
+
+    <div id="high-priority-information-wrap" class ="outer">
+      <section id="high-priority-information" class="inner center">
+        NOVEMBER 16-18, 2018
+      </section>
+
+      <section class='inner center'>
+        Two days and three nights of lectures, workshops, rituals, and
+        divination for practitioners, researchers and anyone interested in the
+        open-minded, critical pursuit of illumination and the exploration of
+        esoteric mysteries.
+      </section>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <!-- Nav buttons -->
+    <div id="nav-wrap" class="outer">
+      <ul id="nav" class="inner center">
+        <li id="home-button">
+          <a onclick="goToPage('./index.html')">Home</a>
+        </li>
+        <li id="tickets-button">
+          <a
+            href=https://www.universe.com/events/occulture-esoteric-conference-tickets-berlin-KGY0F5>
+            Buy Tickets
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="lineup-wrap" class="outer">
+      <section id="lineup" class="tab inner center"></section>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><a onclick="goToPage('./impressum.html')">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="data/abstracts.js" type="text/javascript"></script>
+  <script src="javascripts/main.js" type="text/javascript"></script>
+</html>
+
