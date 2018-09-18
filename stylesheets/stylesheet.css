@@ -448,6 +448,7 @@ section {
 /* adblock hides this if it's called 'sponsors' */
 #those-who-support-us-financially img {
   width: 50%;
+  margin-bottom: 2.5em;
 }
 
 .outer {
