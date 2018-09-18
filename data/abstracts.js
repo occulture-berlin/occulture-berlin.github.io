@@ -1,12 +1,5 @@
 abstracts = [
   {
-    "name": "Reverend Danny Nemu",
-    "searchString": "reverend-danny-nemu",
-    "title": "Keta-chaos, Aya-animism & the Demon of the Ulcer",
-    "avatar-path": "images/speakers/nemu-danny-red.jpg",
-    "abstract": "<p><center>Myth and plot, metre and rhyme,</br>Structuring life in space and time,</br>Lines of meaning cutting through it,</br>Ink on the page of the master poet.</center></p><p> In dreams, visions and compulsions, invisible intelligences communicate in the language of poetry, and when we call on our gods and familiars, we are answered in rhyme.</p><p>Describing my experiences of treating a flesh-eating parasite with ayahuasca, and the uninvited intervention of one of the demons of the Goetia into my life, this talk is about using Magick and Psychedelick power tools in occult dimensions to sculpt the goo that coalesces into daily experience. We’ll explore some of the best and worst practices for combining the techniques effectively, and how formal structures influence the narrative of our lives, including geometry in space, metre in time, and myth, metaphor and plotline.</p>"
-  },
-  {
     "name": "John Cussans",
     "searchString": "john-cussans",
     "title": "Bwa Kayiman and the Simbi-Makaya Egregor",
@@ -14,11 +7,25 @@ abstracts = [
     "abstract": "<p>The signal event of the Haitian Revolution was a Vodou ceremony that took place in Bwa Kayiman (Alligator Woods) in August 1791. According to popular legend the Houngan Dutty Boukman and Mambo Cecile Fatiman oversaw a rite in which a Kreyol pig was sacrificed to the Black God of the African slaves and to the Spirit of Liberty. Scholarly speculation about the specific nature of the rite is divided between those who believe it to have been a Dahomian blood-oath, binding the cult to its emancipatory mission, and those who see it as a Petro rite summoning the fierce and violent loa (Vodou spirits) of insurrection.<p></p>A more esoteric theory proposes that, through a special Petro-Zandor rite, an egregor of malevolent loa was created and that a character called Jean-Babtiste Vixamar Legrand offered himself up for sacrifice during the ceremony. Haiti’s historic misfortunes since the revolution, advocates of this theory claim, are a consequence of the egregor’s continued existence. Only after an unbinding rite will this conglomeration of dark-matter entities cease wreaking havoc in the country. For this presentation I will discuss the Simbi-Makaya thesis and the occult notion of the egregor, relating them to traditional accounts of the Bwa Kayiman ceremony and to the traditions of the Bizango secret societies of Haiti.</p>"
   },
   {
+    "name": "Jake Winchester",
+    "searchString": "jake-winchester",
+    "title": "Spirits in the Smoke: Solanaceous Fumigations, their History, Composition, & Effects",
+    "avatar-path": "images/speakers/winchester-jake-red.png",
+    "abstract": "<p>This talk will explore the use of psychoactive fumigations in magical ritual throughout history, with a special focus on the 18th and 19th centuries. Several Early Modern grimoires contain recipes for fumigations composed largely of solanaceous plants such as belladonna, mandrake, and henbane, as well as other psychoactive ingredients, including opium poppy and cannabis. These fumigations are often a component of rituals intended to conjure spirits. It is my contention that the powerful visionary qualities of the ingredients contributed greatly towards the perceived efficacy of such rituals.</p><p>This presentation will focus specifically on a series of experiments undertaken by 18th-century Christian mystic and esotericist Karl von Eckarthausen. It will also touch on the use of solanaceous preparations by a variety of other figures, including Paschal Beverly Randolph, Louis-Alphonse Cahagnet, George Henry Felt, and Emma Hardinge Britten, among others.</p><p>After tracing a historical outline of the use of these fumigations, I will examine their effects, discuss some specific recipes and their safety, and offer some comments regarding their applicability in modern divination and ritual.</p>"
+  },
+  {
     "name": "Dr. Dirk Schlottmann",
     "searchString": "dr-dirk-schlottmann",
     "title": "Korean Shamanism in the New Millennium",
     "avatar-path": "images/speakers/schlottmann-dirk-red.png",
     "abstract": "<p>In this visual anthropological lecture, Dr. Dirk Schlottmann presents Korean shamanism in the new millennium. The lecture is on one hand designed as a short introduction to different ethnological theories and will help to understand the confusing tangle of definitions that goes along with the terms shamanism, musok and neoshamanism.  On the other hand, the collection of photographs in combination with the explanations will allow a rare and intimate view into the exotic, modern world of Korean shamans and transport a visual aesthetic of religion that is difficult to approach by words alone.<p>"
+  },
+  {
+    "name": "Reverend Danny Nemu",
+    "searchString": "reverend-danny-nemu",
+    "title": "Keta-chaos, Aya-animism & the Demon of the Ulcer",
+    "avatar-path": "images/speakers/nemu-danny-red.jpg",
+    "abstract": "<p><center>Myth and plot, metre and rhyme,</br>Structuring life in space and time,</br>Lines of meaning cutting through it,</br>Ink on the page of the master poet.</center></p><p> In dreams, visions and compulsions, invisible intelligences communicate in the language of poetry, and when we call on our gods and familiars, we are answered in rhyme.</p><p>Describing my experiences of treating a flesh-eating parasite with ayahuasca, and the uninvited intervention of one of the demons of the Goetia into my life, this talk is about using Magick and Psychedelick power tools in occult dimensions to sculpt the goo that coalesces into daily experience. We’ll explore some of the best and worst practices for combining the techniques effectively, and how formal structures influence the narrative of our lives, including geometry in space, metre in time, and myth, metaphor and plotline.</p>"
   },
   {
     "name": "Helene Arts",
