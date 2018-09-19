@@ -160,7 +160,9 @@ body {
 }
 
 #tickets #ticket-columns .buy-ticket-button {
+  font-family: keepCalm;
   font-size: 1.2em;
+  text-transform: uppercase;
   margin-top: 2.5em;
 }
 
@@ -205,11 +207,11 @@ footer {
 }
 
 #impressum h2 {
-  color: white;
+  color: #DCE0DF;
 }
 
 #impressum h4 {
-  color: white;
+  color: #DCE0DF;
 }
 
 a {
