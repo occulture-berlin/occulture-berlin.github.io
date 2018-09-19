@@ -73,9 +73,37 @@ body {
 
 #main-ticket-button {
   position: relative; /* otherwise this is hidden by the absolute positioning of the seal */
-  margin-top: 2em;
   text-align: center;
   font-size: 2em;
+}
+
+.buy-ticket-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buy-ticket-table td {
+  vertical-align: middle;
+}
+
+.buy-ticket-table img {
+  width: 5em;
+  padding: 0.3em;
+}
+
+.buy-ticket-table a {
+  font-family: keepCalm;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #DCE0DF !important; /* overwrite anchor tag style */
+}
+
+.buy-ticket-table .left-image img {
+  float: right;
+}
+
+.buy-ticket-table .right-image img {
+  float: left;
 }
 
 #tickets #ticket-columns:after {
