@@ -42,6 +42,13 @@ abstracts = [
     "abstract": "<p>This presentation is a high-level overview of the Left-Hand Path practice of Magick.  The distinguishing feature of the Left-Hand Path is its assertion and reliance on Self as the primary source of power – this is in contrast to the belief in a power greater, or other, than Self (ie God/Goddess, the 'Universe', etc.), which is known as the Right-Hand Path. Note that the two paths are not divisive, but do represent the philosophical underpinnings of a given magickal practice. The presentation will be structured as follows: </p> <p> 1. Clear explanation of what the Left-Hand Path is, and isn’t, with examples and references.  </br> 2. Brief overview of some primary symbolic Left-Hand Path figures (ie Lilith, Lucifer, Satan etc) </br> 3. Philosophy and practice of the Left-Hand Path.  </br> 4. Commentary on past and modern contributors to the legacy left for 21st century Left-Hand Path magicians.  </br> 5. Research notes, bibliography and references for follow-up reading and study will be provided to participants.</p>"
   },
   {
+    "name": "Julian Vayne",
+    "searchString": "julian-vayne",
+    "title": "Drugs in Modern Occulture",
+    "avatar-path": "images/speakers/vayne-julian-red.png",
+    "abstract": "<p>In this presentation Julian Vayne will explore the interface between drugs and magic in the Western Esoteric culture. From the instinctive shamanism of Aleister Crowley through to the use of psychedelic drugs within the emergence of Chaos Magic in the late 20th century, Julian's presentation blends historical research and personal anecdotes. Discover how the magicians of The Hermetic Order of The Golden Dawn were getting high and how with a renewed appreciation for the classic witchcraft herbs belladonna and datura are making a come back. Expect mescaline, LSD, Ketamine, magic mushrooms and more on this wild trip through occult entheogenics.<p>"
+  },
+  {
     "name": "Azoth",
     "title": "The Strange Life and Death of Vincent Bridges",
     "avatar-path": "images/speakers/azoth-red.jpg",
