@@ -82,9 +82,3 @@ collectSpeakers = function(numberOfSpeakers){
     }]
   }
 }
-
-getSpeakerNameFromHash = function(){
-  var anchorTag = window.location.hash.substring(1)
-  if(anchorTag === "") { return null };
-
-}
