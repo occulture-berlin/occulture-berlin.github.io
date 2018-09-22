@@ -7,6 +7,13 @@ abstracts = [
     "abstract": "<p>The signal event of the Haitian Revolution was a Vodou ceremony that took place in Bwa Kayiman (Alligator Woods) in August 1791. According to popular legend the Houngan Dutty Boukman and Mambo Cecile Fatiman oversaw a rite in which a Kreyol pig was sacrificed to the Black God of the African slaves and to the Spirit of Liberty. Scholarly speculation about the specific nature of the rite is divided between those who believe it to have been a Dahomian blood-oath, binding the cult to its emancipatory mission, and those who see it as a Petro rite summoning the fierce and violent loa (Vodou spirits) of insurrection.<p></p>A more esoteric theory proposes that, through a special Petro-Zandor rite, an egregor of malevolent loa was created and that a character called Jean-Babtiste Vixamar Legrand offered himself up for sacrifice during the ceremony. Haiti’s historic misfortunes since the revolution, advocates of this theory claim, are a consequence of the egregor’s continued existence. Only after an unbinding rite will this conglomeration of dark-matter entities cease wreaking havoc in the country. For this presentation I will discuss the Simbi-Makaya thesis and the occult notion of the egregor, relating them to traditional accounts of the Bwa Kayiman ceremony and to the traditions of the Bizango secret societies of Haiti.</p>"
   },
   {
+    "name": "N. Wahid Azal",
+    "searchString": "n-wahid-azal",
+    "title": "Islamic Theurgy: An Overview",
+    "avatar-path": "images/speakers/azal-n-wahid-red.png",
+    "abstract": "<p>Beginning from its earliest period, the Islamic world produced a vibrant and sophisticated occulture that imbued scripture itself with the highest magical properties and made the Qurān (like the Torah in the Kabbalah) the primary object of its theurgic reflection as well as overall praxis. From the ninety-nine names of God to the graphic form of the Greatest Name (ism al-aʿẓam) to those conjuration names of power (ʿazāʾim) and the sigilic lunettes (aqlām) which evoke them, esotericism and the arcana found a fertile ground in Islamicate civilization beginning with those transmissions initially given by the Prophet Muḥammad’s own family and descendents, the Shiʿite Imāms.</p><p>In this presentation the overall landscape of Islamic occultism is briefly summarized with its central themes covered. Emphases will be placed on the fact that the occult and arcana have been literally present everywhere in pre-modern Islamic civilization, from texts to architecture to daily practice itself.</p>"
+  },
+  {
     "name": "Jake Winchester",
     "searchString": "jake-winchester",
     "title": "Spirits in the Smoke: Solanaceous Fumigations, their History, Composition, & Effects",
