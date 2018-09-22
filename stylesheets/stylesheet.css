@@ -138,8 +138,16 @@ body {
   margin-top: 1em;
 }
 
+#tickets #early-bird {
+  font-family: keepCalm;
+  color: darkred;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
 #tickets #ticket-columns #prices {
-  margin-top: 1em;
+  margin-top: 0.66em;
   margin-left: auto;
   margin-right: auto;
 }
