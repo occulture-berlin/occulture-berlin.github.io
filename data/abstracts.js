@@ -23,7 +23,7 @@ abstracts = [
   {
     "name": "Jake Winchester",
     "searchString": "jake-winchester",
-    "title": "Spirits in the Smoke: Solanaceous Fumigations, their History, Composition, & Effects",
+    "title": "Spirits in the Smoke: Solanaceous Fumigations, their History, Composition & Effects",
     "avatar-path": "images/speakers/winchester-jake-red.png",
     "abstract": "<p>This talk will explore the use of psychoactive fumigations in magical ritual throughout history, with a special focus on the 18th and 19th centuries. Several Early Modern grimoires contain recipes for fumigations composed largely of solanaceous plants such as belladonna, mandrake, and henbane, as well as other psychoactive ingredients, including opium poppy and cannabis. These fumigations are often a component of rituals intended to conjure spirits. It is my contention that the powerful visionary qualities of the ingredients contributed greatly towards the perceived efficacy of such rituals.</p><p>This presentation will focus specifically on a series of experiments undertaken by 18th-century Christian mystic and esotericist Karl von Eckarthausen. It will also touch on the use of solanaceous preparations by a variety of other figures, including Paschal Beverly Randolph, Louis-Alphonse Cahagnet, George Henry Felt, and Emma Hardinge Britten, among others.</p><p>After tracing a historical outline of the use of these fumigations, I will examine their effects, discuss some specific recipes and their safety, and offer some comments regarding their applicability in modern divination and ritual.</p>"
   },
