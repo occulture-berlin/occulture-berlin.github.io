@@ -1,8 +1,15 @@
 abstracts = [
   {
+    "name": "Janet Farrar & Gavin Bone",
+    "searchString": "farrar-bone",
+    "title": "Witches, Vala's & Sybils: The History and practice of Trance-Prophesy in Witchcraft & Paganism",
+    "avatar-path": "images/speakers/farrar-bone-red.png",
+    "abstract": "<p>With the (forthcoming) release of their new book Lifting the Veil, Janet and Gavin discuss the history of Trance Prophesy in ancient and modern Witchcraft. During research for the book they went on a journey of discovery resulting in some interesting surprises regarding the origins of Drawing Down the Moon in modern Wicca. They cover from ancient Shamanism, through to the Sybils of Ancient Greece, the Vala of the Northern Europeans and of course through to the modern practise of Drawing Down the Moon. They also look at cross-overs with contemporary traditions such as Vodoun and Santeria, and the Spiritualist Revival of the 19th and early 20th Centuries.</p>"
+  },
+  {
     "name": "John Cussans",
     "searchString": "john-cussans",
-    "title": "Bwa Kayiman and the Simbi-Makaya Egregor",
+    "title": "Bwa Kayiman & the Simbi-Makaya Egregor",
     "avatar-path": "images/speakers/cussans-john-red.jpg",
     "abstract": "<p>The signal event of the Haitian Revolution was a Vodou ceremony that took place in Bwa Kayiman (Alligator Woods) in August 1791. According to popular legend the Houngan Dutty Boukman and Mambo Cecile Fatiman oversaw a rite in which a Kreyol pig was sacrificed to the Black God of the African slaves and to the Spirit of Liberty. Scholarly speculation about the specific nature of the rite is divided between those who believe it to have been a Dahomian blood-oath, binding the cult to its emancipatory mission, and those who see it as a Petro rite summoning the fierce and violent loa (Vodou spirits) of insurrection.<p></p>A more esoteric theory proposes that, through a special Petro-Zandor rite, an egregor of malevolent loa was created and that a character called Jean-Babtiste Vixamar Legrand offered himself up for sacrifice during the ceremony. Haiti’s historic misfortunes since the revolution, advocates of this theory claim, are a consequence of the egregor’s continued existence. Only after an unbinding rite will this conglomeration of dark-matter entities cease wreaking havoc in the country. For this presentation I will discuss the Simbi-Makaya thesis and the occult notion of the egregor, relating them to traditional accounts of the Bwa Kayiman ceremony and to the traditions of the Bizango secret societies of Haiti.</p>"
   },
