@@ -21,6 +21,13 @@ abstracts = [
     "abstract": "<p>Beginning from its earliest period, the Islamic world produced a vibrant and sophisticated occulture that imbued scripture itself with the highest magical properties and made the Qurān (like the Torah in the Kabbalah) the primary object of its theurgic reflection as well as overall praxis. From the ninety-nine names of God to the graphic form of the Greatest Name (ism al-aʿẓam) to those conjuration names of power (ʿazāʾim) and the sigilic lunettes (aqlām) which evoke them, esotericism and the arcana found a fertile ground in Islamicate civilization beginning with those transmissions initially given by the Prophet Muḥammad’s own family and descendents, the Shiʿite Imāms.</p><p>In this presentation the overall landscape of Islamic occultism is briefly summarized with its central themes covered. Emphases will be placed on the fact that the occult and arcana have been literally present everywhere in pre-modern Islamic civilization, from texts to architecture to daily practice itself.</p>"
   },
   {
+    "name": "Claas Hoffmann",
+    "searchString": "claas-hoffmann",
+    "title": "The Abraxas Calendar",
+    "avatar-path": "images/speakers/hoffmann-claas-red.png",
+    "abstract": "<p>The product of eight years of painstaking labor Araki Verlag's Abraxas Calendar is a masterwork of qabalistic and esoteric insight. The 220 verses of Liber AL, the foundational text of Thelema, are mapped across the Gregorian and astrological calendars exhibiting amazing correspondences and hidden harmonies with The Book of Thoth, Aleister Crowley's tarot. Join author Claas Hoffmann as he reveals the secrets of the Abraxas calendar and its value for divination and contemplation.</p>"
+  },
+  {
     "name": "Jake Winchester",
     "searchString": "jake-winchester",
     "title": "Spirits in the Smoke: Solanaceous Fumigations, their History, Composition & Effects",
