@@ -445,6 +445,10 @@ section {
   margin-right: 10%;
 }
 
+#lineup .speaker-wrap ul {
+  list-style-type: circle;
+}
+
 #lineup .speaker-wrap .info-wrap {
   text-align: left;
   margin-left: 2em;
