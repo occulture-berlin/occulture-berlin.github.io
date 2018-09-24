@@ -70,6 +70,13 @@ abstracts = [
     "abstract": "<p>This presentation is a high-level overview of the Left-Hand Path practice of Magick.  The distinguishing feature of the Left-Hand Path is its assertion and reliance on Self as the primary source of power – this is in contrast to the belief in a power greater, or other, than Self (ie God/Goddess, the 'Universe', etc.), which is known as the Right-Hand Path. Note that the two paths are not divisive, but do represent the philosophical underpinnings of a given magickal practice. The presentation will be structured as follows: </p> <p> 1. Clear explanation of what the Left-Hand Path is, and isn’t, with examples and references.  </br> 2. Brief overview of some primary symbolic Left-Hand Path figures (ie Lilith, Lucifer, Satan etc) </br> 3. Philosophy and practice of the Left-Hand Path.  </br> 4. Commentary on past and modern contributors to the legacy left for 21st century Left-Hand Path magicians.  </br> 5. Research notes, bibliography and references for follow-up reading and study will be provided to participants.</p>"
   },
   {
+    "name": "Shani Oates",
+    "searchString": "shani-oates",
+    "title": "The Devil’s Supper",
+    "avatar-path": "images/speakers/oates-shani-red.png",
+    "abstract": "<p>Supping with the devil in folkloric tradition, exploring occulted elements of the Eucharist and Houzel as feasting on the lore of ages; the dark history of the true Sabbat, and how the Agent Provocateur, Trickster and Fool, serve the initiatory mysteries of the Luciferian Tradition. This lecture focuses specifically upon how: <ul><li>History establishes the paradigms of Tradition.</li><li>Denizens of the Otherworld breach and teach those traditions.</li><li>Humanity exposes and explores them.</li><li>Ancestry archives them in myth and legend.</li><li>Culture and community preserve them in Faith.</li><li>The Arts interpret them: The Devil beneath his many Masks: The agent provocateur, trickster and fool.</li></p>"
+  },
+  {
     "name": "Julian Vayne",
     "searchString": "julian-vayne",
     "title": "Drugs in Modern Occulture",
