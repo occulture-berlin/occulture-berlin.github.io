@@ -4,6 +4,9 @@ $(document).ready(function() {
     console.log("window width: "+$(window).width()+"px");
   };
 
+  // display the mailing list sign-up form
+  $("#mailing-list-boop-boop").delay(1000).fadeIn(2000);
+
   $(".tab-button").on("click", function(){
     var selected = $(this).attr('id').replace('-button', '');
 
@@ -52,6 +55,10 @@ goToPage = function(path){
   top.window.location.href = path
   // send this as an event to google analytics
   gtag('event', 'page_view', {'page_path': path});
+}
+
+hideMailingList = function() {
+  $("#mailing-list-boop-boop").fadeOut(200);
 }
 
 //// INTERNAL FUNCTIONS
