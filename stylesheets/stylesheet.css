@@ -218,6 +218,48 @@ footer {
   cursor: pointer;
 }
 
+#mailing-list-boop-boop {
+  background: #000;
+  position: fixed;
+  top: 0;
+  padding-top: 1em;
+  border-bottom: 2px solid #DCE0DF;
+}
+
+#mailing-list-boop-boop form {
+  float: left;
+  width: 95%;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+
+#mailing-list-boop-boop form label {
+  margin-left: 5%; /* make up for the 95% width of form */
+  vertical-align: middle;
+  font-family: 'Metamorphous';
+}
+
+#mailing-list-boop-boop form #tlemail {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#mailing-list-boop-boop form .button {
+  vertical-align: middle;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: none;
+}
+
+#mailing-list-boop-boop .close-button {
+  float: right;
+  width: 5%;
+  text-align: center;
+  cursor: pointer;
+  font-family: keepCalm;
+}
+
 #impressum {
   font-family: serif;
   font-size: 10px;
@@ -313,11 +355,13 @@ hr {
 .button {
   font-family: keepCalm;
   text-transform: uppercase;
-  background: white;
+  background: #DCE0DF;
+  color: darkred;
   padding: 1em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .center {
@@ -531,6 +575,11 @@ Small Device Styles
 }
 
 @media (max-width: 1120px) {
+  #mailing-list-boop-boop form label {
+    display: block;
+    padding: 0.5em;
+  }
+
   #call-for-abstracts #abstract-deadline {
     font-size: 1.2em;
   }
