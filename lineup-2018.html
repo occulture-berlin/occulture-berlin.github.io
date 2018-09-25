@@ -83,6 +83,18 @@
     </footer>
   </body>
 
+  <section id="mailing-list-boop-boop" class='outer hidden'>
+     <form action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+       onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+       <label for="tlemail">Subscribe for updates and information about future events:</label>
+       <input type="text" name="email" id="tlemail" />
+       <input type="hidden" value="1" name="embed"/>
+       <input type="submit" value="Subscribe" class="button"/>
+     </form>
+     <div class="close-button" onclick="hideMailingList()">x</div>
+  </section>
+
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
     type="text/javascript">
