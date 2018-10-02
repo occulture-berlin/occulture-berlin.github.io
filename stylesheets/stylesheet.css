@@ -492,6 +492,7 @@ section {
 }
 
 #lineup .speaker-wrap {
+  min-width: 50%; /* this ensures the unknown speaker is displayed correctly */
   margin-bottom: 3em;
   float: left;
   margin-left: 10%;

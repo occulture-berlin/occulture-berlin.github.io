@@ -81,12 +81,14 @@ collectSpeakers = function(numberOfSpeakers){
     return [selected]; // return as a collection
   } else {
     // return null object as collection
-    var speakerName = anchorTag.split('-').join(' ');
+    var unknownSpeakerName = anchorTag.split('-').join(' ');
+    // yeah, yeah, it's ugly, i know...
     return [{
       "name": "",
+      "searchString": "",
       "title": "Speaker not found!",
-      "avatar-path": "",
-      "abstract": "<p>Sorry, we don't know anyone called "+speakerName+"!</p>"
+      "avatar-path": "images/speakers/unknown.png",
+      "abstract": "<p>Sorry, we don't know anyone called "+unknownSpeakerName+"!</p><div style='margin:2em;'><a class='button' href='"+document.location.pathname+"?ref=speaker-unknown-"+anchorTag+"'>See the full lineup</a></div>"
     }]
   }
 }
