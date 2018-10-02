@@ -125,6 +125,13 @@ abstracts = [
     "abstract": "<p> ROOTS IN THE HEART follows musician Jimmy Trash on a journey through parts of Southern and Eastern Europe that have managed to slip through time and retain their faith and practice of folk methods of healing, seeing and blessing.  </p> <p> Inspired by the words of the 16th century physician Paracelsus, “one must seek out old wives, gypsies, sorcerers, wandering tribes, old robbers, and such outlaws and take lessons from them“, Jimmy Trash travels through six countries actively participating in rituals that have been passed down in oral tradition for centuries. He meets and learns from Granny Whisperers, Roma, shamans and more, himself being the one to be “worked“ on and experiencing the actions.  </p> <p> Along the way he talks with younger people who have a connection with these traditions, in an attempt to obtain a modern view of the ancient techniques. Amongst them are descendants of these traditions who have the burden of keeping their grandparents‘ traditions alive, students of the older healers and ethnographers who study magic in an academic way.  </p> <p> Also featured heavily through the movie is the music and songs of the same communities dealing with everyday magic, as whenever you look for magic, music is never far away.  </p>"
   },
   {
+    "name": "Robert Bonomo",
+    "searchString": "robert-bonomo",
+    "title": "The 21 Faces of God",
+    "avatar-path": "images/speakers/bonomo-robert-red.png",
+    "abstract": "<p>The 21 Faces of God is a film that explores the meaning and path of the major arcana of the Tarot.  The film uses excerpts from classic films and documentaries as well as commentaries from figures like Terence Mckenna, Joseph Campbell and Carl Jung to weave the thread of The Fools Journey.  One key section of the film delves into the origin of the archetypes from Pythagoras to modern advertising campaigns.  This section of the film will be shown followed by a discussion of the archetypes of the major arcana of the Tarot and how they are relevant today.</p>"
+  },
+  {
     "name": "Viviana Druga",
     "searchString": "viviana-druga",
     "title": "Tarot Has Nothing to Do With the Future",
