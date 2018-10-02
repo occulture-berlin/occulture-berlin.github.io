@@ -84,6 +84,13 @@ abstracts = [
     "abstract": "<p>Supping with the devil in folkloric tradition, exploring occulted elements of the Eucharist and Houzel as feasting on the lore of ages; the dark history of the true Sabbat, and how the Agent Provocateur, Trickster and Fool, serve the initiatory mysteries of the Luciferian Tradition. This lecture focuses specifically upon how: <ul><li>History establishes the paradigms of Tradition.</li><li>Denizens of the Otherworld breach and teach those traditions.</li><li>Humanity exposes and explores them.</li><li>Ancestry archives them in myth and legend.</li><li>Culture and community preserve them in Faith.</li><li>The Arts interpret them: The Devil beneath his many Masks: The agent provocateur, trickster and fool.</li></p>"
   },
   {
+    "name": "Cavan McLaughlin",
+    "searchString": "cavan-mclaughlin",
+    "title": "Occulture: Reading the Revealed 'Face' of the Concealed",
+    "avatar-path": "images/speakers/mclaughlin-cavan-red.png",
+    "abstract": "<p>Best known to scholars of esotericism as the sociological category put forward by Christopher Partridge in The Re-Enchantment of the West (2004), occulture is rapidly becoming the word du jour in occultist circles. Partridge repurposed the term, which he initially came across in George McKay's Senseless Acts of Beauty, but subsequently traced back to artist, “esoterrorist” and self-styled “cultural engineer”, Genesis Breyer P-Orridge.</p><p>Occulture, as Christopher Partridge asserts, is ‘ordinary’; it is concurrent with all culture, the two are interrelated and analogous, indeed, occulture is an inseparable part of culture. Nevertheless, occulture is extraordinary, and it is revealed precisely by its deviance from normative culture—in its transgression of orthodox cultural meaning, dominant cultural narratives, and, even, so-called “normal waking consciousness”.</p><p>Most of the time, we are unaware that we are ‘reading’ our cultural environment, the narratives around which our lives are informed and organised have been so normalised that they usually run unawares, in the background. Occulture, however, is conspicuous. When we encounter a rupture in some aspect of normal or orthodox cultural meaning, we are forced to notice it and try and make sense of it: to interpret it. Although it is found everywhere within culture­, its very distinctive and differential presence invariably draws attention to, and is the expression of, something beyond culture. Occulture, is the revealed ‘face’ of the concealed.</p>"
+  },
+  {
     "name": "Julian Vayne",
     "searchString": "julian-vayne",
     "title": "Drugs in Modern Occulture",
