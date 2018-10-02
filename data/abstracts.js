@@ -81,7 +81,7 @@ abstracts = [
     "searchString": "shani-oates",
     "title": "The Devil’s Supper",
     "avatar-path": "images/speakers/oates-shani-red.png",
-    "abstract": "<p>Supping with the devil in folkloric tradition, exploring occulted elements of the Eucharist and Houzel as feasting on the lore of ages; the dark history of the true Sabbat, and how the Agent Provocateur, Trickster and Fool, serve the initiatory mysteries of the Luciferian Tradition. This lecture focuses specifically upon how: <ul><li>History establishes the paradigms of Tradition.</li><li>Denizens of the Otherworld breach and teach those traditions.</li><li>Humanity exposes and explores them.</li><li>Ancestry archives them in myth and legend.</li><li>Culture and community preserve them in Faith.</li><li>The Arts interpret them: The Devil beneath his many Masks: The agent provocateur, trickster and fool.</li></p>"
+    "abstract": "<p>Supping with the devil in folkloric tradition, exploring occulted elements of the Eucharist and Houzel as feasting on the lore of ages; the dark history of the true Sabbat, and how the Agent Provocateur, Trickster and Fool, serve the initiatory mysteries of the Luciferian Tradition. This lecture focuses specifically upon how: <ul style='text-align:left;margin-left:10%;'><li>History establishes the paradigms of Tradition.</li><li>Denizens of the Otherworld breach and teach those traditions.</li><li>Humanity exposes and explores them.</li><li>Ancestry archives them in myth and legend.</li><li>Culture and community preserve them in Faith.</li><li>The Arts interpret them: The Devil beneath his many Masks: The agent provocateur, trickster and fool.</li></p>"
   },
   {
     "name": "Cavan McLaughlin",
