@@ -75,7 +75,6 @@ collectSpeakers = function(numberOfSpeakers){
     return shuffled.slice(0,numberOfSpeakers)
   };
 
-  // NOTE: important to change object.name to lowercase so the strings match
   var selected = abstracts.find(object => object.searchString === anchorTag);
 
   if(selected != null) {
