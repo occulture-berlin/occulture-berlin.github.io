@@ -492,7 +492,7 @@ section {
 }
 
 #lineup .speaker-wrap {
-  min-width: 50%; /* this ensures the unknown speaker is displayed correctly */
+  min-width: 70%; /* this ensures the unknown speaker is displayed correctly */
   margin-bottom: 3em;
   float: left;
   margin-left: 10%;
@@ -625,6 +625,28 @@ Small Device Styles
   }
 }
 
+@media (min-width: 0px) and (max-width: 1200px) {
+  #lineup .speaker-wrap {
+    margin-bottom: 3em;
+    float: none;
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  #lineup .speaker-wrap .avatar {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+
+  #lineup .speaker-wrap .info-wrap {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
 @media (min-width: 0px) and (max-width: 800px) {
   #logo {
     width: 100%;
@@ -661,29 +683,6 @@ Small Device Styles
 
   #call-for-abstracts #abstract-deadline img {
     width: 80%;
-  }
-
-  #lineup .speaker-wrap {
-    margin-bottom: 3em;
-    float: none;
-    margin-left: 0;
-    margin-right: 0
-  }
-
-  #lineup .speaker-wrap .avatar {
-    width: 100%;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-
-  #lineup .speaker-wrap .info-wrap {
-    margin-left: 0;
-  }
-
-  #lineup .speaker-wrap .info-wrap .main-info {
-    text-align: center;
   }
 
   #proposal-questions {
