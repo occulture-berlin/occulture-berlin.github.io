@@ -36,12 +36,10 @@ $(document).ready(function() {
   });
 });
 
-// load all speakers by default, show a given number, or load by name
-loadSpeakers = function(numberOfSpeakers = abstracts.length) {
+// load all speaker abstracts
+loadSpeakers = function() {
   $.get("./speakers.html", function(template) {
-    var speakers = collectSpeakers(numberOfSpeakers);
-
-    var speakerData = speakers.map(function(abstract){
+    var speakerData = abstracts.map(function(abstract){
       return Mustache.to_html(template, abstract)
     })
 
@@ -59,36 +57,4 @@ goToPage = function(path){
 
 hideMailingList = function() {
   $("#mailing-list-boop-boop").fadeOut(200);
-}
-
-//// INTERNAL FUNCTIONS
-
-// NB: the 'abstracts' variable is set in data/abstracts.js
-collectSpeakers = function(numberOfSpeakers){
-  // get the speaker name from the anchor tag
-  var anchorTag = window.location.hash.substring(1);
-
-  // if no speaker name is given,
-  // return the requested number of speakers in random order
-  if(anchorTag === "") {
-    var shuffled = abstracts.sort(() => .5 - Math.random());
-    return shuffled.slice(0,numberOfSpeakers)
-  };
-
-  var selected = abstracts.find(object => object.searchString === anchorTag);
-
-  if(selected != null) {
-    return [selected]; // return as a collection
-  } else {
-    // return null object as collection
-    var unknownSpeakerName = anchorTag.split('-').join(' ');
-    // yeah, yeah, it's ugly, i know...
-    return [{
-      "name": "",
-      "searchString": "",
-      "title": "Speaker not found!",
-      "avatar-path": "images/speakers/unknown.png",
-      "abstract": "<p>Sorry, we don't know anyone called "+unknownSpeakerName+"!</p><div style='margin:2em;'><a class='button' href='"+document.location.pathname+"?ref=speaker-unknown-"+anchorTag+"'>See the full lineup</a></div>"
-    }]
-  }
 }
