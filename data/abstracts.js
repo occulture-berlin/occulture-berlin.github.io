@@ -63,6 +63,13 @@ abstracts = [
     "abstract": "<p>In this presentation we will explore the nature of time in relation to the goddess of revelation, Babalon, with a focus on what we term her ‘erotic eschatology’.</p><p>Beginning with an inquiry into the thanaterotic aspects of the goddesses Inanna-Ishtar, we trace the evolution of this current to the Revelation of John of Patmos and to the alchemic angelic visions of Edward Kelley and John Dee. A critical examination of the Thelemic interpretation of Babalon, and the ideas of Jack Parsons, whose <em>Liber 49</em> claims to complete <em>The Book of the Law</em> with the voice of Babalon, concludes the first part.</p><p>In the second part we discuss our engagement with this sacred history; how, in devotion, ritual and performance, linear and cyclical time intertwines and allow a temporal incarnation of the divine. Finally, we speculate on the manifestation(s) of Babalon in these uncertain times, her <em>presence</em> and her <em>coming</em>.</p>"
   },
   {
+    "name": "Nikki Wyrd",
+    "searchString": "nikki-wyrd",
+    "title": "Age-Old Magic: Ways to Approach Death",
+    "avatarPath": "images/speakers/wyrd-nikki-red.png",
+    "abstract": "<p>The archetypes of Maiden. Mother and Crone are referred to within several occult paradigms. But just what does the process of growing older mean for us as practising magicians? What do we learn, how do physical changes affect our inner worlds, how do social bonds breaking alter our practices, as those we love depart? Some of us have witnessed (and perhaps caused) vast changes in cultural and technological developments. Have we adapted our paradigms too or are we stuck in a nostalgic past, a distant country far from the reality of 21st century living? As we age, we accumulate experiences, lessons, a range of circumstances from which we have perceived the worlds around and within ourselves. How we make sense of these shifting states, and whether we learn empathy from our sorrows (feeling the groundedness of life as a counterpoint to our inevitable approach to death), can shape the latter part of our lives, and of our engagement with magic and ritual.</p><p>Nikki explores these and other more personal issues in this wide-ranging lecture.</p>"
+  },
+  {
     "name": "Reverend Danny Nemu",
     "searchString": "reverend-danny-nemu",
     "title": "Keta-chaos, Aya-animism & the Demon of the Ulcer",
