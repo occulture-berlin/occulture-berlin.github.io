@@ -146,6 +146,13 @@ abstracts = [
     "abstract": "<p>The 21 Faces of God is a film that explores the meaning and path of the major arcana of the Tarot.  The film uses excerpts from classic films and documentaries as well as commentaries from figures like Terence Mckenna, Joseph Campbell and Carl Jung to weave the thread of The Fools Journey.  One key section of the film delves into the origin of the archetypes from Pythagoras to modern advertising campaigns.  This section of the film will be shown followed by a discussion of the archetypes of the major arcana of the Tarot and how they are relevant today.</p>"
   },
   {
+    "name": "Síofra McSherry",
+    "searchString": "siofra-mcsherry",
+    "title": "The (Witch)Craft of Poetry",
+    "avatarPath": "images/speakers/mcsherry-siofra-red.png",
+    "abstract": "<p>Led by Northern Irish poet Síofra McSherry, this creative writing workshop will explore the subtle and powerful connections between the Crafts of poet and witch, and consider the intersections of magic, spellcraft, creativity, power, and identity.  Participants will encounter poetic voices that invoke the witch, set magical intentions through meditation, and be guided towards producing their own magical poetry.  In the first section we will encounter diverse poetic voices invoking the witch, including contemporary poet Rebecca Tamás. Through our discussion we will consider the witch’s many incarnations, from society’s scapegoat to a woman of power, capable of transforming her reality through the magical force of her words.  Short writing exercises and prompts will get participants started producing poetry.  In the second part of the workshop, participants will have the opportunity to write their own poem on a magical theme. We will begin with a short guided meditation to allow each member of the group to uncover and set a personal magical intention for their work. Participants will be supported through the process of writing the first draft of a poem, producing work that engages with what it means to be both poet and witch—to practice with the magic of words, and experience their magical power over reality. Those who wish to will be given the opportunity to share their work with the group.</p><p>Both beginner and experienced poets are encouraged to take part. People of all genders and backgrounds are welcome.</p>"
+  },
+  {
     "name": "Viviana Druga",
     "searchString": "viviana-druga",
     "title": "Tarot Has Nothing to Do With the Future",
