@@ -4,8 +4,8 @@ $(document).ready(function() {
     console.log("window width: "+$(window).width()+"px");
   };
 
-  // display the mailing list sign-up form
-  $("#mailing-list-boop-boop").delay(1000).fadeIn(2000);
+  // TEMPORARY! Display the landing page for black moon discount
+  displayBlackMoonLandingPage();
 
   $(".tab-button").on("click", function(){
     var selected = $(this).attr('id').replace('-button', '');
@@ -53,6 +53,29 @@ goToPage = function(path){
   top.window.location.href = path
   // send this as an event to google analytics
   gtag('event', 'page_view', {'page_path': path});
+}
+
+displayBlackMoonLandingPage = function() {
+  $("#black-moon-landing-wrap").slideDown(1200, function() {
+    $("footer").hide();
+    // select all steps
+    $(".step").each(function(index) {
+      $(this).delay(600*index).fadeIn();
+    });
+  });
+}
+
+hideBlackMoonLandingPage = function() {
+  $("#black-moon-landing-wrap .close-button").fadeOut(300);
+  $("#black-moon-landing-wrap").slideUp(1200, function() {
+    $("footer").show();
+    displayMailingList();
+  });
+}
+
+// display the mailing list sign-up form
+displayMailingList = function() {
+  $("#mailing-list-boop-boop").delay(1000).fadeIn(2000);
 }
 
 hideMailingList = function() {
