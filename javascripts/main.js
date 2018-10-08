@@ -67,7 +67,10 @@ displayBlackMoonLandingPage = function() {
 
 hideBlackMoonLandingPage = function() {
   $("#black-moon-landing-wrap .close-button").fadeOut(300);
-  $("#black-moon-landing-wrap").slideUp(1200, function() {
+
+  // fade out the components more quickly for a slower, smooter transition
+  $("#black-moon-landing").fadeOut(1200);
+  $("#black-moon-landing-wrap").fadeOut(3000, function() {
     $("footer").show();
     displayMailingList();
   });

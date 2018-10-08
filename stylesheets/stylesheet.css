@@ -220,6 +220,7 @@ footer {
 
 #black-moon-landing-wrap {
   position: fixed;
+  z-index: 23;
   overflow: auto;
   top: 0;
   bottom: 0;
