@@ -245,12 +245,20 @@ footer {
 }
 
 #black-moon-landing #high-priority-information {
+  font-family: keepCalm;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
 }
 
-#black-moon-landing #step-list {
-  font-size: 1.5em;
+#black-moon-landing #luna {
+  width: 11em;
+  padding: 1em;
+}
+
+#black-moon-landing #what-we-offer {
+  font-size: 1.25em;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #black-moon-landing #ticket-button-wrap {
@@ -661,6 +669,16 @@ Small Device Styles
 
   #tickets #ticket-columns .buy-ticket-button {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 900px) {
+  #black-moon-landing #high-priority-information {
+    font-size: 1.75em;
+  }
+
+  #black-moon-landing #what-we-offer {
+    width: 100%;
   }
 }
 
