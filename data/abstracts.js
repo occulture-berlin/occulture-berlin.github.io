@@ -84,6 +84,13 @@ abstracts = [
     "abstract": "<p>This presentation is a high-level overview of the Left-Hand Path practice of Magick.  The distinguishing feature of the Left-Hand Path is its assertion and reliance on Self as the primary source of power – this is in contrast to the belief in a power greater, or other, than Self (ie God/Goddess, the 'Universe', etc.), which is known as the Right-Hand Path. Note that the two paths are not divisive, but do represent the philosophical underpinnings of a given magickal practice. The presentation will be structured as follows: </p> <p> 1. Clear explanation of what the Left-Hand Path is, and isn’t, with examples and references.  </br> 2. Brief overview of some primary symbolic Left-Hand Path figures (ie Lilith, Lucifer, Satan etc) </br> 3. Philosophy and practice of the Left-Hand Path.  </br> 4. Commentary on past and modern contributors to the legacy left for 21st century Left-Hand Path magicians.  </br> 5. Research notes, bibliography and references for follow-up reading and study will be provided to participants.</p>"
   },
   {
+    "name": "Laurent Langlais",
+    "searchString": "laurent-langlais",
+    "title": "BAZI: The Four Pillars Of your Destiny",
+    "avatarPath": "images/speakers/langlais-laurent-red.png",
+    "abstract": "<p>If you thought that Chinese astrology was about being a Monkey, Rat or Dragon, then you are in for a treat! We invite you to discover a wonderfully multi-layered system of Chinese astrology called the 4 Pillars of destiny, and also known as Bazi.</p><p>In this presentation, Laurent Langlais will introduce you to the system of the 4 Pillars of destiny, and shows you how to start reading the Bazi.  Each of us has 4 animals containing specific energies in our chart, as well as 5 Elements. There are about 13 millions combinations for each Bazi…The placement of each Pillar tell a precise story about karma, family dynamics, relationship potential, career and money, health, our best environment and most of all possible life missions…</p><p>The Bazi is a form of astrology that speaks about time and also connect with space and our greater call, through the decoding of a “spiritual DNA”. It is the embodiment of the concept of the 3 Lucks: Heaven, Human and Earth working together to manifest the shadow side or the best possible destiny.</p><p>The whole Bazi is a wonderful poetic map to discover who we truly are and know our exact timing and focus for each decade of our lives. The most exciting part is to combine this personal map with a spatial map in order to design our homes and work environments to support and fulfil the life potential seen in our astrology!</p>"
+  },
+  {
     "name": "Shani Oates",
     "searchString": "shani-oates",
     "title": "The Devil’s Supper",
