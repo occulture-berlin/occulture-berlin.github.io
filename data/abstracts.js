@@ -7,6 +7,13 @@ abstracts = [
     "abstract": "<p>With the (forthcoming) release of their new book Lifting the Veil, Janet and Gavin discuss the history of Trance Prophesy in ancient and modern Witchcraft. During research for the book they went on a journey of discovery resulting in some interesting surprises regarding the origins of Drawing Down the Moon in modern Wicca. They cover from ancient Shamanism, through to the Sybils of Ancient Greece, the Vala of the Northern Europeans and of course through to the modern practise of Drawing Down the Moon. They also look at cross-overs with contemporary traditions such as Vodoun and Santeria, and the Spiritualist Revival of the 19th and early 20th Centuries.</p>"
   },
   {
+    "name": "Hagen Von Tulien",
+    "searchString": "hagen-von-tulien",
+    "title": "Ritual Experience of Voudon Gnostic Principles (Opening Ritual)",
+    "avatarPath": "images/speakers/von-tulien-hagen-red.png",
+    "abstract": "<p>Hagen von Tulien is a German artist and occultist working in a variety of media including pen and ink, paper cut, collage and digital formats.  With about forty years of intense magical theory and practice, he has specialized in creating art as an expression and manifestation of magical states of awareness and its use as an esoteric tool.</p><p> Throughout the 1990s Hagen was a key figure in the Magical Pact of the Illuminates of Thanateros (I.O.T.), serving as its section head for Germany. He is currently a Master-Initiate of the Fraternitas Saturni (F.S.) and an empowered adept of the Voudon Gnostic Current, focused on deeply researching the Gnosis of the Saturnian Continuum and of Esoteric Voudon. As a Gnostic Bishop of the Ecclesia Gnostica Spiritualis (ordained by Michael Bertiaux), Hagen von Tulien is dedicated to manifesting the supreme and divine Gnosis within himself while assisting others on their own path to kosmic freedom and liberation.</p><p>Hagen will lead a ritual Experience of basic Voudon Gnostic Principles as they are practiced in those Occult Traditions which are based on the works and transmissions of Master Michael Bertiaux</p>"
+  },
+  {
     "name": "John Cussans",
     "searchString": "john-cussans",
     "title": "Bwa Kayiman & the Simbi-Makaya Egregor",
