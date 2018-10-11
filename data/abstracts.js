@@ -35,6 +35,13 @@ abstracts = [
     "abstract": "<p>Over half a century ago Robert Anton Wilson and Kerry Thornley launched a prank called Operation Mindfuck. What they did started a cultural process that has turned reality into silly putty. Wilson and his co-author Bob Shea were editors at Playboy’s letters column at the time, and they would encourage the daftest conspiracy theories, even supplying wacky letters for their own column and then commenting on them. The idea of OM was to spoof conspiracy theory and expose its absurdity, but also to destabilize people’s automatic acceptance of the authority of news.</p><p>Operation Mindfuck took aim at the idea that there is a shared, central reality which the news media accurately report upon, with occasional lapses or biases. Rather, news is simply one tunnel-reality view of what is happening. ‘Left-wing’ news was to be treated as suspiciously as ‘right-wing’ news.</p><p>OM was the product of a worldview called Discordianism – a spoof on religion or a spoof religion (or both) – which centres around the identification of Eris, Greek goddess of Chaos and Discord, as the true mistress of reality. Discordianism brought a disrespectful scepticism to matters of religion and philosophy, and a playful approach to belief.</p><p>This ‘reality hacking’ opened up the possibility that we can ‘believe in’ magic again, that magical action can be mixed into politics. We can believe whatever we like, even to the extent of doing magic to change the world.</p><p>But of course it’s not only magicians who benefit from this attitude to belief. In today’s ‘post-truth’ society, where facts occupy a much lower level of importance than the way they make us feel, even political hustlers have caught on to magical thinking. So what can we do about this?</p>"
   },
   {
+    "name": "William Thirteen",
+    "searchString": "william-xiii",
+    "title": "Baptism of Wisdom - on Aleister Crowley's Gnostic Mass",
+    "avatarPath": "images/speakers/thirteen-william-red.png",
+    "abstract": "<p>The Gnostic Mass is a ritual of power and beauty, affirming age-old mysteries and the Manifestion of the Divine in the union of opposites. In 1913, while traveling in Russia with the all girl dance troupe, the Ragged Ragtime Girls, Aleister Crowley created the Gnostic Mass as the central public celebration of the Ordo Templi Orientis. His intent was to \"celebrate the sublimity of the operation of universal forces without introducing disputable metaphysical theories.\" Join William Thirteen for an introduction to the history of Gnosticism and its exposition in the Gnostic Mass.</p>"
+  },
+  {
     "name": "Claas Hoffmann",
     "searchString": "claas-hoffmann",
     "title": "The Abraxas Calendar",
