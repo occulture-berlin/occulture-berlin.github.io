@@ -169,7 +169,7 @@ abstracts = [
   {
     "name": "Bianca Wertheimer",
     "searchString": "bianca-wertheimer",
-    "title": "Exploring the Cauldron of Wisdom",
+    "title": "Exploring the Cauldron of Wisdom (Workshop)",
     "avatarPath": "images/speakers/wertheimer-bianca-red.png",
     "abstract": "<p>What is modern Druidry and how does it support everyday life? In this workshop participants will get a hint of the practices of the Order of Bards, Ovates and Druids and the gifts of modern Druidry.</p><p>One of the gifts of druidry is the awareness of other Realities: with techniques for exploring other states of consciousness, other realities, the Otherworld. Some of these are also used by other spiritual traditions, and include meditation, visualisation, shamanic journeying, and the use of ceremony, music, chanting and sweat lodges. These are all grounded in specifically Celtic and Druidic imagery and tradition.</p><p>The “Cauldron of Wisdom” workshop is a mixture of a guided journey, meditation and sound bathing.  Together we are journeying to Dinas Affareon, the legendary ambrosius city of the druids, high up in the mountains of Snowdonia and guarded by eagles. In celtic mythology the goddess Cerridwen went to Dinas Affareon to receive the recipe of the “Awen” brew, a magical potion that provides wisdom and inspiration. 3 Drops will bring enlightenment and a power to connect with the Awen, a never ending source of inspiration.</p><p>We will follow the path of the goddess Cerridwen in our meditation, explore the cauldron of wisdoms brew and bring the power of the Awen back to our time and reality.</p><p>Bianca will use crystals, herbs/ oils and feathers on a central altar during the mediation to provide a relaxed sacred space.</p>"
   },
@@ -190,7 +190,7 @@ abstracts = [
   {
     "name": "Síofra McSherry",
     "searchString": "siofra-mcsherry",
-    "title": "The (Witch)Craft of Poetry",
+    "title": "The (Witch)Craft of Poetry (Workshop)",
     "avatarPath": "images/speakers/mcsherry-siofra-red.png",
     "abstract": "<p>Led by Northern Irish poet Síofra McSherry, this creative writing workshop will explore the subtle and powerful connections between the Crafts of poet and witch, and consider the intersections of magic, spellcraft, creativity, power, and identity.  Participants will encounter poetic voices that invoke the witch, set magical intentions through meditation, and be guided towards producing their own magical poetry.  In the first section we will encounter diverse poetic voices invoking the witch, including contemporary poet Rebecca Tamás. Through our discussion we will consider the witch’s many incarnations, from society’s scapegoat to a woman of power, capable of transforming her reality through the magical force of her words.  Short writing exercises and prompts will get participants started producing poetry.  In the second part of the workshop, participants will have the opportunity to write their own poem on a magical theme. We will begin with a short guided meditation to allow each member of the group to uncover and set a personal magical intention for their work. Participants will be supported through the process of writing the first draft of a poem, producing work that engages with what it means to be both poet and witch—to practice with the magic of words, and experience their magical power over reality. Those who wish to will be given the opportunity to share their work with the group.</p><p>Both beginner and experienced poets are encouraged to take part. People of all genders and backgrounds are welcome.</p>"
   },
@@ -211,7 +211,7 @@ abstracts = [
   {
     "name": "Lori Haberkorn",
     "searchString": "lori-haberkorn",
-    "title": "Empowering your Elemental Femininity",
+    "title": "Empowering your Elemental Femininity (Workshop)",
     "avatarPath": "images/speakers/haberkorn-lori-red.png",
     "abstract": "<p>The Golden Circle Rituals are born out of my own spiritual journey of seeking for a deeper meaning in life and like minded women. This Ritual is to empower and support women and men on their own journey to their purest self, to reconnect with mother nature, to learn, grow and flow with her.  There are many different kind of Circles, like the Back to Nature Circle to take us back to what really matters and to our true mission in life, the Empowering Self Love Circle to arise the magik of self love and inner beauty, the Sisterhood Gathering to reconnect with our sisters and femininity and the Moon Circles, as we are all affected and led by the intense power of mother moon. </p><p>I also use these magikal circles to create sacred spaces to reawaken the elemental power, the inner wise human, that already lives deep down in ourselves. As it is finally time to listen to our own intuition and to live in our true power. It is time to rise and shine, to grow and heal together, to go back to yourself, to go back to nature.</p>"
   }
