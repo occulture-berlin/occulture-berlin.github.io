@@ -94,7 +94,7 @@ abstracts = [
     "name": "Helene Arts",
     "searchString": "helene-arts-workshop",
     "title": "Planetary and Astrological Magick (Workshop)",
-    "avatarPath": "images/speakers/arts-helene-red.png",
+    "avatarPath": "images/speakers/arts-helene-red.jpg",
     "abstract": "<p>This fascinating workshop is led by Helene Arts, MA, an author and educator with over 25 years of formal study and experience in the magickal realms. This workshop will explore the major elements of planetary magick and astrological timing, and will provide participants with a solid foundation on which to create rituals, talismans, or do any kind of magickal working. The fundamentals of traditional planetary magick will be explained, in conjunction with the use of astrological timing. When planetary magick and astrological magick are used together, the magician creates the ideal external conditions to optimize the power of the working. Yet the internal conditions of the magician are equally as important to maximize the outcome, and thus the philosophy of the Left-Hand Path will form part of the discussion and will be the lens through which this workshop is viewed. Participants are encouraged to bring an accurate natal chart with them for added benefit.</p>"
   },
   {
