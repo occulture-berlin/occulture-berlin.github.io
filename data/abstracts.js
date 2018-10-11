@@ -84,6 +84,13 @@ abstracts = [
     "abstract": "<p>The archetypes of Maiden. Mother and Crone are referred to within several occult paradigms. But just what does the process of growing older mean for us as practising magicians? What do we learn, how do physical changes affect our inner worlds, how do social bonds breaking alter our practices, as those we love depart? Some of us have witnessed (and perhaps caused) vast changes in cultural and technological developments. Have we adapted our paradigms too or are we stuck in a nostalgic past, a distant country far from the reality of 21st century living? As we age, we accumulate experiences, lessons, a range of circumstances from which we have perceived the worlds around and within ourselves. How we make sense of these shifting states, and whether we learn empathy from our sorrows (feeling the groundedness of life as a counterpoint to our inevitable approach to death), can shape the latter part of our lives, and of our engagement with magic and ritual.</p><p>Nikki explores these and other more personal issues in this wide-ranging lecture.</p>"
   },
   {
+    "name": "Helene Arts",
+    "searchString": "helene-arts-workshop",
+    "title": "Planetary and Astrological Magick (Workshop)",
+    "avatarPath": "images/speakers/arts-helene-red.png",
+    "abstract": "<p>This fascinating workshop is led by Helene Arts, MA, an author and educator with over 25 years of formal study and experience in the magickal realms. This workshop will explore the major elements of planetary magick and astrological timing, and will provide participants with a solid foundation on which to create rituals, talismans, or do any kind of magickal working. The fundamentals of traditional planetary magick will be explained, in conjunction with the use of astrological timing. When planetary magick and astrological magick are used together, the magician creates the ideal external conditions to optimize the power of the working. Yet the internal conditions of the magician are equally as important to maximize the outcome, and thus the philosophy of the Left-Hand Path will form part of the discussion and will be the lens through which this workshop is viewed. Participants are encouraged to bring an accurate natal chart with them for added benefit.</p>"
+  },
+  {
     "name": "Reverend Danny Nemu",
     "searchString": "reverend-danny-nemu",
     "title": "Keta-chaos, Aya-animism & the Demon of the Ulcer",
