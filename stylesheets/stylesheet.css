@@ -156,7 +156,7 @@ body {
   color: darkred; /* font-color is also darkred */
   background-color: transparent;
   background-image: url(../images/red-dash.png) !important;
-  background-position-x: px;
+  background-position-x: 0%;
   background-position-y: 50%;
   background-repeat: repeat-x;
 }
