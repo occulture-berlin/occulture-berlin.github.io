@@ -218,87 +218,6 @@ footer {
   cursor: pointer;
 }
 
-#black-moon-landing-wrap {
-  position: fixed;
-  z-index: 23;
-  overflow: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background: #000;
-  font-family: keepCalm;
-  text-transform: uppercase;
-}
-
-#black-moon-landing {
-  margin-top: 1.5em;
-  padding: 1em;
-  border-radius: 1em;
-}
-
-#black-moon-landing #black-moon-logo {
-  width: 70%;
-  border: none;
-  box-shadow: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#black-moon-landing #high-priority-information {
-  font-family: keepCalm;
-  margin-top: 0.5em;
-}
-
-#black-moon-landing #luna {
-  width: 11em;
-  padding: 1em;
-}
-
-#black-moon-landing #what-we-offer {
-  font-size: 1.25em;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#black-moon-landing #ticket-button-wrap {
-  padding: 1em;
-  border-radius: 1em;
-}
-
-#black-moon-landing #ticket-button-wrap .strike-through {
-  color: darkred; /* font-color is also darkred */
-  background-color: transparent;
-  background-image: url(../images/red-dash.png) !important;
-  background-size: 1em;
-  background-position-x: 0%;
-  background-position-y: 20%;
-  background-repeat: repeat-x;
-}
-
-#black-moon-landing #ticket-button-wrap #special-price {
-  font-size: 3em;
-  letter-spacing: 0.1em;
-}
-
-#black-moon-landing .buy-ticket-button {
-  margin: 2em;
-}
-
-#black-moon-landing .buy-ticket-button .button {
-  padding: 1.2em;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-#black-moon-landing .close-button {
-  position: fixed;
-  bottom: 1em;
-  width: 75%;
-  cursor: pointer;
-}
-
 #mailing-list-boop-boop {
   background: #000;
   position: fixed;
@@ -680,16 +599,6 @@ Small Device Styles
 
   #tickets #ticket-columns .buy-ticket-button {
     font-size: 1em;
-  }
-}
-
-@media (max-width: 900px) {
-  #black-moon-landing #high-priority-information {
-    font-size: 1.75em;
-  }
-
-  #black-moon-landing #what-we-offer {
-    width: 100%;
   }
 }
 
