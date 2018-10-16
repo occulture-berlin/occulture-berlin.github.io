@@ -33,14 +33,21 @@ $(document).ready(function() {
   });
 });
 
-// load all speaker abstracts
+// load all abstracts
 loadSpeakers = function() {
+  // should be "member-of-the-lineup" i guess...?
   $.get("./speakers.html", function(template) {
-    var speakerData = abstracts.map(function(abstract){
-      return Mustache.to_html(template, abstract)
-    })
+    var types = ['lecture', 'workshop', 'ritual', 'techgnosis', 'art']
+    for( var i in types ) {
+      var type = types[i];
+      var collection = abstracts.filter(object => object.type === type);
+      console.log(collection);
+      var speakerData = collection.map(function(abstract){
+        return Mustache.to_html(template, abstract)
+      })
 
-    $("#lineup-wrap #lineup").html(speakerData);
+      $("#lineup-wrap #"+type).html(speakerData);
+    }
   }, "html");
 }
 
