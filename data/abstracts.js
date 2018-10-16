@@ -269,5 +269,13 @@ abstracts = [
     "type":"workshop",
     "avatarPath": "images/speakers/haberkorn-lori-red.png",
     "abstract": "<p>The Golden Circle Rituals are born out of my own spiritual journey of seeking for a deeper meaning in life and like minded women. This Ritual is to empower and support women and men on their own journey to their purest self, to reconnect with mother nature, to learn, grow and flow with her.  There are many different kind of Circles, like the Back to Nature Circle to take us back to what really matters and to our true mission in life, the Empowering Self Love Circle to arise the magik of self love and inner beauty, the Sisterhood Gathering to reconnect with our sisters and femininity and the Moon Circles, as we are all affected and led by the intense power of mother moon. </p><p>I also use these magikal circles to create sacred spaces to reawaken the elemental power, the inner wise human, that already lives deep down in ourselves. As it is finally time to listen to our own intuition and to live in our true power. It is time to rise and shine, to grow and heal together, to go back to yourself, to go back to nature.</p>"
-  }
+  },
+  {
+    "name": "Justine Peralta & Luna Duran",
+    "searchString": "peralta-duran",
+    "title": "Venus Rising",
+    "type":"ritual",
+    "avatarPath": "images/speakers/peralta-duran-red.png",
+    "abstract": "<p>A ceremonial rite invoking ancient wisdom through the exploration of the serpentine archetype and blood sacrament, where the body is the sacred space in which we commune with mind and soul.</p>"
+  },
 ]
