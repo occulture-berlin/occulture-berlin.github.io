@@ -1,5 +1,13 @@
 abstracts = [
   {
+    "name": "Live performance",
+    "searchString": "phurpa",
+    "title": "Phurpa",
+    "type":"art",
+    "avatarPath": "images/speakers/phurpa-red.png",
+    "abstract": "<p>Phurpa are a Russian-based musical collective and performance group – a darkling clan of ritual musicians upholding performative practices from the Bon – one of the oldest Buddhist traditions from Tibet. Their 'singing' technique is intensely specific: a tantric, gutteral song from the depth of the throat.</p><p><center><iframe width='80%' height='315' src='https://www.youtube-nocookie.com/embed/VK5uG2fN6HE' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></center></p>"
+  },
+  {
     "name": "Janet Farrar & Gavin Bone",
     "searchString": "farrar-bone",
     "title": "Witches, Vala's & Sybils: The History and practice of Trance-Prophesy in Witchcraft & Paganism",
