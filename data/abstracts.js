@@ -32,6 +32,14 @@ abstracts = [
     "abstract": "<p>Hagen von Tulien is a German artist and occultist working in a variety of media including pen and ink, paper cut, collage and digital formats.  With about forty years of intense magical theory and practice, he has specialized in creating art as an expression and manifestation of magical states of awareness and its use as an esoteric tool.</p><p> Throughout the 1990s Hagen was a key figure in the Magical Pact of the Illuminates of Thanateros (I.O.T.), serving as its section head for Germany. He is currently a Master-Initiate of the Fraternitas Saturni (F.S.) and an empowered adept of the Voudon Gnostic Current, focused on deeply researching the Gnosis of the Saturnian Continuum and of Esoteric Voudon. As a Gnostic Bishop of the Ecclesia Gnostica Spiritualis (ordained by Michael Bertiaux), Hagen von Tulien is dedicated to manifesting the supreme and divine Gnosis within himself while assisting others on their own path to kosmic freedom and liberation.</p><p>Hagen will lead a ritual Experience of basic Voudon Gnostic Principles as they are practiced in those Occult Traditions which are based on the works and transmissions of Master Michael Bertiaux</p>"
   },
   {
+    "name": "Live performance",
+    "searchString": "vivian-spiral",
+    "title": "Vivian Spiral",
+    "type":"art",
+    "avatarPath": "images/speakers/spiral-vivian-red.png",
+    "abstract": "<p>Equal parts Sorceress, Acrobat, Dervish, and Ninja, Spiral brings the kind of tingle to the spine that can only be wrought as a direct result of tireless training, incredible skills, and occasional conspiracy with otherworldly forces. She has been on the cutting edge of hoop dance and flow arts for over a decade, setting a precedent for skill, precision, and artistry that is unparalleled.</p>"
+  },
+  {
     "name": "Hagen Von Tulien",
     "searchString": "hagen-art",
     "title": "Exhibiting Artist",
