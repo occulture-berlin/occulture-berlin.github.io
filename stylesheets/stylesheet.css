@@ -427,10 +427,11 @@ section {
 }
 
 .sub-nav li {
-  font-family: 'Metamorphous', cursive;
+  font-family: 'KeepCalm';
   display: inline-block;
   cursor: pointer;
-  margin-right: 1em;
+  text-transform: uppercase;
+  margin-right: 1.2em;
   font-size: 1.3em;
 }
 
