@@ -16,6 +16,14 @@ abstracts = [
     "abstract": "<p>With the (forthcoming) release of their new book Lifting the Veil, Janet and Gavin discuss the history of Trance Prophesy in ancient and modern Witchcraft. During research for the book they went on a journey of discovery resulting in some interesting surprises regarding the origins of Drawing Down the Moon in modern Wicca. They cover from ancient Shamanism, through to the Sybils of Ancient Greece, the Vala of the Northern Europeans and of course through to the modern practise of Drawing Down the Moon. They also look at cross-overs with contemporary traditions such as Vodoun and Santeria, and the Spiritualist Revival of the 19th and early 20th Centuries.</p>"
   },
   {
+    "name": "Janet Farrar",
+    "searchString": "farrar-workshop",
+    "title": "Journey to the Moon Temple",
+    "type":"workshop",
+    "avatarPath": "images/speakers/farrar-workshop-red.png",
+    "abstract": "<p>This workshop looks at the work of Dion Fortune in creating the Astral Moon Temple, which even after 50 years still exists. Through a specific voice technique that she uses, she takes the group in a journey to the edge of death and the underworld to access the Temple of Isis after first passing Anubis, as guardian and hierophant.</p>"
+  },
+  {
     "name": "Hagen Von Tulien",
     "searchString": "hagen-von-tulien",
     "title": "Ritual Experience of Voudon Gnostic Principles (Opening Ritual)",
