@@ -247,6 +247,14 @@ abstracts = [
     "abstract": "<p>The 21 Faces of God is a film that explores the meaning and path of the major arcana of the Tarot.  The film uses excerpts from classic films and documentaries as well as commentaries from figures like Terence Mckenna, Joseph Campbell and Carl Jung to weave the thread of The Fools Journey.  One key section of the film delves into the origin of the archetypes from Pythagoras to modern advertising campaigns.  This section of the film will be shown followed by a discussion of the archetypes of the major arcana of the Tarot and how they are relevant today.</p>"
   },
   {
+    "name": "Virgo Queen",
+    "searchString": "virgo-queen",
+    "title": "Manifesting Ritual",
+    "type":"workshop",
+    "avatarPath": "images/speakers/virgo-queen-red.png",
+    "abstract": "<p>We will spend this time together using the tools of manifestation and learn how to work with the Quarter Moon energy. We begin discussing the astrological aspects of the lunar energy and how they impact our life. Then we will dive into a Chakra Meditation to clear our cells and expand our awareness to connect with our cosmic energy.  With an open vessel we will perform a manifestation ritual that will activate our hearts desires and teach us how to bring it out into the world. After the intentions have been cast, we will embody our magic through dance movement, to insure our spell has been cast and call in the guides that will support our journey. In the closing ceremony, we weave in our prayers for the world and share any gifts, or insights of our time together. When we gather under the potent energy of the moon, we transform our subconscious mind, our old ancestral patterns into a conscious co-creation with our higher selves. This is how we reprogram our life and our world to become the change needed to save our planet, our mother, our earth.</p>"
+  },
+  {
     "name": "Síofra McSherry",
     "searchString": "siofra-mcsherry",
     "title": "The (Witch)Craft of Poetry",
