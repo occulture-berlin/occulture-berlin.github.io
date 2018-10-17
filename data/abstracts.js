@@ -316,6 +316,6 @@ abstracts = [
     "title": "Venus Rising",
     "type":"ritual",
     "avatarPath": "images/speakers/peralta-duran-red.png",
-    "abstract": "<p>A ceremonial rite invoking ancient wisdom through the exploration of the serpentine archetype and blood sacrament, where the body is the sacred space in which we commune with mind and soul.</p>"
+    "abstract": "<p>A ceremonial rite invoking ancient wisdom through the exploration of the serpentine archetype and blood sacrament, where the body is the sacred space in which we commune with mind and soul.</p><p>Performance artists Justine Peralta and Luna Duran undergo an extreme physical ordeal breaking the skin boundary in order to induce trance states. In this state they become vessels for the expression of non-verbal wisdom. Those in attendance who bear witness to this offering are invited to project any questions they may have toward the performers to then integrate their visions at a later time when they so chose, however they see fit according to their personal practice. This is a communal invocation for those who wish to participate.</p><p>Blood sacrifice has been used as a vision inducing technique by many different cultures throughout time. In modern times many of these practices have been adapted and borrowed from for similar purposes. This particular performance gains inspiration from practices originating in central and South America.</p>"
   },
 ]
