@@ -96,6 +96,14 @@ abstracts = [
     "abstract": "<p>The Gnostic Mass is a ritual of power and beauty, affirming age-old mysteries and the Manifestion of the Divine in the union of opposites. In 1913, while traveling in Russia with the all girl dance troupe, the Ragged Ragtime Girls, Aleister Crowley created the Gnostic Mass as the central public celebration of the Ordo Templi Orientis. His intent was to \"celebrate the sublimity of the operation of universal forces without introducing disputable metaphysical theories.\" Join William Thirteen for an introduction to the history of Gnosticism and its exposition in the Gnostic Mass.</p>"
   },
   {
+    "name": "Caroline Wise",
+    "searchString": "caroline-wise",
+    "title": "Unveiling Isis - The Goddess and the Occult Revival",
+    "type":"lecture",
+    "avatarPath": "images/speakers/wise-caroline-red.png",
+    "abstract": "<p>Veneration of the goddess Isis, central to the myth cycles of Ancient Egypt, spread through the Graeco-Roman world, and temples to her were to be found in European cities and in other parts of the world. Isis became a significant, if re-imagined goddess in the various Magical Revivals and their movements and orders in Europe, especially in the 19th and 20th centuries. Caroline traces the Ancient Egyptian Goddess through the modern magical revival from before the Hermetic Order of the Golden Dawn to the present day. Such luminaries who were touched by the Isis current include Count Cagliostro, Helena Blavatsky, Aleister Crowley, Mina and McGregor Mathers, Florence Farr, Dion Fortune, Kenneth Grant, and the fascinating Durdin Robertsons, who founded the Fellowship of Isis in the 1970s.</p>"
+  },
+  {
     "name": "Claas Hoffmann",
     "searchString": "claas-hoffmann",
     "title": "The Abraxas Calendar",
