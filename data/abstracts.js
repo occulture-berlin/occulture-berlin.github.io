@@ -33,7 +33,7 @@ abstracts = [
   },
   {
     "name": "Spiral",
-    "searchString": "vivian-spiral",
+    "searchString": "spiral",
     "title": "Transcendent Flow Arts",
     "type":"art",
     "avatarPath": "images/speakers/spiral-vivian-red.png",
