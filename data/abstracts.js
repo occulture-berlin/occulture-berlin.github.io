@@ -112,6 +112,14 @@ abstracts = [
     "abstract": "<p>The product of eight years of painstaking labor Araki Verlag's Abraxas Calendar is a masterwork of qabalistic and esoteric insight. The 220 verses of Liber AL, the foundational text of Thelema, are mapped across the Gregorian and astrological calendars exhibiting amazing correspondences and hidden harmonies with The Book of Thoth, Aleister Crowley's tarot. Join author Claas Hoffmann as he reveals the secrets of the Abraxas calendar and its value for divination and contemplation.</p>"
   },
   {
+    "name": "Michael Staley",
+    "searchString": "michael-staley",
+    "title": "Kenneth Grant’s New Isis Lodge",
+    "type":"lecture",
+    "avatarPath": "images/speakers/staley-michael-red.png",
+    "abstract": "<p>In 1955 Kenneth Grant launched New Isis Lodge, writing rituals, gradework, visualization exercises and instructional papers for the various Degrees. At the centre of it was Nu-Isis, a compelling vision which was synthesised from Thelema, Advaita Vedanta, and Spare’s Zos-Kia Cultus, and which was subsequently developed throughout Grant’s Typhonian Trilogies. This talk examines the mystical and magical experiences out of which Grant fashioned his conception of Nu-Isis, and the structure of New Isis Lodge which he subsequently developed.</p>"
+  },
+  {
     "name": "Jake Winchester",
     "searchString": "jake-winchester",
     "title": "Spirits in the Smoke: Solanaceous Fumigations, their History, Composition & Effects",
