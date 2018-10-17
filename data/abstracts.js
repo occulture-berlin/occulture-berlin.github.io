@@ -5,7 +5,7 @@ abstracts = [
     "title": "Phurpa",
     "type":"art",
     "avatarPath": "images/speakers/phurpa-red.png",
-    "abstract": "<p>Phurpa are a Russian-based musical collective and performance group – a darkling clan of ritual musicians upholding performative practices from the Bon – one of the oldest Buddhist traditions from Tibet. Their 'singing' technique is intensely specific: a tantric, gutteral song from the depth of the throat.</p><p><center><iframe width='80%' height='315' src='https://www.youtube-nocookie.com/embed/VK5uG2fN6HE' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></center></p>"
+    "abstract": "<p>Phurpa is a roving monastic choir that espouses a rogue form of Bön, the shamanistic spirituality of pre-Buddhist Tibet. The ensuing tale is a captivating journey shrouded in Himalayan mysticism; from the shadow of the Kremlin to the pyramids of Egypt and further on into the vast emptiness beyond.</p><p><center><iframe width='80%' height='315' src='https://www.youtube-nocookie.com/embed/VK5uG2fN6HE' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></center></p>"
   },
   {
     "name": "Janet Farrar & Gavin Bone",
