@@ -298,7 +298,7 @@ abstracts = [
     "name": "Virgo Queen",
     "searchString": "virgo-queen",
     "title": "Manifesting Ritual",
-    "type":"workshop",
+    "type":"ritual",
     "avatarPath": "images/speakers/virgo-queen-red.png",
     "abstract": "<p>We will spend this time together using the tools of manifestation and learn how to work with the Quarter Moon energy. We begin discussing the astrological aspects of the lunar energy and how they impact our life. Then we will dive into a Chakra Meditation to clear our cells and expand our awareness to connect with our cosmic energy.  With an open vessel we will perform a manifestation ritual that will activate our hearts desires and teach us how to bring it out into the world. After the intentions have been cast, we will embody our magic through dance movement, to insure our spell has been cast and call in the guides that will support our journey. In the closing ceremony, we weave in our prayers for the world and share any gifts, or insights of our time together. When we gather under the potent energy of the moon, we transform our subconscious mind, our old ancestral patterns into a conscious co-creation with our higher selves. This is how we reprogram our life and our world to become the change needed to save our planet, our mother, our earth.</p>"
   },
@@ -346,7 +346,7 @@ abstracts = [
     "name": "Geraldine Hudson",
     "searchString": "geraldine-hudson",
     "title": "Venus Rising",
-    "type":"art",
+    "type":"ritual",
     "avatarPath": "images/speakers/hudson-geraldine-red.png",
     "abstract": "<p>The working consists of daily observations during October, of ritual praxis, sacred sites and first hand observations of the female body, the affects psychologically and physically when in devotion, ritual and heterotopic space.</p><p> Starting with smaller basic rituals and moving on towards a working at the end of Oktober, the culmination of this research being a Samhain Ritual and fire in Stockholm ... a continued initiation, as artist and witch, the ash and dirt collected from this and sound/image recorded on site between the new moon in Oktober and the new moon in November ...these elements make up the ground material to be used during the performance.</p><p>This is not an interactive performance in the sense of a communal ritual, neither is it entertainment for an audience. Rather an effort to try and communicate the visceral experience, the sensations as feeling, the smell, sounds of the solitary ritual experience. Including sound made from the field recording and images from site, allowing the spectator to fall into their own meditative consciousness as I perform the piece. Using my body as signifier. Following the layers of consciousness as I communed with the earth, site, space around me.</p><p>Rather than an academic study – following the prescriptive aspects when relating to transgressions. I try to subvert the the often male gaze pertaining to the sacred feminine ...in analysis of the esoteric female, as goddess or witch . .. as passive vessel or medium. I choose instead to focus on the experience as an integrated whole, a phenomenology of the female body in relation to land, ownership and territory. As Above, so Below ... with a reminder that as witches the ground we walk upon is often precarious. The personal is always political.</p>"
   }
