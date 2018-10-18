@@ -279,6 +279,14 @@ abstracts = [
     "abstract": "<p>'I AM THE GODDESS' is a performance where the artist Paulina Hupe incorporates the goddess Ishtar. She petrifies her body and breathes life to the ancient Babylonian statue of Ishtar, a representation of the inherent sacredness of woman. She bleeds and does not die. Non-brutal strength is a mysterious power. She is cyclical. She returns in this embodiment, as a living archetype that is still, still there. To resist is to re-exist.</p>"
   },
   {
+    "name": "Patrick Hüttlinger",
+    "searchString": "patrick-huttlinger",
+    "title": "Sakrosankt",
+    "type":"art",
+    "avatarPath": "images/speakers/huttlinger-patrick-red.png",
+    "abstract": "<p>My initial education focused on wood carving, spanning from 1997-2000. Years of international travel influenced my tattoo work, which aims to enhance individual body contours with timeless and graphically abstract creations. I choose to concentrate on a universal approach to tattooing through the usage of mathematical and geometrical designs. The application of these patterns and formations are derived from natural phenomena, such as the reaction-diffusion mechanism. Principles of proportional harmony, seen in numbers and shapes, are the very definition of beauty and can be seen as the quintessence of aesthetics. Exploration and utilization of this infinite source of inspiration is significant to my artwork and personal interests.</p><p> A symbol, which I call sakrosankt, which first appeared to me as a carved bone pendant, has appeared twice in my life. It has evoked an unusual sense of attraction and familiarity, yet its cultural and religious origin remains unknown. Deeper investigations have lead me to the discoveries of seven fundamental geometrical proportion systems. Sacred Geometry, speaking to us on a transpersonal level, is the tool in my attempt to unveil the mysterious conundrum surrounding the sakrosankt symbol. My aim as its mediator, is to include it with my artwork, to create awareness and ultimately to bring it into being via conscious art projects which support environmental work.</p><p> These projects intend to provide a collective possibility to dissolve our karmic guilt towards our unique and nurturing entity, mother earth, whilst, at the same time, induce the individual with a liberating feeling of being part of something bigger than itself.</p>"
+  },
+  {
     "name": "Jimmy Trash",
     "searchString": "jimmy-trash",
     "title": "Roots in the Heart (Film Screening)",
