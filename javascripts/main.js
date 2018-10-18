@@ -33,6 +33,10 @@ $(document).ready(function() {
   });
 });
 
+document.addEventListener('unii:opened', function(event) {
+  gtag('event', 'view_item', {'items': 'get-tickets'});
+}, false);
+
 // load all abstracts
 loadSpeakers = function() {
   // should be "member-of-the-lineup" i guess...?
