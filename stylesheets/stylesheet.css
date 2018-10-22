@@ -544,9 +544,18 @@ section {
 }
 
 /* adblock hides this if it's called 'sponsors' */
+#those-who-support-us-financially .vertical-spacer {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
 #those-who-support-us-financially img {
-  width: 50%;
+  width: 30%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
   margin-bottom: 2.5em;
+  vertical-align: middle;
 }
 
 .outer {
