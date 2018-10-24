@@ -37,6 +37,11 @@ document.addEventListener('unii:opened', function(event) {
   gtag('event', 'view_item', {'items': 'get-tickets'});
 }, false);
 
+init = function() {
+  loadSpeakers();
+  displayMailingList();
+}
+
 // load all abstracts
 loadSpeakers = function() {
   // should be "member-of-the-lineup" i guess...?
