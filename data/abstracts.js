@@ -72,6 +72,14 @@ abstracts = [
     "abstract": "<p>The signal event of the Haitian Revolution was a Vodou ceremony that took place in Bwa Kayiman (Alligator Woods) in August 1791. According to popular legend the Houngan Dutty Boukman and Mambo Cecile Fatiman oversaw a rite in which a Kreyol pig was sacrificed to the Black God of the African slaves and to the Spirit of Liberty. Scholarly speculation about the specific nature of the rite is divided between those who believe it to have been a Dahomian blood-oath, binding the cult to its emancipatory mission, and those who see it as a Petro rite summoning the fierce and violent loa (Vodou spirits) of insurrection.<p></p>A more esoteric theory proposes that, through a special Petro-Zandor rite, an egregor of malevolent loa was created and that a character called Jean-Babtiste Vixamar Legrand offered himself up for sacrifice during the ceremony. Haiti’s historic misfortunes since the revolution, advocates of this theory claim, are a consequence of the egregor’s continued existence. Only after an unbinding rite will this conglomeration of dark-matter entities cease wreaking havoc in the country. For this presentation I will discuss the Simbi-Makaya thesis and the occult notion of the egregor, relating them to traditional accounts of the Bwa Kayiman ceremony and to the traditions of the Bizango secret societies of Haiti.</p>"
   },
   {
+    "name": "Ljóssál Lóðursson",
+    "searchString": "ljossal-lodursson",
+    "title": "Chants of Power & the Spirits of the North & South",
+    "type":"lecture",
+    "avatarPath": "images/speakers/lodursson-ljossal-red.png",
+    "abstract": "<p>In both hemispheres of our planet there is a wide spiritual ethology, diverse beings from other worlds that obey different natures and purposes. Practitioners of Seiðr (Sorcery) in Northern Europe, use the songs called 'Varðlokkur' or  spirit enticers to summon the wights of the territory and direct their power. The practitioners of Shamanism of South America use the songs called 'Icaros' to call the spirits of the jungle and thus receive their healing. Both types of songs share in essence the same principle, the power of the trance as a bridge or portal for the summoning of higher powers.</p><p>Ljóssál Lóðursson, a devotee to the Þursian Path, presents a lecture and descriptions of practice, that will illustrate to the audience how to develop both processes as an effective method of 'Transvocation', the liminal point between invocation and evocation related to powers of nature.</p>"
+  },
+  {
     "name": "N. Wahid Azal",
     "searchString": "n-wahid-azal",
     "title": "Islamic Theurgy: An Overview",
