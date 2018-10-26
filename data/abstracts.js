@@ -287,6 +287,14 @@ abstracts = [
     "abstract": "<p>What is modern Druidry and how does it support everyday life? In this workshop participants will get a hint of the practices of the Order of Bards, Ovates and Druids and the gifts of modern Druidry.</p><p>One of the gifts of druidry is the awareness of other Realities: with techniques for exploring other states of consciousness, other realities, the Otherworld. Some of these are also used by other spiritual traditions, and include meditation, visualisation, shamanic journeying, and the use of ceremony, music, chanting and sweat lodges. These are all grounded in specifically Celtic and Druidic imagery and tradition.</p><p>The “Cauldron of Wisdom” workshop is a mixture of a guided journey, meditation and sound bathing.  Together we are journeying to Dinas Affareon, the legendary ambrosius city of the druids, high up in the mountains of Snowdonia and guarded by eagles. In celtic mythology the goddess Cerridwen went to Dinas Affareon to receive the recipe of the “Awen” brew, a magical potion that provides wisdom and inspiration. 3 Drops will bring enlightenment and a power to connect with the Awen, a never ending source of inspiration.</p><p>We will follow the path of the goddess Cerridwen in our meditation, explore the cauldron of wisdoms brew and bring the power of the Awen back to our time and reality.</p><p>Bianca will use crystals, herbs/ oils and feathers on a central altar during the mediation to provide a relaxed sacred space.</p>"
   },
   {
+    "name": "Beny Tchaicovsky",
+    "searchString": "caught-between-worlds",
+    "title": "Caught Between Worlds (Film Screening)",
+    "type":"art",
+    "avatarPath": "images/speakers/tchaicovsky-beny-red.png",
+    "abstract": "<p>Immerse yourself in unfathomable worlds of Marvel and mystery through the cutting-edge of 3D computer animation art. CAUGHT BETWEEN WORLDS is a journey into worlds which can only be described through technology. Sit back and give yourself up as the world of every day is inexplicably blended into the world of imagination. Caught Between Worlds is the second part of the Morning Star Trilogy, preceded by 'The Call' and followed by 'Dimensional Connections' by Beny Tchaicovsky.</p>"
+  },
+  {
     "name": "Paulina Hupe",
     "searchString": "paulinha-hupe",
     "title": "I AM THE GODDESS",
