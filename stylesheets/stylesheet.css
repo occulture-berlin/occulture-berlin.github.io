@@ -535,7 +535,7 @@ section {
   cursor: pointer; /* cause it's a link to speaker page */
 }
 
-#lineup-wrap .speaker-wrap .info-wrap .abstract {
+#lineup-wrap .speaker-wrap .info-wrap .description {
   font-size: 0.8em;
 }
 

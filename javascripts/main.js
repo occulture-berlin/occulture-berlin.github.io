@@ -42,17 +42,17 @@ init = function() {
   displayMailingList();
 }
 
-// load all abstracts
+// load all events
 loadSpeakers = function() {
   // should be "member-of-the-lineup" i guess...?
   $.get("./speakers.html", function(template) {
     var types = ['lecture', 'workshop', 'ritual', 'techgnosis', 'art']
     for( var i in types ) {
       var type = types[i];
-      var collection = abstracts.filter(object => object.type === type);
+      var collection = events.filter(object => object.type === type);
       console.log(collection);
-      var speakerData = collection.map(function(abstract){
-        return Mustache.to_html(template, abstract)
+      var speakerData = collection.map(function(event){
+        return Mustache.to_html(template, event)
       })
 
       $("#lineup-wrap #"+type).html(speakerData);
