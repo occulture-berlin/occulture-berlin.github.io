@@ -5,7 +5,7 @@ $(document).ready(function() {
 requestedSpeaker = function() {
   // get the speaker name from the anchor tag
   var anchorTag = window.location.hash.substring(1);
-  var selected = abstracts.find(object => object.searchString === anchorTag);
+  var selected = events.find(object => object.searchString === anchorTag);
 
   // return immediately if no speaker was requested
   if(anchorTag === "") { return null }
@@ -51,20 +51,20 @@ loadSpeakers = function() {
   $.get("./speakers.html", function(template) {
     var speakers = collectSpeakers();
 
-    var speakerData = speakers.map(function(abstract){
-      return Mustache.to_html(template, abstract)
+    var speakerData = speakers.map(function(event){
+      return Mustache.to_html(template, event)
     })
 
     $("#lineup-wrap #lineup").html(speakerData);
   }, "html");
 }
 
-// NB: the 'abstracts' variable is set in data/abstracts.js
+// NB: the 'events' variable is set in data/events.js
 collectSpeakers = function(){
-  // if no speaker name is given, return all abstracts in (mostly) random order
+  // if no speaker name is given, return all events in (mostly) random order
   // stackoverflow.com/a/38571132/2128691
   if(requestedSpeaker() === null) {
-    var shuffled = abstracts.sort(() => .5 - Math.random());
+    var shuffled = events.sort(() => .5 - Math.random());
     return shuffled
   };
 
@@ -78,7 +78,7 @@ nullSpeaker = function(requestedName) {
     "searchString": "",
     "title": "Speaker not found!",
     "avatarPath": "images/speakers/unknown.png",
-    "abstract": "<p>Sorry, we don't know anyone called "+requestedName+"!</p><div style='margin:2em;'><a class='button' href='"+document.location.pathname+"?ref=speaker-unknown-"+requestedName+"'>See the full lineup</a></div>"
+    "description": "<p>Sorry, we don't know anyone called "+requestedName+"!</p><div style='margin:2em;'><a class='button' href='"+document.location.pathname+"?ref=speaker-unknown-"+requestedName+"'>See the full lineup</a></div>"
   }
 }
 
