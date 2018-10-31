@@ -4,6 +4,9 @@ $(document).ready(function() {
     console.log("window width: "+$(window).width()+"px");
   };
 
+  // display the mailing list signup
+  displayMailingList();
+
   $(".tab-button").on("click", function(){
     var selected = $(this).attr('id').replace('-button', '');
 
@@ -36,11 +39,6 @@ $(document).ready(function() {
 document.addEventListener('unii:opened', function(event) {
   gtag('event', 'view_item', {'items': 'get-tickets'});
 }, false);
-
-init = function() {
-  loadSpeakers();
-  displayMailingList();
-}
 
 // load all events
 loadSpeakers = function() {
