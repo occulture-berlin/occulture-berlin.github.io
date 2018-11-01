@@ -48,7 +48,7 @@ setMetadata = function() {
 // NOTE: this overwrites the 'loadSpeakers()' function in main.js
 // allow speakers to be selected and shown individually based on anchor tag
 loadSpeakers = function() {
-  $.get("./speakers.html", function(template) {
+  $.get("./partials/speakers.html", function(template) {
     var speakers = collectSpeakers();
 
     var speakerData = speakers.map(function(event){

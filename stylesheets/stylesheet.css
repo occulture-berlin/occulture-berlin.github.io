@@ -493,7 +493,8 @@ section {
   background: #222;
 }
 
-#lineup-wrap .speaker-wrap {
+#lineup-wrap .event-wrap,
+#schedule-wrap .event-wrap {
   min-width: 70%; /* this ensures the unknown speaker is displayed correctly */
   margin-bottom: 3em;
   float: left;
@@ -501,16 +502,17 @@ section {
   margin-right: 10%;
 }
 
-#lineup-wrap .speaker-wrap ul {
+#lineup-wrap .event-wrap ul,
+#schedule-wrap .event-wrap ul {
   list-style-type: circle;
 }
 
-#lineup-wrap .speaker-wrap .info-wrap {
+#lineup-wrap .event-wrap .info-wrap {
   text-align: left;
   margin-left: 2em;
 }
 
-#lineup-wrap .speaker-wrap .avatar {
+#lineup-wrap .event-wrap .avatar {
   margin-bottom: 0.5em;
   margin-left: 3em;
   margin-right: 2em;
@@ -518,24 +520,26 @@ section {
   cursor: pointer; /* cause it's a link to speaker page */
 }
 
-#lineup-wrap .speaker-wrap .avatar img {
+#lineup-wrap .event-wrap .avatar img,
+#schedule-wrap .event-wrap .avatar img {
   width: 250px;
   height: 250px;
   opacity: 0.9;
 }
 
-#lineup-wrap .speaker-wrap .info-wrap .title {
+#lineup-wrap .event-wrap .info-wrap .title {
   font-family: 'Metamorphous';
   cursor: pointer; /* cause it's a link to speaker page */
 }
 
-#lineup-wrap .speaker-wrap .info-wrap .name {
+#lineup-wrap .event-wrap .info-wrap .name {
   font-family: 'KeepCalm';
   font-size: 123%;
   cursor: pointer; /* cause it's a link to speaker page */
 }
 
-#lineup-wrap .speaker-wrap .info-wrap .description {
+#lineup-wrap .event-wrap .info-wrap .description,
+#schedule-wrap .event-wrap .info-wrap .description {
   font-size: 0.8em;
 }
 
@@ -614,7 +618,7 @@ Small Device Styles
 }
 
 @media (min-width: 800px) and (max-width: 970px) {
-  #lineup-wrap .speaker-wrap {
+  #lineup-wrap .event-wrap {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -637,14 +641,16 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {
-  #lineup-wrap .speaker-wrap {
+  #lineup-wrap .event-wrap,
+  #schedule-wrap .event-wrap {
     margin-bottom: 3em;
     float: none;
     margin-left: 0;
     margin-right: 0
   }
 
-  #lineup-wrap .speaker-wrap .avatar {
+  #lineup-wrap .event-wrap .avatar,
+  #schedule-wrap .event-wrap .avatar {
     width: 100%;
     margin-bottom: 1em;
     margin-left: 0;
@@ -652,7 +658,7 @@ Small Device Styles
     float: none;
   }
 
-  #lineup-wrap .speaker-wrap .info-wrap {
+  .event-wrap .info-wrap {
     text-align: center;
     margin-left: 0;
   }

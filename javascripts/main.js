@@ -40,15 +40,19 @@ document.addEventListener('unii:opened', function(event) {
   gtag('event', 'view_item', {'items': 'get-tickets'});
 }, false);
 
+rootPath = function() {
+  return window.location.protocol + '//' + window.location.host
+}
+
 // load all events
 loadSpeakers = function() {
   // should be "member-of-the-lineup" i guess...?
-  $.get("./speakers.html", function(template) {
+  $.get("./partials/speakers.html", function(template) {
+    console.log(template);
     var types = ['lecture', 'workshop', 'ritual', 'techgnosis', 'art']
     for( var i in types ) {
       var type = types[i];
       var collection = events.filter(object => object.type === type);
-      console.log(collection);
       var speakerData = collection.map(function(event){
         return Mustache.to_html(template, event)
       })
@@ -58,10 +62,11 @@ loadSpeakers = function() {
   }, "html");
 }
 
+// NOTE: This is for internal linking only!
 goToPage = function(path){
   // update urls when clicking a link
   // github pages use a frameset which is fucked, that's the short version.
-  top.window.location.href = path
+  top.window.location.href = rootPath() +"/"+ path
   // send this as an event to google analytics
   gtag('event', 'page_view', {'page_path': path});
 }
@@ -73,4 +78,16 @@ displayMailingList = function() {
 
 hideMailingList = function() {
   $("#mailing-list-boop-boop").fadeOut(200);
+}
+
+// add uniq method to Array object
+// stackoverflow.com/a/14438954/2128691
+Array.prototype.uniq = function() {
+  return this.filter(function (value, index, self) {
+    return self.indexOf(value) === index;
+  });
+}
+
+Array.prototype.rejectBlanks = function() {
+  return this.filter(function(value) {return value.length != 0});
 }
