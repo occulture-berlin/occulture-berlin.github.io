@@ -387,7 +387,7 @@ Main Components
   margin-left: 1em;
 }
 
-@media (min-width: 0px) and (max-width: 1300px) {
+@media (min-width: 0px) and (max-width: 900px) {
   .cd-schedule .events .events-group {
     width: 100%;
   }
