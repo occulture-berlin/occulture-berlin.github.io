@@ -85,18 +85,25 @@ loadEvents = function() {
         $("#"+date+" .events-group").css("width", '90%');
       }
     })
+    unlinkOrganizationalEvents();
   })
 }
 
-loadModal = function(searchString) {
-  $.get("../partials/schedule/event-modal.html", function(eventTemplate) {
-    var selected = events.find(object => object.searchString === searchString);
-    var template = Mustache.to_html(eventTemplate, selected)
-
-    $("#schedule-wrap #event-overlay").html(template).show();
-  })
+unlinkOrganizationalEvents = function() {
+  document.querySelectorAll("[data-event='organizational']").forEach(function(el){
+    el.children[0].removeAttribute('onclick');
+  });
 }
 
-hideEventModal = function() {
-  $("#schedule-wrap #event-overlay").hide();
-}
+//loadModal = function(searchString) {
+//  $.get("../partials/schedule/event-modal.html", function(eventTemplate) {
+//    var selected = events.find(object => object.searchString === searchString);
+//    var template = Mustache.to_html(eventTemplate, selected)
+//
+//    $("#schedule-wrap #event-overlay").html(template).show();
+//  })
+//}
+//
+//hideEventModal = function() {
+//  $("#schedule-wrap #event-overlay").hide();
+//}
