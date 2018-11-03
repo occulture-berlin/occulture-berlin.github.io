@@ -786,9 +786,9 @@ events = [
     "location": "above",
     "name": "Vincent Moon & Priscilla Telmon",
     "searchString": "moon-telmon",
-    "title": "Hibrados (Film Screening)",
+    "title": "Hìbridos (Film Screening)",
     "type":"art",
-    "avatarPath": "images/speakers/moon-telmon-red.jpg",
+    "avatarPath": "images/speakers/moon-telmon-red.png",
     "description": "<p>A specially curated selection of short films from the 'HÍBRIDOS' project, by Vincent Moon and Priscilla Telmon. From rare trance ceremonies celebrating animal spirits to Ayahuasca making in the Santo Daime tradition, from uniquely artistic forms of rituals near Sao Paulo to experimental cults near Brasilia, a survey of the possibilities of spirituality and trances in Brazil.</p>"
   },
   {
