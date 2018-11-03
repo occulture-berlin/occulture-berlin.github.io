@@ -25,6 +25,18 @@ events = [
   },
   {
     "date":"saturday",
+    "start": "09:00",
+    "end": "10:00",
+    "location": "above",
+    "name": "",
+    "searchString": "registration",
+    "title": "Registration",
+    "type":"organizational",
+    "avatarPath": "images/black-moon.png",
+    "description": "Get your wristband and a copy of our programme at the registration desk before the conference starts"
+  },
+  {
+    "date":"saturday",
     "start": "11:00",
     "end": "11:30",
     "location": "below",
@@ -169,7 +181,7 @@ events = [
   },
   {
     "date":"saturday",
-    "start": "19:15",
+    "start": "19:00",
     "end": "21:00",
     "location": "below",
     "name": "",
@@ -181,7 +193,7 @@ events = [
   },
   {
     "date":"saturday",
-    "start": "19:00",
+    "start": "19:15",
     "end": "21:00",
     "location": "above",
     "name": "",
@@ -247,6 +259,18 @@ events = [
     "name": "Panel Discussion",
     "searchString": "magicians-on-drugs",
     "title": "Magicians on Drugs with Psy Press",
+    "type":"organizational",
+    "avatarPath": "images/black-moon.png",
+    "description": ""
+  },
+  {
+    "date":"sunday",
+    "start": "20:00",
+    "end": "22:00",
+    "location": "below",
+    "name": "Witches are back",
+    "searchString": "witches-are-back",
+    "title": " Espectra Negra live show - Suit Key Dj set",
     "type":"organizational",
     "avatarPath": "images/black-moon.png",
     "description": ""
@@ -505,6 +529,18 @@ events = [
   },
   {
     "date":"saturday",
+    "start": "14:30",
+    "end": "15:00",
+    "location": "above",
+    "name": "",
+    "searchString": "cyberdelic-society",
+    "title": "TBA",
+    "type":"organizational",
+    "avatarPath": "images/speakers/.png",
+    "description": ""
+  },
+  {
+    "date":"saturday",
     "start": "15:30",
     "end": "16:00",
     "location": "above",
@@ -586,6 +622,18 @@ events = [
     "type":"lecture",
     "avatarPath": "images/speakers/langlais-laurent-red.png",
     "description": "<p>If you thought that Chinese astrology was about being a Monkey, Rat or Dragon, then you are in for a treat! We invite you to discover a wonderfully multi-layered system of Chinese astrology called the 4 Pillars of destiny, and also known as Bazi.</p><p>In this presentation, Laurent Langlais will introduce you to the system of the 4 Pillars of destiny, and shows you how to start reading the Bazi.  Each of us has 4 animals containing specific energies in our chart, as well as 5 Elements. There are about 13 millions combinations for each Bazi…The placement of each Pillar tell a precise story about karma, family dynamics, relationship potential, career and money, health, our best environment and most of all possible life missions…</p><p>The Bazi is a form of astrology that speaks about time and also connect with space and our greater call, through the decoding of a “spiritual DNA”. It is the embodiment of the concept of the 3 Lucks: Heaven, Human and Earth working together to manifest the shadow side or the best possible destiny.</p><p>The whole Bazi is a wonderful poetic map to discover who we truly are and know our exact timing and focus for each decade of our lives. The most exciting part is to combine this personal map with a spatial map in order to design our homes and work environments to support and fulfil the life potential seen in our astrology!</p>"
+  },
+  {
+    "date":"sunday",
+    "start": "12:30",
+    "end": "13:00",
+    "location": "below",
+    "name": "",
+    "searchString": "",
+    "title": "TBA",
+    "type":"organizational",
+    "avatarPath": "images/speakers/.png",
+    "description": ""
   },
   {
     "date":"saturday",
