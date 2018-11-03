@@ -265,7 +265,10 @@ Main Components
 }
 
 .cd-schedule .event-name {
+  clear: both;
   font-size: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 @media only screen and (min-width: 800px) {
@@ -294,7 +297,7 @@ Main Components
 
 .cd-schedule .single-event[data-event="workshop"],
 .cd-schedule [data-event="workshop"] .header-bg {
-  background: #333;
+  background: #222;
 }
 
 .cd-schedule .single-event[data-event="workshop"]:hover {
@@ -303,7 +306,7 @@ Main Components
 
 .cd-schedule .single-event[data-event="ritual"],
 .cd-schedule [data-event="ritual"] .header-bg {
-  background: #111;
+  background: #222;
 }
 
 .cd-schedule .single-event[data-event="ritual"]:hover {
@@ -312,7 +315,7 @@ Main Components
 
 .cd-schedule .single-event[data-event="art"],
 .cd-schedule [data-event="art"] .header-bg {
-  background: #444;
+  background: #222;
 }
 
 .cd-schedule .single-event[data-event="art"]:hover {
