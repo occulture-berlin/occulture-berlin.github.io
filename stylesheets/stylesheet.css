@@ -59,6 +59,83 @@ body {
   overflow-x: hidden;
 }
 
+#landing-wrap {
+  position: fixed;
+  z-index: 23;
+  overflow: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  font-family: keepCalm;
+}
+
+#landing {
+  padding: 1em;
+  border-radius: 1em;
+}
+
+#landing #logo {
+  width: 70%;
+  border: none;
+  box-shadow: none;
+  display: block;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#landing #high-priority-information {
+  font-family: 'Metamorphous';
+  font-size: 2.5rem;
+  margin-top: 0.5em;
+}
+
+#landing #what-we-offer {
+  font-size: 1.25em;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+#landing #ticket-button-wrap .strike-through {
+  color: darkred; /* font-color is also darkred */
+  background-color: transparent;
+  background-image: url(../images/red-dash.png) !important;
+  background-size: 1em;
+  background-position-x: 0%;
+  background-position-y: 20%;
+  background-repeat: repeat-x;
+}
+
+#landing #ticket-button-wrap #special-price {
+  font-size: 3em;
+  letter-spacing: 0.1em;
+}
+
+#landing #schedule-button-wrap {
+  margin-bottom: 5em;
+}
+
+#landing .button {
+  display: inline-block;
+  width: 50%;
+  padding: 1.2em;
+  margin-bottom: 1em;
+}
+#landing .close-button {
+  position: fixed;
+  bottom: 0;
+  width: 75%;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 #enochian-alphabet {
   position: absolute;
   left: 50%;
@@ -669,6 +746,15 @@ Small Device Styles
   .event-wrap .info-wrap {
     text-align: center;
     margin-left: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  #landing #high-priority-information {
+    font-size: 1.75em;
+  }
+  #landing #what-we-offer {
+    width: 100%;
   }
 }
 

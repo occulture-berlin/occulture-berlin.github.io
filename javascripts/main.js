@@ -4,9 +4,13 @@ $(document).ready(function() {
     console.log("window width: "+$(window).width()+"px");
   };
 
-  // display the mailing list signup
+  // landing page
+  displayLandingPage();
+
+  // mailing list
   displayMailingList();
 
+  // nav switching
   $(".tab-button").on("click", function(){
     var selected = $(this).attr('id').replace('-button', '');
 
@@ -48,7 +52,6 @@ rootPath = function() {
 loadSpeakers = function() {
   // should be "member-of-the-lineup" i guess...?
   $.get("./partials/speakers.html", function(template) {
-    console.log(template);
     var types = ['lecture', 'workshop', 'ritual', 'techgnosis', 'art']
     for( var i in types ) {
       var type = types[i];
@@ -69,6 +72,28 @@ goToPage = function(path){
   top.window.location.href = rootPath() +"/"+ path
   // send this as an event to google analytics
   gtag('event', 'page_view', {'page_path': path});
+}
+
+// display the landing page
+displayLandingPage = function() {
+  $("#landing-wrap").slideDown(1200, function() {
+    $("footer").hide();
+    // select all steps
+    $(".step").each(function(index) {
+      $(this).delay(600*index).fadeIn();
+    });
+  });
+}
+
+// hide the landing page
+hideLandingPage = function() {
+  $("#landing-wrap .close-button").fadeOut(300);
+  // fade out the components more quickly for a slower, smooter transition
+  $("#landing").fadeOut(1200);
+  $("#landing-wrap").fadeOut(3000, function() {
+    $("footer").show();
+    displayMailingList();
+  });
 }
 
 // display the mailing list sign-up form
