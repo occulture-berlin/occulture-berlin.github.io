@@ -621,19 +621,19 @@ events = [
     "title": "BAZI: The Four Pillars Of your Destiny",
     "type":"lecture",
     "avatarPath": "images/speakers/langlais-laurent-red.png",
-    "description": "<p>If you thought that Chinese astrology was about being a Monkey, Rat or Dragon, then you are in for a treat! We invite you to discover a wonderfully multi-layered system of Chinese astrology called the 4 Pillars of destiny, and also known as Bazi.</p><p>In this presentation, Laurent Langlais will introduce you to the system of the 4 Pillars of destiny, and shows you how to start reading the Bazi.  Each of us has 4 animals containing specific energies in our chart, as well as 5 Elements. There are about 13 millions combinations for each Bazi…The placement of each Pillar tell a precise story about karma, family dynamics, relationship potential, career and money, health, our best environment and most of all possible life missions…</p><p>The Bazi is a form of astrology that speaks about time and also connect with space and our greater call, through the decoding of a “spiritual DNA”. It is the embodiment of the concept of the 3 Lucks: Heaven, Human and Earth working together to manifest the shadow side or the best possible destiny.</p><p>The whole Bazi is a wonderful poetic map to discover who we truly are and know our exact timing and focus for each decade of our lives. The most exciting part is to combine this personal map with a spatial map in order to design our homes and work environments to support and fulfil the life potential seen in our astrology!</p>"
+    "description": "<p>If you thought that Chinese astrology was about being a Monkey, Rat or Dragon, then you are in for a treat! We invite you to discover a wonderfully multi-layered system of Chinese astrology called the 4 Pillars of destiny, and also known as Bazi.</p><p>In this presentation, Laurent Langlais will introduce you to the system of the 4 Pillars of destiny, and shows you how to start reading the Bazi.  Each of us has 4 animals containing specific energies in our chart, as well as 5 Elements. There are about 13 millions combinations for each Bazi…The placement of each Pillar tell a precise story about karma, family dynamics, relationship potential, career and money, health, our best environment and most of all possible life missions…</p><p>The Bazi is a form of astrology that speaks about time and also connect with space and our greater call, through the decoding of a 'spiritual DNA'. It is the embodiment of the concept of the 3 Lucks: Heaven, Human and Earth working together to manifest the shadow side or the best possible destiny.</p><p>The whole Bazi is a wonderful poetic map to discover who we truly are and know our exact timing and focus for each decade of our lives. The most exciting part is to combine this personal map with a spatial map in order to design our homes and work environments to support and fulfil the life potential seen in our astrology!</p>"
   },
   {
     "date":"sunday",
     "start": "12:30",
     "end": "13:00",
     "location": "below",
-    "name": "",
-    "searchString": "",
-    "title": "TBA",
-    "type":"organizational",
-    "avatarPath": "images/speakers/.png",
-    "description": ""
+    "name": "Ponte Vivx",
+    "searchString": "ponte-vivx",
+    "title": "Astrology Through the Lens of Intersectional Feminism",
+    "type":"lecture",
+    "avatarPath": "images/speakers/ponte-vivx-red.png",
+    "description": "Astrology is one of the fields of study that is often misunderstood or relegated to the back pages of magazines and pop astrology. It is rarely seen as a tool by which to expand your self awareness and view the world around you, much like psychology. Initially stigmatisation of astrology started by the church and was perpetuated by capitalism and other dominant forms of power. This is due to the fact that astrology advocates for cyclical forms of thinking rather than linear. This isn’t to say normative perspectives haven’t affected astrology, they definitely have. What we currently see however is a shift of many astrologers incorporating intersectional feminism into their work. This in turn re-emphasizes the original purpose of astrology, which is the ability to view occurrences as part of a totality rather than as fragments.</p><p>While some remain skeptical to the benefits astrology has to offer, others have found it a means to empower themselves and their communities. So how is it that astrology can help one gain a better understanding of themselves and the world around them, especially in these times of social and political unpredictability? I aim to provide a frame of understanding via a conducted self-analysis of individual birth charts, the significations of the planets as corresponding rulers to certain signs and houses. I will look at the importance of sun, moon and rising signs as well as the meaning of the planetary cycles in the chart and the facets of life they cover. This analysis will of course be approached through an intersectional feminist lens and through this analysis I seek to shed light on the totality that is us, individually and socially speaking. Through this recognition of strengths and weaknesses I find that self-empowerment can be attained and amplified."
   },
   {
     "date":"saturday",
