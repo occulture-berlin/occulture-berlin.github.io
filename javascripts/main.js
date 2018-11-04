@@ -80,7 +80,7 @@ displayLandingPage = function() {
     $("footer").hide();
     // select all steps
     $(".step").each(function(index) {
-      $(this).delay(600*index).fadeIn();
+      $(this).delay(700*index).fadeIn();
     });
   });
 }
