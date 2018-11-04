@@ -109,7 +109,7 @@ events = [
   },
   {
     "date":"sunday",
-    "start": "13:00",
+    "start": "13:30",
     "end": "14:30",
     "location": "below",
     "name": "",
@@ -633,7 +633,19 @@ events = [
     "title": "Astrology Through the Lens of Intersectional Feminism",
     "type":"lecture",
     "avatarPath": "images/speakers/ponte-vivx-red.png",
-    "description": "Astrology is one of the fields of study that is often misunderstood or relegated to the back pages of magazines and pop astrology. It is rarely seen as a tool by which to expand your self awareness and view the world around you, much like psychology. Initially stigmatisation of astrology started by the church and was perpetuated by capitalism and other dominant forms of power. This is due to the fact that astrology advocates for cyclical forms of thinking rather than linear. This isn’t to say normative perspectives haven’t affected astrology, they definitely have. What we currently see however is a shift of many astrologers incorporating intersectional feminism into their work. This in turn re-emphasizes the original purpose of astrology, which is the ability to view occurrences as part of a totality rather than as fragments.</p><p>While some remain skeptical to the benefits astrology has to offer, others have found it a means to empower themselves and their communities. So how is it that astrology can help one gain a better understanding of themselves and the world around them, especially in these times of social and political unpredictability? I aim to provide a frame of understanding via a conducted self-analysis of individual birth charts, the significations of the planets as corresponding rulers to certain signs and houses. I will look at the importance of sun, moon and rising signs as well as the meaning of the planetary cycles in the chart and the facets of life they cover. This analysis will of course be approached through an intersectional feminist lens and through this analysis I seek to shed light on the totality that is us, individually and socially speaking. Through this recognition of strengths and weaknesses I find that self-empowerment can be attained and amplified."
+    "description": "<p>Astrology is one of the fields of study that is often misunderstood or relegated to the back pages of magazines and pop astrology. It is rarely seen as a tool by which to expand your self awareness and view the world around you, much like psychology. Initially stigmatisation of astrology started by the church and was perpetuated by capitalism and other dominant forms of power. This is due to the fact that astrology advocates for cyclical forms of thinking rather than linear. This isn’t to say normative perspectives haven’t affected astrology, they definitely have. What we currently see however is a shift of many astrologers incorporating intersectional feminism into their work. This in turn re-emphasizes the original purpose of astrology, which is the ability to view occurrences as part of a totality rather than as fragments.</p><p>While some remain skeptical to the benefits astrology has to offer, others have found it a means to empower themselves and their communities. So how is it that astrology can help one gain a better understanding of themselves and the world around them, especially in these times of social and political unpredictability? I aim to provide a frame of understanding via a conducted self-analysis of individual birth charts, the significations of the planets as corresponding rulers to certain signs and houses. I will look at the importance of sun, moon and rising signs as well as the meaning of the planetary cycles in the chart and the facets of life they cover. This analysis will of course be approached through an intersectional feminist lens and through this analysis I seek to shed light on the totality that is us, individually and socially speaking. Through this recognition of strengths and weaknesses I find that self-empowerment can be attained and amplified.</p>"
+  },
+  {
+    "date":"sunday",
+    "start": "13:00",
+    "end": "13:30",
+    "location": "below",
+    "name": "Anastasia Shevchenko",
+    "searchString": "anastasia-shevchenko",
+    "title": "Disobeying the Forces: Taking the Destiny into your Hands?",
+    "type":"lecture",
+    "avatarPath": "images/speakers/shevchenko-anastasia-red.png",
+    "description": "<p>Astrology and other esoteric systems teach us that as living organisms [spirits] on this planet, we are influenced by a number of subtle forces of energetic and psychic character. These forces can 'posses' us, take over our beings, impact our state of mind and level of consciousness, having an effect on our perceptions, determining our character, but also our choices and subsequent actions, creating karmatic imprints and patterns of behavior, basically ruling our lives. What is there to do? Can one take the 'Destiny' into one's hands? Can one defy these forces and change, transform, and maybe even become free of these influences through a self-realization/karmatic liberation? Anastasia Shevchenko, a Berlin-based yogi of the past 15 years and the founder of the Berlin Yoga Conference, will lead this short discussion on what it takes to liberate oneself from the subtle/unconscious forces and to actively participate in the planetary evolution of consciousness.</p>"
   },
   {
     "date":"saturday",
