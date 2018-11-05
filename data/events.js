@@ -816,6 +816,18 @@ events = [
     "description": "<p>Anna Sebastian’s work explores Magical Histories, Haitian Vodou, mystecsim and Alchemy. Her particular area of investigation is the Haitian land of Gods and Spirits, Les Invisibles. For Occulture she is documenting Magical practitioners from ancient and recent history, as a deck of illustrated cards.</p><p>Anna graduated from Goldsmiths College in 2012 and the Royal Drawing School in 2015. She’s previously exhibited in Homesession Gallery, Barcelona, Mercer-Chance in London, DOX gallery Prague; and in Port au Prince, Haiti.</p>"
   },
   {
+    "date":"all",
+    "start": "",
+    "end": "",
+    "location": "",
+    "name": "Exhibiting Artist",
+    "searchString": "juan-dod",
+    "title": "Juan Dod",
+    "type":"art",
+    "avatarPath": "images/speakers/dod-juan-red.jpg",
+    "description": "<p>“As beautiful as the chance encounter of a sewing machine and an umbrella on an operating table.” ― Comte de LautréamoLa Tercera Mano was formed in Berlin  in 2013. Incorporates several media, such as text, engraving, drawing , collage, installation, live collage animation, and is primarily devoted to the (re)animation of various archival materials, objects and obsolete disciplines, Inspired by historical cabinet of wonders, pataphysical discoveries, blasphemy & christian iconography, relics of old times & objets trouvés, alchemistic hallucinations, the beauty of anatomy, Svankmajeresk Surrealism and a Bataillean philosophy their art and live animations take you into the twilight of a morbid and grotesque but aesthetically pleasing world.</p>"
+  },
+  {
     "date":"saturday",
     "start": "22:00",
     "end": "23:00",
