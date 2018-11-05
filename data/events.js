@@ -804,6 +804,18 @@ events = [
     "description": "<p>Shaltmira is Lithuanian artist, chaote, occultist, shapeshifter, nomad and enigma. Provocative, bold and has recognisable aesthetics, inspired by black metal and alchemical illustrations, as well as spiritual studies of ancient civilizations. Discordianism is natural for her, she is  always questioning the authority, society’s rules and norms. Her art has connections with human rights activism, radical performances are constructed to provoke the non-dualistic way of thought, the tools she uses involves a wide field of medias, starting with her own body as canvas for magick tattoos and expanding towards the rituals filmed in VR. Virtual space is her home. Shaltmira has risen from the underground and d.i.y. culture and simultaneously kept one foot in the academic space, at the moment finishing her MA in Graphics in Vilnius Art Academy and aiming for Doctor of Arts degree. Shaltmira’s creative field in wide and she is using different medias wisely to prove her point, which is inner monarchy. Recently Shaltmira expanded her creative field and started making sonic sigils with Michael Cashmore, culminating in TRANSFORMATION RITUAL, during the Psychic TV concert in Berlin. From murals to post-documentaries, from canvases to public speaking - everything she does has deep philosophical undertones. There is method to the chaos, and she knows it. Shaltmira is functioning as urban shaman, shaking up the rational mind in order to create the space for the miracle. She utilizes absurdity, mess and complexity,  randomness, high brow & low brow, and discordian humor and lives her life as if it would be the the piece of art itself. Angel to some, demons to others, she will open your heart chakra if you let her and reprogram your mind in a blink of the eye. Embrace her art as you embrace the Void. All is one and one is none! Be the bridge, there’s nothing more important to Shaltmira, than reaching the state of Love and Unity. She is disturbing the calm, and calming the disturbed one. Don’t be afraid, Universe is mental and it wants to play. 23. 93. 666.</p>"
   },
   {
+    "date":"all",
+    "start": "",
+    "end": "",
+    "location": "",
+    "name": "Exhibiting Artist",
+    "searchString": "anna-sebastian",
+    "title": "Anna Sebastian",
+    "type":"art",
+    "avatarPath": "images/speakers/sebastian-anna-red.png",
+    "description": "<p>Anna Sebastian’s work explores Magical Histories, Haitian Vodou, mystecsim and Alchemy. Her particular area of investigation is the Haitian land of Gods and Spirits, Les Invisibles. For Occulture she is documenting Magical practitioners from ancient and recent history, as a deck of illustrated cards.</p><p>Anna graduated from Goldsmiths College in 2012 and the Royal Drawing School in 2015. She’s previously exhibited in Homesession Gallery, Barcelona, Mercer-Chance in London, DOX gallery Prague; and in Port au Prince, Haiti.</p>"
+  },
+  {
     "date":"saturday",
     "start": "22:00",
     "end": "23:00",
