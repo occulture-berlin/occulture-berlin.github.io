@@ -833,6 +833,18 @@ events = [
     "end": "",
     "location": "",
     "name": "Exhibiting Artist",
+    "searchString": "amrei",
+    "title": "Amrei Hofstätter",
+    "type":"art",
+    "avatarPath": "images/speakers/hofstatter-amrei-red.png",
+    "description": "<p>Amrei Hofstätter is an artist and illustrator currently living and working in Berlin. Her digitally created works are geometric hallucinations of a world in which mostly female bodies merge with shapes and objects. The result of their union are surreal hybrids, whose existential purpose seems to consist of nothing other than the unfolding of flesh and spirit, facing the finality of absolute abstraction. Ritual, magic and alchemical iconography come together in playful settings, only to later reveal topics such as desires, trauma and self-mutilation, which ultimately converge into a unique existential problem: the wish for transformation in conflict with the fear of failure, resulting in total disappearance and extinction.</p><p>Amrei has shown her work in various international exhibitions. Clients and collaborators include BMW, Vans, Front Row Society and Manish Arora.</p>"
+  },
+  {
+    "date":"all",
+    "start": "",
+    "end": "",
+    "location": "",
+    "name": "Exhibiting Artist",
     "searchString": "shvlfce",
     "title": "SHVLFCE",
     "type":"art",
