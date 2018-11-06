@@ -828,6 +828,18 @@ events = [
     "description": "<p>“As beautiful as the chance encounter of a sewing machine and an umbrella on an operating table.” ― Comte de LautréamoLa Tercera Mano was formed in Berlin  in 2013. Incorporates several media, such as text, engraving, drawing , collage, installation, live collage animation, and is primarily devoted to the (re)animation of various archival materials, objects and obsolete disciplines, Inspired by historical cabinet of wonders, pataphysical discoveries, blasphemy & christian iconography, relics of old times & objets trouvés, alchemistic hallucinations, the beauty of anatomy, Svankmajeresk Surrealism and a Bataillean philosophy their art and live animations take you into the twilight of a morbid and grotesque but aesthetically pleasing world.</p>"
   },
   {
+    "date":"all",
+    "start": "",
+    "end": "",
+    "location": "",
+    "name": "Exhibiting Artist",
+    "searchString": "shvlfce",
+    "title": "SHVLFCE",
+    "type":"art",
+    "avatarPath": "images/speakers/shvlfce-red.jpg",
+    "description": "<p>As our world spills across it's axis, acquired knowlege influences behavior and eventually merges with a physical vessel. In our sapien form we will be summoned to develop a new relationship with our own bodies, as they emerge a new hybrid of bone and steel. The disintegration and re-integration of tissues and fluid polygon.</p><p>Emergence of accelerated forms is the focus of drawings of artist Clement von Holstein aka SHVLFCE. His intricately detailed drawings reveal a seductive new world of stunning forms that fluidly interlace flesh, tech and architecture.</p><p>Hyper surrealism can be defined through a complex geometric fabric that hyperbolizes matter and it's interaction with the laws that govern it. Pioneered by SHVLFCE, this register of composition was developed through studies in architecture, industrial design and illustration. Inspired by process and change, organic and inorganic, Hyper-surrealism engages a more technical driven side of imagery while retaining a classical execution and breathing narrative. Typically displayed in pen and ink but never restrained to one medium, the arrangements portrayed through these pieces are meant to reflect the nuance of probability and the magnitude of consciousness.</p><p>SHVLFCE will be bringing a series of images exclusive to the occulture conference, and premiering new concepts within his porfolio never before seen.</p>"
+  },
+  {
     "date":"saturday",
     "start": "22:00",
     "end": "23:00",
