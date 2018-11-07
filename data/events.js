@@ -304,7 +304,7 @@ events = [
     "start": "14:30",
     "end": "16:00",
     "location": "below",
-    "name": "Janet Farrar",
+    "name": "Janet Farrar & Gavin Bone",
     "searchString": "farrar-workshop",
     "title": "The Chalice and the Grail: Working with Polarity Magic",
     "type":"workshop",
