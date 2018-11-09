@@ -338,7 +338,7 @@ events = [
   {
     "date":"sunday",
     "start": "19:30",
-    "end": "20:30",
+    "end": "21:30",
     "location": "above",
     "name": "Ordo Templi Orientis",
     "searchString": "liber-xv-the-gnostic-mass",
