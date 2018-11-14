@@ -532,12 +532,12 @@ events = [
     "start": "14:30",
     "end": "15:00",
     "location": "above",
-    "name": "",
+    "name": "Carl H Smith and Sarah Janes",
     "searchString": "cyberdelic-society",
-    "title": "TBA",
-    "type":"organizational",
-    "avatarPath": "images/speakers/.png",
-    "description": ""
+    "title": "Techgnosis and the Occult",
+    "type":"lecture",
+    "avatarPath": "images/speakers/smith-and-janes-red.png",
+    "description": "<p>Technology began as biomimicry. Art imitates life and eventually life begins to imitate art. The earliest technologies of civilisation: cave painting, sculpture, language and writing - created new dimensions and tools for magickal thinking, for the creation of whatever particular version of reality we now inhabit. Could ancient pedagogies be applied to modern technologies, to facilitate the magickal thinking we seem to increasingly lose? There is a possibility for today’s immersive technologies to allow us to access hidden realms of reality. The way of seeing that is employed within lucid dream states has direct parallels with what we experience whilst navigating in Virtual Reality. This indicates we can use these tools to cultivate a process of ‘seeing through’ rather than ‘looking at’, generating new forms of experience and non-ordinary states of consciousness.</p><p>New technologies offer us an opportunity to enter the looking-glass, where we can consciously inhabit new worlds of our own invention. What happens when we move beyond devices that augment our reality and instead, alter our senses directly? This pushes our known senses to the limit. It follows that artificial senses could perhaps be used to access a wider perception of reality, including that of other Umwelts. Should we look beyond Hyper Humanism to Trans-Species frameworks that give us a greater dynamic range in the felt understanding of reality? Can this help to generate a universal non-dual operating system? In the spirit of the Mystery Schools of antiquity, technology can open a portal to a new, deeper level of understanding but as we make the future by first imagining it, it follows that to keep dreams real we must avoid creating artificial paradises.</p>"
   },
   {
     "date":"saturday",
