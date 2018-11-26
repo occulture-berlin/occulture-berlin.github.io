@@ -295,6 +295,32 @@ footer {
   cursor: pointer;
 }
 
+#mailing-list-main {
+  padding-top: 1em;
+  vertical-align: middle;
+  font-family: 'Metamorphous';
+}
+
+#mailing-list-main form {
+  text-align: center;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+#mailing-list-main form #tlemail {
+  width: 40%;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#mailing-list-main form .button {
+  vertical-align: middle;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: none;
+}
+
 #mailing-list-boop-boop {
   background: #000;
   position: fixed;
@@ -482,7 +508,7 @@ section {
 #high-priority-information {
   color: darkred;
   font-family: 'Metamorphous', cursive;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 a.schedule-link {

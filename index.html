@@ -33,6 +33,7 @@
 
   <body onLoad="loadSpeakers()">
 
+    <!--
     <section id="landing-wrap" class="outer">
       <div id="landing" class="inner center">
         <img id="logo" class="hidden step" src="images/occulture-logo-alpha.png" alt="Occulture Berlin">
@@ -73,6 +74,7 @@
         </div>
       </div>
     </section>
+    -->
 
     <!-- HEADER -->
     <div id="enochian-alphabet">
@@ -86,6 +88,7 @@
     </div>
 
     <div id="high-priority-information-wrap" class ="outer">
+      <!--
       <section id="high-priority-information" class="inner center">
         NOVEMBER 16-18, 2018
       </section>
@@ -94,6 +97,21 @@
         <a class='schedule-link'
           onclick="goToPage('2018/schedule.html')">timetable available now</a>
       </section>
+      -->
+      <section id="high-priority-information" class='inner center'>
+        Thanks to everyone who participated in OCCULTURE 2018!
+      </section>
+
+      <section id="mailing-list-main" class='inner center'>
+         <div>Subscribe for updates and information about future events:</div>
+         <form action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+           onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+           <input type="text" name="email" id="tlemail" />
+           <input type="hidden" value="1" name="embed"/>
+           <input type="submit" value="Subscribe" class="button"/>
+         </form>
+      </section>
     </div>
 
     <!-- MAIN CONTENT -->
@@ -101,14 +119,16 @@
     <div id="nav-wrap" class="outer">
       <ul id="nav" class="inner center">
         <li id="lineup-button" class="tab-button">
-          Lineup
+          2018 Lineup
         </li>
+        <!--
         <li id="tickets-button" class="tab-button">
           Tickets
         </li>
         <li id="venue-button" class="tab-button">
           Venue
         </li>
+        -->
         <li id="contact-button" class="tab-button">
           Contact
         </li>
@@ -139,6 +159,7 @@
       </ul>
     </div>
 
+    <!--
     <table id='main-ticket-button' class='buy-ticket-table'>
       <script src="https://www.universe.com/embed2.js" data-state=""></script>
         <tr>
@@ -153,6 +174,7 @@
           </td>
         </tr>
     </table>
+    -->
 
     <div id="lineup-wrap" class="outer">
       <section id="lineup" class="tab sub-navigable inner center hidden"></section>
