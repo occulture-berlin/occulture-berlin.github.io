@@ -5,10 +5,10 @@ $(document).ready(function() {
   };
 
   // landing page
-  displayLandingPage();
+  // displayLandingPage();
 
   // mailing list
-  displayMailingList();
+  // displayMailingList();
 
   // nav switching
   $(".tab-button").on("click", function(){
@@ -16,7 +16,8 @@ $(document).ready(function() {
 
     // remove initially visible elements
     $("#main-ticket-button").hide();
-    $("#high-priority-information-wrap").hide();
+    // don't hide the high priority information for now
+    //$("#high-priority-information-wrap").hide();
 
     // clear 'selected' and designate the currently selected tab-button
     $("#nav>li.selected").removeClass("selected");
