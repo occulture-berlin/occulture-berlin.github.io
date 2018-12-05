@@ -228,30 +228,6 @@ events = [
     "description": ""
   },
   {
-    "date":"saturday",
-    "start": "21:00",
-    "end": "00:00",
-    "location": "below",
-    "name": "DJ Set",
-    "searchString": "visions-dj-set",
-    "title": "Visions",
-    "type":"organizational",
-    "avatarPath": "images/black-moon.png",
-    "description": ""
-  },
-  {
-    "date":"friday",
-    "start": "23:00",
-    "end": "",
-    "location": "below",
-    "name": "DJ Set",
-    "searchString": "jimmy-trash-dj-set",
-    "title": "Jimmy Trash",
-    "type":"organizational",
-    "avatarPath": "images/black-moon.png",
-    "description": ""
-  },
-  {
     "date":"sunday",
     "start": "18:30",
     "end": "19:15",
@@ -259,18 +235,6 @@ events = [
     "name": "Panel Discussion",
     "searchString": "magicians-on-drugs",
     "title": "Magicians on Drugs with Psy Press",
-    "type":"organizational",
-    "avatarPath": "images/black-moon.png",
-    "description": ""
-  },
-  {
-    "date":"sunday",
-    "start": "20:00",
-    "end": "22:00",
-    "location": "below",
-    "name": "Witches are back",
-    "searchString": "witches-are-back",
-    "title": " Espectra Negra live show - Suit Key Dj set",
     "type":"organizational",
     "avatarPath": "images/black-moon.png",
     "description": ""
