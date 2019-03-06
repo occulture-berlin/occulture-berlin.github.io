@@ -1,0 +1,146 @@
+---
+layout: default
+title: OCCULTURE Berlin
+onLoadAction: loadSpeakers()
+---
+
+/ display landing page, remember to uncomment displayLandingPage() in main.js
+/ {% haml landing_page.haml %}
+
+#high-priority-information-wrap.outer
+  %section#high-priority-information.inner.center
+    Thanks to everyone who participated in OCCULTURE 2018!
+  %section#mailing-list-main.inner.center
+    %div Subscribe for updates and information about future events:
+    %form{action: "https://tinyletter.com/occulture-berlin", method: "post", onsubmit: "window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true", target: "popupwindow"}
+      %input#tlemail{name: "email", type: "text"}
+      %input{name: "embed", :type => "hidden", value: "1"}
+      %input.button{type: "submit", value: "Subscribe"}
+
+
+/ MAIN CONTENT
+/ Nav buttons
+#nav-wrap.outer
+  %ul#nav.inner.center
+    %li#lineup-button.tab-button 2018 Lineup
+    / %li#tickets-button.tab-button Tickets
+    / %li#venue-button.tab-button Venue
+    %li#contact-button.tab-button Contact
+    / adblock hides this if it's called 'sponsors'
+    %li#those-who-support-us-financially-button.tab-button Partners
+  %ul#lineup-sub-nav.sub-nav.inner.center.hidden
+    %li#lecture-button.tab-button Lectures
+    %li#workshop-button.tab-button Workshops
+    %li#ritual-button.tab-button Rituals
+    %li#art-button.tab-button Artists
+
+/ <table id='main-ticket-button' class='buy-ticket-table'>
+/   <script src="https://www.universe.com/embed2.js" data-state=""></script>
+/     <tr>
+/       <td class='image-holder left-image'>
+/         <img src="images/earth.png" alt="Alchemical Earth">
+/       </td>
+/       <td>
+/         <a href="https://www.universe.com/events/occulture-esoteric-conference-tickets-berlin-KGY0F5?ref=main-ticket-button">Get Tickets</a>
+/       </td>
+/       <td class='image-holder right-image'>
+/         <img src="images/earth.png" alt="Alchemical Earth">
+/       </td>
+/     </tr>
+/ </table>
+
+#lineup-wrap.outer
+  %section#lineup.tab.sub-navigable.inner.center.hidden
+  %section#lecture.tab.sub-tab.inner.center.hidden
+  %section#workshop.tab.sub-tab.inner.center.hidden
+  %section#ritual.tab.sub-tab.inner.center.hidden
+  %section#art.tab.sub-tab.inner.center.hidden
+
+/#tickets-wrap.outer
+/  %section#tickets.tab.inner.center.hidden
+/    %p
+/      Occulture is a blending of the words "occult" and "culture" popularized
+/      by Christopher Partridge - a fusion which signifies the ethereal
+/      influence they exert between each other.
+/    %p
+/      The occult deeply influences our culture, but how does culture
+/      influence the occult? What of the sub-cultures moving under the
+/      surface, the citizens of the esoteric circles of our world?
+/    %p
+/      Join us 16-18 November, 2018 in Berlin to explore the hidden world
+/      beneath and between us through lectures, workshops, rituals, virtual
+/      reality experiences, divination, performances, music and exhibitions
+/      of occult art.
+/    %p Join your will with ours this November in Berlin.
+/    %section#ticket-columns
+/      #left-column.column
+/        .image-holder.left-image
+/          %img{alt: "Alchemical Pointer", src: "images/alchemical-pointer-left.png"}/
+/      #center-column.column
+/        #ticket-prices-banner Ticket Prices:
+/        %table#prices
+/          %tr.strike-through
+/            %td.ticket-type Initiate
+/            %td.ticket-price 77.7€
+/          %tr
+/            %td.ticket-type Novice
+/            %td.ticket-price 99.9€
+/          %tr
+/            %td.ticket-type Adept
+/            %td.ticket-price 111€
+/          %tr
+/            %td.ticket-type Master
+/            %td.ticket-price 133.3€
+/        .buy-ticket-button
+/          %script{"data-state": "", src: "https://www.universe.com/embed2.js"}
+/          %a.button{href: "https://www.universe.com/events/occulture-esoteric-conference-tickets-berlin-KGY0F5?ref=ticket-section-button"} Get Tickets
+/      #right-column.column
+/        .image-holder.right-image
+/          %img{alt: "Alchemical Pointer", src: "images/alchemical-pointer-right.png"}
+
+#venue-wrap.outer
+  %section#venue.tab.inner.center.hidden
+    #map.center
+      %iframe{allowfullscreen:"", height: "450", src: "https://www.google.com/maps?q=Flutgraben eV&output=embed&z=15", width: "80%"}
+
+#contact-wrap.outer
+  %section#contact.tab.inner.center.hidden
+    %p
+      Want to get in touch? Send us a message at
+      %a{href: "mailto:info@occultureberlin.org"} info@occultureberlin.org
+    /
+      <p>
+      The primary call for abstracts is now closed! We are still accepting proposals
+      for artistic installations (paintings, photos, sculpture, et al) and
+      diviners (tarot card readers, palm readers, et al) so please contact
+      us if you wish to be involved in one of these categories.
+      </p>
+
+/ adblock hides this tab if it's called 'sponsors'
+#those-who-support-us-financially-wrap.outer
+  %section#those-who-support-us-financially.tab.inner.center.hidden
+    / monterey not set for https
+    %a{href: "http://montereybar.com?redirect-from=occultureberlin"}
+      %span.vertical-spacer
+      %img{alt: "Monterey Bar", src: "images/monterey-logo.png"}/
+    %a{href: "https://www.anathemapublishing.com?redirect-from=occultureberlin"}
+      %span.vertical-spacer
+      %img{alt: "Anathema Publishing", src: "images/anathema-logo-03.png"}/
+    %a{href: "https://psychedelicpress.co.uk?redirect-from=occultureberlin"}
+      %span.vertical-spacer
+      %img{alt: "Psychedelic Press", src: "images/psy-press.png"}/
+    %a{href: "https://www.okultura.pl?redirect-from=occultureberlin"}
+      %span.vertical-spacer
+      %img{alt: "Okultura", src: "images/okultura-logo.png"}/
+    %a{href: "https://www.facebook.com/villaggiodellaluna/"}
+      %span.vertical-spacer
+      %img{alt: "Villaggio Della Luna", src: "images/villaggio-della-luna.png"}/
+    %a{href: "https://scarletimprint.com?redirect-from=occultureberlin"}
+      %span.vertical-spacer
+      %img{alt: "Scarlet Imprint", src: "images/scarlet-imprint-logo.png"}/
+    %a{href: "https://cycliclaw.com?redirect-from=occultureberlin"}
+      %span.vertical-spacer
+      %img{alt: "Cyclic Law", src: "images/cyclic-law-logo.png"}/
+    %a{href: "https://berlinyogaconference.org?redirect-from=occultureberlin"}
+      %span.vertical-spacer
+      %img{alt: "Berlin Yoga Conference", src: "images/BYC-logo.png"}/

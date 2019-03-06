@@ -1,0 +1,21 @@
+%section#landing-wrap.outer
+  #landing.inner.center
+    %img#logo.hidden.step{:alt => "Occulture Berlin", :src => "images/occulture-logo-alpha.png"}
+      #high-priority-information NOVEMBER 16-18, 2018
+      #what-we-offer
+        %ul
+          %li.hidden.step 30+ hours of curated events
+          %li.hidden.step 50+ speakers, artists and performers
+          %li.hidden.step Lectures, workshops  rituals
+          %li.hidden.step Esoteric virtual reality experiences
+          %li.hidden.step Exhibitions of esoteric art
+          %li.hidden.step Evenings with live music, films  divination
+        #ticket-button-wrap.hidden.step
+          .buy-ticket-button
+            %script{"data-state" => "", :src => "https://www.universe.com/embed2.js"}
+            %a.button{:href => ""} Get Tickets
+        #schedule-button-wrap.hidden.step
+          #schedule-button
+            %a.button{:onclick => "goToPage('2018/schedule')"} view timetable
+    .close-button.hidden.step{:onclick => "hideLandingPage()"} continue to site
+
