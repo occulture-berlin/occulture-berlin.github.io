@@ -689,8 +689,14 @@ a.schedule-link {
   margin: 0 auto;
 }
 
-.paypal-wrapper a {
-  color: white;
+.sigil-of-attraction {
+  width: 13em;
+}
+
+#donation-text {
+  font-family: "Metamorphous";
+  font-size: 1.2em;
+  color: darkred;
 }
 
 ul.donation-method {
@@ -703,6 +709,11 @@ ul.donation-method {
   float: left;
   margin-bottom: 2em;
 }
+
+.paypal-wrapper a {
+  color: white;
+}
+
 
 code.donation-address {
   letter-spacing: -1px;
