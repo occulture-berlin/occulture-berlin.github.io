@@ -1,15 +1,27 @@
-<!DOCTYPE html>
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
 <html>
   <head>
-    <title>Impressum</title>
+    <title>OCCULTURE Berlin | Impressum</title>
 
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description"          content="OCCULTURE Esoteric Conference Berlin">
-    <meta property="og:url"           content="http://www.occultureberlin.org" />
+    <meta name="description"          content="Imprint information for OCCULTURE Esoteric Conference">
+    <meta property="og:url"           content="/impressum.html" />
     <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="OCCULTURE Berlin" />
-    <meta property="og:description"   content="OCCULTURE Esoteric Conference Berlin" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Impressum" />
+    <meta property="og:description"   content="Imprint information for OCCULTURE Esoteric Conference" />
     <meta property="og:image"         content="https://www.occultureberlin.org/images/open-graph.png" />
     <meta property="og:site_name"     content="OCCULTURE Berlin" />
 
@@ -31,13 +43,19 @@
     <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
   </head>
 
-  <body>
+  <body onLoad="">
     <!-- HEADER -->
     <div id="enochian-alphabet">
       <img src='images/enochian-alphabet-alpha.png'>
     </div>
 
-    </br>
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('index.html')">
+          <img id="logo" src="images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
 
     <div class='outer' id='impressum'>
 <section class='inner'>
@@ -90,15 +108,29 @@ Dieses Impressum wurde freundlicherweise von www.jurarat.de zur Verfügung geste
     <footer id="footer-wrap" class="outer">
       <div id='footer-links' class='inner'>
         <ul>
-          <li><a onclick="goToPage('index.html')">Home</a></li>
+          <li><a onclick="goToPage('impressum.html')">Impressum</a></li>
         </ul>
       </div>
     </footer>
   </body>
 
+  <section id="mailing-list-boop-boop" class='outer hidden'>
+     <form action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+       onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+       <label for="tlemail">Subscribe for updates and information about future events:</label>
+       <input type="text" name="email" id="tlemail" />
+       <input type="hidden" value="1" name="embed"/>
+       <input type="submit" value="Subscribe" class="button"/>
+     </form>
+     <div class="close-button" onclick="hideMailingList()">x</div>
+  </section>
+
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
     type="text/javascript">
   </script>
+  <script src="javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="data/events.js" type="text/javascript"></script>
   <script src="javascripts/main.js" type="text/javascript"></script>
 </html>
