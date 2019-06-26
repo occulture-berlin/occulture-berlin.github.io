@@ -329,9 +329,10 @@ footer {
 #mailing-list-boop-boop {
   background: #000;
   position: fixed;
-  top: 0;
-  padding-top: 1em;
-  border-bottom: 2px solid #DCE0DF;
+  bottom: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-top: 2px solid #DCE0DF;
 }
 
 #mailing-list-boop-boop form {
@@ -466,11 +467,18 @@ hr {
   background: url('../images/bg_hr.png') repeat-x center;
 }
 
+/* button styling */
+
+#styles-2018 .button {
+  color: darkred;
+  background: #DCE0DF;
+}
+
 .button {
   font-family: keepCalm;
+  color: gold;
   text-transform: uppercase;
-  background: #DCE0DF;
-  color: darkred;
+  background: black;
   padding: 1em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
