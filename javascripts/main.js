@@ -8,7 +8,7 @@ $(document).ready(function() {
   // displayLandingPage();
 
   // mailing list
-  // displayMailingList();
+  displayMailingList();
 
   // nav switching
   $(".tab-button").on("click", function(){
