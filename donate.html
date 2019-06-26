@@ -6,12 +6,18 @@
   description - meta tag description
   url - meta tag url
   image - open graph image displayed in previews
+  background_image - image in the background of the site
+  background_image_id - css id for the background image
   onLoadAction - javascript function to run on page load
 
 -->
 
 <!DOCTYPE HTML>
 <html>
+  <span id="sigil-of-attraction">
+    <img id='bg-image' src="images/sigil-of-attraction.png">
+  </span>
+
   <head>
     <title>OCCULTURE Berlin | Donate</title>
 
@@ -45,10 +51,6 @@
 
   <body onLoad="">
     <!-- HEADER -->
-    <div id="enochian-alphabet">
-      <img src='images/enochian-alphabet-alpha.png'>
-    </div>
-
     <div id="header_wrap" class="outer">
       <header class="inner">
         <a onclick="goToPage('index.html')">
@@ -57,55 +59,7 @@
       </header>
     </div>
 
-    <div class='outer' id='sigil-wrap'>
-<section class='inner center'>
-<img class='sigil-of-attraction' src='/images/sigil-of-attracting-money.png'>
-</section>
-</div>
-<div class='outer' id='donation-text-wrap'>
-<section class='inner center' id='donation-text'>
-All donated funds will support OCCULTURE by paying for venues, speakers, staff and other expenses. If you'd like to make a donation toward a specific end or if you're interested in sponsoring OCCULTURE through your business, please contact us at
-<a href='mailto:info@occultureberlin.org'>info@occultureberlin.org</a>
-</section>
-</div>
-<!-- MAIN CONTENT -->
-<div class='outer' id='donation-methods-wrap'>
-<section class='inner center' id='donation-methods'>
-<ul class='donation-method btc-wrapper center'>
-<li class='logo-wrap'>
-<img alt='bitcoin' class='crypto-logo' src='/images/btc.png'>
-</li>
-<li>
-<img alt='bitcoin-qr-code' class='qr-code' src='/images/btc-1-qr.png'>
-</li>
-<li>
-<code class='donation-address'>138dGGYfqWKivAABhUpsucW5qibXpXUgqr</code>
-</li>
-</ul>
-<ul class='donation-method paypal-wrapper center'>
-<li class='logo-wrap'>
-<img alt='paypal' class='crypto-logo' src='/images/paypal.png'>
-</li>
-<li>
-<img alt='paypal-qr-code' class='qr-code' src='/images/paypal-1-qr.png'>
-</li>
-<li>
-<code class='donation-address'><a href='https://www.paypal.me/occultureberlin'>Donate with paypal</a></code>
-</li>
-</ul>
-<ul class='donation-method eth-wrapper center'>
-<li class='logo-wrap'>
-<img alt='ethereum' class='crypto-logo' src='/images/eth.png'>
-</li>
-<li>
-<img alt='ethereum-qr-code' class='qr-code' src='/images/eth-1-qr.png'>
-</li>
-<li>
-<code class='donation-address'>0xFB862520c3665117C25305A040A47C40e1aAb408</code>
-</li>
-</ul>
-</section>
-</div>
+    <div class='outer' id='donation-text-wrap'><section class='inner center' id='donation-text'>All donated funds will support OCCULTURE by paying for venues, speakers, staff and other expenses. If you'd like to make a donation toward a specific end or if you're interested in sponsoring OCCULTURE as a business, please contact us at &nbsp;<a href='mailto:info@occultureberlin.org'>info@occultureberlin.org</a></section></div><!-- MAIN CONTENT --><div class='outer' id='donation-methods-wrap'><section class='inner center' id='donation-methods'><ul class='donation-method btc-wrapper center'><li class='logo-wrap'><img alt='bitcoin' class='crypto-logo' src='/images/btc.png'></li><li><img alt='bitcoin-qr-code' class='qr-code' src='/images/btc-1-qr.png'></li><li><code class='donation-address'>138dGGYfqWKivAABhUpsucW5qibXpXUgqr</code></li></ul><ul class='donation-method paypal-wrapper center'><li class='logo-wrap'><img alt='paypal' class='crypto-logo' src='/images/paypal.png'></li><li><img alt='paypal-qr-code' class='qr-code' src='/images/paypal-1-qr.png'></li><li><code class='donation-address'><a href='https://www.paypal.me/occultureberlin'>Donate with paypal</a></code></li></ul><ul class='donation-method eth-wrapper center'><li class='logo-wrap'><img alt='ethereum' class='crypto-logo' src='/images/eth.png'></li><li><img alt='ethereum-qr-code' class='qr-code' src='/images/eth-1-qr.png'></li><li><code class='donation-address'>0xFB862520c3665117C25305A040A47C40e1aAb408</code></li></ul></section></div>
 
 
     <!-- FOOTER -->
@@ -122,7 +76,7 @@ All donated funds will support OCCULTURE by paying for venues, speakers, staff a
      <form action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
        onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 
-       <label for="tlemail">Subscribe for updates and information about future events:</label>
+       <label for="tlemail">Subscribe for updates and information about OCCULTURE:</label>
        <input type="text" name="email" id="tlemail" />
        <input type="hidden" value="1" name="embed"/>
        <input type="submit" value="Subscribe" class="button"/>

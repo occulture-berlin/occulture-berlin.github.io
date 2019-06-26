@@ -142,18 +142,6 @@ body {
   padding-bottom: 0.5rem;
 }
 
-#enochian-alphabet {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#enochian-alphabet img {
-  width: 62em;
-  opacity: 0.19;
-}
-
 #main-ticket-button {
   position: relative; /* otherwise this is hidden by the absolute positioning of the seal */
   text-align: center;
@@ -270,6 +258,17 @@ body {
   clear: both;
 }
 
+#venue #map img {
+  width: 45%;
+  height: 450px;
+  opacity: 0.9;
+}
+
+#venue #map iframe {
+  width: 45%;
+  height: 450px;
+}
+
 /* https://stackoverflow.com/a/20352949/2128691 */
 body::after {
   content: '';
@@ -382,14 +381,20 @@ footer {
   color: #DCE0DF;
 }
 
-a {
-  cursor: pointer;
-  text-decoration: none;
+/* link styling */
+
+#styles-2018 a {
   color: darkred;
 }
 
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: gold;
+}
+
 a:visited {
-  color: darkred;
+  color: gold;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -497,6 +502,29 @@ section {
   font-size: 1.25em;
 }
 
+#bg-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#suspension-performance #bg-image {
+  margin-top: -1em;
+  opacity: 0.5;
+}
+
+#sigil-of-attraction #bg-image {
+  width: 60em;
+  opacity: 0.22;
+}
+
+#enochian-alphabet #bg-image {
+  width: 62em;
+  opacity: 0.19;
+}
+
+
 #header_wrap .inner {
   padding: 55px 10px 25px 10px;
 }
@@ -506,15 +534,21 @@ section {
   border: none;
   box-shadow: none;
   display: block;
-  margin-top: 12em;
+  margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
 }
 
 #high-priority-information {
-  color: darkred;
+  color: white;
+  text-shadow: 2px 5px 51px gold;
   font-family: 'Metamorphous', cursive;
   font-size: 2em;
+}
+
+#high-priority-information-wrap img {
+  width: 35vw;
+  opacity: 0.75;
 }
 
 a.schedule-link {
@@ -530,7 +564,8 @@ a.schedule-link {
 
 #nav li {
   font-family: 'Metamorphous', cursive;
-  color: darkred;
+  color: gold;
+  text-shadow: 6px 2px 6px black;
   text-transform: uppercase;
   font-size: 1.8em;
   display: inline-block;
@@ -689,21 +724,11 @@ a.schedule-link {
   margin: 0 auto;
 }
 
-.sigil-of-attraction {
-  width: 13em;
-}
-
-#donation-text {
-  width: 55%;
-  font-size: 1.2em;
-}
-
 ul.donation-method {
   padding: 0;
 }
 
 .donation-method {
-  background: rgba(0,0,0,0.35);
   width: 33%;
   float: left;
   margin-bottom: 2em;
@@ -751,6 +776,17 @@ Small Device Styles
   }
 }
 
+@media (max-width: 1500px) {
+  #venue #map img {
+    width: 80%;
+    height: auto;
+  }
+
+  #venue #map iframe {
+    width: 80%;
+  }
+}
+
 @media (max-width: 1120px) {
   #mailing-list-boop-boop form label {
     display: block;
@@ -775,10 +811,6 @@ Small Device Styles
 
   #tickets #ticket-columns .buy-ticket-button {
     font-size: 1em;
-  }
-
-  .donation-method {
-    width: 100%;
   }
 }
 
@@ -826,6 +858,10 @@ Small Device Styles
   .event-wrap .info-wrap {
     text-align: center;
     margin-left: 0;
+  }
+
+  .donation-method {
+    width: 100%;
   }
 }
 

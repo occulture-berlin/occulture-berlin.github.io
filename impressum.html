@@ -6,12 +6,18 @@
   description - meta tag description
   url - meta tag url
   image - open graph image displayed in previews
+  background_image - image in the background of the site
+  background_image_id - css id for the background image
   onLoadAction - javascript function to run on page load
 
 -->
 
 <!DOCTYPE HTML>
 <html>
+  <span id="enochian-alphabet">
+    <img id='bg-image' src="images/enochian-alphabet-alpha.png">
+  </span>
+
   <head>
     <title>OCCULTURE Berlin | Impressum</title>
 
@@ -45,10 +51,6 @@
 
   <body onLoad="">
     <!-- HEADER -->
-    <div id="enochian-alphabet">
-      <img src='images/enochian-alphabet-alpha.png'>
-    </div>
-
     <div id="header_wrap" class="outer">
       <header class="inner">
         <a onclick="goToPage('index.html')">
@@ -118,7 +120,7 @@ Dieses Impressum wurde freundlicherweise von www.jurarat.de zur Verfügung geste
      <form action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
        onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 
-       <label for="tlemail">Subscribe for updates and information about future events:</label>
+       <label for="tlemail">Subscribe for updates and information about OCCULTURE:</label>
        <input type="text" name="email" id="tlemail" />
        <input type="hidden" value="1" name="embed"/>
        <input type="submit" value="Subscribe" class="button"/>

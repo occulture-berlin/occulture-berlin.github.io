@@ -61,11 +61,17 @@ loadSpeakers = function() {
 
 // NB: the 'events' variable is set in data/events.js
 collectSpeakers = function(){
-  // if no speaker name is given, return all events in (mostly) random order
-  // stackoverflow.com/a/38571132/2128691
+  // if no speaker name is given, return all non-org events
+  // the following link is for randomish sorting - now not used
+  // stackoverflow.com/a/38571132/2128691 (this is for random-ish sorting)
+  // var shuffled = events.sort(() => .5 - Math.random());
+
   if(requestedSpeaker() === null) {
-    var shuffled = events.sort(() => .5 - Math.random());
-    return shuffled
+    var filtered = events.filter(function(object){
+      return object.type !== 'organizational';
+    });
+
+    return filtered
   };
 
   return [requestedSpeaker()]; // return as a collection
