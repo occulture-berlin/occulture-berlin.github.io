@@ -4,6 +4,8 @@ title: "OCCULTURE Berlin"
 description: "OCCULTURE Esoteric Conference Berlin"
 url: https://www.occultureberlin.org
 image: https://www.occultureberlin.org/images/open-graph.png
+background_image: images/suspension-performance-2018.jpg
+background_image_id: suspension-performance
 onLoadAction: loadSpeakers()
 ---
 
@@ -12,25 +14,21 @@ onLoadAction: loadSpeakers()
 
 #high-priority-information-wrap.outer
   %section#high-priority-information.inner.center
-    Thanks to everyone who participated in OCCULTURE 2018!
-  %section#mailing-list-main.inner.center
-    %div Subscribe for updates and information about future events:
-    %form{action: "https://tinyletter.com/occulture-berlin", method: "post", onsubmit: "window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true", target: "popupwindow"}
-      %input#tlemail{name: "email", type: "text"}
-      %input{name: "embed", :type => "hidden", value: "1"}
-      %input.button{type: "submit", value: "Subscribe"}
-
+    31 OCTOBER - 03 NOVEMBER 2019
+    %br @MUZIKBRAUERI IN BERLIN
 
 / MAIN CONTENT
 / Nav buttons
 #nav-wrap.outer
   %ul#nav.inner.center
-    %li#lineup-button.tab-button 2018 Lineup
+    %li#lineup-button
+      %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
     / %li#tickets-button.tab-button Tickets
-    / %li#venue-button.tab-button Venue
+    %li#venue-button.tab-button Venue
     %li#contact-button.tab-button Contact
+    %li#donate-button.tab-button Donate
     / adblock hides this if it's called 'sponsors'
-    %li#those-who-support-us-financially-button.tab-button Partners
+    /%li#those-who-support-us-financially-button.tab-button Partners
   %ul#lineup-sub-nav.sub-nav.inner.center.hidden
     %li#lecture-button.tab-button Lectures
     %li#workshop-button.tab-button Workshops
@@ -104,7 +102,9 @@ onLoadAction: loadSpeakers()
 #venue-wrap.outer
   %section#venue.tab.inner.center.hidden
     #map.center
-      %iframe{allowfullscreen:"", height: "450", src: "https://www.google.com/maps?q=Flutgraben eV&output=embed&z=15", width: "80%"}
+      %img{alt: 'Musikbrauerei exterior', src: 'images/musikbrauerei.jpg'}
+      %iframe{allowfullscreen:"",
+        src: "https://www.google.com/maps?q=Muzikbrauerei&output=embed&z=15"}
 
 #contact-wrap.outer
   %section#contact.tab.inner.center.hidden
@@ -118,6 +118,10 @@ onLoadAction: loadSpeakers()
       diviners (tarot card readers, palm readers, et al) so please contact
       us if you wish to be involved in one of these categories.
       </p>
+
+#donate-wrap.outer
+  %section#donate.tab.inner.center.hidden
+    {% haml donate.haml %}
 
 / adblock hides this tab if it's called 'sponsors'
 #those-who-support-us-financially-wrap.outer
