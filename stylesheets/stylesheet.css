@@ -559,6 +559,14 @@ section {
   opacity: 0.75;
 }
 
+#high-priority-information-wrap #tickets-wrap a {
+  font-family: 'keepcalm';
+  font-size: 2em;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 5px black;
+  letter-spacing: 2px;
+}
+
 a.schedule-link {
   color: #dce0df;
   font-family: keepCalm;
@@ -614,27 +622,15 @@ a.schedule-link {
   width: 25%;
 }
 
-#call-for-abstracts #abstract-deadline {
+#call-for-abstracts #submission-deadline {
   font-family: 'Metamorphous', cursive;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 2em;
 }
 
-#call-for-abstracts #abstract-deadline td.image-holder {
-  width: 25%;
-}
-
-#call-for-abstracts #abstract-deadline td.left-image {
-  text-align: right;
-}
-
-#call-for-abstracts #abstract-deadline td.right-image {
-  text-align: left;
-}
-
-#call-for-abstracts #abstract-deadline img {
-  width: 25%;
-  margin-top: 0.5em;
-  margin-bottom: -1.5em;
+#call-for-abstracts #submission-button {
+  padding: 2em;
 }
 
 #topics-of-interest:after {
