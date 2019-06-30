@@ -559,6 +559,14 @@ section {
   opacity: 0.75;
 }
 
+#high-priority-information-wrap #tickets-wrap a {
+  font-family: 'keepcalm';
+  font-size: 2em;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 5px black;
+  letter-spacing: 2px;
+}
+
 a.schedule-link {
   color: #dce0df;
   font-family: keepCalm;
