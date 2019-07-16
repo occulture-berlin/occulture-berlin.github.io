@@ -21,15 +21,7 @@
   <head>
     <title>{{ page.title }}</title>
 
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description"          content="{{ page.description }}">
-    <meta property="og:url"           content="{{ page.url }}" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="{{ page.title }}" />
-    <meta property="og:description"   content="{{ page.description }}" />
-    <meta property="og:image"         content="{{ page.image }}" />
-    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+    {% seo %}
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
