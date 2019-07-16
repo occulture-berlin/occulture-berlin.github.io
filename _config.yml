@@ -2,4 +2,3 @@ name: OCCULTURE
 baseurl: ''
 plugins:
 - jekyll-haml
-- jekyll-seo-tag
