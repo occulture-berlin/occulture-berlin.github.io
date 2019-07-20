@@ -53,6 +53,11 @@ Theme Styles
   src: url("../fonts/KeepCalm-Medium.ttf");
 }
 
+@font-face {
+  font-family: latoBold;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+
 html {
   background: #000;
 }
@@ -517,11 +522,6 @@ section {
   transform: translate(-50%, -50%);
 }
 
-#suspension-performance #bg-image {
-  margin-top: -1em;
-  opacity: 0.5;
-}
-
 #sigil-of-attraction #bg-image {
   width: 60em;
   opacity: 0.22;
@@ -537,6 +537,25 @@ section {
   padding: 55px 10px 25px 10px;
 }
 
+#image-carousel {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -6em; /* account for logo */
+  width: 40vw;
+  height: 30vw;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#image-carousel > div {
+  position: absolute;
+}
+
+#image-carousel img {
+  width: 40vw;
+  height: 50%;
+}
+
 #logo {
   width: 80%;
   border: none;
@@ -550,7 +569,7 @@ section {
 #high-priority-information {
   color: white;
   text-shadow: 2px 5px 51px gold;
-  font-family: 'Metamorphous', cursive;
+  font-family: latoBold;
   font-size: 2em;
 }
 
@@ -579,7 +598,8 @@ a.schedule-link {
 }
 
 #nav li {
-  font-family: 'Metamorphous', cursive;
+  font-family: latoBold;
+  letter-spacing: 1px;
   color: gold;
   text-shadow: 6px 2px 6px black;
   text-transform: uppercase;

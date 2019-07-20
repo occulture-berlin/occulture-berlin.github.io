@@ -9,6 +9,7 @@
   background_image - image in the background of the site
   background_image_id - css id for the background image
   onLoadAction - javascript function to run on page load
+  displayImageCarousel - [hidden by default] show the image carousel
 
 -->
 
@@ -52,6 +53,10 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
       <header class="inner">
+        {% if page.displayImageCarousel == true %}
+          <div id='image-carousel'></div>
+        {% endif %}
+
         <a onclick="goToPage('index.html')">
           <img id="logo" src="images/occulture-logo-alpha.png" alt="Occulture Berlin">
         </a>

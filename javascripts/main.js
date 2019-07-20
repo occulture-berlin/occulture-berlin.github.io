@@ -4,6 +4,35 @@ $(document).ready(function() {
     console.log("window width: "+$(window).width()+"px");
   };
 
+  // God, this is atrocious. I'm so sorry anyone who sees this.
+  // I try to be a good person, but sometimes I'm just not.
+  //
+  // fill image carousel with images from './images/carousel'
+  // %img{alt: "", src: "images/"}
+  $.get("./images/carousel", function(index) {
+    lines = index.match(/[^\r\n]+/g);
+    images = lines.filter(function(line) { return line.includes('jpg') })
+    imagePaths = images.map(function(image) { return image.match(/2018\S*?jpg/)[0] })
+
+    imagePaths.forEach(function(imagePath){
+      $("#image-carousel").append(
+        "<div><img src='./images/carousel/"+imagePath+"'></div>"
+      )
+    });
+    $("#image-carousel > div:gt(0)").hide();
+  });
+
+
+  // TODO: normalize image dimensions
+  setInterval(function() {
+  $('#image-carousel > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#image-carousel');
+  },  3000);
+
   // landing page
   // displayLandingPage();
 
