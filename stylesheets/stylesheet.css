@@ -334,10 +334,10 @@ footer {
 #mailing-list-boop-boop {
   background: #000;
   position: fixed;
-  bottom: 0;
+  top: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border-top: 2px solid #DCE0DF;
+  border-bottom: 2px solid #DCE0DF;
 }
 
 #mailing-list-boop-boop form {
