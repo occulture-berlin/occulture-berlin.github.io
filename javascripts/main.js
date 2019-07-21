@@ -8,29 +8,34 @@ $(document).ready(function() {
   // I try to be a good person, but sometimes I'm just not.
   //
   // fill image carousel with images from './images/carousel'
-  // %img{alt: "", src: "images/"}
   $.get("./images/carousel", function(index) {
     lines = index.match(/[^\r\n]+/g);
     images = lines.filter(function(line) { return line.includes('jpg') })
     imagePaths = images.map(function(image) { return image.match(/2018\S*?jpg/)[0] })
 
     imagePaths.forEach(function(imagePath){
-      $("#image-carousel").append(
-        "<div><img src='./images/carousel/"+imagePath+"'></div>"
+      var fullPath = "'./images/carousel/" +imagePath+ "'"
+      $("#image-carousel #images").append(
+        "<li><img src="+fullPath+"></li>"
       )
     });
-    $("#image-carousel > div:gt(0)").hide();
+
+    $('#image-carousel #images > li').toggle();
+    $('#image-carousel #images > li:last').toggle().addClass("last-img").
+      prev().toggle().addClass('active-img').
+      prev().toggle().addClass('first-img')
   });
 
 
-  // TODO: normalize image dimensions
+
   setInterval(function() {
-  $('#image-carousel > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#image-carousel');
+    $('#image-carousel #images > li:last').removeClass("last-img").toggle();
+    $('#image-carousel #images').prepend($('#image-carousel #images > li:last'))
+
+    $('#image-carousel #images > li:last').
+      removeClass('active-img').addClass("last-img").
+      prev().removeClass('first-img').addClass('active-img').
+      prev().toggle().addClass('first-img')
   },  3000);
 
   // landing page

@@ -52,11 +52,11 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-      <header class="inner">
-        {% if page.displayImageCarousel == true %}
-          <div id='image-carousel'></div>
-        {% endif %}
+      {% if page.displayImageCarousel == true %}
+        <div id='image-carousel'><ul id='images'></ul></div>
+      {% endif %}
 
+      <header class="inner">
         <a onclick="goToPage('index.html')">
           <img id="logo" src="images/occulture-logo-alpha.png" alt="Occulture Berlin">
         </a>

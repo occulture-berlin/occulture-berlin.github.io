@@ -538,26 +538,52 @@ section {
 }
 
 #image-carousel {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -6em; /* account for logo */
-  width: 40vw;
-  height: 30vw;
-  padding: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  height: 23vw;
+  margin-bottom: -6em;
+  padding-top: 3em;
 }
 
-#image-carousel > div {
+#image-carousel #images {
+}
+
+#image-carousel li {
   position: absolute;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#image-carousel li.last-img {
+  right: -8%;
+  opacity: 0.6;
+}
+
+#image-carousel li.active-img {
+  right: 32%;
+  opacity: 0.9;
+}
+
+#image-carousel li.first-img {
+  right: 72%;
+  opacity: 0.6;
 }
 
 #image-carousel img {
-  width: 40vw;
-  height: 50%;
+  width: 35vw;
+  opacity: 0.75;
+  margin-left: 1em;
+  border: 0.2em solid white;
+}
+
+@keyframes slideshow {
+  0%    { right: 0; }
+  100%  { right: -200%; }
 }
 
 #logo {
-  width: 80%;
+  width: 40vw;
   border: none;
   box-shadow: none;
   display: block;
