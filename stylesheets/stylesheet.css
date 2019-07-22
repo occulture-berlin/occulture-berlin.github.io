@@ -301,6 +301,7 @@ footer {
 }
 
 #footer-links a {
+  color: gold;
   text-decoration: none;
   cursor: pointer;
 }
@@ -396,11 +397,11 @@ footer {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: gold;
+  color: black;
 }
 
 a:visited {
-  color: gold;
+  color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -481,10 +482,10 @@ hr {
 
 .button {
   font-family: keepCalm;
-  color: gold;
+  color: black;
   text-transform: uppercase;
-  background: black;
-  padding: 1em;
+  background: #dce0df;
+  padding: 0.7em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -604,11 +605,15 @@ section {
   opacity: 0.75;
 }
 
+#high-priority-information-wrap #tickets-wrap {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 #high-priority-information-wrap #tickets-wrap a {
   font-family: 'keepcalm';
   font-size: 2em;
   text-transform: uppercase;
-  text-shadow: 4px 4px 5px black;
   letter-spacing: 2px;
 }
 
@@ -626,14 +631,25 @@ a.schedule-link {
 #nav li {
   font-family: latoBold;
   letter-spacing: 1px;
-  color: gold;
-  text-shadow: 6px 2px 6px black;
   text-transform: uppercase;
-  font-size: 1.8em;
+  font-size: 1.5em;
   display: inline-block;
   margin-right: 1em;
+  margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
   cursor: pointer;
 }
+
+#nav li.button {
+  padding: 0.3em;
+}
+
+#nav li.selected {
+  background: black;
+  color: #dce0df;
+  text-decoration: none;
+}
+
 
 .sub-nav {
   margin-top: -3em !important;
@@ -654,18 +670,8 @@ a.schedule-link {
   clear: both;
 }
 
-#call-for-abstracts #topics-of-interest {
-  position: relative;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  display: block;
-}
-
-#call-for-abstracts #topics-of-interest li {
-  margin-bottom: 0.1em;
-  padding: 0;
-  float: left;
-  width: 25%;
+#call-for-abstracts {
+  margin-bottom: 3em;
 }
 
 #call-for-abstracts #submission-deadline {
@@ -748,6 +754,10 @@ a.schedule-link {
   font-size: 1.3em;
 }
 
+#contact a {
+  color: gold;
+}
+
 /* adblock hides this if it's called 'sponsors' */
 #those-who-support-us-financially .vertical-spacer {
   display: inline-block;
@@ -781,7 +791,7 @@ ul.donation-method {
 .donation-method {
   width: 33%;
   float: left;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .paypal-wrapper a {
@@ -862,6 +872,35 @@ Small Device Styles
   #tickets #ticket-columns .buy-ticket-button {
     font-size: 1em;
   }
+
+  #logo {
+    width: 100%;
+  }
+
+  #image-carousel {
+    height: 40vw;
+  }
+
+  #image-carousel li.last-img {
+    right: -47%;
+  }
+
+  #image-carousel li.active-img {
+    right: 17%;
+  }
+
+  #image-carousel li.first-img {
+    right: 81%;
+  }
+
+  #image-carousel img {
+    width: 60vw;
+  }
+
+  #nav li {
+    width: 100%;
+    font-size: 1.65em;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 970px) {
@@ -880,10 +919,6 @@ Small Device Styles
 
   .button {
     padding: 0.75em;
-  }
-
-  #nav li {
-    font-size: 1.65em;
   }
 }
 
@@ -925,10 +960,6 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 800px) {
-  #logo {
-    width: 100%;
-  }
-
   #nav {
     margin-bottom: 0;
   }
@@ -936,7 +967,6 @@ Small Device Styles
   #nav li {
     font-size: 1.7em;
     display: list-item;
-    margin-bottom: 0.5em;
   }
 
   .sub-nav li {
