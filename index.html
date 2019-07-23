@@ -9,6 +9,7 @@
   background_image - image in the background of the site
   background_image_id - css id for the background image
   onLoadAction - javascript function to run on page load
+  displayImageCarousel - [hidden by default] show the image carousel
 
 -->
 
@@ -45,12 +46,16 @@
   </head>
 
   <body onLoad="">
-    <span id="suspension-performance">
-      <img id='bg-image' src="images/suspension-performance-2018.jpg">
+    <span id="">
+      <img id='bg-image' src="">
     </span>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
+      
+        <div id='image-carousel'><ul id='images'></ul></div>
+      
+
       <header class="inner">
         <a onclick="goToPage('index.html')">
           <img id="logo" src="images/occulture-logo-alpha.png" alt="Occulture Berlin">
@@ -62,26 +67,25 @@
 <!-- <section class='outer' id='landing-wrap'><div class='inner center' id='landing'><img alt='Occulture Berlin' class='hidden step' id='logo' src='images/occulture-logo-alpha.png'><div id='high-priority-information'>NOVEMBER 16-18, 2018</div><div id='what-we-offer'><ul><li class='hidden step'>30+ hours of curated events</li><li class='hidden step'>50+ speakers, artists and performers</li><li class='hidden step'>Lectures, workshops  rituals</li><li class='hidden step'>Esoteric virtual reality experiences</li><li class='hidden step'>Exhibitions of esoteric art</li><li class='hidden step'>Evenings with live music, films  divination</li></ul><div class='hidden step' id='ticket-button-wrap'><div class='buy-ticket-button'><script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button' href=''>Get Tickets</a></div></div><div class='hidden step' id='schedule-button-wrap'><div id='schedule-button'><a class='button' onclick='goToPage(&#39;2018/schedule&#39;)'>view timetable</a></div></div></div></img><div class='close-button hidden step' onclick='hideLandingPage()'>continue to site</div></div></section> -->
 <div class='outer' id='high-priority-information-wrap'>
 <section class='inner center' id='high-priority-information'>
-31 OCTOBER - 03 NOVEMBER 2019
-<br>@MUSIKBRAUEREI IN BERLIN</br>
+31 OCTOBER - 03 NOVEMBER 2019 @MUSIKBRAUEREI
 </section>
 <section class='inner center' id='tickets-wrap'>
 <script data-state='' src='https://www.universe.com/embed2.js'></script>
-<a href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+<a class='button' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
 </section>
 </div>
 <!-- MAIN CONTENT -->
 <!-- Nav buttons -->
 <div class='outer' id='nav-wrap'>
 <ul class='inner center' id='nav'>
-<li id='lineup-button'>
+<li class='button' id='lineup-button'>
 <a onclick='goToPage(&#39;2018/lineup&#39;)'>2018 Lineup</a>
 </li>
 <!-- %li#tickets-button.tab-button Tickets -->
-<li class='tab-button' id='venue-button'>Venue</li>
-<li class='tab-button' id='contact-button'>Contact</li>
-<li class='tab-button' id='call-for-abstracts-button'>Proposals</li>
-<li class='tab-button' id='donate-button'>Donate</li>
+<li class='button tab-button' id='venue-button'>Venue</li>
+<li class='button tab-button' id='contact-button'>Contact</li>
+<li class='button tab-button' id='call-for-abstracts-button'>Proposals</li>
+<li class='button tab-button' id='donate-button'>Donate</li>
 <!-- adblock hides this if it's called 'sponsors' -->
 <!-- %li#those-who-support-us-financially-button.tab-button Partners -->
 </ul>
@@ -143,7 +147,7 @@
 <section class='tab inner center hidden' id='venue'>
 <div class='center' id='map'>
 <img alt='Musikbrauerei exterior' src='images/musikbrauerei.jpg'>
-<iframe allowfullscreen='' src='https://www.google.com/maps?q=Muzikbrauerei&amp;output=embed&amp;z=15'></iframe>
+<iframe allowfullscreen='' src='https://www.google.com/maps?q=Muzikbrauerei Berlin&amp;output=embed&amp;z=15'></iframe>
 </div>
 </section>
 </div>

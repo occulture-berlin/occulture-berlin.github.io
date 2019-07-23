@@ -4,6 +4,40 @@ $(document).ready(function() {
     console.log("window width: "+$(window).width()+"px");
   };
 
+  // God, this is atrocious. I'm so sorry anyone who sees this.
+  // I try to be a good person, but sometimes I'm just not.
+  //
+  // fill image carousel with images from './images/carousel'
+  $.get("./images/carousel", function(index) {
+    lines = index.match(/[^\r\n]+/g);
+    images = lines.filter(function(line) { return line.includes('jpg') })
+    imagePaths = images.map(function(image) { return image.match(/2018\S*?jpg/)[0] })
+
+    imagePaths.forEach(function(imagePath){
+      var fullPath = "'./images/carousel/" +imagePath+ "'"
+      $("#image-carousel #images").append(
+        "<li><img src="+fullPath+"></li>"
+      )
+    });
+
+    $('#image-carousel #images > li').toggle();
+    $('#image-carousel #images > li:last').toggle().addClass("last-img").
+      prev().toggle().addClass('active-img').
+      prev().toggle().addClass('first-img')
+  });
+
+
+
+  setInterval(function() {
+    $('#image-carousel #images > li:last').removeClass("last-img").toggle();
+    $('#image-carousel #images').prepend($('#image-carousel #images > li:last'))
+
+    $('#image-carousel #images > li:last').
+      removeClass('active-img').addClass("last-img").
+      prev().removeClass('first-img').addClass('active-img').
+      prev().toggle().addClass('first-img')
+  },  3000);
+
   // landing page
   // displayLandingPage();
 
