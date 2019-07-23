@@ -52,8 +52,18 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
+      <!-- TODO: This should go into a partial -->
       {% if page.displayImageCarousel == true %}
-        <div id='image-carousel'><ul id='images'></ul></div>
+        <div id='image-carousel'>
+          <ul id='images'>
+            <li><img src="images/carousel/2018_acolytes.jpg" alt='acolytes'></li>
+            <li><img src="images/carousel/2018_altar.jpg" alt='altar'></li>
+            <li><img src="images/carousel/2018_isis.jpg" alt='isis'></li>
+            <li><img src="images/carousel/2018_opening_ritual.jpg" alt='opening_ritual'></li>
+            <li><img src="images/carousel/2018_phurpa.jpg" alt='phurpa'></li>
+            <li><img src="images/carousel/2018_suspension_performance.jpg" alt='suspension'></li>
+          </ul>
+        </div>
       {% endif %}
 
       <header class="inner">
