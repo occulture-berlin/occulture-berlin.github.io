@@ -301,7 +301,7 @@ footer {
 }
 
 #footer-links a {
-  color: gold;
+  color: red;
   text-decoration: none;
   cursor: pointer;
 }
@@ -543,7 +543,7 @@ section {
   margin-left: auto;
   margin-right: auto;
   height: 23vw;
-  margin-bottom: -6em;
+  margin-bottom: -8em;
   padding-top: 3em;
 }
 
@@ -584,7 +584,7 @@ section {
 }
 
 #logo {
-  width: 40vw;
+  width: 35vw;
   border: none;
   box-shadow: none;
   display: block;
@@ -594,10 +594,10 @@ section {
 }
 
 #high-priority-information {
-  color: white;
-  text-shadow: 2px 5px 51px gold;
+  color: red;
   font-family: latoBold;
-  font-size: 2em;
+  font-size: 1.6rem;
+  margin-bottom: 2em;
 }
 
 #high-priority-information-wrap img {
