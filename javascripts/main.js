@@ -21,7 +21,7 @@ $(document).ready(function() {
   },  3000);
 
   // landing page
-  // displayLandingPage();
+  displayLandingPage();
 
   // mailing list
   displayMailingList();
