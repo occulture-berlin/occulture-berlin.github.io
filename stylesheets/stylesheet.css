@@ -109,13 +109,23 @@ body {
 }
 
 #landing .put-out-the-cold-facts {
+  display: grid;
+  grid-template-columns: 1fr;
   font-size: 1em;
   font-family: latoBold;
   line-height: 1.1em;
 }
 
 #landing .put-out-the-cold-facts ul {
-  margin: 0.5em;
+  margin: 0.8em;
+}
+
+#landing .put-out-the-cold-facts li.new-moon {
+  align-self: center;
+}
+
+#landing .put-out-the-cold-facts li.full-moon {
+  align-self: start;
 }
 
 #landing .put-out-the-cold-facts .title-text {
