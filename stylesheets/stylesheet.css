@@ -81,13 +81,8 @@ body {
   font-family: keepCalm;
 }
 
-#landing {
-  padding: 1em;
-  border-radius: 1em;
-}
-
-#landing #logo {
-  width: 70%;
+#landing-wrap #logo {
+  width: 45vw;
   border: none;
   box-shadow: none;
   display: block;
@@ -96,23 +91,22 @@ body {
   margin-right: auto;
 }
 
-#landing #high-priority-information {
-  font-family: 'Metamorphous';
-  font-size: 2.5rem;
-  margin-top: 0.5em;
+#landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  font-size: 1.7em;
+  letter-spacing: 1px;
+  line-height: 1;
+  /*
+  padding: 1em;
+  border-radius: 1em;
+  */
 }
 
-#landing #what-we-offer {
-  font-size: 1.25em;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1em;
-  margin-bottom: 2em;
-}
-
+/********
 #landing #ticket-button-wrap .strike-through {
-  color: darkred; /* font-color is also darkred */
+  color: darkred; /* same as font color
   background-color: transparent;
   background-image: url(../images/red-dash.png) !important;
   background-size: 1em;
@@ -129,6 +123,7 @@ body {
 #landing #schedule-button-wrap {
   margin-bottom: 5em;
 }
+*******/
 
 #landing .button {
   display: inline-block;
@@ -136,7 +131,8 @@ body {
   padding: 1.2em;
   margin-bottom: 1em;
 }
-#landing .close-button {
+
+#landing-wrap .close-button {
   position: fixed;
   bottom: 0;
   width: 75%;
@@ -598,6 +594,7 @@ section {
   font-family: latoBold;
   font-size: 1.6rem;
   margin-bottom: 2em;
+  text-transform: uppercase;
 }
 
 #high-priority-information-wrap img {
