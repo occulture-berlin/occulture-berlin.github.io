@@ -55,11 +55,14 @@ $(document).ready(function() {
       $(".sub-nav").hide();
     };
   });
-});
 
-document.addEventListener('unii:opened', function(event) {
-  gtag('event', 'view_item', {'items': 'get-tickets'});
-}, false);
+  // track clicks of any element with ga-track class
+  $('.ga-track').on('click', function() {
+    var name = $(this).text();
+    console.log(name);
+    gtag('send', 'event', 'button', 'click-'+name, 1);
+  });
+});
 
 rootPath = function() {
   return window.location.protocol + '//' + window.location.host
