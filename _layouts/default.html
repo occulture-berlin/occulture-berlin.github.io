@@ -79,22 +79,22 @@
     <footer id="footer-wrap" class="outer">
       <div id='footer-links' class='inner'>
         <ul>
-          <li><a onclick="goToPage('impressum.html')">Impressum</a></li>
+          <li><a class="ga-track" onclick="goToPage('impressum.html')">Impressum</a></li>
         </ul>
       </div>
     </footer>
   </body>
 
   <section id="mailing-list-boop-boop" class='outer hidden'>
-     <form action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+     <form class="ga-track" action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
        onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 
        <label for="tlemail">Subscribe for updates and information about OCCULTURE:</label>
        <input type="text" name="email" id="tlemail" />
        <input type="hidden" value="1" name="embed"/>
-       <input type="submit" value="Subscribe" class="button"/>
+       <input type="submit" value="Subscribe" class="button ga-track"/>
      </form>
-     <div class="close-button" onclick="hideMailingList()">x</div>
+     <div class="close-button ga-track" onclick="hideMailingList()">x</div>
   </section>
 
   <script
