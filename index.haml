@@ -17,19 +17,19 @@ onLoadAction:
     %br @MUSIKBRAUEREI
   %section#tickets-wrap.inner.center
     %script{src: "https://www.universe.com/embed2.js", "data-state" => ""}
-    %a.button{href: "https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD"} Get Tickets
+    %a.button.ga-track{href: "https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD"} Get Tickets
 
 / MAIN CONTENT
 / Nav buttons
 #nav-wrap.outer
   %ul#nav.inner.center
-    %li.button#lineup-button
+    %li.button.ga-track#lineup-button
       %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
     / %li#tickets-button.tab-button Tickets
-    %li.button#venue-button.tab-button Venue
-    %li.button#contact-button.tab-button Contact
-    %li.button#call-for-abstracts-button.tab-button Proposals
-    %li.button#donate-button.tab-button Donate
+    %li.button.ga-track#venue-button.tab-button Venue
+    %li.button.ga-track#contact-button.tab-button Contact
+    %li.button.ga-track#call-for-abstracts-button.tab-button Proposals
+    %li.button.ga-track#donate-button.tab-button Donate
     / adblock hides this if it's called 'sponsors'
     /%li#those-who-support-us-financially-button.tab-button Partners
   %ul#lineup-sub-nav.sub-nav.inner.center.hidden
@@ -119,7 +119,7 @@ onLoadAction:
     %p#submission-deadline
       Submissions will be accepted until the full moon on 14 September, 2019
 
-    %a#submission-button.button{href: 'https://forms.gle/sHi4srkGdFQWkq3f6'}
+    %a#submission-button.button.ga-track{href: 'https://forms.gle/sHi4srkGdFQWkq3f6'}
       Submit a Proposal
 
 #donate-wrap.outer
