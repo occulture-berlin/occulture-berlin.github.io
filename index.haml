@@ -25,7 +25,6 @@ onLoadAction:
   %ul#nav.inner.center
     %li.button.ga-track#lineup-button
       %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
-    / %li#tickets-button.tab-button Tickets
     %li.button.ga-track#venue-button.tab-button Venue
     %li.button.ga-track#contact-button.tab-button Contact
     %li.button.ga-track#call-for-abstracts-button.tab-button Proposals
@@ -45,47 +44,6 @@ onLoadAction:
 /   %section#ritual.tab.sub-tab.inner.center.hidden
 /   %section#art.tab.sub-tab.inner.center.hidden
 
-/#tickets-wrap.outer
-/  %section#tickets.tab.inner.center.hidden
-/    %p
-/      Occulture is a blending of the words "occult" and "culture" popularized
-/      by Christopher Partridge - a fusion which signifies the ethereal
-/      influence they exert between each other.
-/    %p
-/      The occult deeply influences our culture, but how does culture
-/      influence the occult? What of the sub-cultures moving under the
-/      surface, the citizens of the esoteric circles of our world?
-/    %p
-/      Join us 16-18 November, 2018 in Berlin to explore the hidden world
-/      beneath and between us through lectures, workshops, rituals, virtual
-/      reality experiences, divination, performances, music and exhibitions
-/      of occult art.
-/    %p Join your will with ours this November in Berlin.
-/    %section#ticket-columns
-/      #left-column.column
-/        .image-holder.left-image
-/          %img{alt: "Alchemical Pointer", src: "images/alchemical-pointer-left.png"}/
-/      #center-column.column
-/        #ticket-prices-banner Ticket Prices:
-/        %table#prices
-/          %tr.strike-through
-/            %td.ticket-type Initiate
-/            %td.ticket-price 77.7€
-/          %tr
-/            %td.ticket-type Novice
-/            %td.ticket-price 99.9€
-/          %tr
-/            %td.ticket-type Adept
-/            %td.ticket-price 111€
-/          %tr
-/            %td.ticket-type Master
-/            %td.ticket-price 133.3€
-/        .buy-ticket-button
-/          %script{"data-state": "", src: "https://www.universe.com/embed2.js"}
-/          %a.button{href: "https://www.universe.com/events/occulture-esoteric-conference-tickets-berlin-KGY0F5?ref=ticket-section-button"} Get Tickets
-/      #right-column.column
-/        .image-holder.right-image
-/          %img{alt: "Alchemical Pointer", src: "images/alchemical-pointer-right.png"}
 
 #venue-wrap.outer
   %section#venue.tab.inner.center.hidden
