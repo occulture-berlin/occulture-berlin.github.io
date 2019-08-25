@@ -742,7 +742,8 @@ a.schedule-link {
   background: #222;
 }
 
-#lineup-wrap .event-wrap,
+/* i did this to myself. i did this to myself. i did this to myself. */
+#lineup-2018-wrap .event-wrap,
 #schedule-wrap .event-wrap {
   min-width: 70%; /* this ensures the unknown speaker is displayed correctly */
   margin-bottom: 3em;
@@ -751,17 +752,17 @@ a.schedule-link {
   margin-right: 10%;
 }
 
-#lineup-wrap .event-wrap ul,
+#lineup-2018-wrap .event-wrap ul,
 #schedule-wrap .event-wrap ul {
   list-style-type: circle;
 }
 
-#lineup-wrap .event-wrap .info-wrap {
+#lineup-2018-wrap .event-wrap .info-wrap {
   text-align: left;
   margin-left: 2em;
 }
 
-#lineup-wrap .event-wrap .avatar {
+#lineup-2018-wrap .event-wrap .avatar {
   margin-bottom: 0.5em;
   margin-left: 3em;
   margin-right: 2em;
@@ -769,25 +770,25 @@ a.schedule-link {
   cursor: pointer; /* cause it's a link to speaker page */
 }
 
-#lineup-wrap .event-wrap .avatar img,
+#lineup-2018-wrap .event-wrap .avatar img,
 #schedule-wrap .event-wrap .avatar img {
   width: 250px;
   height: 250px;
   opacity: 0.9;
 }
 
-#lineup-wrap .event-wrap .info-wrap .title {
+#lineup-2018-wrap .event-wrap .info-wrap .title {
   font-family: 'Metamorphous';
   cursor: pointer; /* cause it's a link to speaker page */
 }
 
-#lineup-wrap .event-wrap .info-wrap .name {
+#lineup-2018-wrap .event-wrap .info-wrap .name {
   font-family: 'KeepCalm';
   font-size: 123%;
   cursor: pointer; /* cause it's a link to speaker page */
 }
 
-#lineup-wrap .event-wrap .info-wrap .description,
+#lineup-2018-wrap .event-wrap .info-wrap .description,
 #schedule-wrap .event-wrap .info-wrap .description {
   font-size: 0.8em;
 }
@@ -970,7 +971,7 @@ Small Device Styles
 }
 
 @media (min-width: 800px) and (max-width: 970px) {
-  #lineup-wrap .event-wrap {
+  #lineup-2018-wrap .event-wrap {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -989,7 +990,7 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {
-  #lineup-wrap .event-wrap,
+  #lineup-2018-wrap .event-wrap,
   #schedule-wrap .event-wrap {
     margin-bottom: 3em;
     float: none;
@@ -997,7 +998,7 @@ Small Device Styles
     margin-right: 0
   }
 
-  #lineup-wrap .event-wrap .avatar,
+  #lineup-2018-wrap .event-wrap .avatar,
   #schedule-wrap .event-wrap .avatar {
     width: 100%;
     margin-bottom: 1em;

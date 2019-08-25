@@ -71,23 +71,6 @@ rootPath = function() {
   return window.location.protocol + '//' + window.location.host
 }
 
-// load all events
-loadSpeakers = function() {
-  // should be "member-of-the-lineup" i guess...?
-  $.get("./partials/speakers.html", function(template) {
-    var types = ['lecture', 'workshop', 'ritual', 'techgnosis', 'art']
-    for( var i in types ) {
-      var type = types[i];
-      var collection = events.filter(object => object.type === type);
-      var speakerData = collection.map(function(event){
-        return Mustache.to_html(template, event)
-      })
-
-      $("#lineup-wrap #"+type).html(speakerData);
-    }
-  }, "html");
-}
-
 // NOTE: This is for internal linking only!
 goToPage = function(path){
   // update urls when clicking a link

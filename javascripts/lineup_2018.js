@@ -1,11 +1,10 @@
 $(document).ready(function() {
-  setMetadata();
 });
 
 requestedSpeaker = function() {
   // get the speaker name from the anchor tag
   var anchorTag = window.location.hash.substring(1);
-  var selected = events.find(object => object.searchString === anchorTag);
+  var selected = events2018.find(object => object.searchString === anchorTag);
 
   // return immediately if no speaker was requested
   if(anchorTag === "") { return null }
@@ -19,47 +18,21 @@ requestedSpeaker = function() {
   }
 }
 
-setMetadata = function() {
-  if(requestedSpeaker() === null){
-    var titleOption = "Lineup 2018";
-        imageOption = "";
-        descriptionOption = "Information about the speakers featured this year at OCCULTURE Esoteric Conference in Berlin";
-  } else {
-    var titleOption = requestedSpeaker().name;
-        imageOption = "https://www.occultureberlin.org/"+requestedSpeaker().avatarPath;
-        descriptionOption = "Information on '"+requestedSpeaker().title+"' by "+requestedSpeaker().name+" at OCCULTURE Berlin";
-  }
-
-  var values = {
-    "url": document.location.href,
-    "title": "OCCULTURE Berlin | "+titleOption,
-    "description": descriptionOption,
-    "image": imageOption
-  }
-
-  document.title = values.title;
-  $('meta[name=description]').attr('content', values.description);
-  $("meta[property='og:url']").attr('content', values.url);
-  $("meta[property='og:title']").attr('content', values.title);
-  $("meta[property='og:description']").attr('content', values.description);
-  $("meta[property='og:image']").attr('content', values.image);
-}
-
 // NOTE: this overwrites the 'loadSpeakers()' function in main.js
 // allow speakers to be selected and shown individually based on anchor tag
 loadSpeakers = function() {
-  $.get("../partials/speakers.html", function(template) {
+  $.get("../partials/speakers_2018.html", function(template) {
     var speakers = collectSpeakers();
 
     var speakerData = speakers.map(function(event){
       return Mustache.to_html(template, event)
     })
 
-    $("#lineup-wrap #lineup").html(speakerData);
+    $("#lineup-2018-wrap #lineup").html(speakerData);
   }, "html");
 }
 
-// NB: the 'events' variable is set in data/events.js
+// NB: the 'events2018' variable is set in data/events_2018.js
 collectSpeakers = function(){
   // if no speaker name is given, return all non-org events
   // the following link is for randomish sorting - now not used
@@ -67,7 +40,7 @@ collectSpeakers = function(){
   // var shuffled = events.sort(() => .5 - Math.random());
 
   if(requestedSpeaker() === null) {
-    var filtered = events.filter(function(object){
+    var filtered = events2018.filter(function(object){
       return object.type !== 'organizational';
     });
 
@@ -87,4 +60,3 @@ nullSpeaker = function(requestedName) {
     "description": "<p>Sorry, we don't know anyone called "+requestedName+"!</p><div style='margin:2em;'><a class='button' href='"+document.location.pathname+"?ref=speaker-unknown-"+requestedName+"'>See the full lineup</a></div>"
   }
 }
-

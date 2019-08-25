@@ -1,4 +1,4 @@
-events = [
+events2018 = [
   {
     "date":"friday",
     "start": "19:30",
