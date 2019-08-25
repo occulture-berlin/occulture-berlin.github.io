@@ -5,11 +5,11 @@ url: https://www.occultureberlin.org
 description: "OCCULTURE Esoteric Conference Berlin"
 displayImageCarousel: true
 image: https://www.occultureberlin.org/images/2019/open-graph.jpg
-onLoadAction:
+onLoadAction: loadLineup2019()
 ---
 
 / display landing page, remember to uncomment displayLandingPage() in main.js
-{% haml landing_page.haml %}
+/ {% haml landing_page.haml %}
 
 #high-priority-information-wrap.outer
   %section#high-priority-information.inner.center
@@ -25,25 +25,26 @@ onLoadAction:
   %ul#nav.inner.center
     %li.button.ga-track#lineup-button
       %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
+    %li.button.ga-track#lineup-button.tab-button 2019 Lineup
     %li.button.ga-track#venue-button.tab-button Venue
     %li.button.ga-track#contact-button.tab-button Contact
     %li.button.ga-track#call-for-abstracts-button.tab-button Proposals
     %li.button.ga-track#donate-button.tab-button Donate
     / adblock hides this if it's called 'sponsors'
     /%li#those-who-support-us-financially-button.tab-button Partners
-  %ul#lineup-sub-nav.sub-nav.inner.center.hidden
-    %li#lecture-button.tab-button Lectures
-    %li#workshop-button.tab-button Workshops
-    %li#ritual-button.tab-button Rituals
-    %li#art-button.tab-button Artists
 
-/ #lineup-wrap.outer
-/   %section#lineup.tab.sub-navigable.inner.center.hidden
-/   %section#lecture.tab.sub-tab.inner.center.hidden
-/   %section#workshop.tab.sub-tab.inner.center.hidden
-/   %section#ritual.tab.sub-tab.inner.center.hidden
-/   %section#art.tab.sub-tab.inner.center.hidden
-
+#lineup-2019-wrap.outer
+  / %ul#lineup-sub-nav.sub-nav.inner.center.hidden
+  /   %li#lecture-button.tab-button Lectures
+  /   %li#workshop-button.tab-button Workshops
+  /   %li#ritual-button.tab-button Rituals
+  /   %li#art-button.tab-button Artists
+  / %section#lineup.tab.sub-navigable.inner.center.hidden
+  / %section#lecture.tab.sub-tab.inner.center.hidden
+  / %section#workshop.tab.sub-tab.inner.center.hidden
+  / %section#ritual.tab.sub-tab.inner.center.hidden
+  / %section#art.tab.sub-tab.inner.center.hidden
+  %section#lineup.tab.inner.center.hidden
 
 #venue-wrap.outer
   %section#venue.tab.inner.center.hidden
