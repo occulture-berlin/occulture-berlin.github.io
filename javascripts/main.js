@@ -62,8 +62,7 @@ $(document).ready(function() {
 
     gtag('event', 'click', {
       'event_category': 'engagement',
-      'event_label': 'click-'+name,
-      //'value': <value>
+      'event_label': 'click-'+name
     });
   });
 });
