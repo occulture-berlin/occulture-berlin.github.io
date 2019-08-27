@@ -30,8 +30,8 @@ if [ -d "$BUILD_DIR" ]; then
       # Get the build
       mv $TMP_DIR/* .
 
-      # Commit
-      git add .
+      # Commit. If there are any un-stashed local changes,
+      # this will fail and prompt to stash
       git commit -m "Deploy $(date)"
       if git push origin master; then
         echo "DEPLOYED SUCCESSFULLY !"
