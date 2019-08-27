@@ -550,6 +550,18 @@ hr {
   text-decoration: underline;
 }
 
+.outer {
+  width: 100%;
+}
+
+.inner {
+  position: relative;
+  max-width: 75%;
+  padding: 15px 10px;
+  margin: 0 auto;
+}
+
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -798,33 +810,22 @@ a.schedule-link {
 }
 
 #contact a {
-  color: gold;
+  color: red;
 }
 
 /* adblock hides this if it's called 'sponsors' */
-#those-who-support-us-financially .vertical-spacer {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+#friends-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
 }
 
-#those-who-support-us-financially img {
-  width: 30%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-bottom: 2.5em;
-  vertical-align: middle;
+#friends-grid li {
+  align-self: center;
 }
 
-.outer {
+#friends-grid img {
   width: 100%;
-}
-
-.inner {
-  position: relative;
-  max-width: 75%;
-  padding: 15px 10px;
-  margin: 0 auto;
 }
 
 ul.donation-method {

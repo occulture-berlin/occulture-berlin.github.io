@@ -30,7 +30,7 @@ onLoadAction:
     %li.button.ga-track#call-for-abstracts-button.tab-button Proposals
     %li.button.ga-track#donate-button.tab-button Donate
     / adblock hides this if it's called 'sponsors'
-    /%li#those-who-support-us-financially-button.tab-button Partners
+    %li.button.ga-track#friends-button.tab-button Partners
   %ul#lineup-sub-nav.sub-nav.inner.center.hidden
     %li#lecture-button.tab-button Lectures
     %li#workshop-button.tab-button Workshops
@@ -85,30 +85,25 @@ onLoadAction:
     {% haml donate.haml %}
 
 / adblock hides this tab if it's called 'sponsors'
-#those-who-support-us-financially-wrap.outer
-  %section#those-who-support-us-financially.tab.inner.center.hidden
-    / monterey not set for https
-    %a{href: "http://montereybar.com?redirect-from=occultureberlin"}
-      %span.vertical-spacer
-      %img{alt: "Monterey Bar", src: "images/monterey-logo.png"}/
-    %a{href: "https://www.anathemapublishing.com?redirect-from=occultureberlin"}
-      %span.vertical-spacer
-      %img{alt: "Anathema Publishing", src: "images/anathema-logo-03.png"}/
-    %a{href: "https://psychedelicpress.co.uk?redirect-from=occultureberlin"}
-      %span.vertical-spacer
-      %img{alt: "Psychedelic Press", src: "images/psy-press.png"}/
-    %a{href: "https://www.okultura.pl?redirect-from=occultureberlin"}
-      %span.vertical-spacer
-      %img{alt: "Okultura", src: "images/okultura-logo.png"}/
-    %a{href: "https://www.facebook.com/villaggiodellaluna/"}
-      %span.vertical-spacer
-      %img{alt: "Villaggio Della Luna", src: "images/villaggio-della-luna.png"}/
-    %a{href: "https://scarletimprint.com?redirect-from=occultureberlin"}
-      %span.vertical-spacer
-      %img{alt: "Scarlet Imprint", src: "images/scarlet-imprint-logo.png"}/
-    %a{href: "https://cycliclaw.com?redirect-from=occultureberlin"}
-      %span.vertical-spacer
-      %img{alt: "Cyclic Law", src: "images/cyclic-law-logo.png"}/
-    %a{href: "https://berlinyogaconference.org?redirect-from=occultureberlin"}
-      %span.vertical-spacer
-      %img{alt: "Berlin Yoga Conference", src: "images/BYC-logo.png"}/
+#friends-wrap.outer
+  %section#friends.tab.inner.center.hidden
+    %ul#friends-grid
+      / monterey not set for https
+      %li
+        %a{href: "http://montereybar.com?redirect-from=occultureberlin"}
+          %img{alt: "Monterey Bar", src: "images/monterey-logo.png"}/
+      %li
+        %a{href: "https://www.okultura.pl?redirect-from=occultureberlin"}
+          %img{alt: "Okultura", src: "images/okultura-logo.png"}/
+      %li
+        %a{href: "https://www.facebook.com/villaggiodellaluna/"}
+          %img{alt: "Villaggio Della Luna", src: "images/villaggio-della-luna.png"}/
+      / %a{href: "https://www.thothermes.com?redirect-from=occultureberlin"}
+      /   %img{alt: "Thoth Hermes Podcasta", src: "images/thoth-hermes-logo.gif"}/
+      / %li
+      /   %a{href: "https://www.anathemapublishing.com?redirect-from=occultureberlin"}
+      /     %img{alt: "Anathema Publishing", src: "images/anathema-logo-03.png"}/
+      / %a{href: "https://scarletimprint.com?redirect-from=occultureberlin"}
+      /   %img{alt: "Scarlet Imprint", src: "images/scarlet-imprint-logo.png"}/
+      / %a{href: "https://cycliclaw.com?redirect-from=occultureberlin"}
+      /   %img{alt: "Cyclic Law", src: "images/cyclic-law-logo.png"}/
