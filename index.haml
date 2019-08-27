@@ -5,7 +5,7 @@ url: https://www.occultureberlin.org
 description: "OCCULTURE Esoteric Conference Berlin"
 displayImageCarousel: true
 image: https://www.occultureberlin.org/images/2019/open-graph.jpg
-onLoadAction: loadLineup2019()
+onLoadAction:
 ---
 
 / display landing page, remember to uncomment displayLandingPage() in main.js
@@ -45,6 +45,8 @@ onLoadAction: loadLineup2019()
   / %section#ritual.tab.sub-tab.inner.center.hidden
   / %section#art.tab.sub-tab.inner.center.hidden
   %section#lineup.tab.inner.center.hidden
+    #lineup-grid
+      {% haml 2019/lineup.haml %}
 
 #venue-wrap.outer
   %section#venue.tab.inner.center.hidden

@@ -1,5 +1,5 @@
 require 'csv'
-require 'json'
+require 'yaml'
 
 class AbstractParser
   def self.call(input, additional_input, target)
@@ -13,7 +13,7 @@ class AbstractParser
   end
 
   def call
-    File.open(target, 'w+') { |f| f.write(serialized_events.to_json) }
+    File.open(target, 'w+') { |f| f.write(serialized_events.to_yaml) }
     print "Wrote #{confirmed_events.count} events to #{target}\n"
     nil
   end
@@ -27,13 +27,13 @@ class AbstractParser
       finalized_information = additional_information_for(event['Email Address'])
 
       {
-        name: (finalized_information[:name] || name).split.each(&:capitalize).join(' '),
-        searchString: name.downcase.split.join('-'),
-        title: finalized_information.fetch(:title) { random_titles.sample },
-        type: event['What are you proposing?'],
-        avatarPath: finalized_information.fetch(:avatarUrl) { event['avatarUrl'] },
-        description: finalized_information.fetch(:abstract) { lorem_ipsum },
-        bio: finalized_information.fetch(:bio) { fake_bio(name) }
+        'name' (finalized_information[:name] || name).split.each(&:capitalize).join(' '),
+        'searchString' name.downcase.split.join('-'),
+        'title' finalized_information.fetch(:title) { random_titles.sample },
+        'type' event['What are you proposing?'],
+        'avatarPath' finalized_information.fetch(:avatarUrl) { event['avatarUrl'] },
+        'description' finalized_information.fetch(:abstract) { lorem_ipsum },
+        'bio' finalized_information.fetch(:bio) { fake_bio(name) }
       }
     end
   end
@@ -130,7 +130,7 @@ end
 
 input = ENV.fetch('ABSTRACTS')
 additional_input = ENV.fetch('CONFIRMATION') { '' } # when i get this file can remove this
-target = "./data/events_2019.js"
+target = "./_data/2019/events.yml"
 
 print "Calling this parser is destructive!\n\n"
 print "If you continue, you will overwrite file '#{target}'\n\n"

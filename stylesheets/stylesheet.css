@@ -742,6 +742,30 @@ a.schedule-link {
   background: #222;
 }
 
+#lineup-2019-wrap #lineup-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0.5em;
+}
+
+#lineup-2019-wrap .event-wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr 1fr 1fr;
+  cursor: pointer;
+}
+
+#lineup-2019-wrap .avatar {
+  align-self: end;
+}
+
+#lineup-2019-wrap .avatar img {
+  object-fit: cover;
+  max-width: 25vw;
+  max-height: 25vw;
+  border: 3px solid white;
+}
+
 /* i did this to myself. i did this to myself. i did this to myself. */
 #lineup-2018-wrap .event-wrap,
 #schedule-wrap .event-wrap {
