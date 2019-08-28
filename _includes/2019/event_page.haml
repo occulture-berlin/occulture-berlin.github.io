@@ -1,0 +1,15 @@
+{% assign eventQuery = site.data.2019.events | where: 'searchString', page.searchString %}
+{% assign event = eventQuery.first %}
+
+%section#event.inner.center
+  .avatar
+    %img{src:'{{event.avatarPath}}', alt:'{{event.name}}', onError:'loadDefaultAvatar(this)'}
+    .name
+      {{event.name}}
+  .main-info-wrap
+    .title
+      {{event.title}}
+    .abstract
+      {{event.description}}
+    .bio
+      {{event.bio}}
