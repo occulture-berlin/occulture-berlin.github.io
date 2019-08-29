@@ -763,19 +763,34 @@ a.schedule-link {
 #lineup-2019-wrap .event-wrap {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 4fr 1fr 1fr;
+  margin-top: 1em;
+  margin-bottom: 1em;
   cursor: pointer;
-}
-
-#lineup-2019-wrap .avatar {
-  align-self: end;
 }
 
 #lineup-2019-wrap .avatar img {
   object-fit: cover;
+  min-width: 25vw;
   max-width: 25vw;
+  min-height: 25vw;
   max-height: 25vw;
   border: 3px solid white;
+}
+
+#lineup-2019-wrap .info-wrap {
+  font-family: latoBold;
+  text-transform: uppercase;
+  align-self: end;
+  border: 3px soild white;
+}
+
+#lineup-2019-wrap .info-wrap .title {
+}
+#lineup-2019-wrap .info-wrap .name {
+  margin: 0.2em;
+  padding: 0.5em;
+  background: white;
+  color: black;
 }
 
 /* i did this to myself. i did this to myself. i did this to myself. */
@@ -915,143 +930,18 @@ code.donation-address {
 Small Device Styles
 *******************************************************************************/
 
+
 @media (min-width: 1600px) {
   #lineup-2019-wrap #lineup-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   #lineup-2019-wrap .avatar img {
+    min-width: 18vw;
     max-width: 18vw;
+    min-height: 18vw;
     max-height: 18vw;
   }
-}
-
-/* i did this to myself. i did this to myself. i did this to myself. */
-#lineup-2018-wrap .event-wrap,
-#schedule-wrap .event-wrap {
-  min-width: 70%; /* this ensures the unknown speaker is displayed correctly */
-  margin-bottom: 3em;
-  float: left;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-#lineup-2018-wrap .event-wrap ul,
-#schedule-wrap .event-wrap ul {
-  list-style-type: circle;
-}
-
-#lineup-2018-wrap .event-wrap .info-wrap {
-  text-align: left;
-  margin-left: 2em;
-}
-
-#lineup-2018-wrap .event-wrap .avatar {
-  margin-bottom: 0.5em;
-  margin-left: 3em;
-  margin-right: 2em;
-  float: left;
-  cursor: pointer; /* cause it's a link to speaker page */
-}
-
-#lineup-2018-wrap .event-wrap .avatar img,
-#schedule-wrap .event-wrap .avatar img {
-  width: 250px;
-  height: 250px;
-  opacity: 0.9;
-}
-
-#lineup-2018-wrap .event-wrap .info-wrap .title {
-  font-family: 'Metamorphous';
-  cursor: pointer; /* cause it's a link to speaker page */
-}
-
-#lineup-2018-wrap .event-wrap .info-wrap .name {
-  font-family: 'KeepCalm';
-  font-size: 123%;
-  cursor: pointer; /* cause it's a link to speaker page */
-}
-
-#lineup-2018-wrap .event-wrap .info-wrap .description,
-#schedule-wrap .event-wrap .info-wrap .description {
-  font-size: 0.8em;
-}
-
-#contact {
-  font-size: 1.3em;
-}
-
-#contact a {
-  color: gold;
-}
-
-/* adblock hides this if it's called 'sponsors' */
-#those-who-support-us-financially .vertical-spacer {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-
-#those-who-support-us-financially img {
-  width: 30%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-bottom: 2.5em;
-  vertical-align: middle;
-}
-
-.outer {
-  width: 100%;
-}
-
-.inner {
-  position: relative;
-  max-width: 75%;
-  padding: 15px 10px;
-  margin: 0 auto;
-}
-
-ul.donation-method {
-  padding: 0;
-}
-
-.donation-method {
-  width: 33%;
-  float: left;
-  margin-bottom: 3em;
-}
-
-.paypal-wrapper a {
-  color: white;
-}
-
-
-code.donation-address {
-  letter-spacing: -1px;
-}
-
-.qr-code {
-  margin-bottom: 1em;
-  width: 7em;
-  height: 7em;
-}
-
-.logo-wrap {
-  height: 5em;
-}
-
-.crypto-logo {
-  width: 9em;
-  margin-top: 1em;
-  margin-bottom: 2em;
-}
-
-/*******************************************************************************
-Small Device Styles
-*******************************************************************************/
-
-@media (min-width: 1600px) {
-  #lineup #lineup-
 }
 
 @media (min-width: 1200px) and (max-width: 1649px) {
@@ -1196,6 +1086,19 @@ Small Device Styles
 
   .donation-method {
     width: 100%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1000px) {
+  #lineup-2019-wrap #lineup-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #lineup-2019-wrap .avatar img {
+    min-width: 75vw;
+    max-width: 75vw;
+    min-height: 75vw;
+    max-height: 75vw;
   }
 }
 
