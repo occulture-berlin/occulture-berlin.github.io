@@ -21,18 +21,21 @@ class ParseAbstracts
   attr_reader :serialized_events, :target
 
   def serialize_events(input)
-    input.map do |event|
+    events = input.map do |event|
       {
         'name' => event['Name'].split.each(&:capitalize).join(' '),
         'searchString' => event['Name'].downcase.split.join('-'),
         'title' => event['Title'],
         'type' => event['Type'],
+        'keynote' => (event['Keynote'] == 'TRUE' ? 1 : 0),
         'avatarPath' => event['Avatar'],
         'description' => event['Abstract'],
         'bio' => event['Bio'],
         'duration' => 30
       }
     end
+
+    events.sort_by { |e| e['keynote'] }.reverse
   end
 end
 
