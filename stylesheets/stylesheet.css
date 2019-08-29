@@ -325,6 +325,7 @@ body::after {
 footer {
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   height: 3em;
   background: black;
@@ -377,6 +378,7 @@ footer {
   background: #000;
   position: fixed;
   top: 0;
+  left: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border-bottom: 2px solid #DCE0DF;
