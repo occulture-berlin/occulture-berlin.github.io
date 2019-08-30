@@ -31,7 +31,7 @@ class ParseAbstracts
         'avatarPath' => event['Avatar'],
         'description' => event['Abstract'],
         'bio' => event['Bio'],
-        'duration' => 30
+        'duration' => (event['Keynote'] == 'TRUE' ? 60 : 30)
       }
     end
 
