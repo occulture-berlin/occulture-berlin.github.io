@@ -2,10 +2,10 @@
 
 %div{class: ['event-wrap {{ event.type }}'] }
   - link = "2019/lineup/{{event.searchString}}"
-  .avatar.ga-track{onclick: "goToPage('#{link}')"}
+  .avatar.ga-track{onclick: "goToPage('#{link}')", data:{tracker: '{{event.searchString}}-event-avatar'}}
     %img{src:'{{event.avatarPath}}', alt:'{{event.title}}', onError:'loadDefaultAvatar(this)'}
   .info-wrap
-    .main-info.ga-track{onclick:"goToPage('2019/lineup/{{event.searchString}}')"}
+    .main-info.ga-track{onclick:"goToPage('2019/lineup/{{event.searchString}}')", data:{tracker: '{{event.searchString}}-event-information'}}
       .title
         {{event.title}}
       .name
