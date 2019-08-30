@@ -103,11 +103,12 @@ onLoadAction:
 
 // this likes to be at the bottom for some reason, otherwise it blocks everything else
 #lineup-2019-wrap.outer
-  %section#lineup.tab.inner.center.hidden
-    %ul#lineup-sub-nav
-      {% assign subCategories = site.data.2019.events | map: 'type' | uniq %}
-      {% for subCategory in subCategories %}
-      %li#{{ subCategory }}-subnav {{subCategory}}
+  %section#lineup.tab.sub-navigable.inner.center.hidden
+    %ul#lineup-sub-nav.sub-nav.inner.center.hidden
+      {% assign categories = site.data.2019.events | map: 'type' | uniq %}
+      %li#all all
+      {% for category in categories %}
+      %li#{{ category }} {{category}}
       {% endfor %}
     #lineup-grid
       {% haml 2019/lineup.haml %}
