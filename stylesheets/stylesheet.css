@@ -556,6 +556,12 @@ hr {
   text-justify: inter-word;
 }
 
+.center-justifed {
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: center;
+}
+
 .hidden {
   display: none;
 }
@@ -785,8 +791,6 @@ a.schedule-link {
   border: 3px soild white;
 }
 
-#lineup-2019-wrap .info-wrap .title {
-}
 #lineup-2019-wrap .info-wrap .name {
   margin: 0.2em;
   padding: 0.5em;
@@ -908,6 +912,18 @@ code.donation-address {
   grid-template-columns: 1fr 2fr;
 }
 
+#event .title {
+  grid-column: 1/3;
+  font-family: latoBold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+  padding: 1em;
+  background: white;
+  color: black;
+}
+
 #event .avatar img {
   width: 100%;
 }
@@ -920,11 +936,6 @@ code.donation-address {
   display: grid;
   grid-template-rows: 1fr 3fr 3fr;
   grid-row-gap: 0.5em;
-}
-
-#event .main-info-wrap .title {
-  font-family: latoBold;
-  text-transform: uppercase;
 }
 
 /*******************************************************************************

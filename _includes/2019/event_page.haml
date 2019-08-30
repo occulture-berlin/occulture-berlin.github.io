@@ -2,14 +2,14 @@
 {% assign event = eventQuery.first %}
 
 %section#event.inner.center
+  .title
+    {{event.title}}
   .avatar
     %img{src:'{{event.avatarPath}}', alt:'{{event.name}}', onError:'loadDefaultAvatar(this)'}
     .name
       {{event.name}}
   .main-info-wrap
-    .title
-      {{event.title}}
-    .abstract
+    .abstract.justifed
       {{event.description}}
-    .bio
+    .bio.justifed
       {{event.bio}}
