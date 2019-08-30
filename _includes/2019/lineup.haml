@@ -1,4 +1,5 @@
 {% for event in site.data.2019.events %}
+
 .event-wrap
   - link = "2019/lineup/{{event.searchString}}"
   .avatar.ga-track{onclick: "goToPage('#{link}')"}
@@ -9,4 +10,5 @@
         {{event.title}}
       .name
         {{event.name}}
+
 {% endfor %}

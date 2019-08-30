@@ -23,8 +23,6 @@ onLoadAction:
 / Nav buttons
 #nav-wrap.outer
   %ul#nav.inner.center
-    %li.button.ga-track#lineup-button
-      %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
     %li.button.ga-track#lineup-button.tab-button 2019 Lineup
     %li.button.ga-track#venue-button.tab-button Venue
     %li.button.ga-track#contact-button.tab-button Contact
@@ -32,21 +30,8 @@ onLoadAction:
     %li.button.ga-track#donate-button.tab-button Donate
     / adblock hides this if it's called 'sponsors'
     /%li#those-who-support-us-financially-button.tab-button Partners
-
-#lineup-2019-wrap.outer
-  / %ul#lineup-sub-nav.sub-nav.inner.center.hidden
-  /   %li#lecture-button.tab-button Lectures
-  /   %li#workshop-button.tab-button Workshops
-  /   %li#ritual-button.tab-button Rituals
-  /   %li#art-button.tab-button Artists
-  / %section#lineup.tab.sub-navigable.inner.center.hidden
-  / %section#lecture.tab.sub-tab.inner.center.hidden
-  / %section#workshop.tab.sub-tab.inner.center.hidden
-  / %section#ritual.tab.sub-tab.inner.center.hidden
-  / %section#art.tab.sub-tab.inner.center.hidden
-  %section#lineup.tab.inner.center.hidden
-    #lineup-grid
-      {% haml 2019/lineup.haml %}
+    %li.button.ga-track#lineup-2018-button
+      %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
 
 #venue-wrap.outer
   %section#venue.tab.inner.center.hidden
@@ -115,3 +100,15 @@ onLoadAction:
     %a{href: "https://berlinyogaconference.org?redirect-from=occultureberlin"}
       %span.vertical-spacer
       %img{alt: "Berlin Yoga Conference", src: "images/BYC-logo.png"}/
+
+// this likes to be at the bottom for some reason, otherwise it blocks everything else
+#lineup-2019-wrap.outer
+  %section#lineup.tab.inner.center.hidden
+    %ul#lineup-sub-nav
+      {% assign subCategories = site.data.2019.events | map: 'type' | uniq %}
+      {% for subCategory in subCategories %}
+      %li#{{ subCategory }}-subnav {{subCategory}}
+      {% endfor %}
+    #lineup-grid
+      {% haml 2019/lineup.haml %}
+

@@ -31,9 +31,8 @@ $(document).ready(function() {
     var selected = $(this).attr('id').replace('-button', '');
 
     // remove initially visible elements
-    $("#main-ticket-button").hide();
-    // don't hide the high priority information for now
-    //$("#high-priority-information-wrap").hide();
+    $("#high-priority-information-wrap").addClass('hidden');
+    $("#image-carousel").addClass('hidden');
 
     // clear 'selected' and designate the currently selected tab-button
     $("#nav>li.selected").removeClass("selected");
@@ -42,7 +41,7 @@ $(document).ready(function() {
 
     // hide all tabs and show the selected tab
     $(".tab").hide();
-    $("#"+selected).show();
+    $("#"+selected).toggle();
 
     // show sub-navigation if relevant
     if($("#"+selected).hasClass("sub-navigable")) {
