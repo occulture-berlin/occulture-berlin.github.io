@@ -1,0 +1,90 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <title>OCCULTURE Berlin | Marleen Thaler</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="The New Jerusalem Diagram. John Michell's Staircase to Heaven @OCCULTURE Berlin 2019">
+    <meta property="og:url"           content="/2019/lineup/marleen-thaler.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Marleen Thaler" />
+    <meta property="og:description"   content="The New Jerusalem Diagram. John Michell's Staircase to Heaven @OCCULTURE Berlin 2019" />
+    <meta property="og:image"         content="https://rw-ktf.univie.ac.at/fileadmin/_processed_/csm_MarleenThaler_sw_e16daa391e.jpg" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <section class='inner center' id='event'><div class='title'>The New Jerusalem Diagram. John Michell's Staircase to Heaven</div><div class='avatar'><img alt='Marleen Thaler' onError='loadDefaultAvatar(this)' src='https://rw-ktf.univie.ac.at/fileadmin/_processed_/csm_MarleenThaler_sw_e16daa391e.jpg'><div class='name'>Marleen Thaler</div></div><div class='main-info-wrap'><div class='abstract justifed'>The English writer and self proclaimed radical Traditionalist John Michell (1933 - 2009) occupied an outstanding position within the alternative religious landscape of Britain. By means of his influential Sacred Place Theory he aimed to re-sanctify the English landscape, and to launch a revived Golden Age with Glastonbury as point of departure. The numerological elaboration of his theory is the New Jerusalem Diagram, a geometrical map of the Heavenly City, linking contemporary Glastonbury to the lost Atlantis and to the prospective New Jerusalem.</div><div class='bio justifed'>Marleen is a PhD Candidate at the University of Vienna at the Department of Religious Studies.  Most of her previous study and research projects were dealing with esoteric and alternative religious matters, such as Earth Mysteries, Neo-Paganism, or the religious impacts within the psychedelic movement. or Kundalini within the Holistic Milieu. Currently she is working on her publication on John Michell’s Sacred Place Theory and on her PhD dissertation on Kundalini within the Holistic Milieu.
+Originally from the Austrian countryside Marleen has been living in Vienna for the last ten years from where she was part time working, studying and travelling.
+</div></div></section>
+
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><a class="ga-track" onclick="goToPage('../../impressum.html')">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <section id="mailing-list-boop-boop" class='outer hidden'>
+     <form class="ga-track" action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+       onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+       <label for="tlemail">Subscribe for updates and information about OCCULTURE:</label>
+       <input type="text" name="email" id="tlemail" />
+       <input type="hidden" value="1" name="embed"/>
+       <input type="submit" value="Subscribe" class="button ga-track"/>
+     </form>
+     <div class="close-button ga-track" onclick="hideMailingList()">x</div>
+  </section>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../..//data/events_2019.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
+</html>

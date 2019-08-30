@@ -1,0 +1,88 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <title>OCCULTURE Berlin | Wahid Azal</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="“Verily I Am God” (إنّني أنا الله): Linguistic Theosis and Theurgical Apotheosis in the writings of the Bāb @OCCULTURE Berlin 2019">
+    <meta property="og:url"           content="/2019/lineup/wahid-azal.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Wahid Azal" />
+    <meta property="og:description"   content="“Verily I Am God” (إنّني أنا الله): Linguistic Theosis and Theurgical Apotheosis in the writings of the Bāb @OCCULTURE Berlin 2019" />
+    <meta property="og:image"         content="https://www.occultureberlin.org/images/speakers/azal-n-wahid-red.png" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <section class='inner center' id='event'><div class='title'>“Verily I Am God” (إنّني أنا الله): Linguistic Theosis and Theurgical Apotheosis in the writings of the Bāb</div><div class='avatar'><img alt='Wahid Azal' onError='loadDefaultAvatar(this)' src='https://www.occultureberlin.org/images/speakers/azal-n-wahid-red.png'><div class='name'>Wahid Azal</div></div><div class='main-info-wrap'><div class='abstract justifed'>Immersed in the high Imamology of Twelver Shiʿi gnosis, the writings of Siyyid ʿAlī Muḥamad Shīrāzī, the Bāb (d. 1850) display some of the most interesting Joycean and Dadaesque (while thoroughly unconventional) usages of the Arabic language by any noted heresiarch in the whole of Islamic history wherein the themes, language, stylisms and sonorisms of the Qurʾān are literally made to explode beyond themselves into lucidly articulated Arabic glossolalia, theurgically located, in the permutation of the names and attributes of the divinity qua the doxologies of a post-Islamic scripture. Together with a brief history of the Bābī movement, in this presentation a few samples from the Bāb’s Book of the Names of All-Things (kitāb asmāʾ kullu-shayʾ) and the Book of the Five Grades (kitāb panj shaʾn) will be discussed and offered in the original as well as in translation.</div><div class='bio justifed'>Wahid Azal is an independent practitioner, scholar of Islamic magical and occult texts and manuscripts, and an expert on the post-Islamic gnostic religion of the Bayān. He is also an activist and the Grand Shaykh of the Fatimiya Sufi Order. Recently widowed, he lives with his daughter in Berlin.</div></div></section>
+
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><a class="ga-track" onclick="goToPage('../../impressum.html')">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <section id="mailing-list-boop-boop" class='outer hidden'>
+     <form class="ga-track" action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+       onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+       <label for="tlemail">Subscribe for updates and information about OCCULTURE:</label>
+       <input type="text" name="email" id="tlemail" />
+       <input type="hidden" value="1" name="embed"/>
+       <input type="submit" value="Subscribe" class="button ga-track"/>
+     </form>
+     <div class="close-button ga-track" onclick="hideMailingList()">x</div>
+  </section>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../..//data/events_2019.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
+</html>

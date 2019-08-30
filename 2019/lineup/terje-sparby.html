@@ -1,0 +1,88 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <title>OCCULTURE Berlin | Terje Sparby</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="Meditative Experiences and The Guardian of the Threshold in Anthroposophy @OCCULTURE Berlin 2019">
+    <meta property="og:url"           content="/2019/lineup/terje-sparby.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Terje Sparby" />
+    <meta property="og:description"   content="Meditative Experiences and The Guardian of the Threshold in Anthroposophy @OCCULTURE Berlin 2019" />
+    <meta property="og:image"         content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Machelldweller.jpg/360px-Machelldweller.jpg" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <section class='inner center' id='event'><div class='title'>Meditative Experiences and The Guardian of the Threshold in Anthroposophy</div><div class='avatar'><img alt='Terje Sparby' onError='loadDefaultAvatar(this)' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Machelldweller.jpg/360px-Machelldweller.jpg'><div class='name'>Terje Sparby</div></div><div class='main-info-wrap'><div class='abstract justifed'>There is hardly any being that is so archetypal as that of the wicked adversary. This being has many shapes: The devil, demons, maleficent sorcerers, and witches. They all tempt, seduce, challenge, and destroy. Around the early 20th century the notion arises that the wicked adversary is a projection of the repressed aspects of the self. Rudolf Steiner calls this "der Doppelgänger" or the guardian of the threshold, which represents the disowned, unwanted, and dark aspects of a person. According to Steiner, it is essential that a spiritual practitioners purifies, transforms, and integrates these aspects of themselves. I will explore these ideas and present research on Anthroposophic practitioners who claim to have met this being, including reports from my own meditative adventures and encounters with such a sensed, evil presence.</div><div class='bio justifed'>Terje Sparby studied philosophy, the history of religion, and the history of ideas, at the University of Oslo. He received his PhD in philosophy at Heidelberg University in 2012. Since then he has been a visiting scholar at the Mind & Life Institute, and a postdoc at Humboldt University in Berlin and at the Bender Institute of Neuroimaging. Currently he is working at the Witten/Herdecke University, focusing on phenomenology, Anthroposophy, introspection, first-person methods, meditation, and the philosophy of mind. </div></div></section>
+
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><a class="ga-track" onclick="goToPage('../../impressum.html')">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <section id="mailing-list-boop-boop" class='outer hidden'>
+     <form class="ga-track" action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+       onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+       <label for="tlemail">Subscribe for updates and information about OCCULTURE:</label>
+       <input type="text" name="email" id="tlemail" />
+       <input type="hidden" value="1" name="embed"/>
+       <input type="submit" value="Subscribe" class="button ga-track"/>
+     </form>
+     <div class="close-button ga-track" onclick="hideMailingList()">x</div>
+  </section>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../..//data/events_2019.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
+</html>

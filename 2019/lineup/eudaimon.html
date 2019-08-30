@@ -1,0 +1,88 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <title>OCCULTURE Berlin | Eudaimon</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="Iboga - Guided Near-Death-Experiences for spiritual Initiation @OCCULTURE Berlin 2019">
+    <meta property="og:url"           content="/2019/lineup/eudaimon.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Eudaimon" />
+    <meta property="og:description"   content="Iboga - Guided Near-Death-Experiences for spiritual Initiation @OCCULTURE Berlin 2019" />
+    <meta property="og:image"         content="https://i.postimg.cc/43Wz0h8W/IMG-20190131-WA0000.jpg" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <section class='inner center' id='event'><div class='title'>Iboga - Guided Near-Death-Experiences for spiritual Initiation</div><div class='avatar'><img alt='Eudaimon' onError='loadDefaultAvatar(this)' src='https://i.postimg.cc/43Wz0h8W/IMG-20190131-WA0000.jpg'><div class='name'>Eudaimon</div></div><div class='main-info-wrap'><div class='abstract justifed'>This Lecture will elucidate the mystical plant Iboga. In Western Equatorial Africa, the root bark of the shrub Tabernanthe Iboga has been considered a sacred tool for centuries. It serves as medicine as well as a catalyst for spiritual initiation. Massive doses of Iboga induce several day long near-death-experiences that cause the astral body to detach from the physical body. The Initiate wanders the ancestral realms and astral planes, gains information about karmic entanglements and learns about the hidden forces of the cosmos.</div><div class='bio justifed'>Eudaimon has worked with and loved the Tabernanthe Iboga shrub since 2006. After experiencing its enourmous healing qualities himself, he immersed deeply into research and work with the sacred wood. Besides helping others to witness and decode the ancient wisdom of Iboga for healing purposes as well as for psycho-spiritual discovery, he writes, talks and organises Events evolving around Iboga.</div></div></section>
+
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><a class="ga-track" onclick="goToPage('../../impressum.html')">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <section id="mailing-list-boop-boop" class='outer hidden'>
+     <form class="ga-track" action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+       onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+       <label for="tlemail">Subscribe for updates and information about OCCULTURE:</label>
+       <input type="text" name="email" id="tlemail" />
+       <input type="hidden" value="1" name="embed"/>
+       <input type="submit" value="Subscribe" class="button ga-track"/>
+     </form>
+     <div class="close-button ga-track" onclick="hideMailingList()">x</div>
+  </section>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../..//data/events_2019.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
+</html>

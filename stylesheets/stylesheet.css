@@ -325,6 +325,7 @@ body::after {
 footer {
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   height: 3em;
   background: black;
@@ -377,6 +378,7 @@ footer {
   background: #000;
   position: fixed;
   top: 0;
+  left: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border-bottom: 2px solid #DCE0DF;
@@ -533,23 +535,6 @@ hr {
   cursor: pointer;
 }
 
-.center {
-  text-align: center;
-}
-
-.justifed {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.hidden {
-  display: none;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
 .outer {
   width: 100%;
 }
@@ -561,6 +546,29 @@ hr {
   margin: 0 auto;
 }
 
+
+.center {
+  text-align: center;
+}
+
+.justifed {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.center-justifed {
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
 
 /*******************************************************************************
 Full-Width Styles
@@ -704,7 +712,6 @@ a.schedule-link {
   text-decoration: none;
 }
 
-
 .sub-nav {
   margin-top: -3em !important;
 }
@@ -752,6 +759,43 @@ a.schedule-link {
   margin-right: 2em;
   text-align: left;
   background: #222;
+}
+
+#lineup-2019-wrap #lineup-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0.5em;
+}
+
+#lineup-2019-wrap .event-wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+#lineup-2019-wrap .avatar img {
+  object-fit: cover;
+  min-width: 25vw;
+  max-width: 25vw;
+  min-height: 25vw;
+  max-height: 25vw;
+  border: 3px solid white;
+}
+
+#lineup-2019-wrap .info-wrap {
+  font-family: latoBold;
+  text-transform: uppercase;
+  align-self: end;
+  border: 3px soild white;
+}
+
+#lineup-2019-wrap .info-wrap .name {
+  margin: 0.2em;
+  padding: 0.5em;
+  background: white;
+  color: black;
 }
 
 /* i did this to myself. i did this to myself. i did this to myself. */
@@ -810,24 +854,23 @@ a.schedule-link {
 }
 
 #contact a {
-  color: red;
+  color: gold;
 }
 
 /* adblock hides this if it's called 'sponsors' */
-#friends-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 1em;
+#those-who-support-us-financially .vertical-spacer {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
-#friends-grid li {
-  align-self: center;
+#those-who-support-us-financially img {
+  width: 30%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 2.5em;
+  vertical-align: middle;
 }
-
-#friends-grid img {
-  width: 100%;
-}
-
 ul.donation-method {
   padding: 0;
 }
@@ -863,13 +906,53 @@ code.donation-address {
   margin-bottom: 2em;
 }
 
+#event {
+  display: grid;
+  grid-column-gap: 1em;
+  grid-template-columns: 1fr 2fr;
+}
+
+#event .title {
+  grid-column: 1/3;
+  font-family: latoBold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+  padding: 1em;
+  background: white;
+  color: black;
+}
+
+#event .avatar img {
+  width: 100%;
+}
+
+#event .avatar .name {
+  font-family: 'Metamorphous';
+}
+
+#event .main-info-wrap {
+  display: grid;
+  grid-template-rows: 1fr 3fr 3fr;
+  grid-row-gap: 0.5em;
+}
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
 
-@media (min-width: 1650px) {
-  #call-for-abstracts #topics-of-interest li {
-    width: 33%;
+
+@media (min-width: 1600px) {
+  #lineup-2019-wrap #lineup-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  #lineup-2019-wrap .avatar img {
+    min-width: 18vw;
+    max-width: 18vw;
+    min-height: 18vw;
+    max-height: 18vw;
   }
 }
 
@@ -1015,6 +1098,19 @@ Small Device Styles
 
   .donation-method {
     width: 100%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1000px) {
+  #lineup-2019-wrap #lineup-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #lineup-2019-wrap .avatar img {
+    min-width: 75vw;
+    max-width: 75vw;
+    min-height: 75vw;
+    max-height: 75vw;
   }
 }
 

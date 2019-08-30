@@ -1,0 +1,91 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <title>OCCULTURE Berlin | Gary Lachman</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="Dark Star Rising: Magick and Power in the Age of Trump @OCCULTURE Berlin 2019">
+    <meta property="og:url"           content="/2019/lineup/gary-lachman.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Gary Lachman" />
+    <meta property="og:description"   content="Dark Star Rising: Magick and Power in the Age of Trump @OCCULTURE Berlin 2019" />
+    <meta property="og:image"         content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTmIv1DLE-johhB061KWdKXiJS3nqxn3HKErfHhnBtpsxl1n9" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <section class='inner center' id='event'><div class='title'>Dark Star Rising: Magick and Power in the Age of Trump</div><div class='avatar'><img alt='Gary Lachman' onError='loadDefaultAvatar(this)' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTmIv1DLE-johhB061KWdKXiJS3nqxn3HKErfHhnBtpsxl1n9'><div class='name'>Gary Lachman</div></div><div class='main-info-wrap'><div class='abstract justifed'>Did “positive thinking” and “mental science” help put Donald Trump in the White House? And are there other kinds of “occult politics” at work in the world today?
+In my book Dark Star Rising: Magick and Power in the Age of Trump, I look at the strange magical and esoteric ideas that are informing postmodern politics in the United States and Russia in the twenty-first century.
+From New Thought to Chaos Magick to the far-right esotericism of Julius Evola and the Traditionalists, a web of connections stretches out across the globe bringing together such disparate characters and phenomena as Norman Vincent Peale, Pepe the Frog, the Alt-Right, Vladimir Putin, President Trump, Reality TV, “meme magick” and much else in a weird tangle of postmodern occultism in which reality is up for grabs, facts give way to internet fictions, and truth is a negotiable commodity.
+My talk will look at this post-truth alternative fact landscape in which reality is defined as what you can get away with.</div><div class='bio justifed'>Gary Lachman is the author of twenty-two books on consciousness, culture, and the western esoteric tradition, including The Secret Teachers of the Western World, Lost Knowledge of the Imagination, and The Quest for Hermes Trismegistus. He writes for several journals in the UK, US, and Europe, lectures around the world, and his work has been translated into more than a dozen languages. In a past life he was a founding member of the pop group Blondie and in 2006 was inducted into the Rock and Roll Hall of Fame. His website can be reached at www.garylachman.co.uk</div></div></section>
+
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><a class="ga-track" onclick="goToPage('../../impressum.html')">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <section id="mailing-list-boop-boop" class='outer hidden'>
+     <form class="ga-track" action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+       onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+       <label for="tlemail">Subscribe for updates and information about OCCULTURE:</label>
+       <input type="text" name="email" id="tlemail" />
+       <input type="hidden" value="1" name="embed"/>
+       <input type="submit" value="Subscribe" class="button ga-track"/>
+     </form>
+     <div class="close-button ga-track" onclick="hideMailingList()">x</div>
+  </section>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../..//data/events_2019.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
+</html>

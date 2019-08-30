@@ -56,7 +56,7 @@ nullSpeaker = function(requestedName) {
     "name": "",
     "searchString": "",
     "title": "Speaker not found!",
-    "avatarPath": "images/speakers/unknown.png",
+    "avatarPath": "images/speakers/unknown_2018.png",
     "description": "<p>Sorry, we don't know anyone called "+requestedName+"!</p><div style='margin:2em;'><a class='button' href='"+document.location.pathname+"?ref=speaker-unknown-"+requestedName+"'>See the full lineup</a></div>"
   }
 }

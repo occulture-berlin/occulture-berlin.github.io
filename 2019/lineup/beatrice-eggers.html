@@ -1,0 +1,88 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <title>OCCULTURE Berlin | Beatrice Eggers</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="Movies as Magickal Talismans @OCCULTURE Berlin 2019">
+    <meta property="og:url"           content="/2019/lineup/beatrice-eggers.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Beatrice Eggers" />
+    <meta property="og:description"   content="Movies as Magickal Talismans @OCCULTURE Berlin 2019" />
+    <meta property="og:image"         content="https://www.involutionfilm.se/wp-content/uploads/2019/08/FB_IMG_1557752654381.jpg" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <section class='inner center' id='event'><div class='title'>Movies as Magickal Talismans</div><div class='avatar'><img alt='Beatrice Eggers' onError='loadDefaultAvatar(this)' src='https://www.involutionfilm.se/wp-content/uploads/2019/08/FB_IMG_1557752654381.jpg'><div class='name'>Beatrice Eggers</div></div><div class='main-info-wrap'><div class='abstract justifed'>Films inspired by Kenneth Anger and Maya Deren. Film content involves symbolism of The Qabbalistic Tree, Gnostic Mass, EGC. Interpersonal Sex Magick Sigil Ritual. Priestess Pathworking, Estoteric images that invokes transcendental statens. Liber Resh montage. Avant garde style and original soundracks. </div><div class='bio justifed'>Beatrice Eggers is Director and Producer of Involutionfilm. Focusing on Estoteric subject matters. Her style is very both personal and interpersonal. She has been doing Film Art Performances in different settings such as swimming pool where audience float in water while watching The film. Change The perception of viewing and you change The persons perspective. </div></div></section>
+
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><a class="ga-track" onclick="goToPage('../../impressum.html')">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <section id="mailing-list-boop-boop" class='outer hidden'>
+     <form class="ga-track" action="https://tinyletter.com/occulture-berlin" method="post" target="popupwindow"
+       onsubmit="window.open('https://tinyletter.com/occulture-berlin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+       <label for="tlemail">Subscribe for updates and information about OCCULTURE:</label>
+       <input type="text" name="email" id="tlemail" />
+       <input type="hidden" value="1" name="embed"/>
+       <input type="submit" value="Subscribe" class="button ga-track"/>
+     </form>
+     <div class="close-button ga-track" onclick="hideMailingList()">x</div>
+  </section>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../..//data/events_2019.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
+</html>
