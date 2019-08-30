@@ -6,10 +6,7 @@
   description - meta tag description
   url - meta tag url
   image - open graph image displayed in previews
-  background_image - image in the background of the site
-  background_image_id - css id for the background image
   onLoadAction - javascript function to run on page load
-  displayImageCarousel - [hidden by default] show the image carousel
 
 -->
 
@@ -39,36 +36,18 @@
     <meta property="og:image"         content="{{ page.image }}" />
     <meta property="og:site_name"     content="OCCULTURE Berlin" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
 
     <!-- fonts loaded from google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
   </head>
 
   <body onLoad="{{ page.onLoadAction }}">
-    <span id="{{ page.background_image_id }}">
-      <img id='bg-image' src="{{ page.background_image }}">
-    </span>
-
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-      <!-- TODO: This should go into a partial -->
-      {% if page.displayImageCarousel == true %}
-        <div id='image-carousel'>
-          <ul id='images'>
-            <li><img src="images/carousel/2018_acolytes.jpg" alt='acolytes'></li>
-            <li><img src="images/carousel/2018_altar.jpg" alt='altar'></li>
-            <li><img src="images/carousel/2018_isis.jpg" alt='isis'></li>
-            <li><img src="images/carousel/2018_opening_ritual.jpg" alt='opening_ritual'></li>
-            <li><img src="images/carousel/2018_phurpa.jpg" alt='phurpa'></li>
-            <li><img src="images/carousel/2018_suspension_performance.jpg" alt='suspension'></li>
-          </ul>
-        </div>
-      {% endif %}
-
       <header class="inner">
-        <a onclick="goToPage('index.html')">
-          <img id="logo" src="images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
         </a>
       </header>
     </div>
@@ -79,7 +58,7 @@
     <footer id="footer-wrap" class="outer">
       <div id='footer-links' class='inner'>
         <ul>
-          <li><a class="ga-track" onclick="goToPage('impressum.html')">Impressum</a></li>
+          <li><a class="ga-track" onclick="goToPage('../../impressum.html')">Impressum</a></li>
         </ul>
       </div>
     </footer>
@@ -101,8 +80,8 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
     type="text/javascript">
   </script>
-  <script src="javascripts/mustache.min.js" type="text/javascript"></script>
-  <script src="javascripts/main.js" type="text/javascript"></script>
-  <script src="/data/events_2019.js" type="text/javascript"></script>
-  <script src="javascripts/lineup_2019.js" type="text/javascript"></script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../..//data/events_2019.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
 </html>
