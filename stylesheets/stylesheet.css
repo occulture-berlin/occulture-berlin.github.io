@@ -1125,6 +1125,10 @@ Small Device Styles
     min-height: 75vw;
     max-height: 75vw;
   }
+
+  #event {
+    display: block;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 800px) {
@@ -1152,46 +1156,6 @@ Small Device Styles
   .sub-nav li {
     display: list-item;
     margin-top: 0.5em;
-  }
-
-  #call-for-abstracts #topics-of-interest {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-  }
-
-  #call-for-abstracts #topics-of-interest li {
-    width: 100%;
-  }
-
-  #call-for-abstracts #abstract-deadline td.image-holder {
-    width: 15%;
-  }
-
-  #call-for-abstracts #abstract-deadline img {
-    width: 80%;
-  }
-
-  #proposal-questions {
-    font-size: 0.6em;
-  }
-
-  #tickets #ticket-columns #prices td {
-    font-size: 0.7em;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
-  }
-
-  #tickets #ticket-columns .buy-ticket-button {
-    font-size: 0.8em;
-    margin-top: 1.35em;
-  }
-}
-
-@media (max-width: 600px) {
-  #tickets #ticket-columns .buy-ticket-button {
-    font-size: 0.5em;
-    margin-top: 1.35em;
   }
 }
 
