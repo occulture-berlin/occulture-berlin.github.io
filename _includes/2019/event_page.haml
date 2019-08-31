@@ -1,4 +1,4 @@
-{% assign eventQuery = site.data.2019.events | where: 'searchString', page.searchString %}
+{% assign eventQuery = site.data.events-2019 | where: 'searchString', page.searchString %}
 {% assign event = eventQuery.first %}
 
 %section#event.inner.center

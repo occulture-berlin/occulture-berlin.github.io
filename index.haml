@@ -99,7 +99,7 @@ onLoadAction:
 #lineup-2019-wrap.outer
   %section#lineup.tab.sub-navigable.inner.center.hidden
     %ul#lineup-sub-nav.sub-nav.inner.center.hidden
-      {% assign categories = site.data.2019.events | map: 'type' | uniq %}
+      {% assign categories = site.data.events-2019 | map: 'type' | uniq %}
       %li#all all
       {% for category in categories %}
       %li#{{ category }} {{category}}

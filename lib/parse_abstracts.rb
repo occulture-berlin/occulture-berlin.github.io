@@ -40,7 +40,7 @@ class ParseAbstracts
 end
 
 input = ENV.fetch('ABSTRACTS')
-target = "./_data/2019/events.yml"
+target = "./_data/events-#{year}.yml"
 
 print "Calling this parser is destructive!\n\n"
 print "If you continue, you will overwrite file '#{target}'\n\n"
