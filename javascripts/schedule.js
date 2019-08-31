@@ -1,6 +1,6 @@
 $(document).ready(function() {
   //loadTimeline();
-  loadEvents();
+  //loadEvents();
 });
 
 document.addEventListener('keyup', function (event) {

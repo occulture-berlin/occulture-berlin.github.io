@@ -1,0 +1,27 @@
+%section#mailing-list-wrap.outer.hidden
+  #mailing-list
+    %img.logo{src:'images/occulture-logo-alpha.png', alt:'occulture berlin'}
+    %form.ga-track{                                     |
+      action:"https://tinyletter.com/occulture-berlin", |
+      method:"post",                                    |
+      target:"_blank",                                  |
+      data:{tracker:"input-mailing-list"}}              |
+
+      %label{for:"tlemail"}
+        Subscribe for updates and information about OCCULTURE:
+      #mailing-list-input
+        %input{type:"text", name:"email", id:"tlemail"}
+        %input{type:"hidden", value:"1",  name:"embed"}
+        %input.button.ga-track{                 |
+          type:"submit",                        |
+          value:"Subscribe",                    |
+          data:{tracker:"submit-mailing-list"}} |
+    #mailing-list-buttons
+      .hide-button.button.ga-track{           |
+        data:{tracker: "hide-mailing-list"},  |
+        onclick:"hideMailingList()"}          |
+        Don't show this message again
+      .close-button.button.ga-track{          |
+        data:{tracker: "close-mailing-list"}, |
+        onclick:"closeMailingList()"}         |
+        Close
