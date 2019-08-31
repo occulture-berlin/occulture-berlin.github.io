@@ -22,14 +22,17 @@ onLoadAction:
 / Nav buttons
 #nav-wrap.outer
   %ul#nav.inner.center
+    %li.button.ga-track.hidden#tickets-button
+      %script{src: "https://www.universe.com/embed2.js", "data-state" => ""}
+      %a{href: "https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD"} Get Tickets
     %li.button.ga-track#lineup-button.tab-button 2019 Lineup
-    %li.button.ga-track#venue-button.tab-button Venue
+    / %li.button.ga-track#venue-button.tab-button Venue
     %li.button.ga-track#contact-button.tab-button Contact
     %li.button.ga-track#call-for-abstracts-button.tab-button Proposals
     %li.button.ga-track#donate-button.tab-button Donate
     / adblock hides this if it's called 'sponsors'
     %li.button.ga-track#friends-button.tab-button Partners
-    %li.button.ga-track#lineup-2018-button
+    %li.button.ga-track.hidden#lineup-2018-button
       %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
 
 #venue-wrap.outer

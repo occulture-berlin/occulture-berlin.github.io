@@ -18,6 +18,9 @@ $(document).ready(function() {
     $("#high-priority-information-wrap").addClass('hidden');
     $("#image-carousel").addClass('hidden');
 
+    // switch nav after initial click
+    $('#nav-wrap #nav').children('li').removeClass('hidden');
+
     // clear 'selected' and designate the currently selected tab-button
     $("#nav>li.selected").removeClass("selected");
     $(".sub-nav>li.selected").removeClass("selected");
