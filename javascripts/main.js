@@ -14,12 +14,16 @@ $(document).ready(function() {
   $(".tab-button").on("click", function(){
     var selected = $(this).attr('id').replace('-button', '');
 
+    // TODO: can i just run the first blocks on first click?
     // remove initially visible elements
     $("#high-priority-information-wrap").addClass('hidden');
     $("#image-carousel").addClass('hidden');
 
-    // switch nav after initial click
-    $('#nav-wrap #nav').children('li').removeClass('hidden');
+    // convert nav styling
+    $('#nav-wrap').addClass('top-nav-bar');
+    $('#nav-wrap #nav').removeClass('inner');
+    $('#nav-wrap #nav li').removeClass('hidden');
+    $('#nav-wrap #nav li').removeClass('button');
 
     // clear 'selected' and designate the currently selected tab-button
     $("#nav>li.selected").removeClass("selected");

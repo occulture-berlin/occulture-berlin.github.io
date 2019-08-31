@@ -662,6 +662,7 @@ section {
   box-shadow: none;
   display: block;
   margin-top: 4em;
+  margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -698,8 +699,45 @@ a.schedule-link {
   text-transform: uppercase;
 }
 
+/* styling after nav switch on first click */
+#nav-wrap.top-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  z-index: 100;
+}
+
+#nav-wrap.top-nav-bar a {
+  color: inherit;
+}
+
+#nav-wrap #hamburger-icon {
+  display: none;
+}
+
+
+#nav-wrap.top-nav-bar #nav {
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+#nav-wrap.top-nav-bar #nav li {
+  width: auto;
+  font-size: 1.2em;
+}
+
+#nav-wrap.top-nav-bar #nav li.selected {
+  text-decoration: underline;
+}
+
 #nav {
   margin-bottom: 2em;
+  padding-left: 0;
+}
+
+#nav li#ticket-button {
+  font-size: 175% !important;
 }
 
 #nav li {
@@ -727,10 +765,8 @@ a.schedule-link {
   padding: 0.3em;
 }
 
-#nav li.selected {
-  background: black;
-  color: #dce0df;
-  text-decoration: none;
+#nav li.button {
+  padding: 0.3em;
 }
 
 .sub-nav {
@@ -1153,13 +1189,16 @@ Small Device Styles
     font-size: 3vw;
   }
 
+  #nav-wrap .top-nav-bar #hamburger-icon {
+    display: block;
+  }
+
   #nav {
     margin-bottom: 0;
   }
 
   #nav li {
     font-size: 1.7em;
-    display: list-item;
   }
 
   .sub-nav li {
