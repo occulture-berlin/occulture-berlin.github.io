@@ -714,6 +714,15 @@ a.schedule-link {
   cursor: pointer;
 }
 
+/* poor man's !important */
+#nav li.hidden {
+  display: none;
+}
+
+#nav li#tickets-button {
+  background: red;
+}
+
 #nav li.button {
   padding: 0.3em;
 }

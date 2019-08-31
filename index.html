@@ -88,14 +88,18 @@
 <!-- Nav buttons -->
 <div class='outer' id='nav-wrap'>
 <ul class='inner center' id='nav'>
+<li class='button ga-track hidden' id='tickets-button'>
+<script data-state='' src='https://www.universe.com/embed2.js'></script>
+<a href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+</li>
 <li class='button ga-track tab-button' id='lineup-button'>2019 Lineup</li>
-<li class='button ga-track tab-button' id='venue-button'>Venue</li>
+<!-- %li.button.ga-track#venue-button.tab-button Venue -->
 <li class='button ga-track tab-button' id='contact-button'>Contact</li>
 <li class='button ga-track tab-button' id='call-for-abstracts-button'>Proposals</li>
 <li class='button ga-track tab-button' id='donate-button'>Donate</li>
 <!-- adblock hides this if it's called 'sponsors' -->
 <li class='button ga-track tab-button' id='friends-button'>Partners</li>
-<li class='button ga-track' id='lineup-2018-button'>
+<li class='button ga-track hidden' id='lineup-2018-button'>
 <a onclick='goToPage(&#39;2018/lineup&#39;)'>2018 Lineup</a>
 </li>
 </ul>
@@ -222,8 +226,8 @@ Submit a Proposal
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
     type="text/javascript">
   </script>
+  <script src="javascripts/image_carousel.js" type="text/javascript"></script>
   <script src="javascripts/mustache.min.js" type="text/javascript"></script>
   <script src="javascripts/main.js" type="text/javascript"></script>
-  <script src="/data/events_2019.js" type="text/javascript"></script>
   <script src="javascripts/lineup_2019.js" type="text/javascript"></script>
 </html>

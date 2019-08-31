@@ -46,7 +46,7 @@ class GenerateEventPages
 end
 
 year = ENV.fetch('YEAR')
-input = "./_data/#{year}/events.yml"
+input = "./_data/events-#{year}.yml"
 target_dir = "./#{year}/lineup"
 
 print "Calling this generator is destructive!\n\n"
