@@ -348,74 +348,78 @@ footer {
   cursor: pointer;
 }
 
-#mailing-list-main {
-  padding-top: 1em;
-  vertical-align: middle;
-  font-family: 'Metamorphous';
-}
-
-#mailing-list-main form {
-  text-align: center;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-#mailing-list-main form #tlemail {
-  width: 40%;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-}
-
-#mailing-list-main form .button {
-  vertical-align: middle;
-  padding: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  border: none;
-}
-
-#mailing-list-boop-boop {
+#mailing-list-wrap {
   background: #000;
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
+  width: 100vw;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border-bottom: 2px solid #DCE0DF;
 }
 
-#mailing-list-boop-boop form {
-  float: left;
-  width: 95%;
+#mailing-list-wrap #mailing-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1em;
+  grid-template-rows: 1fr;
+}
+
+#mailing-list .button {
   text-align: center;
-  margin-bottom: 0.3em;
-}
-
-#mailing-list-boop-boop form label {
-  margin-left: 5%; /* make up for the 95% width of form */
-  vertical-align: middle;
-  font-family: 'Metamorphous';
-}
-
-#mailing-list-boop-boop form #tlemail {
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-}
-
-#mailing-list-boop-boop form .button {
-  vertical-align: middle;
+  cursor: pointer;
+  font-family: keepCalm;
+  margin: 0.75em 1em 0.75em 1em;
   padding: 0.5em;
   padding-left: 1em;
   padding-right: 1em;
   border: none;
+  font-size: 1em;
 }
 
-#mailing-list-boop-boop .close-button {
-  float: right;
-  width: 5%;
+#mailing-list-wrap #mailing-list .logo {
+  width: 45vw; /* expands to 70 */
+  margin-left: auto;
+  margin-right: auto;
+  grid-row: 2;
+}
+
+#mailing-list form {
+  grid-row: 3;
   text-align: center;
-  cursor: pointer;
-  font-family: keepCalm;
+  align-self: center;
+}
+
+#mailing-list form label {
+  vertical-align: middle;
+  font-family: 'Metamorphous';
+}
+
+#mailing-list #mailing-list-input {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+#mailing-list #mailing-list-input #tlemail {
+  width: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#mailing-list #mailing-list-input .button {
+  background: red;
+}
+
+#mailing-list #mailing-list-buttons {
+  grid-row: 4;
+  width: 40vw;
+  justify-self: center;
 }
 
 #impressum {
@@ -1057,11 +1061,6 @@ Small Device Styles
     font-size: 2vw;
   }
 
-  #mailing-list-boop-boop form label {
-    display: block;
-    padding: 0.5em;
-  }
-
   #call-for-abstracts #abstract-deadline {
     font-size: 1.2em;
   }
@@ -1160,6 +1159,14 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
+  #mailing-list #mailing-list-input {
+    width: 80vw;
+  }
+
+  #mailing-list #mailing-list-buttons {
+    width: 80vw;
+  }
+
   #lineup-2019-wrap #lineup-grid {
     grid-template-columns: 1fr;
   }
@@ -1215,6 +1222,14 @@ Small Device Styles
   .inner {
     min-width: 320px;
     max-width: 480px;
+  }
+
+  #mailing-list #mailing-list-input {
+    width: auto;
+  }
+
+  #mailing-list #mailing-list-buttons {
+    width: auto;
   }
 
   h1 {

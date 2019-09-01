@@ -7,9 +7,6 @@ $(document).ready(function() {
   // landing page
   displayLandingPage();
 
-  // mailing list
-  displayMailingList();
-
   // nav switching
   $(".tab-button").on("click", function(){
     var selected = $(this).attr('id').replace('-button', '');
@@ -24,6 +21,8 @@ $(document).ready(function() {
     $('#nav-wrap #nav').removeClass('inner');
     $('#nav-wrap #nav li').removeClass('hidden');
     $('#nav-wrap #nav li').removeClass('button');
+    // display mailing list after nav change resolves
+    displayMailingList();
 
     // clear 'selected' and designate the currently selected tab-button
     $("#nav>li.selected").removeClass("selected");
@@ -88,17 +87,29 @@ hideLandingPage = function() {
   $("#landing").fadeOut(1200);
   $("#landing-wrap").fadeOut(3000, function() {
     $("footer").show();
-    displayMailingList();
   });
 }
 
 // display the mailing list sign-up form
 displayMailingList = function() {
-  $("#mailing-list-boop-boop").delay(1000).fadeIn(2000);
+  if (Cookies.get('mailing-list-vibes') != 'sick-of-it') {
+    $("#mailing-list-wrap").delay(1000).fadeIn(2000);
+  };
+}
+
+submitMailingList = function() {
+  // var subscriptionPath = 'https://tinyletter.com/occulture-berlin';
+  // window.open(subscriptionPath, '_blank', 'scrollbars=yes,width=800,height=600');
+  return true
 }
 
 hideMailingList = function() {
-  $("#mailing-list-boop-boop").fadeOut(200);
+  Cookies.set('mailing-list-vibes', 'sick-of-it', { expires: 28 });
+  $("#mailing-list-wrap").fadeOut(200);
+}
+
+closeMailingList = function() {
+  $("#mailing-list-wrap").fadeOut(200);
 }
 
 // add uniq method to Array object
