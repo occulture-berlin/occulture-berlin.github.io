@@ -705,7 +705,6 @@ a.schedule-link {
   top: 0;
   left: 0;
   width: 100%;
-  height: 4vh;
   background: black;
   z-index: 100;
 }
@@ -871,7 +870,6 @@ a.schedule-link {
 #lineup-sub-nav li.selected {
   color: red;
 }
-
 
 /* i did this to myself. i did this to myself. i did this to myself. */
 #lineup-2018-wrap .event-wrap,
@@ -1182,7 +1180,7 @@ Small Device Styles
   }
 
   #nav-wrap.top-nav-bar {
-    height: 4vh;
+    height: 5vh;
   }
 
   #nav-wrap.top-nav-bar #mobile-nav-wrap {
@@ -1248,7 +1246,7 @@ Small Device Styles
   }
 
   #lineup-2019-wrap #lineup-sub-nav {
-    top: 4vh;
+    top: 5vh;
   }
 
   #lineup-2019-wrap #lineup-sub-nav li {
