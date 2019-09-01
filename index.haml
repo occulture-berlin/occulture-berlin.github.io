@@ -14,19 +14,18 @@ onLoadAction:
 #high-priority-information-wrap.outer
   %section#high-priority-information.inner.center
     31 OCTOBER - 03 NOVEMBER 2019
-  %section#tickets-wrap.inner.center
-    %script{src: "https://www.universe.com/embed2.js", "data-state" => ""}
-    %a.button.ga-track{href: "https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD"} Get Tickets
+  %section#tickets-wrap.inner.center.ga-track{data:{tracker: 'high-priority-ticket-button'}}
+    {% haml get_tickets.haml %}
 
 / MAIN CONTENT
 / Nav buttons
 #nav-wrap.outer
-  #hamburger-icon.hidden
-    %img{src: 'images/hamburger_icon.png'}
+  #mobile-nav-wrap.hidden
+    #hamburger-icon.ga-track
+      %img{src: 'images/hamburger_icon.png'}
   %ul#nav.inner.center
     %li.button.ga-track.hidden#tickets-button
-      %script{src: "https://www.universe.com/embed2.js", "data-state" => ""}
-      %a{href: "https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD"} Get Tickets
+      {% haml get_tickets.haml %}
     %li.button.ga-track#lineup-button.tab-button 2019 Lineup
     / %li.button.ga-track.hidden#venue-button.tab-button Venue
     %li.button.ga-track#contact-button.tab-button Contact
@@ -103,12 +102,12 @@ onLoadAction:
 
 // this likes to be at the bottom for some reason, otherwise it blocks everything else
 #lineup-2019-wrap.outer
+  %ul#lineup-sub-nav.sub-nav.center.hidden
+    {% assign categories = site.data.events-2019 | map: 'type' | uniq %}
+    %li#all all
+    {% for category in categories %}
+    %li#{{ category }} {{category}}
+    {% endfor %}
   %section#lineup.tab.sub-navigable.inner.center.hidden
-    %ul#lineup-sub-nav.sub-nav.inner.center.hidden
-      {% assign categories = site.data.events-2019 | map: 'type' | uniq %}
-      %li#all all
-      {% for category in categories %}
-      %li#{{ category }} {{category}}
-      {% endfor %}
     #lineup-grid
       {% haml 2019/lineup.haml %}

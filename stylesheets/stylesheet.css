@@ -357,6 +357,7 @@ footer {
   width: 100vw;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  z-index: 101;
 }
 
 #mailing-list-wrap #mailing-list {
@@ -414,6 +415,7 @@ footer {
 
 #mailing-list #mailing-list-input .button {
   background: red;
+  color: #DCE0DF;
 }
 
 #mailing-list #mailing-list-buttons {
@@ -539,17 +541,12 @@ hr {
   cursor: pointer;
 }
 
-.outer {
-  width: 100%;
-}
-
 .inner {
   position: relative;
   max-width: 75%;
   padding: 15px 10px;
   margin: 0 auto;
 }
-
 
 .center {
   text-align: center;
@@ -610,9 +607,9 @@ section {
   opacity: 0.19;
 }
 
-
 #header_wrap .inner {
   padding: 55px 10px 25px 10px;
+  text-align: center;
 }
 
 #image-carousel {
@@ -622,9 +619,6 @@ section {
   height: 23vw;
   margin-bottom: -8em;
   padding-top: 3em;
-}
-
-#image-carousel #images {
 }
 
 #image-carousel li {
@@ -689,11 +683,13 @@ section {
   margin-bottom: 1em;
 }
 
-#high-priority-information-wrap #tickets-wrap a {
+#high-priority-information-wrap #tickets-wrap .button {
   font-family: 'keepcalm';
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
+  background: red;
+  color: #dce0df;
 }
 
 a.schedule-link {
@@ -709,6 +705,7 @@ a.schedule-link {
   top: 0;
   left: 0;
   width: 100%;
+  height: 4vh;
   background: black;
   z-index: 100;
 }
@@ -717,15 +714,16 @@ a.schedule-link {
   color: inherit;
 }
 
-#nav-wrap #hamburger-icon {
-  display: none;
-}
-
-
 #nav-wrap.top-nav-bar #nav {
   margin-bottom: 0;
   margin-top: 1em;
 }
+
+#nav-wrap.top-nav-bar #nav #tickets-button .button {
+  background: none;
+  color: red;
+}
+
 #nav-wrap.top-nav-bar #nav li {
   width: auto;
   font-size: 1.2em;
@@ -738,10 +736,6 @@ a.schedule-link {
 #nav {
   margin-bottom: 2em;
   padding-left: 0;
-}
-
-#nav li#ticket-button {
-  font-size: 175% !important;
 }
 
 #nav li {
@@ -762,7 +756,7 @@ a.schedule-link {
 }
 
 #nav li#tickets-button {
-  background: red;
+  color: red;
 }
 
 #nav li.button {
@@ -792,6 +786,7 @@ a.schedule-link {
   clear: both;
 }
 
+/*
 #call-for-abstracts {
   margin-bottom: 3em;
 }
@@ -821,6 +816,7 @@ a.schedule-link {
   text-align: left;
   background: #222;
 }
+*/
 
 #lineup-2019-wrap #lineup-grid {
   display: grid;
@@ -858,6 +854,24 @@ a.schedule-link {
   background: white;
   color: black;
 }
+
+#lineup-2019-wrap #lineup-sub-nav {
+  position: sticky;
+  top: 4vh;
+  width: 100vw;
+  background: black;
+  padding-top: 0.5em;
+  z-index: 1;
+}
+
+#lineup-2019-wrap #lineup-sub-nav ul {
+  padding-left: 10px;
+}
+
+#lineup-sub-nav li.selected {
+  color: red;
+}
+
 
 /* i did this to myself. i did this to myself. i did this to myself. */
 #lineup-2018-wrap .event-wrap,
@@ -1167,6 +1181,61 @@ Small Device Styles
     width: 80vw;
   }
 
+  #nav-wrap.top-nav-bar {
+    height: 4vh;
+  }
+
+  #nav-wrap.top-nav-bar #mobile-nav-wrap {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: black;
+  }
+
+  #mobile-nav-wrap #hamburger-icon {
+    grid-column: 1;
+    cursor: pointer;
+    justify-self: center;
+    padding-top: 1em;
+  }
+
+  #mobile-nav-wrap #hamburger-icon img {
+    width: 10vw;
+  }
+
+  #mobile-nav-wrap #mobile-tickets-button {
+    grid-column: 4;
+    align-self: center;
+    font-family: latoBold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0em 1em 0em 0em;
+  }
+
+  #mobile-nav-wrap #mobile-tickets-button .button {
+    background: red;
+    color: #DCE0DF;
+  }
+
+  #nav-wrap.top-nav-bar #nav {
+    display: none;
+  }
+
+  #nav-wrap.top-nav-bar #nav.hamburger {
+    position: fixed;
+    top: 6vh;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+  }
+
+  #nav-wrap.top-nav-bar #nav li {
+    width: 100%;
+    font-size: 2em;
+  }
+
   #lineup-2019-wrap #lineup-grid {
     grid-template-columns: 1fr;
   }
@@ -1176,6 +1245,24 @@ Small Device Styles
     max-width: 75vw;
     min-height: 75vw;
     max-height: 75vw;
+  }
+
+  #lineup-2019-wrap #lineup-sub-nav {
+    top: 4vh;
+  }
+
+  #lineup-2019-wrap #lineup-sub-nav li {
+    margin-top: 0.5em;
+    width: auto;
+  }
+
+  #friends #friends-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+
+  #friends #friends-grid img {
+    width: 80%;
   }
 
   #event {
@@ -1195,22 +1282,16 @@ Small Device Styles
   #landing .put-out-the-cold-facts .context-text {
     font-size: 3vw;
   }
+}
 
-  #nav-wrap .top-nav-bar #hamburger-icon {
-    display: block;
+@media (min-width: 0px) and (max-width: 680px) {
+  #mobile-nav-wrap #mobile-tickets-button .button {
+    padding: 0;
   }
 
-  #nav {
-    margin-bottom: 0;
-  }
-
-  #nav li {
-    font-size: 1.7em;
-  }
-
-  .sub-nav li {
-    display: list-item;
-    margin-top: 0.5em;
+  #mobile-nav-wrap #mobile-tickets-button .button {
+    background: inherit;
+    color: red;
   }
 }
 
@@ -1230,6 +1311,15 @@ Small Device Styles
 
   #mailing-list #mailing-list-buttons {
     width: auto;
+  }
+
+  #high-priority-information-wrap #tickets-wrap .button {
+    font-size: 1.5em;
+  }
+
+  #nav li {
+    width: 60vw;
+    margin-right: 0;
   }
 
   h1 {
