@@ -7,19 +7,30 @@ $(document).ready(function() {
   // landing page
   displayLandingPage();
 
-  // mailing list
-  displayMailingList();
+  //// nav switching
 
-  // nav switching
-  $(".tab-button").on("click", function(){
-    var selected = $(this).attr('id').replace('-button', '');
+  // only fire this on first click (`.one` wasn't working...)
+  $(".tab-button").on("click", function(e){
+    // if the nav bar has already switched, don't run this code
+    if ($('#nav-wrap').hasClass('top-nav-bar')) { return }
 
     // remove initially visible elements
     $("#high-priority-information-wrap").addClass('hidden');
     $("#image-carousel").addClass('hidden');
 
-    // switch nav after initial click
-    $('#nav-wrap #nav').children('li').removeClass('hidden');
+    // convert nav styling
+    $('#nav-wrap').addClass('top-nav-bar');
+    $('#nav-wrap #nav').removeClass('inner');
+    $('#nav-wrap #nav li').removeClass('hidden');
+    $('#nav-wrap #nav li').removeClass('button');
+
+    // display mailing list after nav change resolves
+    displayMailingList();
+  });
+
+  // on subsequent clicks
+  $(".tab-button").on("click", function(){
+    var selected = $(this).attr('id').replace('-button', '');
 
     // clear 'selected' and designate the currently selected tab-button
     $("#nav>li.selected").removeClass("selected");
@@ -40,6 +51,16 @@ $(document).ready(function() {
     } else {
       $(".sub-nav").hide();
     };
+  });
+
+  // hamburger nav for smaller screens
+  $('#hamburger-icon').on('click', function() {
+    $('.top-nav-bar #nav').toggleClass('hamburger');
+
+    $('#nav.hamburger li').on('click', function() {
+      console.log('here');
+      $('.top-nav-bar #nav').removeClass('hamburger');
+    });
   });
 
   // track clicks of any element with ga-track class
@@ -84,17 +105,31 @@ hideLandingPage = function() {
   $("#landing").fadeOut(1200);
   $("#landing-wrap").fadeOut(3000, function() {
     $("footer").show();
-    displayMailingList();
   });
 }
 
 // display the mailing list sign-up form
 displayMailingList = function() {
-  $("#mailing-list-boop-boop").delay(1000).fadeIn(2000);
+  if (Cookies.get('mailing-list-vibes') != 'sick-of-it') {
+    $("#mailing-list-wrap").delay(1000).fadeIn(2000);
+  } else {
+    console.log("You were sick of seeing the mailing list, so it's disabled");
+  };
+}
+
+submitMailingList = function() {
+  // var subscriptionPath = 'https://tinyletter.com/occulture-berlin';
+  // window.open(subscriptionPath, '_blank', 'scrollbars=yes,width=800,height=600');
+  return true
 }
 
 hideMailingList = function() {
-  $("#mailing-list-boop-boop").fadeOut(200);
+  Cookies.set('mailing-list-vibes', 'sick-of-it', { expires: 28 });
+  $("#mailing-list-wrap").fadeOut(200);
+}
+
+closeMailingList = function() {
+  $("#mailing-list-wrap").fadeOut(200);
 }
 
 // add uniq method to Array object

@@ -348,74 +348,80 @@ footer {
   cursor: pointer;
 }
 
-#mailing-list-main {
-  padding-top: 1em;
-  vertical-align: middle;
-  font-family: 'Metamorphous';
-}
-
-#mailing-list-main form {
-  text-align: center;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-#mailing-list-main form #tlemail {
-  width: 40%;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-}
-
-#mailing-list-main form .button {
-  vertical-align: middle;
-  padding: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  border: none;
-}
-
-#mailing-list-boop-boop {
+#mailing-list-wrap {
   background: #000;
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
+  width: 100vw;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border-bottom: 2px solid #DCE0DF;
+  z-index: 101;
 }
 
-#mailing-list-boop-boop form {
-  float: left;
-  width: 95%;
+#mailing-list-wrap #mailing-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1em;
+  grid-template-rows: 1fr;
+}
+
+#mailing-list .button {
   text-align: center;
-  margin-bottom: 0.3em;
-}
-
-#mailing-list-boop-boop form label {
-  margin-left: 5%; /* make up for the 95% width of form */
-  vertical-align: middle;
-  font-family: 'Metamorphous';
-}
-
-#mailing-list-boop-boop form #tlemail {
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-}
-
-#mailing-list-boop-boop form .button {
-  vertical-align: middle;
+  cursor: pointer;
+  font-family: keepCalm;
+  margin: 0.75em 1em 0.75em 1em;
   padding: 0.5em;
   padding-left: 1em;
   padding-right: 1em;
   border: none;
+  font-size: 1em;
 }
 
-#mailing-list-boop-boop .close-button {
-  float: right;
-  width: 5%;
+#mailing-list-wrap #mailing-list .logo {
+  width: 45vw; /* expands to 70 */
+  margin-left: auto;
+  margin-right: auto;
+  grid-row: 2;
+}
+
+#mailing-list form {
+  grid-row: 3;
   text-align: center;
-  cursor: pointer;
-  font-family: keepCalm;
+  align-self: center;
+}
+
+#mailing-list form label {
+  vertical-align: middle;
+  font-family: 'Metamorphous';
+}
+
+#mailing-list #mailing-list-input {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+#mailing-list #mailing-list-input #tlemail {
+  width: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#mailing-list #mailing-list-input .button {
+  background: red;
+  color: #DCE0DF;
+}
+
+#mailing-list #mailing-list-buttons {
+  grid-row: 4;
+  width: 40vw;
+  justify-self: center;
 }
 
 #impressum {
@@ -535,17 +541,12 @@ hr {
   cursor: pointer;
 }
 
-.outer {
-  width: 100%;
-}
-
 .inner {
   position: relative;
   max-width: 75%;
   padding: 15px 10px;
   margin: 0 auto;
 }
-
 
 .center {
   text-align: center;
@@ -606,9 +607,9 @@ section {
   opacity: 0.19;
 }
 
-
 #header_wrap .inner {
   padding: 55px 10px 25px 10px;
+  text-align: center;
 }
 
 #image-carousel {
@@ -618,9 +619,6 @@ section {
   height: 23vw;
   margin-bottom: -8em;
   padding-top: 3em;
-}
-
-#image-carousel #images {
 }
 
 #image-carousel li {
@@ -662,6 +660,7 @@ section {
   box-shadow: none;
   display: block;
   margin-top: 4em;
+  margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -684,11 +683,13 @@ section {
   margin-bottom: 1em;
 }
 
-#high-priority-information-wrap #tickets-wrap a {
+#high-priority-information-wrap #tickets-wrap .button {
   font-family: 'keepcalm';
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
+  background: red;
+  color: #dce0df;
 }
 
 a.schedule-link {
@@ -698,8 +699,43 @@ a.schedule-link {
   text-transform: uppercase;
 }
 
+/* styling after nav switch on first click */
+#nav-wrap.top-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4vh;
+  background: black;
+  z-index: 100;
+}
+
+#nav-wrap.top-nav-bar a {
+  color: inherit;
+}
+
+#nav-wrap.top-nav-bar #nav {
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+#nav-wrap.top-nav-bar #nav #tickets-button .button {
+  background: none;
+  color: red;
+}
+
+#nav-wrap.top-nav-bar #nav li {
+  width: auto;
+  font-size: 1.2em;
+}
+
+#nav-wrap.top-nav-bar #nav li.selected {
+  text-decoration: underline;
+}
+
 #nav {
   margin-bottom: 2em;
+  padding-left: 0;
 }
 
 #nav li {
@@ -720,17 +756,15 @@ a.schedule-link {
 }
 
 #nav li#tickets-button {
-  background: red;
+  color: red;
 }
 
 #nav li.button {
   padding: 0.3em;
 }
 
-#nav li.selected {
-  background: black;
-  color: #dce0df;
-  text-decoration: none;
+#nav li.button {
+  padding: 0.3em;
 }
 
 .sub-nav {
@@ -752,6 +786,7 @@ a.schedule-link {
   clear: both;
 }
 
+/*
 #call-for-abstracts {
   margin-bottom: 3em;
 }
@@ -781,6 +816,7 @@ a.schedule-link {
   text-align: left;
   background: #222;
 }
+*/
 
 #lineup-2019-wrap #lineup-grid {
   display: grid;
@@ -818,6 +854,24 @@ a.schedule-link {
   background: white;
   color: black;
 }
+
+#lineup-2019-wrap #lineup-sub-nav {
+  position: sticky;
+  top: 4vh;
+  width: 100vw;
+  background: black;
+  padding-top: 0.5em;
+  z-index: 1;
+}
+
+#lineup-2019-wrap #lineup-sub-nav ul {
+  padding-left: 10px;
+}
+
+#lineup-sub-nav li.selected {
+  color: red;
+}
+
 
 /* i did this to myself. i did this to myself. i did this to myself. */
 #lineup-2018-wrap .event-wrap,
@@ -1021,11 +1075,6 @@ Small Device Styles
     font-size: 2vw;
   }
 
-  #mailing-list-boop-boop form label {
-    display: block;
-    padding: 0.5em;
-  }
-
   #call-for-abstracts #abstract-deadline {
     font-size: 1.2em;
   }
@@ -1124,6 +1173,69 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
+  #mailing-list #mailing-list-input {
+    width: 80vw;
+  }
+
+  #mailing-list #mailing-list-buttons {
+    width: 80vw;
+  }
+
+  #nav-wrap.top-nav-bar {
+    height: 4vh;
+  }
+
+  #nav-wrap.top-nav-bar #mobile-nav-wrap {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: black;
+  }
+
+  #mobile-nav-wrap #hamburger-icon {
+    grid-column: 1;
+    cursor: pointer;
+    justify-self: center;
+    padding-top: 1em;
+  }
+
+  #mobile-nav-wrap #hamburger-icon img {
+    width: 10vw;
+  }
+
+  #mobile-nav-wrap #mobile-tickets-button {
+    grid-column: 4;
+    align-self: center;
+    font-family: latoBold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0em 1em 0em 0em;
+  }
+
+  #mobile-nav-wrap #mobile-tickets-button .button {
+    background: red;
+    color: #DCE0DF;
+  }
+
+  #nav-wrap.top-nav-bar #nav {
+    display: none;
+  }
+
+  #nav-wrap.top-nav-bar #nav.hamburger {
+    position: fixed;
+    top: 6vh;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+  }
+
+  #nav-wrap.top-nav-bar #nav li {
+    width: 100%;
+    font-size: 2em;
+  }
+
   #lineup-2019-wrap #lineup-grid {
     grid-template-columns: 1fr;
   }
@@ -1133,6 +1245,24 @@ Small Device Styles
     max-width: 75vw;
     min-height: 75vw;
     max-height: 75vw;
+  }
+
+  #lineup-2019-wrap #lineup-sub-nav {
+    top: 4vh;
+  }
+
+  #lineup-2019-wrap #lineup-sub-nav li {
+    margin-top: 0.5em;
+    width: auto;
+  }
+
+  #friends #friends-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+
+  #friends #friends-grid img {
+    width: 80%;
   }
 
   #event {
@@ -1152,19 +1282,16 @@ Small Device Styles
   #landing .put-out-the-cold-facts .context-text {
     font-size: 3vw;
   }
+}
 
-  #nav {
-    margin-bottom: 0;
+@media (min-width: 0px) and (max-width: 680px) {
+  #mobile-nav-wrap #mobile-tickets-button .button {
+    padding: 0;
   }
 
-  #nav li {
-    font-size: 1.7em;
-    display: list-item;
-  }
-
-  .sub-nav li {
-    display: list-item;
-    margin-top: 0.5em;
+  #mobile-nav-wrap #mobile-tickets-button .button {
+    background: inherit;
+    color: red;
   }
 }
 
@@ -1176,6 +1303,23 @@ Small Device Styles
   .inner {
     min-width: 320px;
     max-width: 480px;
+  }
+
+  #mailing-list #mailing-list-input {
+    width: auto;
+  }
+
+  #mailing-list #mailing-list-buttons {
+    width: auto;
+  }
+
+  #high-priority-information-wrap #tickets-wrap .button {
+    font-size: 1.5em;
+  }
+
+  #nav li {
+    width: 60vw;
+    margin-right: 0;
   }
 
   h1 {
