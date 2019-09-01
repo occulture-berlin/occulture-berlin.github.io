@@ -98,8 +98,7 @@ submitMailingList = function() {
 }
 
 hideMailingList = function() {
-  // TODO: display cookie consent
-  Cookies.set('mailing-list-vibes', 'sick-of-it', { expires: 21 });
+  Cookies.set('mailing-list-vibes', 'sick-of-it', { expires: 28 });
   $("#mailing-list-wrap").fadeOut(200);
 }
 
