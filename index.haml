@@ -49,13 +49,23 @@ onLoadAction:
     %p
       Want to get in touch? Send us a message at
       %a{href: "mailto:info@occultureberlin.org"} info@occultureberlin.org
-    /
-      <p>
-      The primary call for abstracts is now closed! We are still accepting proposals
-      for artistic installations (paintings, photos, sculpture, et al) and
-      diviners (tarot card readers, palm readers, et al) so please contact
-      us if you wish to be involved in one of these categories.
-      </p>
+
+    / TODO: change the way the mailing list includes file works...
+    %form.ga-track{                                     |
+      action:"https://tinyletter.com/occulture-berlin", |
+      method:"post",                                    |
+      target:"_blank",                                  |
+      data:{tracker:"input-mailing-list-contact-section"}}              |
+
+      %label{for:"tlemail"}
+        Subscribe for updates and information about OCCULTURE:
+      #mailing-list-input
+        %input{type:"text", name:"email", id:"tlemail"}
+        %input{type:"hidden", value:"1",  name:"embed"}
+        %input.button.ga-track{                 |
+          type:"submit",                        |
+          value:"Subscribe",                    |
+          data:{tracker:"submit-mailing-list-contact-section"}} |
 
 #call-for-abstracts-wrap.outer
   %section#call-for-abstracts.tab.inner.center.hidden

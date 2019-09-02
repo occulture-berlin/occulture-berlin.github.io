@@ -931,6 +931,14 @@ a.schedule-link {
   color: red;
 }
 
+#contact #mailing-list-input {
+  margin: 1em;
+}
+
+#contact #mailing-list-input #tlemail {
+  width: 40vw;
+}
+
 /* adblock hides this if it's called 'sponsors' */
 #friends-grid {
   display: grid;
