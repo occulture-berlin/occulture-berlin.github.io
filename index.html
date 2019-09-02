@@ -122,14 +122,17 @@
 Want to get in touch? Send us a message at
 <a href='mailto:info@occultureberlin.org'>info@occultureberlin.org</a>
 </p>
-<!--
-<p>
-The primary call for abstracts is now closed! We are still accepting proposals
-for artistic installations (paintings, photos, sculpture, et al) and
-diviners (tarot card readers, palm readers, et al) so please contact
-us if you wish to be involved in one of these categories.
-</p>
--->
+<!-- TODO: change the way the mailing list includes file works... -->
+<form action='https://tinyletter.com/occulture-berlin' class='ga-track' data-tracker='input-mailing-list-contact-section' method='post' target='_blank'>
+<label for='tlemail'>
+Subscribe for updates and information about OCCULTURE:
+</label>
+<div id='mailing-list-input'>
+<input id='tlemail' name='email' type='text'>
+<input name='embed' type='hidden' value='1'>
+<input class='button ga-track' data-tracker='submit-mailing-list-contact-section' type='submit' value='Subscribe'>
+</div>
+</form>
 </section>
 </div>
 <div class='outer' id='call-for-abstracts-wrap'>
@@ -159,6 +162,11 @@ Submit a Proposal
 <section class='tab inner center hidden' id='friends'>
 <ul id='friends-grid'>
 <!-- monterey not set for https -->
+<li class='bff ga-track' data-tracker='partner-thoth-hermes'>
+<a href='https://www.thothermes.com?redirect-from=occultureberlin'>
+<img alt='Thoth Hermes Podcast' src='images/thoth-hermes-logo.jpg'>
+</a>
+</li>
 <li class='ga-track' data-tracker='partner-monterey-bar'>
 <a href='http://montereybar.com?redirect-from=occultureberlin'>
 <img alt='Monterey Bar' src='images/monterey-logo.png'>
@@ -174,8 +182,6 @@ Submit a Proposal
 <img alt='Villaggio Della Luna' src='images/villaggio-della-luna.png'>
 </a>
 </li>
-<!-- %a{href: "https://www.thothermes.com?redirect-from=occultureberlin"} -->
-<!-- %img{alt: "Thoth Hermes Podcasta", src: "images/thoth-hermes-logo.gif"}/ -->
 <!-- %li -->
 <!-- %a{href: "https://www.anathemapublishing.com?redirect-from=occultureberlin"} -->
 <!-- %img{alt: "Anathema Publishing", src: "images/anathema-logo-03.png"}/ -->
@@ -214,7 +220,7 @@ Submit a Proposal
     </footer>
   </body>
 
-  <section class='outer hidden' id='mailing-list-wrap'><div id='mailing-list'><img alt='occulture berlin' class='logo' src='images/occulture-logo-alpha.png'><form action='https://tinyletter.com/occulture-berlin' class='ga-track' data-tracker='input-mailing-list' method='post' target='_blank'><label for='tlemail'>Subscribe for updates and information about OCCULTURE:</label><div id='mailing-list-input'><input id='tlemail' name='email' type='text'><input name='embed' type='hidden' value='1'><input class='button ga-track' data-tracker='submit-mailing-list' type='submit' value='Subscribe'></div></form><div id='mailing-list-buttons'><div class='close-button button ga-track' data-tracker='close-mailing-list' onclick='closeMailingList()'>Close</div><div class='hide-button button ga-track' data-tracker='hide-mailing-list' onclick='hideMailingList()'>Hide for 28 days</div></div></div></section>
+  <section class='outer hidden' id='mailing-list-wrap'><div id='mailing-list'><img alt='occulture berlin' class='logo' src='images/occulture-logo-alpha.png'><form action='https://tinyletter.com/occulture-berlin' class='ga-track' data-tracker='input-mailing-list' method='post' target='_blank'><label for='tlemail'>Subscribe for updates and information about OCCULTURE:</label><div id='mailing-list-input'><input id='tlemail' name='email' type='text'><input name='embed' type='hidden' value='1'><input class='button ga-track' data-tracker='submit-mailing-list' type='submit' value='Subscribe'></div></form><div id='mailing-list-buttons'><div class='close-button button ga-track' data-tracker='close-mailing-list' onclick='closeMailingList()'>Close</div></div></div></section>
 
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"

@@ -931,11 +931,27 @@ a.schedule-link {
   color: red;
 }
 
+#contact #mailing-list-input {
+  margin: 1em;
+}
+
+#contact #mailing-list-input #tlemail {
+  width: 40vw;
+}
+
 /* adblock hides this if it's called 'sponsors' */
 #friends-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 1em;
+}
+
+#friends-grid ul {
+  padding: 0;
+}
+
+#friends-grid li.bff {
+  grid-column: 1/4;
 }
 
 #friends-grid li {
@@ -1240,10 +1256,17 @@ Small Device Styles
   }
 
   #lineup-2019-wrap .avatar img {
-    min-width: 75vw;
-    max-width: 75vw;
-    min-height: 75vw;
-    max-height: 75vw;
+    min-width: 50vw;
+    max-width: 50vw;
+    min-height: 50vw;
+    max-height: 50vw;
+  }
+
+  #lineup-2019-wrap .info-wrap {
+    min-width: 50vw;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #lineup-2019-wrap #lineup-sub-nav {
@@ -1256,12 +1279,19 @@ Small Device Styles
   }
 
   #friends #friends-grid {
-    grid-template-columns: 1fr;
-    grid-gap: 2em;
+    display: block;
+  }
+
+  #friends #friends-grid li {
+    margin: 1em;
+  }
+
+  #friends #friends-grid li.bff img {
+    width: 100%;
   }
 
   #friends #friends-grid img {
-    width: 80%;
+    width: 50%;
   }
 
   #event {
