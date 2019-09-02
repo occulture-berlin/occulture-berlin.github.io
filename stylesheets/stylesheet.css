@@ -946,6 +946,14 @@ a.schedule-link {
   grid-column-gap: 1em;
 }
 
+#friends-grid ul {
+  padding: 0;
+}
+
+#friends-grid li.bff {
+  grid-column: 1/4;
+}
+
 #friends-grid li {
   align-self: center;
 }
@@ -1264,12 +1272,19 @@ Small Device Styles
   }
 
   #friends #friends-grid {
-    grid-template-columns: 1fr;
-    grid-gap: 2em;
+    display: block;
+  }
+
+  #friends #friends-grid li {
+    margin: 1em;
+  }
+
+  #friends #friends-grid li.bff img {
+    width: 100%;
   }
 
   #friends #friends-grid img {
-    width: 80%;
+    width: 50%;
   }
 
   #event {
