@@ -164,10 +164,6 @@ body {
   font-size: 3em;
   letter-spacing: 0.1em;
 }
-
-#landing #schedule-button-wrap {
-  margin-bottom: 5em;
-}
 *******/
 
 #landing .button {
@@ -692,13 +688,6 @@ section {
   color: #dce0df;
 }
 
-a.schedule-link {
-  color: #dce0df;
-  font-family: keepCalm;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-}
-
 /* styling after nav switch on first click */
 #nav-wrap.top-nav-bar {
   position: fixed;
@@ -785,38 +774,6 @@ a.schedule-link {
   clear: both;
 }
 
-/*
-#call-for-abstracts {
-  margin-bottom: 3em;
-}
-
-#call-for-abstracts #submission-deadline {
-  font-family: 'Metamorphous', cursive;
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 2em;
-}
-
-#call-for-abstracts #submission-button {
-  padding: 2em;
-}
-
-#topics-of-interest:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-#proposal-questions {
-  padding: 1em;
-  margin-top: 1.5em;
-  margin-left: 2em;
-  margin-right: 2em;
-  text-align: left;
-  background: #222;
-}
-*/
-
 #lineup-2019-wrap #lineup-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -875,8 +832,7 @@ a.schedule-link {
 }
 
 /* i did this to myself. i did this to myself. i did this to myself. */
-#lineup-2018-wrap .event-wrap,
-#schedule-wrap .event-wrap {
+#lineup-2018-wrap .event-wrap {
   min-width: 70%; /* this ensures the unknown speaker is displayed correctly */
   margin-bottom: 3em;
   float: left;
@@ -884,8 +840,7 @@ a.schedule-link {
   margin-right: 10%;
 }
 
-#lineup-2018-wrap .event-wrap ul,
-#schedule-wrap .event-wrap ul {
+#lineup-2018-wrap .event-wrap ul {
   list-style-type: circle;
 }
 
@@ -902,8 +857,7 @@ a.schedule-link {
   cursor: pointer; /* cause it's a link to speaker page */
 }
 
-#lineup-2018-wrap .event-wrap .avatar img,
-#schedule-wrap .event-wrap .avatar img {
+#lineup-2018-wrap .event-wrap .avatar img {
   width: 250px;
   height: 250px;
   opacity: 0.9;
@@ -920,8 +874,7 @@ a.schedule-link {
   cursor: pointer; /* cause it's a link to speaker page */
 }
 
-#lineup-2018-wrap .event-wrap .info-wrap .description,
-#schedule-wrap .event-wrap .info-wrap .description {
+#lineup-2018-wrap .event-wrap .info-wrap .description {
   font-size: 0.8em;
 }
 
@@ -966,6 +919,10 @@ a.schedule-link {
 
 #friends-grid img.tall-boy {
   width: 60%;
+}
+
+#donation-text a {
+  color: red;
 }
 
 ul.donation-method {
@@ -1167,16 +1124,14 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {
-  #lineup-2018-wrap .event-wrap,
-  #schedule-wrap .event-wrap {
+  #lineup-2018-wrap .event-wrap {
     margin-bottom: 3em;
     float: none;
     margin-left: 0;
     margin-right: 0
   }
 
-  #lineup-2018-wrap .event-wrap .avatar,
-  #schedule-wrap .event-wrap .avatar {
+  #lineup-2018-wrap .event-wrap .avatar {
     width: 100%;
     margin-bottom: 1em;
     margin-left: 0;
