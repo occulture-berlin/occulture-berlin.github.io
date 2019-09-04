@@ -962,6 +962,10 @@ a.schedule-link {
   width: 100%;
 }
 
+#friends-grid img.tall-boy {
+  width: 60%;
+}
+
 ul.donation-method {
   padding: 0;
 }
@@ -975,7 +979,6 @@ ul.donation-method {
 .paypal-wrapper a {
   color: white;
 }
-
 
 code.donation-address {
   letter-spacing: -1px;
