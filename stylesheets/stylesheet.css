@@ -838,6 +838,8 @@ a.schedule-link {
   min-height: 25vw;
   max-height: 25vw;
   border: 3px solid white;
+  filter: sepia(20%);
+  filter: saturate(40%);
 }
 
 #lineup-2019-wrap .info-wrap {
@@ -1020,6 +1022,8 @@ code.donation-address {
 
 #event .avatar img {
   width: 100%;
+  filter: sepia(20%);
+  filter: saturate(40%);
 }
 
 #event .avatar .name {
