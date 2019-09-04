@@ -35,7 +35,7 @@
   title: Sigils, Symbols & Spells in Tarot Mythology
   type: Lecture
   keynote: 1
-  avatarPath: https://www.magicianandfool.com/wp-content/uploads/2018/09/Susan-headshot-2014-2-300x240.jpg
+  avatarPath: https://www.occultureberlin.org/images/speakers/wands-susan.jpg
   description: 'The seductive lure of the mysterious message has been the basis for
     tarot card readings for generations. Susan Wands will explore the magical language
     of tarot art and its ability to communicate on a higher level than speech. Ms.
@@ -109,6 +109,29 @@
     imagination. Caught Between Worlds is the second part of the Morning Star Trilogy,
     preceded by "The Call" and followed by "Dimensional Connections".
   bio: 
+  duration: 30
+- name: David Lee
+  searchString: david-lee
+  title: 'Soul of the West: Magic, Awakening and the Hellenic Gnosis'
+  type: Lecture
+  keynote: 0
+  avatarPath: https://www.occultureberlin.org/images/speakers/lee-david.jpg
+  description: What is the function of magic and magicians in our waning Western civilization?
+    The magical origins of this civilization are becoming clearer as archaeologists
+    and scholars piece together the Hellenic world before Plato, a world of magicians
+    and prophets. Out of the magical currents of the 20th century a new generation
+    of mystery schools is emerging and re-presenting the practices of these ancient
+    schools. How can knowledge of the ancient world help us to understand our civilization’s
+    current plight? And more importantly, what do we have to help us reach back to
+    that eternal source and dream the magical heart of a new civilization?
+  bio: "David Lee is a magician, breathwork coach and writer. He has spent most of
+    his ‘adult’ life undoing conditioning and changing realities, using techniques
+    that include magic, psychedelics and energy work. He is a leading light in the
+    Chaos Magic organization the Illuminates Of Thanateros.\nDetails of his other
+    books, including his ground-breaking Life-Force: Sensed Energy in Breathwork,
+    Psychedelia and Chaos Magic can be found on his website, http://www.chaotopia.com/.
+    You can sign up for David’s near-monthly Chaotopia Newsletter at http://eepurl.com/bSOtwf,
+    for news about his events and other strange things.  "
   duration: 30
 - name: Coral Carte
   searchString: coral-carte
@@ -308,22 +331,23 @@
   type: Lecture
   keynote: 0
   avatarPath: https://rw-ktf.univie.ac.at/fileadmin/_processed_/csm_MarleenThaler_sw_e16daa391e.jpg
-  description: The English writer and self proclaimed radical Traditionalist John
-    Michell (1933 - 2009) occupied an outstanding position within the alternative
-    religious landscape of Britain. By means of his influential Sacred Place Theory
-    he aimed to re-sanctify the English landscape, and to launch a revived Golden
-    Age with Glastonbury as point of departure. The numerological elaboration of his
-    theory is the New Jerusalem Diagram, a geometrical map of the Heavenly City, linking
-    contemporary Glastonbury to the lost Atlantis and to the prospective New Jerusalem.
-  bio: "Marleen is a PhD Candidate at the University of Vienna at the Department of
-    Religious Studies.  Most of her previous study and research projects were dealing
+  description: |+
+    The English writer and self proclaimed radical Traditionalist John
+    Michell (1933-2009) occupied an outstanding position within the
+    alternative religious landscape of Britain. By means of his influential
+    Sacred Place Theory he aimed to re-sanctify the English landscape, and to launch a revived Golden Age with Glastonbury as point of departure.
+    The numerological elaboration of his theory is the New Jerusalem
+    Diagram, a geometrical map of the Heavenly City, linking contemporary
+    Glastonbury to the lost Atlantis and to the prospective New Jerusalem.
+
+  bio: Marleen is a PhD Candidate at the University of Vienna at the Department of
+    Religious Studies. Most of her previous study and research projects were dealing
     with esoteric and alternative religious matters, such as Earth Mysteries, Neo-Paganism,
-    or the religious impacts within the psychedelic movement. or Kundalini within
-    the Holistic Milieu. Currently she is working on her publication on John Michell’s
-    Sacred Place Theory and on her PhD dissertation on Kundalini within the Holistic
-    Milieu. \nOriginally from the Austrian countryside Marleen has been living in
-    Vienna for the last ten years from where she was part time working, studying and
-    travelling.\n"
+    or the religious impacts within the psychedelic movement. Currently she is working
+    on her publication on John Michell’s Sacred Place Theory and on her PhD dissertation
+    on Kundalini within the Occult and Holistic Milieu. Originally from the Austrian
+    countryside Marleen has been living in Vienna for the last ten years from where
+    she was part-time working, studying and travelling.
   duration: 30
 - name: Fürst Claas vom Mars and Soror Aurora
   searchString: fürst-claas-vom-mars-and-soror-aurora
