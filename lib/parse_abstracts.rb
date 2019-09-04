@@ -40,6 +40,7 @@ class ParseAbstracts
 end
 
 input = ENV.fetch('ABSTRACTS')
+year = 2019
 target = "./_data/events-#{year}.yml"
 
 print "Calling this parser is destructive!\n\n"
