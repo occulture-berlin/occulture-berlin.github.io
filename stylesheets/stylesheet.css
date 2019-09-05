@@ -831,6 +831,133 @@ section {
   color: red;
 }
 
+#schedule-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* times thur fri sat sun */
+  grid-template-rows:
+    [day-name]  1fr
+    [time-1100] 1fr
+    [time-1200] 1fr
+    [time-1300] 1fr
+    [time-1400] 1fr
+    [time-1500] 1fr
+    [time-1600] 1fr
+    [time-1700] 1fr
+    [time-1800] 1fr
+    [time-1900] 1fr
+    [time-2000] 1fr
+    [time-2100] 1fr
+    [time-2200] 1fr
+    [time-2300] 1fr
+    [time-0000] 1fr
+    [time-0100] 1fr
+    [time-0200] 1fr
+    [time-0300] 1fr
+    [time-0400] 1fr
+}
+
+#schedule-grid .text {
+  padding-top: 0.5em;
+  margin-bottom: -0.3em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+#schedule-grid .time {
+  grid-column: 1;
+}
+
+#schedule-grid .day {
+  height: 100%;
+  background: dimgrey;
+  border: 1px solid black;
+}
+
+#schedule-grid .thursday {
+  grid-column: 2;
+}
+
+#schedule-grid .friday {
+  grid-column: 3;
+}
+
+#schedule-grid .saturday {
+  grid-column: 4;
+}
+
+#schedule-grid .sunday {
+  grid-column: 5;
+}
+
+#schedule-grid .day-name {
+  grid-row: 1;
+  background: white;
+  color: black;
+  padding-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+#schedule-grid .holder {
+  background: none;
+}
+
+#schedule-grid .thursday.holder {
+  grid-row: time-1100 / time-1900;
+}
+
+#schedule-grid .thursday.registration {
+  grid-row: time-1900 / time-2000;
+}
+
+#schedule-grid .thursday.opening-ritual {
+  grid-row: time-2000 / time-2200;
+}
+
+#schedule-grid .thursday.party {
+  grid-row: time-2200 / time-0200;
+}
+
+#schedule-grid .friday.registration {
+  grid-row: time-1100 / time-1300;
+}
+
+#schedule-grid .friday.conference {
+  grid-row: time-1200 / time-1800;
+}
+
+#schedule-grid .friday.evening {
+  grid-row: time-2000 / time-0200;
+}
+
+#schedule-grid .saturday.registration {
+  grid-row: time-1100 / time-1300;
+}
+
+#schedule-grid .saturday.conference {
+  grid-row: time-1200 / time-1800;
+}
+
+#schedule-grid .saturday.evening {
+  grid-row: time-2000 / time-0000;
+}
+
+#schedule-grid .saturday.party {
+  grid-row: time-0000 / time-0500;
+}
+
+#schedule-grid .sunday.registration {
+  grid-row: time-1100 / time-1200;
+}
+
+#schedule-grid .sunday.conference {
+  grid-row: time-1200 / time-1700;
+}
+
+#schedule-grid .sunday.closing-ritual {
+  grid-row: time-1700 / time-2000;
+}
+
 /* i did this to myself. i did this to myself. i did this to myself. */
 #lineup-2018-wrap .event-wrap {
   min-width: 70%; /* this ensures the unknown speaker is displayed correctly */
@@ -1272,6 +1399,18 @@ Small Device Styles
 
   #landing .put-out-the-cold-facts .context-text {
     font-size: 3vw;
+  }
+
+  #schedule #schedule-grid {
+    display: none;
+  }
+
+  #schedule #schedule-image {
+    display: block;
+  }
+
+  #schedule #schedule-image img {
+    width: 100%;
   }
 }
 

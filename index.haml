@@ -27,15 +27,82 @@ onLoadAction:
     %li.button.ga-track.hidden#tickets-button
       {% haml get_tickets.haml %}
     %li.button.ga-track#lineup-button.tab-button 2019 Lineup
+    %li.button.ga-track#schedule-button.tab-button Schedule
     / %li.button.ga-track.hidden#venue-button.tab-button Venue
     %li.button.ga-track#contact-button.tab-button Contact
     %li.button.ga-track#call-for-abstracts-button.tab-button Proposals
     %li.button.ga-track#donate-button.tab-button Donate
     / adblock hides this if it's called 'sponsors'
-    %li.button.ga-track#friends-button.tab-button Partners
+    %li.button.ga-track.hidden#friends-button.tab-button Partners
     %li.button.ga-track.hidden#lineup-2018-button
       %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
     / %li.button.ga-track.hidden#media Media # TODO: add media sub-page
+
+#schedule-wrap.outer
+  %section#schedule.tab.inner.center.hidden
+    #schedule-image.hidden
+      %a{href: 'images/2019/schedule.png', target: '_blank'}
+        %img.ga-track{data:{tracker:'mobile-schedule'}, src: 'images/2019/schedule.png' }
+    #schedule-grid
+      .blank &nbsp;
+      .time 11:00
+      .time 12:00
+      .time 13:00
+      .time 14:00
+      .time 15:00
+      .time 16:00
+      .time 17:00
+      .time 18:00
+      .time 19:00
+      .time 20:00
+      .time 21:00
+      .time 22:00
+      .time 23:00
+      .time 00:00
+      .time 01:00
+      .time 02:00
+      .time 03:00
+      .time 04:00
+      .time 05:00
+
+      .thursday.day.day-name
+        .text Thursday 31.10
+      .thursday.day.holder
+      .thursday.day.registration
+        .text Registration
+      .thursday.day.opening-ritual
+        .text Opening Ritual + Phurpa
+      .thursday.day.party
+        .text Party and DJ Set
+
+      .friday.day.day-name
+        .text Friday 01.11
+      .friday.day.registration
+        .text Registration
+      .friday.day.conference
+        .text Lectures, Workshops, Panels, VR, Art Installations and other experiences
+      .friday.day.evening
+        .text Film screenings, Live Music and DJ Set, Divination, Performances
+
+      .saturday.day.day-name
+        .text Saturday 02.11
+      .saturday.day.registration
+        .text Registration
+      .saturday.day.conference
+        .text Lectures, Workshops, Panels, VR Art Installations and other experiences
+      .saturday.day.evening
+        .text Film screenings, Live Music, Divination, Performances
+      .saturday.day.party
+        .text OCCULTURE Party!
+
+      .sunday.day.day-name
+        .text Sunday 03.11
+      .sunday.day.registration
+        .text Registration
+      .sunday.day.conference
+        .text Lectures, Workshops, Panels and more
+      .sunday.day.closing-ritual
+        .text Closing Ritual
 
 #venue-wrap.outer
   %section#venue.tab.inner.center.hidden
