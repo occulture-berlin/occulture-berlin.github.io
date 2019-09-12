@@ -1,4 +1,26 @@
 ---
+- name: Gary Lachman
+  searchString: gary-lachman
+  title: 'Dark Star Rising: Magick and Power in the Age of Trump'
+  type: Lecture
+  keynote: 1
+  avatarPath: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTmIv1DLE-johhB061KWdKXiJS3nqxn3HKErfHhnBtpsxl1n9
+  description: |-
+    Did “positive thinking” and “mental science” help put Donald Trump in the White House? And are there other kinds of “occult politics” at work in the world today?
+
+    In my book Dark Star Rising: Magick and Power in the Age of Trump, I look at the strange magical and esoteric ideas that are informing postmodern politics in the United States and Russia in the twenty-first century.
+
+    From New Thought to Chaos Magick to the far-right esotericism of Julius Evola and the Traditionalists, a web of connections stretches out across the globe bringing together such disparate characters and phenomena as Norman Vincent Peale, Pepe the Frog, the Alt-Right, Vladimir Putin, President Trump, Reality TV, “meme magick” and much else in a weird tangle of postmodern occultism in which reality is up for grabs, facts give way to internet fictions, and truth is a negotiable commodity.
+
+    My talk will look at this post-truth alternative fact landscape in which reality is defined as what you can get away with.
+  bio: Gary Lachman is the author of twenty-two books on consciousness, culture, and
+    the western esoteric tradition, including The Secret Teachers of the Western World,
+    Lost Knowledge of the Imagination, and The Quest for Hermes Trismegistus. He writes
+    for several journals in the UK, US, and Europe, lectures around the world, and
+    his work has been translated into more than a dozen languages. In a past life
+    he was a founding member of the pop group Blondie and in 2006 was inducted into
+    the Rock and Roll Hall of Fame. His website can be reached at www.garylachman.co.uk
+  duration: 60
 - name: Helene Arts
   searchString: helene-arts
   title: Contemporary Left-Hand Path Magick & the Philosophy of New Existentialism
@@ -59,28 +81,6 @@
     published in the U.S. Her novel series explores the life of Pamela Colman Smith,
     the Waite-Smith tarot deck creator. The next two books are in development. www.magicianandfool.com'
   duration: 60
-- name: Gary Lachman
-  searchString: gary-lachman
-  title: 'Dark Star Rising: Magick and Power in the Age of Trump'
-  type: Lecture
-  keynote: 1
-  avatarPath: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTmIv1DLE-johhB061KWdKXiJS3nqxn3HKErfHhnBtpsxl1n9
-  description: |-
-    Did “positive thinking” and “mental science” help put Donald Trump in the White House? And are there other kinds of “occult politics” at work in the world today?
-
-    In my book Dark Star Rising: Magick and Power in the Age of Trump, I look at the strange magical and esoteric ideas that are informing postmodern politics in the United States and Russia in the twenty-first century.
-
-    From New Thought to Chaos Magick to the far-right esotericism of Julius Evola and the Traditionalists, a web of connections stretches out across the globe bringing together such disparate characters and phenomena as Norman Vincent Peale, Pepe the Frog, the Alt-Right, Vladimir Putin, President Trump, Reality TV, “meme magick” and much else in a weird tangle of postmodern occultism in which reality is up for grabs, facts give way to internet fictions, and truth is a negotiable commodity.
-
-    My talk will look at this post-truth alternative fact landscape in which reality is defined as what you can get away with.
-  bio: Gary Lachman is the author of twenty-two books on consciousness, culture, and
-    the western esoteric tradition, including The Secret Teachers of the Western World,
-    Lost Knowledge of the Imagination, and The Quest for Hermes Trismegistus. He writes
-    for several journals in the UK, US, and Europe, lectures around the world, and
-    his work has been translated into more than a dozen languages. In a past life
-    he was a founding member of the pop group Blondie and in 2006 was inducted into
-    the Rock and Roll Hall of Fame. His website can be reached at www.garylachman.co.uk
-  duration: 60
 - name: Phurpa
   searchString: phurpa
   title: Chanting Meditation
@@ -109,6 +109,32 @@
     imagination. Caught Between Worlds is the second part of the Morning Star Trilogy,
     preceded by "The Call" and followed by "Dimensional Connections".
   bio: 
+  duration: 30
+- name: Jason Revere
+  searchString: jason-revere
+  title: Maya - The Fantasy of Your Reality
+  type: Lecture
+  keynote: 0
+  avatarPath: https://youcanyoga.nl/wp-content/uploads/2019/09/JasonRevere.jpg
+  description: 'Do you control reality or does reality control you? Gain a better
+    awareness by discovering more about Maya (the illusory world we live in) and it''s
+    pervasive influence on your life. Jason discusses what makes you a victim of your
+    own mind and how to release yourself from the clutches of Maya. The workshop is
+    an interactive guided journey away from the fantasy and into the ''self.'' Starting
+    with a reality check through visualisation, he introduces the concept of Maya
+    and helps you to differentiate between the illusion and the truth. Jason then
+    goes on to discuss the universal ''truths'' we tell ourselves and teaches you
+    to change that perception by altering your physical reality. Finally, with your
+    heightened awareness and understanding of Maya, he encourages you to look back
+    at yourself and question what you think is real. Expect to shake things up! '
+  bio: Jason Revere is here to call bullshit on the “yoga” world, at least in regards
+    to enlightenment. He has 23 years of yoga and meditation practice, and 20 of those
+    years as a teacher, with two yoga schools in Amsterdam. As a victim of his pursuit
+    of enlightenment via yoga, Mr. Revere has authored his process of waking up in
+    his book GET YOUR HEAD OUT OF YOUR ASANA. Jason is best summed up as an experienced,
+    no bullshit, yogi whose crazy eyes don’t stop until people pause, take a breath
+    and question their own reality. To find out more about his latest projects and
+    upcoming books, podcasts and talks visit www.youcanyoga.nl/jason-revere/
   duration: 30
 - name: David Lee
   searchString: david-lee
