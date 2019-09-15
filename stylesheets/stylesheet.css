@@ -1181,20 +1181,8 @@ Small Device Styles
     font-size: 2vw;
   }
 
-  #call-for-abstracts #abstract-deadline {
-    font-size: 1.2em;
-  }
-
-  #call-for-abstracts #abstract-deadline td.image-holder {
-    width: 20%;
-  }
-
-  #call-for-abstracts #abstract-deadline img {
-    width: 45%;
-  }
-
-  #proposal-questions {
-    font-size: 0.7em;
+  #call-for-abstracts .description-text {
+    margin-bottom: 2em;
   }
 
   #tickets #ticket-columns .buy-ticket-button {
