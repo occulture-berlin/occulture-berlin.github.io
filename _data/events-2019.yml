@@ -81,20 +81,6 @@
     published in the U.S. Her novel series explores the life of Pamela Colman Smith,
     the Waite-Smith tarot deck creator. The next two books are in development. www.magicianandfool.com'
   duration: 60
-- name: Bianca Carina Wertheimer
-  searchString: bianca-carina-wertheimer
-  title: 'Step out of the dark: Public Rituals and Interfaith Dialoge '
-  type: Lecture
-  keynote: 0
-  avatarPath: https://instagram.ftxl3-2.fna.fbcdn.net/vp/b8c16eb6c3c7dd3fbb3ccf2e7b8452e0/5DF55F68/t51.2885-15/e35/60768840_885682075118922_7479499716918227317_n.jpg?_nc_ht=instagram.ftxl3-2.fna.fbcdn.net&_nc_cat=106
-  description: "My own path...isnt this something so personal that i should not talk
-    about  it?\n\nI have walked that path for 19 years now and decided to step out
-    of the dark a few years ago. I wanted to be visible, to be seen, to be accepted.
-    Not only for myself but also for others. \n\nI want to share storys about presswork,
-    interfaith Dialoge and Public Rituals.Let us discuss why it is necessary to do
-    this job and how it could help not only you but our whole Community."
-  bio: 
-  duration: 30
 - name: Hagen von Tulien
   searchString: hagen-von-tulien
   title: Chaos and Beyond
@@ -116,6 +102,29 @@
     of the Ecclesia Gnostica Spiritualis (ordained by Michael Bertiaux), Hagen von
     Tulien is dedicated to manifesting the supreme and divine Gnosis within himself
     while assisting others on their own path to kosmic freedom and liberation."
+  duration: 30
+- name: Bianca Carina Wertheimer
+  searchString: bianca-carina-wertheimer
+  title: 'Step out of the dark: Public Rituals and Interfaith Dialoge '
+  type: Lecture
+  keynote: 0
+  avatarPath: https://image.jimcdn.com/app/cms/image/transf/none/path/s23502ea2a23638c1/image/i710c62c1a73ad731/version/1467195653/image.jpg
+  description: "My own path, my beliefs, my experiences, isn't this something so personal
+    that i should not talk about it? And what if i am going to lose my job if my collegues
+    find out i am a witch, druid, shaman...?\n\nI have walked that path for 19 years
+    now and decided to step out of the dark a few years ago. I wanted to be visible,
+    to be seen, to be accepted. Not only for myself but also for others. And yes that
+    has changed my life. For the better.\n\nI want to share some experiences with
+    you. Storys about presswork, interfaith Dialoge and Public Rituals. Its been a
+    hell of a ride with ups and downs. But it was worth it.\n\nLet us discuss why
+    it is necessary to do this sometimes nasty but also exciting job and how it could
+    help not only you but your circle, coven, grove and our whole pagan community. "
+  bio: Bianca Carina Wertheimer is an Ovate Grade Druid of the Order of Bards, Ovates
+    and Druids and leader of the local druid group "Bärenwald". She runs a small witches
+    shop in Berlin and has supported the local pagan community for years with not
+    ony presswork, interfaith dialoge and public rituals but also tries to let people
+    explore her way of 21st century druidry through social media like YouTube and
+    Instagram.
   duration: 30
 - name: Phurpa
   searchString: phurpa
@@ -422,20 +431,15 @@
     the consciousness of being free. The heart of the ritual is a mantra which you
     might learn by heart, when you participate.\n\"I am the flame. \nI am the magician.
     \nThere is a splendour in my name. \nThe end of the hiding. \nAbrahadabra\" "
-  bio: |-
-    Soror AuroRa
-    Soror AuroRa studied ethnology and comparative religious studies.
-    She is a self-confessed Thelemite for over 25 years
-    and practices ritual magic.
-    As a consecrated Priestess of the Gnostic Catholic Church
-    and longtime member of OTO, she brings the philosophy of Thelema into the world.
-
-    Fürst Claas vom Mars
-    The author and musician Claas Hoffmann
-    alias ​​Fürst Claas vom Mars has been intoxicated with Crowley's Liber AL and Thoth Tarot for 34 years.
-    His publications on Thoth Tarot and Liber AL vel Legis have found a permanent place in the Thelemic community.
-    Hoffmanns Abraxas-Calendar is a mind-blowing revelation of the forces of the stars on planet earth.
-    His band Time and Space Society is celebrating 15 Years on stage this year.
+  bio: Soror AuroRa studied ethnology and comparative religious studies. She is a
+    self-confessed Thelemite for over 25 years and practices ritual magic. As a consecrated
+    Priestess of the Gnostic Catholic Church and longtime member of OTO, she brings
+    the philosophy of Thelema into the world. Claas Hoffmann alias   Fürst Claas vom
+    Mars has been intoxicated with Crowley's Liber AL and Thoth Tarot for 34 years.
+    His publications on Thoth Tarot and Liber AL vel Legis have found a permanent
+    place in the Thelemic community. Hoffmanns Abraxas-Calendar is a mind-blowing
+    revelation of the forces of the stars on planet earth. His band Time and Space
+    Society is celebrating 15 Years on stage this year.
   duration: 30
 - name: Alison Flora
   searchString: alison-flora
