@@ -1205,6 +1205,10 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
+  #landing video {
+    width: 80vw;
+  }
+
   #mailing-list #mailing-list-input {
     width: 80vw;
   }
