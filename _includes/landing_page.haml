@@ -1,24 +1,11 @@
 %section#landing-wrap.outer
-  %img#logo.hidden.step{:alt => "Occulture Berlin", :src => "images/occulture-logo-alpha.png"}
-    #high-priority-information.center 31 October - 03 November 2019
-
   #landing.inner.center
-    .put-out-the-vibe.hidden.step
-      %img{src: "images/dmd-nervous-system.jpg", title: "DANIEL MARTIN DIAZ"}
-    %ul.put-out-the-cold-facts.step{style: "display:none;"}
-      %li.new-moon
-        .title-text New Moon in Virgo 30.08
-        %ul.new-moon-content.context-text
-          %li
-            %span.strike-through Early Bird ticket sales finish
-            %span.sold-out &nbsp;SOLD OUT!
-          %li
-            First confirmed speakers and artists announced
-      %li.full-moon
-        .title-text Full Moon in Pisces 14.09
-        %ul.full-moon-content.context-text
-          %li
-            Deadline to submit proposals
+    .put-out-the-vibe
+      %video{controls: "controls", autoplay: ""}
+        %source{src: "images/promo-gif.mp4", type: "video/mp4"}
+    .fork-out-the-cash.hidden.step
+      %section#tickets-wrap.ga-track{data:{tracker: 'landing-ticket-button'}}
+        {% haml get_tickets.haml %}
 
   .inner.center
-    .close-button.hidden.step{onclick: "hideLandingPage()"} continue to site
+    .close-button{onclick: "hideLandingPage()"} continue to site
