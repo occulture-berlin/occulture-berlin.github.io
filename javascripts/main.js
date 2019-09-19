@@ -93,7 +93,9 @@ displayLandingPage = function() {
     $("footer").hide();
     // select all steps
     $(".step").each(function(index) {
-      $(this).delay(700*index).fadeIn();
+      // special function for ticket button after promo gif
+      $(this).delay(15500).fadeIn();
+      // $(this).delay(700*index).fadeIn();
     });
   });
 }
