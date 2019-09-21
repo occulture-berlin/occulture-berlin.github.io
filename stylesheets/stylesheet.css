@@ -92,7 +92,6 @@ body {
 }
 
 #landing {
-  font-size: 1.7em;
   letter-spacing: 1px;
   line-height: 1;
 }
@@ -104,6 +103,24 @@ body {
 #landing video {
   width: auto;
   height: 50vh ;
+}
+
+#landing .put-out-the-cold-facts {
+  font-family: latoBold;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#landing .put-out-the-cold-facts .promo {
+  font-family: keepCalm;
+  text-transform: uppercase;
+  color: red;
+  font-size: 120%;
+}
+
+#landing .fork-out-the-cash {
+  margin-bottom: 1em;
 }
 
 #landing .button {
@@ -1106,21 +1123,6 @@ Small Device Styles
     width: 35vw;
   }
 
-  #landing .put-out-the-cold-facts {
-    justify-self: center;
-    line-height: normal;
-    margin-top: 1em;
-  }
-
-  #landing .put-out-the-cold-facts .title-text {
-    text-align: center;
-    font-size: 3vw;
-  }
-
-  #landing .put-out-the-cold-facts .context-text {
-    font-size: 2vw;
-  }
-
   #call-for-abstracts .description-text {
     margin-bottom: 2em;
   }
@@ -1323,14 +1325,6 @@ Small Device Styles
 @media (min-width: 0px) and (max-width: 800px) {
   #landing img {
     width: 45vw;
-  }
-
-  #landing .put-out-the-cold-facts .title-text {
-    font-size: 4vw;
-  }
-
-  #landing .put-out-the-cold-facts .context-text {
-    font-size: 3vw;
   }
 
   #schedule #schedule-grid {
