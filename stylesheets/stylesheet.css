@@ -915,6 +915,19 @@ section {
   grid-row: time-1700 / time-2000;
 }
 
+#media #media-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+#media #media-grid img {
+  min-width: 25vw;
+  max-width: 25vw;
+  align-self: center;
+  cursor: pointer;
+}
+
 /* i did this to myself. i did this to myself. i did this to myself. */
 #lineup-2018-wrap .event-wrap {
   min-width: 70%; /* this ensures the unknown speaker is displayed correctly */
@@ -1338,6 +1351,15 @@ Small Device Styles
   #schedule #schedule-image img {
     width: 100%;
   }
+
+  #media #media-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #media #media-grid img {
+    min-width: 35vw;
+    max-width: 35vw;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 680px) {
@@ -1376,6 +1398,11 @@ Small Device Styles
   #nav li {
     width: 60vw;
     margin-right: 0;
+  }
+
+  #media #media-grid img {
+    min-width: 40vw;
+    max-width: 40vw;
   }
 
   h1 {
