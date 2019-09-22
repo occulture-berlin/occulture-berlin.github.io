@@ -1,0 +1,4 @@
+#media-grid
+  {% for photo in site.data.photos %}
+  <a data-fancybox="gallery" href="{{ photo.path }}"><img src="{{ photo.path }}"></a>
+  {% endfor %}
