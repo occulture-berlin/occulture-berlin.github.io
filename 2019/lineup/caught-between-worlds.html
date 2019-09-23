@@ -1,0 +1,75 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <title>OCCULTURE Berlin | Caught Between Worlds</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="Beyond Duality: The Esoteric Realism of Beny Tchaicovsky @OCCULTURE Berlin 2019">
+    <meta property="og:url"           content="/2019/lineup/caught-between-worlds.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Caught Between Worlds" />
+    <meta property="og:description"   content="Beyond Duality: The Esoteric Realism of Beny Tchaicovsky @OCCULTURE Berlin 2019" />
+    <meta property="og:image"         content="https://upload.wikimedia.org/wikipedia/commons/4/48/Beny_Tchaicovsky_Profile.jpg" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <section class='inner center' id='event'><div class='title'>Beyond Duality: The Esoteric Realism of Beny Tchaicovsky</div><div class='avatar'><img alt='Caught Between Worlds' onError='loadDefaultAvatar(this)' src='https://upload.wikimedia.org/wikipedia/commons/4/48/Beny_Tchaicovsky_Profile.jpg'><div class='name'>Caught Between Worlds</div></div><div class='main-info-wrap'><div class='abstract justifed'>The Call" is the first in the Morning Star Trilogy of animated movies by Beny Tchaicovsky, followed by "Caught Between Worlds" and "Dimensional Connections." An enigmatic soundtrack fuses with breathtaking imagery to create a journey of insight and wonder. Fusing unusual sounds and music with state of the art computer animation technology, Caught Between Worlds is a journey into worlds that can only be described through technology.</div><div class='bio justifed'>Beny Tchaicovsky (1954-2009) was a multimedia award-winning computer artist and visionary. His art has been categorized as Surrealism or Fantastic Realism, he termed his art as”Esoteric Realism”, in which creativity is used as a tool for Consciousness exploration. In the early 90’s, Tchaicovsky began expanding his two-dimensional paintings into 3D animation and in the process became one of the pioneering artists who contributed to the history of 3D animation as an art form. His work has appeared worldwide since it was featured in the “Gate to the Mind’s Eye” and “Odyssey into the Mind’s Eye”. It stood out because it was one of the few 3D works that deserved to be called truly creative, meaningful and artistic. </div></div><div class='button ga-track' data-tracker='get-tickets-speaker-page-caught-between-worlds'><script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a></div></section>
+
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><a class="ga-track" onclick="goToPage('../../impressum.html')">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
+</html>
