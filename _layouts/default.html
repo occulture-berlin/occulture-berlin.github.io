@@ -28,6 +28,11 @@
       });
     </script>
 
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0">
+    </script>
+
     <!-- Facebook Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
@@ -93,13 +98,7 @@
     {{ content }}
 
     <!-- FOOTER -->
-    <footer id="footer-wrap" class="outer">
-      <div id='footer-links' class='inner'>
-        <ul>
-          <li><a class="ga-track" onclick="goToPage('impressum.html')">Impressum</a></li>
-        </ul>
-      </div>
-    </footer>
+    {% haml footer.haml %}
   </body>
 
   {% haml mailing_list.haml %}

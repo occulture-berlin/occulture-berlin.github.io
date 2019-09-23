@@ -1,0 +1,19 @@
+%footer#footer-wrap.outer
+  #footer-links.inner
+    %ul
+      %li.fb-like{data: {                                 |
+        href: 'https://www.facebook.com/occultureberlin', |
+        layout: 'button_count',                           |
+        action: 'like',                                   |
+        size: 'small',                                    |
+        'show-faces': 'false',                            |
+        share: 'false'}}                                  |
+      %li
+      %li.fb-share-button{data: { |
+        href: "{{ page.url }}",   |
+        layout: 'button_count'}}  |
+      %li
+      %li
+        %a.ga-track{onclick: "goToPage('impressum.html')"}
+          Impressum
+
