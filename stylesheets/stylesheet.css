@@ -1365,13 +1365,13 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 680px) {
-  #mobile-nav-wrap #mobile-tickets-button .button {
-    padding: 0;
+  footer {
+    height: 6vh;
+    font-size: 1.3em;
   }
 
-  #mobile-nav-wrap #mobile-tickets-button .button {
-    background: inherit;
-    color: red;
+  #footer-links ul {
+    margin-bottom: 1em;
   }
 }
 
