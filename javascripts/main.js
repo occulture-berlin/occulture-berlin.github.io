@@ -93,7 +93,8 @@ displayLandingPage = function() {
     $("footer").hide();
     // select all steps
     $(".step").each(function(index) {
-      $(this).delay(700*index).fadeIn();
+      $(this).delay(15000).fadeIn();
+      // $(this).delay(700*index).fadeIn();
     });
   });
 }
