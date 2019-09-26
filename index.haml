@@ -28,7 +28,7 @@ onLoadAction:
       {% haml get_tickets.haml %}
     %li.button.ga-track#lineup-button.tab-button 2019 Lineup
     %li.button.ga-track#schedule-button.tab-button Schedule
-    / %li.button.ga-track.hidden#venue-button.tab-button Venue
+    %li.button.ga-track.hidden#venue-button.tab-button Venue
     %li.button.ga-track#contact-button.tab-button Contact
     %li.button.ga-track.hidden#call-for-abstracts-button.tab-button Proposals
     %li.button.ga-track#media-button.tab-button Media
@@ -108,9 +108,14 @@ onLoadAction:
   %section#venue.tab.inner.center.hidden
     #map.center
       // .:MRSLDHRMBR:.
-      %img{}
+      %img{src: 'images/anomalie.jpg'}
       %iframe{allowfullscreen:"",
-        src: "https://www.google.com/maps?q=Muzikbrauerei Berlin&output=embed&z=15"}
+        src: "https://www.google.com/maps?q=Anomalie Berlin&output=embed&z=15"}
+      %br
+      %p  A safe, grounding haven is crucial to an esoteric journey, so to is the notion of home to people who find themselves on the periphery. For us, the place where we gather is very significant. It is a home, not a mere venue. Due to ignorance and fear of the unknown, the Musikbrauerei suddenly closed its doors to us in the midst of our programming.
+
+      %p As luck or fate would have it, a new partnership has been born out of the ashes of the old, with Anomalie Art Club, an astonishing location in Prenzlauer Berg. Anomalie is a location with an intense soul - inside and outside spaces - and a unique vibe. A place of art and creativity is the ideal canvas onto which we can pour our energy into a Temporary Autonomous Home, with freedom to connect, to experiment and to delve into the mysteries.
+
 
 #contact-wrap.outer
   %section#contact.tab.inner.center.hidden
