@@ -132,7 +132,6 @@ body {
 
 #landing-wrap .close-button {
   position: fixed;
-  bottom: 0;
   width: 75%;
   cursor: pointer;
   text-transform: uppercase;
