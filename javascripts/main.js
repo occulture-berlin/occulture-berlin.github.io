@@ -7,6 +7,12 @@ $(document).ready(function() {
   // landing page
   displayLandingPage();
 
+  // image carousel
+  $('#image-carousel').cycle({
+    delay:  1000,
+    speed:  500,
+  });
+
   //// nav switching
 
   // only fire this on first click (`.one` wasn't working...)
@@ -16,7 +22,7 @@ $(document).ready(function() {
 
     // remove initially visible elements
     $("#high-priority-information-wrap").addClass('hidden');
-    $("#image-carousel").addClass('hidden');
+    $("#image-carousel-wrap").addClass('hidden');
 
     // convert nav styling
     $('#nav-wrap').addClass('top-nav-bar');
