@@ -31,11 +31,17 @@ class ParseAbstracts
         'avatarPath' => event['Avatar'],
         'description' => event['Abstract'],
         'bio' => event['Bio'],
-        'duration' => (event['Keynote'] == 'TRUE' ? 60 : 30)
+        'duration' => calculate_duration(event)
       }
     end
 
     events.sort_by { |e| e['keynote'] }.reverse
+  end
+
+  def calculate_duration(event)
+    event.fetch('Duration') do
+      event['Keynote'] == 'TRUE' ? 60 : 30
+    end
   end
 end
 
