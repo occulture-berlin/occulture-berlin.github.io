@@ -51,6 +51,11 @@
     /></noscript>
     <!-- End Facebook Pixel Code -->
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      type="text/javascript">
+    </script>
+
     <title>{{ page.title }}</title>
 
     <meta charset='utf-8'>
@@ -62,8 +67,8 @@
     <meta property="og:image"         content="{{ page.image }}" />
     <meta property="og:site_name"     content="OCCULTURE Berlin" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type='text/css' href="stylesheets/fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{{page.scope}}stylesheets/stylesheet.css">
+    <link rel="stylesheet" type='text/css' href="{{page.scope}}stylesheets/fancybox.min.css" />
 
     <!-- fonts loaded from google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
@@ -90,7 +95,7 @@
 
       <header class="inner">
         <a onclick="goToPage('index.html')">
-          <img id="logo" src="images/occulture-logo-alpha.png" alt="Occulture Berlin">
+          <img id="logo" src="{{page.scope}}images/occulture-logo-alpha.png" alt="Occulture Berlin">
         </a>
       </header>
     </div>
@@ -103,14 +108,10 @@
 
   {% haml mailing_list.haml %}
 
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-    type="text/javascript">
-  </script>
-  <script src="javascripts/js.cookie.js" type="text/javascript"></script>
-  <script src="javascripts/cycle_lite.js" type="text/javascript"></script>
-  <script src="javascripts/mustache.min.js" type="text/javascript"></script>
-  <script src="javascripts/main.js" type="text/javascript"></script>
-  <script src="javascripts/lineup_2019.js" type="text/javascript"></script>
-  <script src="javascripts/fancybox.min.js" type="text/javascript"></script>
+  <script src="{{page.scope}}javascripts/js.cookie.js" type="text/javascript"></script>
+  <script src="{{page.scope}}javascripts/cycle_lite.js" type="text/javascript"></script>
+  <script src="{{page.scope}}javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="{{page.scope}}javascripts/main.js" type="text/javascript"></script>
+  <script src="{{page.scope}}javascripts/lineup_2019.js" type="text/javascript"></script>
+  <script src="{{page.scope}}javascripts/fancybox.min.js" type="text/javascript"></script>
 </html>

@@ -182,13 +182,4 @@ onLoadAction:
       /   %img{alt: "Cyclic Law", src: "images/cyclic-law-logo.png"}/
 
 // this likes to be at the bottom for some reason, otherwise it blocks everything else
-#lineup-2019-wrap.outer
-  %ul#lineup-sub-nav.sub-nav.center.hidden
-    {% assign categories = site.data.events-2019 | map: 'type' | uniq %}
-    %li#all all
-    {% for category in categories %}
-    %li#{{ category }} {{category}}
-    {% endfor %}
-  %section#lineup.tab.sub-navigable.inner.center.hidden
-    #lineup-grid
-      {% haml 2019/lineup.haml %}
+{% haml 2019/lineup.haml %}

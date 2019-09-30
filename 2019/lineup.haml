@@ -1,0 +1,15 @@
+---
+layout: default
+title: "OCCULTURE Berlin | Lineup 2019"
+description: "Check out full list of talks, workshops, rituals and more happening at OCCULTURE 2019"
+url: https://www.occultureberlin.org/2019/lineup
+image: https://www.occultureberlin.org/images/2019/open-graph.jpg
+scope: '../../'
+---
+{% haml 2019/lineup.haml %}
+
+:javascript
+  $(window).on('pageshow', function() {
+    $('#lineup-sub-nav').show();
+    $('#lineup').show();
+  });

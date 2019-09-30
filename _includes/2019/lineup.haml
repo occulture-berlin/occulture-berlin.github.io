@@ -1,14 +1,24 @@
-{% for event in site.data.events-2019 %}
+#lineup-2019-wrap.outer
+  %ul#lineup-sub-nav.sub-nav.center.hidden
+    {% assign categories = site.data.events-2019 | map: 'type' | uniq %}
+    %li#all all
+    {% for category in categories %}
+    %li{id: '{{category}}'} {{category}}
+    {% endfor %}
 
-%div{class: ['event-wrap {{ event.type }}'] }
-  - link = "2019/lineup/{{event.searchString}}"
-  .avatar.ga-track{onclick: "goToPage('#{link}')", data:{tracker: '{{event.searchString}}-event-avatar'}}
-    %img{src:'{{event.avatarPath}}', alt:'{{event.title}}', onError:'loadDefaultAvatar(this)'}
-  .info-wrap
-    .main-info.ga-track{onclick:"goToPage('2019/lineup/{{event.searchString}}')", data:{tracker: '{{event.searchString}}-event-information'}}
-      .title
-        {{event.title}}
-      .name
-        {{event.name}}
+  %section#lineup.tab.sub-navigable.inner.center.hidden
+    #lineup-grid
+      {% for event in site.data.events-2019 %}
 
-{% endfor %}
+      %div{class: ['event-wrap {{ event.type }}'] }
+        - link = "2019/lineup/{{event.searchString}}"
+        .avatar.ga-track{onclick: "goToPage('#{link}')", data:{tracker: '{{event.searchString}}-event-avatar'}}
+          %img{src:'{{event.avatarPath}}', alt:'{{event.title}}', onError:'loadDefaultAvatar(this)'}
+        .info-wrap
+          .main-info.ga-track{onclick:"goToPage('2019/lineup/{{event.searchString}}')", data:{tracker: '{{event.searchString}}-event-information'}}
+            .title
+              {{event.title}}
+            .name
+              {{event.name}}
+
+      {% endfor %}
