@@ -1,0 +1,96 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '302054690638448');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=302054690638448&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0">
+    </script>
+
+
+    <title>OCCULTURE Berlin | Brujas</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="The Secret  @OCCULTURE Berlin 2019">
+    <meta property="og:url"           content="/2019/lineup/brujas.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Brujas" />
+    <meta property="og:description"   content="The Secret  @OCCULTURE Berlin 2019" />
+    <meta property="og:image"         content="https://www.occultureberlin.org/images/speakers/brujas.jpeg" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <section class='inner center' id='event'><div class='title'>The Secret </div><div class='avatar'><img alt='Brujas' onError='loadDefaultAvatar(this)' src='https://www.occultureberlin.org/images/speakers/brujas.jpeg'><div class='name'>Brujas</div></div><div class='main-info-wrap'><div class='abstract justifed'>Through the synchronicity between mind, body and soul, the Arcana dances with the encrypted symbols of the collective unconsciousness in an Oniric landscape of hidden meaning and sacred revelations.</div><div class='bio justifed'>Women united. Artists united.
+As a group with a wide variety of skills, from dancers,clothing designers  to body piercers, tattooers, and performers, these creative beings put their emphasis in female empowerment and the exploration beyond the physical world through their own bodies, using them as divine instruments.
+Sharp tools, fresh blood and dance moves will help them going through that process.
+Justine Sirena Peralta-Nadege Turbiez-Noraly Van Deursen-Maria Palomino Sedze-Martine Marie Quipique-Luna Brusca-Zoë Campbell</div></div><!-- .button.ga-track{data:{tracker:'get-tickets-speaker-page-brujas'}} --><!-- <script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a> --></section>
+
+
+    <!-- FOOTER -->
+    <footer class='outer' id='footer-wrap'><div class='inner' id='footer-links'><ul><li class='fb-like' data-action='like' data-href='https://www.facebook.com/occultureberlin' data-layout='button_count' data-share='false' data-show-faces='false' data-size='large'></li><li></li><li class='fb-share-button' data-href='/2019/lineup/brujas.html' data-layout='button_count' data-size='large'></li><li></li><li><a class='ga-track' onclick='goToPage(&#39;impressum.html&#39;)'>Impressum</a></li></ul></div></footer>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
+</html>
