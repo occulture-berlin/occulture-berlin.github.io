@@ -20,7 +20,7 @@
     his work has been translated into more than a dozen languages. In a past life
     he was a founding member of the pop group Blondie and in 2006 was inducted into
     the Rock and Roll Hall of Fame. His website can be reached at www.garylachman.co.uk
-  duration: 60
+  duration: 
 - name: David Lee
   searchString: david-lee
   title: 'Soul of the West: Magic, Awakening and the Hellenic Gnosis'
@@ -43,7 +43,7 @@
     Psychedelia and Chaos Magic can be found on his website, http://www.chaotopia.com/.
     You can sign up for David’s near-monthly Chaotopia Newsletter at http://eepurl.com/bSOtwf,
     for news about his events and other strange things.  "
-  duration: 60
+  duration: 
 - name: Susan Wands
   searchString: susan-wands
   title: Sigils, Symbols & Spells in Tarot Mythology
@@ -72,7 +72,7 @@
     book in a series, Magician and Fool, was published in England  and will soon be
     published in the U.S. Her novel series explores the life of Pamela Colman Smith,
     the Waite-Smith tarot deck creator. The next two books are in development. www.magicianandfool.com'
-  duration: 60
+  duration: 
 - name: David Rankine
   searchString: david-rankine
   title: Magic for Money - the Practices of British Cunning-Folk
@@ -95,7 +95,23 @@
     and co-authored a dozen books in this field including The Goetia of Dr Rudd, The
     Veritable Key of Solomon, Clavis Inferni, The Grimoire of Arthur Gauntlet and
     A Cunning Man’s Grimoire. For more information see www.davidrankine.com
-  duration: 60
+  duration: 
+- name: Carl H Smith and Sarah Janes
+  searchString: carl-h-smith-and-sarah-janes
+  title: 'Dark Radiance: The Web of Light'
+  type: Lecture
+  keynote: 0
+  avatarPath: https://miro.medium.com/max/703/1*m_RYYXlsn7SshTVzBXPWlQ.jpeg
+  description: 'What is light and what is sight? How do the artificial light producing
+    inventions of the last few hundred years influence our consciousness, our dreams
+    and our imaginations? How do we see within our dreams? What are the mechanisms
+    - biological and spiritual of ‘vision’. We used to worship the sun, now we appear
+    to be worshipping light-emitting technology. How are outer light projections diminishing,
+    altering or potentially enhancing the dark radiance of the light within our souls?
+
+    '
+  bio: 
+  duration: 
 - name: Virtual Awakening x Imaginarium Theater x ritual Maya
   searchString: virtual-awakening-x-imaginarium-theater-x-ritual-maya
   title: Re-Remembering
@@ -112,7 +128,7 @@
     Tzotzil and Lacandon. Our music is played with ancestral instruments and our costumes
     are authentic."
   bio: 
-  duration: 30
+  duration: 
 - name: Hagen von Tulien
   searchString: hagen-von-tulien
   title: Chaos and Beyond
@@ -134,7 +150,51 @@
     of the Ecclesia Gnostica Spiritualis (ordained by Michael Bertiaux), Hagen von
     Tulien is dedicated to manifesting the supreme and divine Gnosis within himself
     while assisting others on their own path to kosmic freedom and liberation."
-  duration: 30
+  duration: 
+- name: Brujas
+  searchString: brujas
+  title: 'The Secret '
+  type: Performance
+  keynote: 0
+  avatarPath: https://www.occultureberlin.org/images/speakers/brujas.jpeg
+  description: Through the synchronicity between mind, body and soul, the Arcana dances
+    with the encrypted symbols of the collective unconsciousness in an Oniric landscape
+    of hidden meaning and sacred revelations.
+  bio: |-
+    Women united. Artists united.
+    As a group with a wide variety of skills, from dancers,clothing designers  to body piercers, tattooers, and performers, these creative beings put their emphasis in female empowerment and the exploration beyond the physical world through their own bodies, using them as divine instruments.
+    Sharp tools, fresh blood and dance moves will help them going through that process.
+    Justine Sirena Peralta-Nadege Turbiez-Noraly Van Deursen-Maria Palomino Sedze-Martine Marie Quipique-Luna Brusca-Zoë Campbell
+  duration: 
+- name: Keith Readdy
+  searchString: keith-readdy
+  title: 'The Style of a Letter: The Thelemic Movement and its Culture of Publication
+    (1969-1996)'
+  type: Lecture
+  keynote: 0
+  avatarPath: https://www.occultureberlin.org/images/speakers/unknown.png
+  description: "This presentation by Keith Ready examines Thelema’s occulture between
+    the 1960s and 1990s, discussing the impact that publication has made on the establishment
+    and legitimization of Thelema, forwarded by Aleister Crowley in 1904 as a new
+    religious movement in contemporary Western culture. The resurrection of Thelema
+    in the middle of the 20th-century is a complex story. It involves contentious
+    claims to heirship in a complex structure of hierarchy as well as copyright discrepancies
+    to written material. \n\nWhile this presentation exclusively focuses on a historical
+    account of the Thelemic movements known as the Ordo Templi Orientis and A∴A∴ in
+    their crucial periods of abeyance and revival, the overarching question centers
+    around the importance of a movement’s literature and who owns its copyright. It
+    will be seen that an epic battle for legitimization and authority ensued within
+    the Thelemic occulture, culminating in legal battles for the acquisition of copyright
+    and incorporation."
+  bio: 'Keith Readdy holds a bachelors in philosophy from the University of Central
+    Florida and a master from the University of Amsterdam''s Center for the History
+    of Hermetic Philosophy and Related Currents. He is the author of the recent work
+    entitled One Truth and One Spirit: Aleister Crowley''s Spiritual Legacy, published
+    in 2018 by Ibis Press. He currently lives in London and serves as Chairman of
+    the newly established Boleskine House Foundation, a registered Scottish charity
+    that aims to restore and preserve former Crowley estate Boleskine House in Foyers,
+    Scotland.'
+  duration: 
 - name: Piotr Zakrzewski
   searchString: piotr-zakrzewski
   title: 'Fortune Telling: from Poker deck to Tarot'
@@ -151,7 +211,7 @@
   bio: |-
     Tarot reader, poet and card maker from Poland. Specialist in Tarot de Marseille.
     Working in the field of Bioenergetics and Holotropic Breathwork.
-  duration: 30
+  duration: '90'
 - name: Kavi Karnapura
   searchString: kavi-karnapura
   title: Advanced Lunar Elections using Tara
@@ -167,7 +227,7 @@
   bio: 'Kavi Karnapura is a Vedic astrologer based in Hamburg, where he is currently
     studying Early Buddhist astrology at the University of Hamburg. He previously
     spent 14 years as a monk studying and teaching Vaishnava tantra. '
-  duration: 30
+  duration: 
 - name: Tobias Raayoni Last
   searchString: tobias-raayoni-last
   title: Close Encounters with Placeness
@@ -194,7 +254,7 @@
     and modern chaos magick. "Placeness" has always played a central role in his art
     and continues doing so in his spiritual endeavours. He regularly blogs about his
     research and praxis on http://sublunar.space
-  duration: 30
+  duration: 
 - name: The Butterfly Wheel
   searchString: the-butterfly-wheel
   title: Songs of Wisdom
@@ -206,7 +266,7 @@
     drawing on their inspirations from esoteric philosophy and their own core intuition.
     Their sound has been described as ‘wildly intriguing and haunting’.
   bio: 
-  duration: 30
+  duration: 
 - name: Caught Between Worlds
   searchString: caught-between-worlds
   title: 'Beyond Duality: The Esoteric Realism of Beny Tchaicovsky'
@@ -229,11 +289,11 @@
     the Mind’s Eye” and “Odyssey into the Mind’s Eye”. It stood out because it was
     one of the few 3D works that deserved to be called truly creative, meaningful
     and artistic. '
-  duration: 30
+  duration: 
 - name: Sarah Janes
   searchString: sarah-janes
   title: 'Sleep Magic: Sleep Temples and Dream Incubation'
-  type: Lecture
+  type: Workshop
   keynote: 0
   avatarPath: https://scontent.ftxl3-2.fna.fbcdn.net/v/t1.0-9/14441023_1122807251148514_2145666311848351674_n.jpg?_nc_cat=106&_nc_oc=AQkc46U2yT2oD513LMu2Oda1lyE_O56xre2UKg5hFZD0uarpzqFn9UZc1Dy9L0yvDVjQE24uGx0qDTchn1UEcbhT&_nc_ht=scontent.ftxl3-2.fna&oh=445025df20f523e853bdbdb207825490&oe=5DF37F96
   description: "In the unique state of lucid dream consciousness, the mind and body
@@ -253,7 +313,7 @@
     world and one of her most recent projects has been developing a virtual reality
     mystery school initiation programme with Carl H. Smith and others (The Seventh
     Ray - Virtual Initiation). "
-  duration: 30
+  duration: '60'
 - name: Bianca Carina Wertheimer
   searchString: bianca-carina-wertheimer
   title: 'Step out of the dark: Public Rituals and Interfaith Dialoge '
@@ -276,7 +336,7 @@
     ony presswork, interfaith dialoge and public rituals but also tries to let people
     explore her way of 21st century druidry through social media like YouTube and
     Instagram.
-  duration: 30
+  duration: 
 - name: Phurpa
   searchString: phurpa
   title: Chanting Meditation
@@ -291,11 +351,11 @@
     spirituality of pre-Buddhist Tibet. The ensuing tale is a captivating journey
     shrouded in Himalayan mysticism; from the shadow of the Kremlin to the pyramids
     of Egypt and further on into the vast emptiness beyond.
-  duration: 30
+  duration: 
 - name: Jason Revere
   searchString: jason-revere
   title: Maya - The Fantasy of Your Reality
-  type: Lecture
+  type: Workshop
   keynote: 0
   avatarPath: https://youcanyoga.nl/wp-content/uploads/2019/09/JasonRevere.jpg
   description: 'Do you control reality or does reality control you? Gain a better
@@ -317,11 +377,11 @@
     no bullshit, yogi whose crazy eyes don’t stop until people pause, take a breath
     and question their own reality. To find out more about his latest projects and
     upcoming books, podcasts and talks visit www.youcanyoga.nl/jason-revere/
-  duration: 30
+  duration: 
 - name: Coral Carte
   searchString: coral-carte
   title: Sacred transformational bodywork
-  type: Ritual
+  type: Workshop
   keynote: 0
   avatarPath: https://www.occultureberlin.org/images/speakers/carte-coral.jpg
   description: "In a 90-minute dance/bodywork ritual participants will experience
@@ -345,7 +405,7 @@
     She facilitates movement and music projects with children, and adults, also team
     building and workshops in the workplace. An operational Remote Viewer she also
     writes, edits, translates, makes art, artifacts and talismanic jewelry. https://lifeoflight3.webnode.com/
-  duration: 30
+  duration: 
 - name: Yoav Shavit
   searchString: yoav-shavit
   title: Biography of the Soul
@@ -365,7 +425,7 @@
     Past Life Regression, Therapeutic Lucid Dreaming and Meridian Psychotherapy since
     2013. \nYoav regularly gives workshops and lectures while currently expanding
     his practice in crystal healing and Shadow Work. \nwww.yoavontheway.com"
-  duration: 30
+  duration: 
 - name: Christian Ermel
   searchString: christian-ermel
   title: The Necronom-Icons / The Archetypes of Fear - An Iconographic Pantheon
@@ -391,7 +451,7 @@
     scene. \nBut because of his withdrawn living and the dark atmosphere of his art,
     he has had only a few exhibitions for nearly 30 years. Now he is showing his art
     to the world."
-  duration: 30
+  duration: 
 - name: Wahid Azal
   searchString: wahid-azal
   title: "“Verily I Am God” (إنّني أنا الله): Linguistic Theosis and Theurgical Apotheosis
@@ -414,7 +474,7 @@
     texts and manuscripts, and an expert on the post-Islamic gnostic religion of the
     Bayān. He is also an activist and the Grand Shaykh of the Fatimiya Sufi Order.
     Recently widowed, he lives with his daughter in Berlin.
-  duration: 30
+  duration: 
 - name: david bramwell
   searchString: david-bramwell
   title: The Cult of Water
@@ -438,7 +498,7 @@
     4, having made programmes on subjects ranging from Damanhur to Ken Campbell. He
     has won awards for ‘outstanding theatre’ and ‘best comedy’ for his one-man shows
     and is the author of The Haunted Moustache, The No9 Bus to Utopia and The Odditorium.
-  duration: 30
+  duration: 
 - name: Brian Cotnoir
   searchString: brian-cotnoir
   title: Alchemy, The Emerald Tablet and the Creative Act
@@ -461,7 +521,7 @@
     aspects of alchemical theory and practice based on his research.\nHis film work
     has been screened at Museum of Modern Art, Sundance Film Festival, HBO, PBS and
     other international venues.\n"
-  duration: 30
+  duration: 
 - name: Terje Sparby
   searchString: terje-sparby
   title: Meditative Experiences and The Guardian of the Threshold in Anthroposophy
@@ -486,7 +546,7 @@
     of Neuroimaging. Currently he is working at the Witten/Herdecke University, focusing
     on phenomenology, Anthroposophy, introspection, first-person methods, meditation,
     and the philosophy of mind. '
-  duration: 30
+  duration: 
 - name: Marleen Thaler
   searchString: marleen-thaler
   title: The New Jerusalem Diagram. John Michell's Staircase to Heaven
@@ -510,7 +570,7 @@
     on Kundalini within the Occult and Holistic Milieu. Originally from the Austrian
     countryside Marleen has been living in Vienna for the last ten years from where
     she was part-time working, studying and travelling.
-  duration: 30
+  duration: 
 - name: Fürst Claas vom Mars and Soror Aurora
   searchString: fürst-claas-vom-mars-and-soror-aurora
   title: Abraxas-Ritual
@@ -531,7 +591,7 @@
     place in the Thelemic community. Hoffmanns Abraxas-Calendar is a mind-blowing
     revelation of the forces of the stars on planet earth. His band Time and Space
     Society is celebrating 15 Years on stage this year.
-  duration: 30
+  duration: 
 - name: Alison Flora
   searchString: alison-flora
   title: 'Secret Society '
@@ -550,7 +610,7 @@
     destruction, and creation. « Secret Society » series, is the meeting between the
     visible and the invisible."
   bio: 
-  duration: 30
+  duration: 
 - name: Kyra Jacques-Grundy
   searchString: kyra-jacques-grundy
   title: Rediscovering Our Roots - Celtic Shamanism and the Ancestral Journey
@@ -569,7 +629,7 @@
     deck in 2015 and has been reading the cards for others ever since. In March 2019,
     she began her training in Celtic shamanism under John Matthews and experienced
     a spiritual awakening. \n"
-  duration: 30
+  duration: 
 - name: Eudaimon
   searchString: eudaimon
   title: Iboga - Guided Near-Death-Experiences for spiritual Initiation
@@ -588,7 +648,7 @@
     into research and work with the sacred wood. Besides helping others to witness
     and decode the ancient wisdom of Iboga for healing purposes as well as for psycho-spiritual
     discovery, he writes, talks and organises Events evolving around Iboga.
-  duration: 30
+  duration: 
 - name: Beatrice Eggers
   searchString: beatrice-eggers
   title: Movies as Magickal Talismans
@@ -604,7 +664,7 @@
     doing Film Art Performances in different settings such as swimming pool where
     audience float in water while watching The film. Change The perception of viewing
     and you change The persons perspective. '
-  duration: 30
+  duration: 
 - name: Kasper Opstrup
   searchString: kasper-opstrup
   title: 'Memories of the Space Age: The Cosmic Futurism of Timothy Leary and Robert
@@ -624,4 +684,4 @@
     and Radical Imaginaries in the UK Underground from 1961 to 1991 (Minor Compositions,
     2017) and the edited anthology Unexpected Encounters – Possible Futures (Antipyrine,
     2019).'
-  duration: 30
+  duration: 
