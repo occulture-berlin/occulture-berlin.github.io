@@ -6,10 +6,11 @@ url: https://www.occultureberlin.org/2019/lineup
 image: https://www.occultureberlin.org/images/2019/open-graph.jpg
 scope: '../../'
 ---
-{% haml 2019/lineup.haml %}
-
 :javascript
   $(window).on('pageshow', function() {
     $('#lineup-sub-nav').show();
     $('#lineup').show();
   });
+
+{% haml 2019/lineup.haml %}
+
