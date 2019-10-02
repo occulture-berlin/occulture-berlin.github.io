@@ -2,3 +2,4 @@ name: OCCULTURE
 baseurl: ''
 plugins:
 - jekyll-haml
+- jekyll-sitemap
