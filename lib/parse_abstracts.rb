@@ -2,26 +2,45 @@ require 'csv'
 require 'yaml'
 
 class ParseAbstracts
-  def self.call(input, target)
-    new(input, target).call
+  def self.call(abstracts, diviners, target)
+    new(abstracts, diviners, target).call
   end
 
-  def initialize(input, target)
-    @serialized_events = serialize_events(CSV.read(input, headers: true))
+  def initialize(abstracts, diviners, target)
+    @events = serialize_events(CSV.read(abstracts, headers: true))
+    @diviners = serialize_diviners(CSV.read(diviners, headers: true))
     @target = target
   end
 
   def call
-    File.open(target, 'w+') { |f| f.write(serialized_events.to_yaml) }
-    print "Wrote #{serialized_events.count} events to #{target}\n"
+    write_full_lineup
+    log_output
     nil
   end
 
   private
-  attr_reader :serialized_events, :target
+  attr_reader :events, :diviners, :target
 
-  def serialize_events(input)
-    events = input.map do |event|
+  def write_full_lineup
+    File.open(target, 'w+') do |f|
+      f.write(lineup.to_yaml)
+    end
+  end
+
+  def lineup
+    events + diviners
+  end
+
+  def log_output
+    print "Writing to #{target}\n"
+    events.group_by { |e| e['type'] }.each do |type, events|
+      print "#{events.count} #{type.downcase} events\n"
+    end
+    print "#{diviners.count} diviners\n"
+  end
+
+  def serialize_events(abstracts)
+    events = abstracts.map do |event|
       {
         'name' => event['Name'].split.each(&:capitalize).join(' '),
         'searchString' => event['Name'].downcase.split.join('-'),
@@ -38,6 +57,20 @@ class ParseAbstracts
     events.sort_by { |e| e['keynote'] }.reverse
   end
 
+  def serialize_diviners(input)
+    input.map do |diviner|
+      {
+        'name' => diviner['Name'].split.each(&:capitalize).join(' '),
+        'searchString' => diviner['Name'].downcase.split.join('-'),
+        'type' => 'Divination',
+        'divinationOffered' => diviner['Types'],
+        'avatarPath' => diviner['Avatar'],
+        'availableOn' => diviner['Dates'],
+        'bio' => diviner['Bio'],
+      }
+    end
+  end
+
   def calculate_duration(event)
     event.fetch('Duration') do
       event['Keynote'] == 'TRUE' ? 60 : 30
@@ -45,7 +78,8 @@ class ParseAbstracts
   end
 end
 
-input = ENV.fetch('ABSTRACTS')
+abstracts = ENV.fetch('ABSTRACTS')
+diviners = ENV.fetch('DIVINERS')
 year = 2019
 target = "./_data/events-#{year}.yml"
 
@@ -54,4 +88,4 @@ print "If you continue, you will overwrite file '#{target}'\n\n"
 print "Are you sure you want to proceed? (y/n)"
 
 response = gets.chomp.strip == 'y' ? true : false
-ParseAbstracts.call(input, target) if response == true
+ParseAbstracts.call(abstracts, diviners, target) if response == true
