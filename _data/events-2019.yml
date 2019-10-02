@@ -1,4 +1,19 @@
 ---
+- name: Daniel Pinchbeck
+  searchString: daniel-pinchbeck
+  title: The Occult Control System
+  type: Lecture
+  keynote: 1
+  avatarPath: https://www.occultureberlin.org/images/speakers/pinchbeck-daniel.jpeg
+  description: 'Mainstream news coverage of UFOs and alien visitations has increased
+    massively to the point where it seems some kind of "Disclosure" is under way.
+    The history of this phenomenon is fascinating from an occult or spiritual science
+    perspective. How can we inquire into its true nature? '
+  bio: 'Daniel Pinchbeck is the author of Breaking Open the Head, 2012: The Return
+    of Quetzalcoatl, How Soon Is Now, The Occult Control System and When Plants Dream
+    (with Sophia Rokhlin). He is the editorial director of Liminal ( www.liminal.news
+    ), a new online magazine. '
+  duration: 
 - name: Gary Lachman
   searchString: gary-lachman
   title: 'Dark Star Rising: Magick and Power in the Age of Trump'
@@ -102,14 +117,25 @@
   type: Lecture
   keynote: 0
   avatarPath: https://miro.medium.com/max/703/1*m_RYYXlsn7SshTVzBXPWlQ.jpeg
-  description: 'What is light and what is sight? How do the artificial light producing
+  description: What is light and what is sight? How do the artificial light producing
     inventions of the last few hundred years influence our consciousness, our dreams
     and our imaginations? How do we see within our dreams? What are the mechanisms
-    - biological and spiritual of ‘vision’. We used to worship the sun, now we appear
-    to be worshipping light-emitting technology. How are outer light projections diminishing,
+    - biological and spiritual of ‘vision’. How are outer light projections diminishing,
     altering or potentially enhancing the dark radiance of the light within our souls?
-
-    '
+    We used to worship the sun, now we appear to be worshipping light-emitting technology.
+    Light from the world produces a negative impression when we close our eyes. Our
+    powers of imagination and memory fill in the blanks and our dream visions are
+    coloured light impressions that mimic the world we see outside, as they interpret
+    the signals we receive from within. The elements within us - when we zoom into
+    the most ancient and invisible level of our form - are entangled with everything
+    else in the universe. We are the beads of dew on a spider’s web, we tremble, we
+    reflect. The dream realm is a place to tap into universal memory, a place where
+    no time exists, where seeing is woven into the fabric of the dream world, we see
+    with every atom of its creation, we visit the realm we emerged from and the realm
+    we shall enter upon death. Dreaming is training for the otherside. When technology
+    produces a dream making machine that generates visuals from within the human,
+    rather than projecting onto the human - we'll be going somewhere very different.
+    Shall we go there?
   bio: 
   duration: 
 - name: Virtual Awakening x Imaginarium Theater x ritual Maya
@@ -150,6 +176,15 @@
     of the Ecclesia Gnostica Spiritualis (ordained by Michael Bertiaux), Hagen von
     Tulien is dedicated to manifesting the supreme and divine Gnosis within himself
     while assisting others on their own path to kosmic freedom and liberation."
+  duration: 
+- name: SINS
+  searchString: sins
+  title: Innvocation of Babalon
+  type: Ritual
+  keynote: 0
+  avatarPath: https://i.ibb.co/6ghvQmH/20882732-1882456678437339-7465248439543451049-n.jpg
+  description: Musical & Ritual invocation of Babalon
+  bio: 'SINS exists outside of time and space. '
   duration: 
 - name: Orryelle Defenestrate-Bascule
   searchString: orryelle-defenestrate-bascule
