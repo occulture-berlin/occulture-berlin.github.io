@@ -1,18 +1,27 @@
 ---
-- name: Daniel Pinchbeck
-  searchString: daniel-pinchbeck
-  title: The Occult Control System
-  type: Lecture
+- name: david bramwell
+  searchString: david-bramwell
+  title: The Cult of Water
+  type: Performance
   keynote: 1
-  avatarPath: https://www.occultureberlin.org/images/speakers/pinchbeck-daniel.jpeg
-  description: 'Mainstream news coverage of UFOs and alien visitations has increased
-    massively to the point where it seems some kind of "Disclosure" is under way.
-    The history of this phenomenon is fascinating from an occult or spiritual science
-    perspective. How can we inquire into its true nature? '
-  bio: 'Daniel Pinchbeck is the author of Breaking Open the Head, 2012: The Return
-    of Quetzalcoatl, How Soon Is Now, The Occult Control System and When Plants Dream
-    (with Sophia Rokhlin). He is the editorial director of Liminal ( www.liminal.news
-    ), a new online magazine. '
+  avatarPath: https://folkestonefringe.com/site/assets/files/2662/david_bramwell_2.768x0.jpg
+  description: "Combining music, animation and archive film with a captivating monologue,
+    David Bramwell takes audiences on a dreamy candle-lit journey, in search of the
+    occult secrets of rivers – back into a pre-Christian era when rivers and springs
+    were worshipped as living deities – and a drowned village which has long haunted
+    his memories.\n\nAlong the journey Bramwell battles with his own thalassophobia
+    (the fear of ‘what lurks beneath’); learns about hydromancy from magician Alan
+    Moore, discovers a unique forest of figs growing on the banks of the Don and encounters
+    Jarvis Cocker on his own adventures, sailing down the Don on an inflatable inner
+    tube.\n\nHis journey finally brings him face to face with the goddess of primordial
+    waters, Danu, who gave her name to the Don.\n\nWhile using the river Don as the
+    focal point for a psycho-geographical journey, at heart this is a meditation on
+    the symbolic and ritual power of water and its association with feminine power.
+    \ \n"
+  bio: David Bramwell is a Sony-Award winning presenter for BBC Radio 3 and BBC Radio
+    4, having made programmes on subjects ranging from Damanhur to Ken Campbell. He
+    has won awards for ‘outstanding theatre’ and ‘best comedy’ for his one-man shows
+    and is the author of The Haunted Moustache, The No9 Bus to Utopia and The Odditorium.
   duration: 
 - name: Gary Lachman
   searchString: gary-lachman
@@ -111,6 +120,21 @@
     Veritable Key of Solomon, Clavis Inferni, The Grimoire of Arthur Gauntlet and
     A Cunning Man’s Grimoire. For more information see www.davidrankine.com
   duration: 
+- name: Daniel Pinchbeck
+  searchString: daniel-pinchbeck
+  title: The Occult Control System
+  type: Lecture
+  keynote: 1
+  avatarPath: https://www.occultureberlin.org/images/speakers/pinchbeck-daniel.jpeg
+  description: 'Mainstream news coverage of UFOs and alien visitations has increased
+    massively to the point where it seems some kind of "Disclosure" is under way.
+    The history of this phenomenon is fascinating from an occult or spiritual science
+    perspective. How can we inquire into its true nature? '
+  bio: 'Daniel Pinchbeck is the author of Breaking Open the Head, 2012: The Return
+    of Quetzalcoatl, How Soon Is Now, The Occult Control System and When Plants Dream
+    (with Sophia Rokhlin). He is the editorial director of Liminal ( www.liminal.news
+    ), a new online magazine. '
+  duration: 
 - name: Carl H Smith and Sarah Janes
   searchString: carl-h-smith-and-sarah-janes
   title: 'Dark Radiance: The Web of Light'
@@ -176,6 +200,21 @@
     of the Ecclesia Gnostica Spiritualis (ordained by Michael Bertiaux), Hagen von
     Tulien is dedicated to manifesting the supreme and divine Gnosis within himself
     while assisting others on their own path to kosmic freedom and liberation."
+  duration: 
+- name: Emma Watkinson
+  searchString: emma-watkinson
+  title: Esoteric Archetypes in Art.
+  type: Lecture
+  keynote: 0
+  avatarPath: http://emanations.co.uk/wp-content/uploads/2012/01/10712886_10152314379621415_8857177535174576786_n.jpg?LMCL=VRc7xZ&LMCL=NCTSTJ&LMCL=VRc7xZ&LMCL=NCTSTJ&LMCL=VRc7xZ&LMCL=NCTSTJ
+  description: " From the cave paintings of Africa, indigenous medicine culture ,
+    to the pantheons of deitys of Egypt ,Greece & India ,  art has always been instrumental
+    in magical practice.  It can be used as a tool for divination , healing or manifestation
+    . Emma investigates the use of symbols & Jungian archetypes within the context
+    of Art history , magic & her own paintings. "
+  bio: |
+    Emma is a contemporary visionary oil painter from the U.K . She works with the archetypes & mythology of various cultures , each painting is an invocation, designed to open portals in the psyche.   
+    Originally hailing from a Druidic background ,she is inspired by her travel & practice in various traditions .She has worked with Kabbalistic themes, Egyptology ,alchemy & tarot ,and spent time exploring Hindu & Tibetan buddhist practice in the East .Initially a self taught painter , she spent time assisting Ernst Fuchs, the founder of Fantastic Realism in Vienna. Her art has been exhibited widely at festivals, gallery & museums around the world. Her other interests are ritual theatre , making music ,& practicing chi gung. 
   duration: 
 - name: SINS
   searchString: sins
@@ -533,30 +572,6 @@
     Bayān. He is also an activist and the Grand Shaykh of the Fatimiya Sufi Order.
     Recently widowed, he lives with his daughter in Berlin.
   duration: 
-- name: david bramwell
-  searchString: david-bramwell
-  title: The Cult of Water
-  type: Performance
-  keynote: 0
-  avatarPath: https://folkestonefringe.com/site/assets/files/2662/david_bramwell_2.768x0.jpg
-  description: "Combining music, animation and archive film with a captivating monologue,
-    David Bramwell takes audiences on a dreamy candle-lit journey, in search of the
-    occult secrets of rivers – back into a pre-Christian era when rivers and springs
-    were worshipped as living deities – and a drowned village which has long haunted
-    his memories.\n\nAlong the journey Bramwell battles with his own thalassophobia
-    (the fear of ‘what lurks beneath’); learns about hydromancy from magician Alan
-    Moore, discovers a unique forest of figs growing on the banks of the Don and encounters
-    Jarvis Cocker on his own adventures, sailing down the Don on an inflatable inner
-    tube.\n\nHis journey finally brings him face to face with the goddess of primordial
-    waters, Danu, who gave her name to the Don.\n\nWhile using the river Don as the
-    focal point for a psycho-geographical journey, at heart this is a meditation on
-    the symbolic and ritual power of water and its association with feminine power.
-    \ \n"
-  bio: David Bramwell is a Sony-Award winning presenter for BBC Radio 3 and BBC Radio
-    4, having made programmes on subjects ranging from Damanhur to Ken Campbell. He
-    has won awards for ‘outstanding theatre’ and ‘best comedy’ for his one-man shows
-    and is the author of The Haunted Moustache, The No9 Bus to Utopia and The Odditorium.
-  duration: 
 - name: Brian Cotnoir
   searchString: brian-cotnoir
   title: Alchemy, The Emerald Tablet and the Creative Act
@@ -764,3 +779,14 @@
     his passion and helping people with his cards has shaped his whole life. Through
     his readings, he wishes to inspire people to see all the beauty that they are
     made of.
+- name: Discordian Astrology
+  searchString: discordian-astrology
+  type: Divination
+  divinationOffered: Tarot, Astrology
+  avatarPath: https://scontent.ftxl3-2.fna.fbcdn.net/v/t1.0-9/37028728_909928545878266_2536065995152293888_n.jpg?_nc_cat=104&_nc_eui2=AeFxakZcUDnFxrqmDDJ5YvCswtc40VX1TE6yT5qmGpRbzOURgk9RX_R4A716koWdibSWyCwJIjjz2vfI8jU8wbYnv0YzMIum8Ez5V7I_KAmHbA&_nc_oc=AQk51Zblryvn8X8FwZdB6eFX2pL0JMgs2BFntF4KIfuXBJhh6vCF4OcQjm5IumRYMjru1OfWbqsZGZfXw8lspKdO&_nc_ht=scontent.ftxl3-2.fna&oh=65e8fb60c5c9749538c8246668464c9c&oe=5E3AAAC3
+  availableOn: Saturday 2 November
+  bio: "Astrological divination as translated by a ceremonial magician. Abigail Atkins
+    specializes in Qabbalistic Astrology, Synastry, Tarot, Geomancy, and other forms
+    of divination to facilitate soul expansion and union with the higher self. \nTo
+    view our full content of published works including weekly written horoscopes and
+    digital lectures, please connect with us on Facebook: https://facebook.com/discordastro/"
