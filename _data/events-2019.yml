@@ -162,6 +162,21 @@
     Shall we go there?
   bio: 
   duration: 
+- name: Hagen von Tulien
+  searchString: hagen-von-tulien-art
+  title: PANDAEMONIUM
+  type: Art
+  keynote: 0
+  avatarPath: https://blacklotuskult.files.wordpress.com/2014/04/hagen-with-psaligraphy-cover.jpg
+  description: |-
+    The images Hagen von Tulien creates are functioning sacred diagrams, Veves and potent effigies whereby congress with the spirit world may be actuated.
+    Amalgamations of eyes, serpents, horns, skulls and other sigillic devices, these images become embodied vessels of power. They assist the practitioner in concentration, may be used in meditation or evocation, or as objects of talismanic effect. They are rich in iconic symbolism, the devices of esoteric tradition are recondite and explicit and the entities present are no less corporeal to the eye.
+  bio: |-
+    Hagen von Tulien is a contemporary artist and occultist. With more than forty years of intense magical theory and practice, he has specialized in creating art as an expression and manifestation of magical states of awareness and its use as an esoteric tool.
+    He is working in a variety of media including pen and ink, paper cut, collage and digital formats.
+    Throughout the 1990s Hagen was a key figure in the Chaos-Magical Pact of the Illuminates of Thanateros (I.O.T.), serving as its section head for Germany.
+    He is currently a Master-Initiate of the Fraternitas Saturni (F.S.), an empowered adept of the Voudon Gnostic Current (member of O.T.O.A./L.C.N.), and a Gnostic Bishop of the Ecclesia Gnostica Spiritualis.
+  duration: 
 - name: Virtual Awakening x Imaginarium Theater x ritual Maya
   searchString: virtual-awakening-x-imaginarium-theater-x-ritual-maya
   title: Re-Remembering
@@ -816,3 +831,19 @@
     Toltec wisdom, Inca rituals and tarot readings.
 
     '
+- name: Nina Kim
+  searchString: nina-kim
+  type: Divination
+  divinationOffered: Psychedelic Reiki Massage
+  avatarPath: https://images.squarespace-cdn.com/content/v1/56cfd6063c44d8b9570eff6d/1523522942221-1M8WLTS7RLF3I8MQ5IQI/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pE4cef1KNtWo36k-CFnr6wOF2g5O-PFkVuvW_ba6dQUZZpzEt6WQHHQe4EHY-NJIA/ninakim.png?format=1500w
+  availableOn: Saturday 2 November
+  bio: "Nina Kim - Reiki Master & Massage Therapist will be offering Psychedelic Reiki
+    Massage for transdimensional relaxation and healing. It is a massage infused with
+    Reiki (energy healing), which can bring you to an altered state of consciousness,
+    the realms Nina believes there is the highest potential for the deepest and most
+    complete healing.\n⠀⠀⠀⠀⠀⠀ ⠀⠀⠀\nTrained in the San Francisco Bay Area (500+ hours)
+    and currently based in Berlin, she uses Swedish (slow, long strokes), deep-tissue,
+    acupressure and trigger point therapy massage modalities integrated with intuitive
+    wisdom, chakra balancing & Reiki to help facilitate healing on a holistic level.
+    To learn more about Psychedelic Reiki Massage: \nhttp://psychedelicreikimassage.com
+    & http://facebook.com/psychedelicreikimassage"
