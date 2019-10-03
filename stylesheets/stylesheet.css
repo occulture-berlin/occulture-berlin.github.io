@@ -1130,7 +1130,7 @@ Small Device Styles
   }
 
   #logo {
-    width: 100%;
+    width: 90%;
   }
 
   #image-carousel-wrap {
@@ -1366,8 +1366,12 @@ Small Device Styles
   }
 
   .inner {
-    min-width: 320px;
-    max-width: 480px;
+    min-width: 280px;
+    max-width: 420px;
+  }
+
+  #logo {
+    width: 90%;
   }
 
   #mailing-list #mailing-list-input {
