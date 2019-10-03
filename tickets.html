@@ -91,9 +91,47 @@
       </header>
     </div>
 
-    <div id='tickets-page'>
-<div class='outer' id='high-priority-information-wrap'>
-<section class='inner center' id='high-priority-information'>
+    <div class='outer' id='tickets-page'>
+<div class='inner center' id='tickets-page-wrap'>
+<section id='ticket-element-holder'>
+<div id='countdown-wrap'>
+<div id='countdown'></div>
+</div>
+<script src='./javascripts/countdown.min.js' type='text/javascript'></script>
+<script>
+  countdown.DEFAULTS = countdown.WEEKS
+  
+  var time = countdown(null, new Date(2019, 9, 31), countdown.DEFAULTS).toString();
+      result = "Just "+time+" left <br>Get your ticket now!"
+  
+  $('#countdown-wrap #countdown').html(result);
+</script>
+<section class='inner center' id='tickets-wrap'>
+<div id='tickets'>
+<div class='row sold-out'>
+<div class='name'>Initiate</div>
+<div class='cost'>sold out</div>
+</div>
+<div class='row sold-out'>
+<div class='name'>Equinox Promo Ticket</div>
+<div class='cost'>sold out</div>
+</div>
+<div class='row'>
+<div class='name'>
+Adept
+<span class='badge'>< 100 left!</span>
+</div>
+<div class='cost'>144€</div>
+</div>
+<div class='row'>
+<div class='name'>Master</div>
+<div class='cost'>233€</div>
+</div>
+</div>
+<script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+</section>
+</section>
+<section id='high-priority-information'>
 3 nights and 3 days of Lectures, Workshops, Rituals & Performances from experts in the esoteric
 <div id='top-speakers'>
 <div class='speaker'>
@@ -154,21 +192,6 @@ Daniel<br>Pinchbeck
 <div id='and-more'>And many more...</div>
 </section>
 </div>
-<div class='outer' id='countdown-wrap'>
-<div class='inner center' id='countdown'></div>
-</div>
-<script src='./javascripts/countdown.min.js' type='text/javascript'></script>
-<script>
-  countdown.DEFAULTS = countdown.DAYS
-  
-  var time = countdown(null, new Date(2019, 9, 31), countdown.DEFAULTS).toString();
-      result = "Just "+time+" remaining: get your ticket now!"
-  
-  $('#countdown-wrap #countdown').html(result);
-</script>
-<section class='inner center' id='tickets-wrap'>
-<script  src="https://www.universe.com/embed2.js"  data-widget-type="universe-ticket"  data-target-type="Listing"  data-target-id="occulture-esoteric-conference-2019-tickets-berlin-86HFLD"  data-state="buttonColor=#ff0000&buttonText=Get Tickets" ></script>
-</section>
 </div>
 
 
