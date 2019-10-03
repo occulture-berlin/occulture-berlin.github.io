@@ -80,7 +80,7 @@ end
 
 abstracts = ENV.fetch('ABSTRACTS')
 diviners = ENV.fetch('DIVINERS')
-year = 2019
+year = ENV.fetch('YEAR')
 target = "./_data/events-#{year}.yml"
 
 print "Calling this parser is destructive!\n\n"
