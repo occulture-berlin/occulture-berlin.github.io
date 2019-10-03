@@ -7,12 +7,14 @@ class ParseAbstracts
   end
 
   def initialize(abstracts, diviners, target)
+    @search_strings = []
     @events = serialize_events(CSV.read(abstracts, headers: true))
     @diviners = serialize_diviners(CSV.read(diviners, headers: true))
     @target = target
   end
 
   def call
+
     write_full_lineup
     log_output
     nil
@@ -41,9 +43,11 @@ class ParseAbstracts
 
   def serialize_events(abstracts)
     events = abstracts.map do |event|
+      search_string = ensure_unique_identifier(event['Name'], event['Type'])
+
       {
         'name' => event['Name'].split.each(&:capitalize).join(' '),
-        'searchString' => event['Name'].downcase.split.join('-'),
+        'searchString' => search_string,
         'title' => event['Title'],
         'type' => event['Type'],
         'keynote' => (event['Keynote'] == 'TRUE' ? 1 : 0),
@@ -59,9 +63,11 @@ class ParseAbstracts
 
   def serialize_diviners(input)
     input.map do |diviner|
+      search_string = ensure_unique_identifier(diviner['Name'], 'divination')
+
       {
         'name' => diviner['Name'].split.each(&:capitalize).join(' '),
-        'searchString' => diviner['Name'].downcase.split.join('-'),
+        'searchString' => search_string,
         'type' => 'Divination',
         'divinationOffered' => diviner['Types'],
         'avatarPath' => diviner['Avatar'],
@@ -69,6 +75,14 @@ class ParseAbstracts
         'bio' => diviner['Bio'],
       }
     end
+  end
+
+  def ensure_unique_identifier(name, secondary_identifier)
+    id = name.downcase.split.join('-')
+    backup_id = "#{id}-#{secondary_identifier.downcase}"
+
+    @search_strings << (@search_strings.include?(id) ? backup_id : id)
+    @search_strings.last
   end
 
   def calculate_duration(event)
