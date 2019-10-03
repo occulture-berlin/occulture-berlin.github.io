@@ -7,9 +7,41 @@ displayImageCarousel: false
 image: https://www.occultureberlin.org/images/2019/open-graph.jpg
 onLoadAction:
 ---
-#tickets-page
-  #high-priority-information-wrap.outer
-    %section#high-priority-information.inner.center
+#tickets-page.outer
+  #tickets-page-wrap.inner.center
+    %section#ticket-element-holder
+      #countdown-wrap
+        #countdown
+
+      %script{ src: './javascripts/countdown.min.js', type: 'text/javascript' }
+      :javascript
+        countdown.DEFAULTS = countdown.WEEKS
+
+        var time = countdown(null, new Date(2019, 9, 31), countdown.DEFAULTS).toString();
+            result = "Just "+time+" left <br>Get your ticket now!"
+
+        $('#countdown-wrap #countdown').html(result);
+
+      %section#tickets-wrap.inner.center
+        #tickets
+          .row.sold-out
+            .name Initiate (Early Bird Ticket)
+            .cost sold out
+          .row.sold-out
+            .name Equinox Promo Ticket
+            .cost sold out
+          .row
+            .name
+              Adept (Standard Ticket)
+              %span.badge < 100 left!
+            .cost 144€
+          .row
+            .name Master (Patron Ticket)
+            .cost 233€
+
+        {% haml get_tickets.haml %}
+
+    %section#high-priority-information
       3 nights and 3 days of Lectures, Workshops, Rituals & Performances from experts in the esoteric
       {% assign events = site.data.events-2019 | where: 'keynote', 1 %}
       #top-speakers
@@ -23,17 +55,3 @@ onLoadAction:
         {% endfor %}
       #and-more And many more...
 
-  #countdown-wrap.outer
-    #countdown.inner.center
-
-  %script{ src: './javascripts/countdown.min.js', type: 'text/javascript' }
-  :javascript
-    countdown.DEFAULTS = countdown.DAYS
-
-    var time = countdown(null, new Date(2019, 9, 31), countdown.DEFAULTS).toString();
-        result = "Just "+time+" remaining: get your ticket now!"
-
-    $('#countdown-wrap #countdown').html(result);
-
-  %section#tickets-wrap.inner.center
-    <script  src="https://www.universe.com/embed2.js"  data-widget-type="universe-ticket"  data-target-type="Listing"  data-target-id="occulture-esoteric-conference-2019-tickets-berlin-86HFLD"  data-state="buttonColor=#ff0000&buttonText=Get Tickets" ></script>

@@ -831,16 +831,22 @@ section {
   cursor: pointer;
 }
 
+#tickets-page #tickets-page-wrap {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 #tickets-page #top-speakers {
   margin-top: 1em;
   margin-bottom: -2em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
 }
 
 #tickets-page #top-speakers .speaker{
   font-size: 0.7em;
+  margin-bottom: -2em;
 }
 
 #tickets-page #top-speakers .img-wrap {
@@ -856,20 +862,54 @@ section {
 
 #tickets-page #top-speakers .name {
   margin-top: 1em;
-  color: white;
 }
 
 #tickets-page #high-priority-information #and-more {
-  margin-top: 1em;
+  margin-top: 3em;
 }
 
 #tickets-page #high-priority-information {
+  background: white;
+  color: black;
+  padding: 2em;
   margin-bottom: 0;
 }
 
-#tickets-page #countdown-wrap {
+#tickets-page #ticket-element-holder #tickets {
+  margin-bottom: 2em;
+}
+
+#tickets-page #ticket-element-holder #tickets-wrap .button {
+  background: red;
+  color: white;
+}
+
+#tickets-page #ticket-element-holder #tickets .row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  text-transform: uppercase;
   font-family: latoBold;
-  font-size: 2em;
+}
+
+#tickets-page #ticket-element-holder #tickets .row .name .badge {
+  color: red;
+}
+
+#tickets-page #ticket-element-holder #tickets .sold-out {
+  color: darkred;
+}
+
+#tickets-page #ticket-element-holder #tickets .sold-out .name {
+  text-decoration: line-through;
+}
+
+#tickets-page #ticket-element-holder #tickets .sold-out .cost {
+  font-family: KeepCalm;
+}
+
+#tickets-page #ticket-element-holder #countdown-wrap {
+  font-family: latoBold;
+  font-size: 1.7em;
   text-transform: uppercase;
 }
 
@@ -1268,12 +1308,17 @@ Small Device Styles
     display: block;
   }
 
-  #tickets-page #top-speakers {
-    grid-template-columns: 1fr 1fr 1fr;
+  #tickets-page #tickets-page-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #tickets-page #high-priority-information {
+    margin-top: 2em;
   }
 
   #tickets-page #top-speakers .img-wrap {
-    height: 60%
+    height: 55%;
   }
 }
 
@@ -1350,6 +1395,10 @@ Small Device Styles
   #tickets-page #top-speakers {
     grid-template-columns: 1fr 1fr;
     grid-gap: 0;
+  }
+
+  #tickets-page #top-speakers .speaker {
+    margin-bottom: 1em;
   }
 
   #tickets-page #top-speakers .img-wrap {
