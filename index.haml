@@ -15,7 +15,7 @@ onLoadAction:
   %section#high-priority-information.inner.center
     31 OCTOBER - 03 NOVEMBER 2019
   %section#tickets-wrap.inner.center.ga-track{data:{tracker: 'high-priority-ticket-button'}}
-    {% haml get_tickets.haml %}
+    %a.button{href: 'tickets'} Get Tickets
 
 / MAIN CONTENT
 / Nav buttons
@@ -25,7 +25,7 @@ onLoadAction:
       %img{src: 'images/hamburger_icon.png'}
   %ul#nav.inner.center
     %li.button.ga-track.hidden#tickets-button
-      {% haml get_tickets.haml %}
+      %a{href: 'tickets'} Get Tickets
     %li.button.ga-track#lineup-button.tab-button 2019 Lineup
     %li.button.ga-track#schedule-button.tab-button Schedule
     %li.button.ga-track.hidden#venue-button.tab-button Venue
