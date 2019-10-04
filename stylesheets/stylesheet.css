@@ -131,8 +131,6 @@ body {
 }
 
 #landing-wrap .close-button {
-  position: fixed;
-  width: 75%;
   cursor: pointer;
   text-transform: uppercase;
   background: black;
@@ -224,20 +222,14 @@ footer {
 #mailing-list-wrap {
   background: #000;
   position: fixed;
-  top: 0;
   left: 0;
   bottom: 0;
   width: 100vw;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
   z-index: 101;
 }
 
 #mailing-list-wrap #mailing-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 1em;
-  grid-template-rows: 1fr;
+  padding-top: 1em;
 }
 
 #mailing-list .button {
@@ -250,6 +242,16 @@ footer {
   padding-right: 1em;
   border: none;
   font-size: 1em;
+}
+
+#mailing-list .close-button {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 2em;
+  font-weight: bold;
+  font-family: keepCalm;
+  text-transform: uppercase;
 }
 
 #mailing-list-wrap #mailing-list .logo {
@@ -271,17 +273,13 @@ footer {
 }
 
 #mailing-list #mailing-list-input {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1em;
-  width: 40vw;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
 }
 
 #mailing-list #mailing-list-input #tlemail {
-  width: auto;
+  width: 30vw;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -289,12 +287,6 @@ footer {
 #mailing-list #mailing-list-input .button {
   background: red;
   color: #DCE0DF;
-}
-
-#mailing-list #mailing-list-buttons {
-  grid-row: 4;
-  width: 40vw;
-  justify-self: center;
 }
 
 #impressum {
@@ -1201,8 +1193,15 @@ Small Device Styles
     width: 80vw;
   }
 
-  #mailing-list #mailing-list-buttons {
-    width: 80vw;
+  #mailing-list .close-button {
+    position: unset;
+    cursor: pointer;
+    top: unset;
+    right: unset;
+    font-weight: bold;
+    font-family: keepCalm;
+    text-transform: uppercase;
+    margin-bottom: 1em;
   }
 
   #nav-wrap.top-nav-bar {
@@ -1374,8 +1373,20 @@ Small Device Styles
     width: 90%;
   }
 
+  #mailing-list-wrap {
+    top: 0;
+  }
+
+  #mailing-list-wrap #mailing-list {
+    margin: 3em;
+  }
+
   #mailing-list #mailing-list-input {
     width: auto;
+  }
+
+  #mailing-list #mailing-list-input #tlemail {
+    width: 85%;
   }
 
   #mailing-list #mailing-list-buttons {
