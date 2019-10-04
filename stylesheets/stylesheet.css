@@ -830,7 +830,6 @@ section {
 
 #tickets-page #top-speakers {
   margin-top: 1em;
-  margin-bottom: -2em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
@@ -857,7 +856,7 @@ section {
 }
 
 #tickets-page #high-priority-information #and-more {
-  margin-top: 3em;
+  font-size: 1.1rem;
 }
 
 #tickets-page #high-priority-information {
