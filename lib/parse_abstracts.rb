@@ -14,7 +14,6 @@ class ParseAbstracts
   end
 
   def call
-
     write_full_lineup
     log_output
     nil
@@ -64,6 +63,7 @@ class ParseAbstracts
   def serialize_diviners(input)
     input.map do |diviner|
       search_string = ensure_unique_identifier(diviner['Name'], 'divination')
+      next if search_string == 'nina-kim' # hack. don't overwrite her type
 
       {
         'name' => diviner['Name'].split.each(&:capitalize).join(' '),
