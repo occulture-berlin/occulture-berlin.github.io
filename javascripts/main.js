@@ -5,6 +5,7 @@ $(document).ready(function() {
   };
 
   // landing page
+  // this also displays the mailing list when landing is closed
   displayLandingPage();
 
   // image carousel
@@ -30,8 +31,6 @@ $(document).ready(function() {
     $('#nav-wrap #nav li').removeClass('hidden');
     $('#nav-wrap #nav li').removeClass('button');
 
-    // display mailing list after nav change resolves
-    displayMailingList();
   });
 
   // on subsequent clicks
@@ -112,13 +111,14 @@ hideLandingPage = function() {
   $("#landing").fadeOut(1200);
   $("#landing-wrap").fadeOut(3000, function() {
     $("footer").show();
+    displayMailingList();
   });
 }
 
 // display the mailing list sign-up form
 displayMailingList = function() {
   if (Cookies.get('mailing-list-vibes') != 'sick-of-it') {
-    $("#mailing-list-wrap").delay(1000).fadeIn(2000);
+    $("#mailing-list-wrap").delay(32000).fadeIn(2000);
   } else {
     console.log("You were sick of seeing the mailing list, so it's disabled");
   };
