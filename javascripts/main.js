@@ -5,6 +5,7 @@ $(document).ready(function() {
   };
 
   // landing page
+  // this also displays the mailing list when landing is closed
   displayLandingPage();
 
   // image carousel
@@ -30,8 +31,6 @@ $(document).ready(function() {
     $('#nav-wrap #nav li').removeClass('hidden');
     $('#nav-wrap #nav li').removeClass('button');
 
-    // display mailing list after nav change resolves
-    displayMailingList();
   });
 
   // on subsequent clicks
@@ -112,6 +111,7 @@ hideLandingPage = function() {
   $("#landing").fadeOut(1200);
   $("#landing-wrap").fadeOut(3000, function() {
     $("footer").show();
+    displayMailingList();
   });
 }
 
