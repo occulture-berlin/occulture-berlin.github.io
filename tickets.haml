@@ -53,5 +53,6 @@ onLoadAction:
           .name
             {{ event.name | split: ' ' | join: '<br>' }}
         {% endfor %}
-      #and-more And many more...
+      %a#and-more.ga-track{href: '/2019/lineup', data:{tracker: 'tickets-page-lineup'}}
+        >> click here to see the lineup <<
 
