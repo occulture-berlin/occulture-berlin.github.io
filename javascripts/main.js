@@ -118,7 +118,7 @@ hideLandingPage = function() {
 // display the mailing list sign-up form
 displayMailingList = function() {
   if (Cookies.get('mailing-list-vibes') != 'sick-of-it') {
-    $("#mailing-list-wrap").delay(16000).fadeIn(2000);
+    $("#mailing-list-wrap").delay(32000).fadeIn(2000);
   } else {
     console.log("You were sick of seeing the mailing list, so it's disabled");
   };
