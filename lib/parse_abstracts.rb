@@ -63,18 +63,22 @@ class ParseAbstracts
   def serialize_diviners(input)
     input.map do |diviner|
       search_string = ensure_unique_identifier(diviner['Name'], 'divination')
-      next if search_string == 'nina-kim' # hack. don't overwrite her type
 
       {
         'name' => diviner['Name'].split.each(&:capitalize).join(' '),
         'searchString' => search_string,
-        'type' => 'Divination',
+        'type' => set_divination_type(search_string),
         'divinationOffered' => diviner['Types'],
         'avatarPath' => diviner['Avatar'],
         'availableOn' => diviner['Dates'],
         'bio' => diviner['Bio'],
       }
     end
+  end
+
+  def set_divination_type(search_string)
+    return 'Wellness' if search_string == 'nina-kim' # hack. don't overwrite her type
+    'Divination'
   end
 
   def ensure_unique_identifier(name, secondary_identifier)
