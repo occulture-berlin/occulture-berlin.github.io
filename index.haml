@@ -34,7 +34,7 @@ onLoadAction:
     %li.button.ga-track#media-button.tab-button Media
     %li.button.ga-track.hidden#donate-button.tab-button Donate
     / adblock hides this if it's called 'sponsors'
-    %li.button.ga-track.hidden#friends-button.tab-button Partners
+    %li.button.ga-track#friends-button.tab-button Partners
     %li.button.ga-track.hidden#lineup-2018-button
       %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
 
@@ -167,6 +167,9 @@ onLoadAction:
       %li.ga-track{data:{tracker: 'partner-monterey-bar'}}
         %a{href: "http://montereybar.com?redirect-from=occultureberlin"}
           %img{alt: "Monterey Bar", src: "images/monterey-logo.png"}
+      %li.ga-track{data:{tracker: 'partner-herbal-alchemy'}}
+        %a{href: "https://www.herbalalchemy.eu?redirect-from=occultureberlin"}
+          %img{alt: "Herbal Alchemy", src: "images/herbal-alchemy-logo.png"}
       %li.ga-track{data:{tracker: 'partner-okultura'}}
         %a{href: "https://www.okultura.pl?redirect-from=occultureberlin"}
           %img{alt: "Okultura", src: "images/okultura-logo.png"}
