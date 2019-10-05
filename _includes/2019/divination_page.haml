@@ -3,10 +3,7 @@
 
 %section#event.inner.center
   .title
-    {% assign availability = event.availableOn | split: ", " %}
-    {% assign offerings = event.divinationOffered | split: ", " %}
-
-    Offering {{ offerings | join: " and " }} readings on {{ availability | join: " and " }}
+    {{ event.servicesString }}
   .avatar
     %img{src:'{{event.avatarPath}}', alt:'{{event.name}}', onError:'loadDefaultAvatar(this)'}
     .name
