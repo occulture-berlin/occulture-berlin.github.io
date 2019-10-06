@@ -194,6 +194,19 @@
     Shall we go there?
   bio: 
   duration: 
+- name: SCARH222
+  searchString: scarh222
+  title: Visual Arts
+  type: Art
+  keynote: 0
+  avatarPath: https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/72245061_1707726892698290_4772850826509025280_o.jpg?_nc_cat=103&_nc_oc=AQliBYxi5BR7UkeCgUZ9MRKgn6wcsTh0LVDj2kUdiLV2WSZTK_OXQYYcmXO0NlVCnSE&_nc_ht=scontent-lhr3-1.xx&oh=dcf742ef4e8571a845f6ed5c7e6565c1&oe=5E3210D2
+  description: An attempt to spark some element of the self within us all and to inspire
+    some kind of further individuation through connecting with symbology and geometry.
+  bio: With a passion for detail and precision in geometry, SCARH222 has spent the
+    last 4 years working quietly on various visual projects and is now sufficiently
+    charged to begin sharing the works. The person behind the art remains as anonymous
+    as possible so as to be separated from the work itself.
+  duration: 
 - name: Adam Malone
   searchString: adam-malone
   title: 'The Art of Transforming The World - Tarot and the Future of Immersive Narrative '
