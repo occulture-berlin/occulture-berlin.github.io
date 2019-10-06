@@ -1,58 +1,147 @@
 ---
-layout: default
+layout: tickets
 title: "Tickets | OCCULTURE Berlin"
 url: https://www.occultureberlin.org/tickets
 description: "Get your ticket today for OCCULTURE Esoteric Conference Berlin!"
-displayImageCarousel: false
 image: https://www.occultureberlin.org/images/2019/open-graph.jpg
-onLoadAction:
 ---
-#tickets-page.outer
-  #tickets-page-wrap.inner.center
-    %section#ticket-element-holder
-      #countdown-wrap
-        #countdown
 
-      %script{ src: './javascripts/countdown.min.js', type: 'text/javascript' }
-      :javascript
-        countdown.DEFAULTS = countdown.WEEKS
+/ constants
+- samhain_event = 'https://www.facebook.com/events/387069608900231'.freeze
+- saturnalia_event = 'https://www.facebook.com/events/2459374967619420'.freeze
 
-        var time = countdown(null, new Date(2019, 9, 31), countdown.DEFAULTS).toString();
-            result = "Just "+time+" left <br>Get your ticket now!"
+<!-- HEADER -->
+#header_wrap.outer
+  #tickets-header-img.center
+    %img{src: 'images/events/2018/divination.jpg'}
+    %img#tickets-logo{src: 'images/occulture-logo-alpha-no-text.png'}
+  %header.inner.center
+    {% haml get_tickets.haml %}
 
-        $('#countdown-wrap #countdown').html(result);
+#ticket-info-section-wrap.outer
+  %section#ticket-info-wrap.inner.center
+    #ticket-info
+      .ticket.sold-out
+        .name.ga-track Initiate (Early Bird Ticket)
+        .cost sold out
+      .ticket.sold-out
+        .name.ga-track Equinox Promo Ticket
+        .cost sold out
+      .ticket
+        .name.ga-track Adept (Standard Ticket)
+        .cost 144€
+        .details.hidden.align-left
+          .check-it Tickets Include:
+          %ul.ticket-schedule
+            .date
+              %li.date-name Thursday, 31 October, 20:00 - 02:00
+              %ul.date-schedule
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: "#{samhain_event}", target: '_blank', alt: 'SAMHAIN'}
+                    OCCULTURE SAMHAIN
+                %ul.event-schedule
+                  %li Opening ritual
+                  %li
+                    %a.ga-track{href: '/2019/lineup/phurpa', target: '_blank', alt: 'PHURPA'}
+                      PHURPA Live
+                  %li Performances
+                  %li DJ Sets
+            .avatar
+              %img{src: '/images/2019/samhain.jpg'}
 
-      %section#tickets-wrap.inner.center
-        #tickets
-          .row.sold-out
-            .name Initiate
-            .cost sold out
-          .row.sold-out
-            .name Equinox Promo Ticket
-            .cost sold out
-          .row
-            .name
-              Adept
-              %span.badge < 100 left!
-            .cost 144€
-          .row
-            .name Master
-            .cost 233€
+            .date
+              %li.date-name Friday, 01 November, 11:00 - 02:00
+              %ul.date-schedule
+                %li.parent-event Full Access to Friday Conference Schedule
+                %ul.event-schedule
+                  %li Lectures
+                  %li Workshops
+                  %li Panel Discussions
+                %li Full Access to exhibitions and performances
+                %li Full Access to OCCULTURE VENERALIA
+            .avatar
+            .date
+              %li.date-name Saturday, 02 November, 11:00 - 05:00
+              %ul.date-schedule
+                %li.parent-event Full Access to Saturday Conference Schedule
+                %ul.event-schedule
+                  %li Lectures
+                  %li Workshops
+                  %li Panel Discussions
+                %li Full Access to exhibitions and performances
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: "#{saturnalia_event}", target: '_blank', alt: 'SATURNALIA'}
+                    OCCULTURE SATURNALIA
+                %ul.event-schedule
+                  %li
+                    %a.ga-track{href: '/2019/lineup/kroeter', target: '_blank', alt: 'kroeter'}
+                      Kröter Live
+                  %li
+                    %a.ga-track{href: '/2019/lineup/the-butterfly-wheel', target: '_blank', alt: 'kroeter'}
+                      The Butterfly Wheel Live
+            .avatar
+              %img{src: '/images/2019/saturnalia.jpg'}
+            .date
+              %li.date-name Sunday, 03 November, 11:00 - 20:00
+              %ul.date-schedule
+                %li.parent-event Full Access to Sunday Conference Schedule
+                %ul.event-schedule
+                  %li Lectures
+                  %li Workshops
+                  %li Panel Discussions
+                %li Full Access to exhibitions and performances
+                %li Full Access to OCCULTURE CLOSING RITUAL
+          .ticket-button.center
+            {% haml get_tickets.haml %}
 
-        {% haml get_tickets.haml %}
+      / hehehe
+      .ticket.master
+        .name.ga-track Master (Patron Ticket)
+        .cost 233€
+        .details.hidden.align-left
+          .check-it Tickets Include:
+          %ul.ticket-schedule
+            .date
+              %li FULL Conference Access (everything included in the standard ticket)
+              %li OCCULTURE Conference bag
+              %li T-shirt specially designed by Daniel Martin Diaz
+              %li Limited Print specially designed by Daniel Martin Diaz
+          .ticket-button.center
+            {% haml get_tickets.haml %}
 
-    %section#high-priority-information
+#promo-video-section-wrap.outer
+  %section#promo-video-wrap.inner.center
+    %iframe{src: "https://www.youtube.com/embed/WaDvAEHNGpM?controls=0"}
+
+#top-speakers-section-wrap.outer
+  %section#top-speakers-wrap.inner.center
+    .headline
       3 nights and 3 days of Lectures, Workshops, Rituals & Performances from experts in the esoteric
-      {% assign events = site.data.events-2019 | where: 'keynote', 1 %}
-      #top-speakers
-        {% for event in events %}
-        .speaker
-          .img-wrap
-            %img{src: '{{event.avatarPath}}', alt: '{{event.title}}'}
-            %br
-          .name
-            {{ event.name | split: ' ' | join: '<br>' }}
-        {% endfor %}
-      %a#and-more.ga-track{href: '/2019/lineup', data:{tracker: 'tickets-page-lineup'}}
-        >> click here to see the lineup <<
+    {% assign events = site.data.events-2019 | where: 'keynote', 1 %}
+    #top-speakers
+      {% for event in events %}
+      .speaker
+        .img-wrap
+          %img{src: '{{event.avatarPath}}', alt: '{{event.title}}'}
+          %br
+        .name
+          {{ event.name | split: ' ' | join: '<br>' }}
+      {% endfor %}
+    #and-more
+      \...And many more!
+      %br
+      %a.ga-track{href: '/2019/lineup', data:{tracker: 'tickets-page-lineup'}}
+        click here to see the full lineup
 
+#countdown-section-wrap.outer
+  %img.alchemical-pointer{src: 'images/alchemical-pointer-left.png'}
+  %section#countdown-wrap.inner.center
+    #countdown
+    .ticket-button
+      {% haml get_tickets.haml %}
+  %img.alchemical-pointer{src: 'images/alchemical-pointer-right.png'}
+
+<!-- FOOTER -->
+/ {% haml footer.haml %}
