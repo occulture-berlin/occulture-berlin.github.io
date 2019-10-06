@@ -194,6 +194,34 @@
     Shall we go there?
   bio: 
   duration: 
+- name: Adam Malone
+  searchString: adam-malone
+  title: 'The Art of Transforming The World - Tarot and the Future of Immersive Narrative '
+  type: Lecture
+  keynote: 0
+  avatarPath: https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/71840415_10157072988457025_946632606177296384_n.jpg?_nc_cat=105&_nc_oc=AQnW4xVoJm2W7P8IMpo6CUT5Oa-93zbcfC-zFHvgvagoyym4Oo0XBHN4HZWYkTAKLRk&_nc_ht=scontent-lhr3-1.xx&oh=882bc999e81cf50973fdaaf25f112227&oe=5DF0BC65
+  description: 'Storytelling today is becoming increasingly challenged by the extraordinary
+    potential of immersive technology. This technological leap demands a paradigm
+    shift in narrative expression and calls upon us to discover new models and approaches
+    to story creation that will allow us to match the potential of these new and exciting
+    technological mediums. One possible source of inspiration for future storytellers
+    could lie with the commonly misunderstood ‘art’ of Tarot, a ‘meaningful card game’
+    that whilst standing upon some key modes and rules of expression allows the potential
+    for a deeper awareness of ourselves as central protagonist in the ‘story of who
+    we are’. Reasons as to how and why Tarot is able to make such claims have remained
+    largely housed within the Western Esoteric traditions for the last 250 years.
+    However, Tarot could now stand ready to emerge as an influence upon our future
+    stories in a way that even the most adept fortune-tellers may not have been able
+    to predict!   '
+  bio: |-
+    Adam Malone is currently working as a freelance Immersive Event Producer for Phenomen Films in London.
+
+    He runs Club Imaginal in Brighton, a regular lecture series as well as The Medicine Shed in Forest Row, working with the healing traditions of indigenous cultures.
+
+    His current MA thesis for the Myth, Cosmology and The Sacred programme at Christchurch University, Canterbury is entitled “Transforming The World : Tarot and the Future of Immersive Narrative”.
+
+    In the past he has completed a BA/BSc in Film, Media and Cultural Studies, having majored in Avant Garde Film and Video and now spends his spare time experimenting with live immersive cinema.
+  duration: 
 - name: Dimitar Dimitrov
   searchString: dimitar-dimitrov
   title: 'Satan: Instrument of Liberty. History and evolution of Satanism.'
