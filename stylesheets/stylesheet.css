@@ -827,87 +827,6 @@ section {
   cursor: pointer;
 }
 
-#tickets-page #tickets-page-wrap {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-#tickets-page #top-speakers {
-  margin-top: 1em;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
-}
-
-#tickets-page #top-speakers .speaker{
-  font-size: 0.7em;
-  margin-bottom: -2em;
-}
-
-#tickets-page #top-speakers .img-wrap {
-  height:50%;
-  overflow: hidden;
-}
-
-#tickets-page #top-speakers img {
-  width: 100%;
-  filter: sepia(20%);
-  filter: saturate(40%);
-}
-
-#tickets-page #top-speakers .name {
-  margin-top: 1em;
-}
-
-#tickets-page #high-priority-information #and-more {
-  font-size: 1.1rem;
-}
-
-#tickets-page #high-priority-information {
-  background: white;
-  color: black;
-  padding: 2em;
-  margin-bottom: 0;
-}
-
-#tickets-page #ticket-element-holder #tickets {
-  margin-bottom: 2em;
-}
-
-#tickets-page #ticket-element-holder #tickets-wrap .button {
-  background: red;
-  color: white;
-}
-
-#tickets-page #ticket-element-holder #tickets .row {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  text-transform: uppercase;
-  font-family: latoBold;
-}
-
-#tickets-page #ticket-element-holder #tickets .row .name .badge {
-  color: red;
-}
-
-#tickets-page #ticket-element-holder #tickets .sold-out {
-  color: darkred;
-}
-
-#tickets-page #ticket-element-holder #tickets .sold-out .name {
-  text-decoration: line-through;
-}
-
-#tickets-page #ticket-element-holder #tickets .sold-out .cost {
-  font-family: KeepCalm;
-}
-
-#tickets-page #ticket-element-holder #countdown-wrap {
-  font-family: latoBold;
-  font-size: 1.7em;
-  text-transform: uppercase;
-}
-
 /* i did this to myself. i did this to myself. i did this to myself. */
 #lineup-2018-wrap .event-wrap {
   min-width: 70%; /* this ensures the unknown speaker is displayed correctly */
@@ -1309,19 +1228,6 @@ Small Device Styles
   #event {
     display: block;
   }
-
-  #tickets-page #tickets-page-wrap {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  #tickets-page #high-priority-information {
-    margin-top: 2em;
-  }
-
-  #tickets-page #top-speakers .img-wrap {
-    height: 55%;
-  }
 }
 
 @media (min-width: 0px) and (max-width: 800px) {
@@ -1408,23 +1314,6 @@ Small Device Styles
   #media #media-grid img {
     min-width: 40vw;
     max-width: 40vw;
-  }
-
-  #tickets-page #top-speakers {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0;
-  }
-
-  #tickets-page #top-speakers .speaker {
-    margin-bottom: 1em;
-  }
-
-  #tickets-page #top-speakers .img-wrap {
-    height: 60%
-  }
-
-  #tickets-page #top-speakers img {
-    width: 80%;
   }
 
   h1 {
