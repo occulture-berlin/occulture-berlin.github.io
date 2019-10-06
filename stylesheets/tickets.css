@@ -1,0 +1,245 @@
+#tickets-header-img img{
+  width: 100vw;
+  opacity: 0.33;
+}
+
+#tickets-header-img img#tickets-logo {
+  width: 75vw;
+  position: absolute;
+  left: 50%;
+  top: 4em;
+  transform: translate(-50%, 0);
+}
+
+header .button {
+  background: red;
+  color: white;
+  opacity: 0.77;
+  padding: 1em;
+  font-size: 2em;
+  position: relative;
+  top: -5em;
+}
+
+#ticket-info-section-wrap {
+  margin-bottom: 3em;
+}
+
+#ticket-info-section-wrap #ticket-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.7em;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  text-transform: uppercase;
+  font-family: keepCalm;
+  cursor: pointer;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket.sold-out {
+  color: darkslategrey;
+  cursor: unset;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .name {
+  justify-self: start;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .cost {
+  grid-column: 3;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .details {
+  grid-column: 1/4;
+  border: 1px solid white;
+  border-top-color: black;
+  padding: 1em;
+  cursor: auto;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .details .check-it {
+  margin-bottom: 1em;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .details .ticket-schedule a {
+  color: darkred;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .details .ticket-schedule {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+/* just for 'ticket master' */
+#ticket-info-section-wrap #ticket-info .ticket.master .details .ticket-schedule .date {
+  grid-column: 1/4;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .details .ticket-schedule .date-name {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .details .ticket-schedule .parent-event {
+  list-style-type: disclosure-open;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .details .ticket-schedule li {
+  list-style-type: disclosure-closed;
+}
+
+#ticket-info-section-wrap #ticket-info .ticket .details .ticket-schedule .avatar img {
+  width: 100%;
+}
+
+#ticket-info-section-wrap #ticket-info-wrap .ticket-button {
+  margin: 2em;
+}
+
+#ticket-info-section-wrap #ticket-info-wrap .ticket-button .button {
+  background: red;
+  color: white;
+}
+
+#promo-video-section-wrap {
+  width: 100vw;
+  padding: 10em 0em;
+  background: url('/images/speakers/oates-shani.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(160, 150, 135, 0.9);
+  background-blend-mode: lighten;
+}
+
+section#promo-video-wrap {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+section#promo-video-wrap iframe {
+  grid-column: 2;
+  width: 64vw;
+  height: 39vw;
+}
+
+#top-speakers-section-wrap {
+  width: 100vw;
+  padding-top: 5em;
+}
+
+#top-speakers-wrap .headline {
+  font-family: keepCalm;
+  text-transform: uppercase;
+}
+
+#top-speakers-wrap #top-speakers .speaker {
+  display: inline-grid;
+  grid-gap: 0.5em;
+  margin: 0.5em;
+}
+
+#top-speakers-wrap #top-speakers .speaker img {
+  object-fit: cover;
+  min-width: 10vw;
+  max-width: 10vw;
+  min-height: 10vw;
+  max-height: 10vw;
+  border: 3px solid white;
+  filter: sepia(20%);
+  filter: saturate(40%);
+}
+
+#top-speakers-wrap #top-speakers .speaker .name {
+  font-family: keepCalm;
+  text-transform: uppercase;
+}
+
+#top-speakers-wrap #and-more {
+  font-family: keepCalm;
+  margin-top: 1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+#top-speakers-wrap #and-more a {
+  margin: 1em;
+  font-family: metamorphous;
+  color: red;
+}
+
+#countdown-section-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100vw;
+}
+
+#countdown-section-wrap img.alchemical-pointer {
+  width: 80%;
+  justify-self: center;
+}
+
+#countdown-section-wrap #countdown-wrap {
+  font-family: latoBold;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+#countdown-section-wrap #countdown-wrap #countdown {
+  margin-bottom: 2em;
+}
+
+#countdown-section-wrap #countdown-wrap .ticket-button .button {
+  background: red;
+  color: white;
+}
+
+@media (min-width: 0px) and (max-width: 1000px) {
+  header .button {
+    font-size: 1.5em;
+  }
+
+  #ticket-info-section-wrap #ticket-info .ticket .details .ticket-schedule {
+    grid-template-columns: 2fr;
+  }
+
+  #promo-video-section-wrap {
+    padding: 5em 0em;
+  }
+
+  #countdown-section-wrap {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #countdown-section-wrap img.alchemical-pointer {
+    display: none;
+  }
+
+  #countdown-section-wrap #countdown-wrap {
+    grid-column: 1/4;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header .button {
+    font-size: 1.2em;
+  }
+
+  section#promo-video-wrap iframe {
+    width: 76vw;
+    height: 47vw;
+  }
+
+  #top-speakers-wrap #top-speakers .speaker img {
+    min-width: 20vw;
+    max-width: 20vw;
+    min-height: 20vw;
+    max-height: 20vw;
+  }
+}

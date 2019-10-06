@@ -6,11 +6,6 @@
   description - meta tag description
   url - meta tag url
   image - open graph image displayed in previews
-  background_image - image in the background of the site
-  background_image_id - css id for the background image
-  onLoadAction - javascript function to run on page load
-  displayImageCarousel - [hidden by default] show the image carousel
-
 -->
 
 <!DOCTYPE HTML>
@@ -68,71 +63,164 @@
     <meta property="og:site_name"     content="OCCULTURE Berlin" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type='text/css' href="stylesheets/fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen"
+    href="stylesheets/tickets.css">
 
     <!-- fonts loaded from google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
   </head>
 
-  <body onLoad="">
-    <span id="">
-      <img id='bg-image' src="">
-    </span>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-      <!-- TODO: This should go into a partial -->
-      
-
-      <header class="inner">
-        <a onclick="goToPage('index.html')">
-          <img id="logo" src="images/occulture-logo-alpha.png" alt="Occulture Berlin">
-        </a>
-      </header>
-    </div>
-
-    <div class='outer' id='tickets-page'>
-<div class='inner center' id='tickets-page-wrap'>
-<section id='ticket-element-holder'>
-<div id='countdown-wrap'>
-<div id='countdown'></div>
+  <body>
+    <!-- constants -->
+<!-- HEADER -->
+<div class='outer' id='header_wrap'>
+<div class='center' id='tickets-header-img'>
+<img src='images/events/2018/divination.jpg'>
+<img id='tickets-logo' src='images/occulture-logo-alpha-no-text.png'>
 </div>
-<script src='./javascripts/countdown.min.js' type='text/javascript'></script>
-<script>
-  countdown.DEFAULTS = countdown.WEEKS
-  
-  var time = countdown(null, new Date(2019, 9, 31), countdown.DEFAULTS).toString();
-      result = "Just "+time+" left <br>Get your ticket now!"
-  
-  $('#countdown-wrap #countdown').html(result);
-</script>
-<section class='inner center' id='tickets-wrap'>
-<div id='tickets'>
-<div class='row sold-out'>
-<div class='name'>Initiate</div>
-<div class='cost'>sold out</div>
-</div>
-<div class='row sold-out'>
-<div class='name'>Equinox Promo Ticket</div>
-<div class='cost'>sold out</div>
-</div>
-<div class='row'>
-<div class='name'>
-Adept
-<span class='badge'>< 100 left!</span>
-</div>
-<div class='cost'>144€</div>
-</div>
-<div class='row'>
-<div class='name'>Master</div>
-<div class='cost'>233€</div>
-</div>
-</div>
+<header class='inner center'>
 <script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+</header>
+</div>
+<div class='outer' id='ticket-info-section-wrap'>
+<section class='inner center' id='ticket-info-wrap'>
+<div id='ticket-info'>
+<div class='ticket sold-out'>
+<div class='name ga-track'>Initiate (Early Bird Ticket)</div>
+<div class='cost'>sold out</div>
+</div>
+<div class='ticket sold-out'>
+<div class='name ga-track'>Equinox Promo Ticket</div>
+<div class='cost'>sold out</div>
+</div>
+<div class='ticket'>
+<div class='name ga-track'>Adept (Standard Ticket)</div>
+<div class='cost'>144€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li class='date-name'>Thursday, 31 October, 20:00 - 02:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a alt='SAMHAIN' class='ga-track' href='https://www.facebook.com/events/387069608900231' target='_blank'>
+OCCULTURE SAMHAIN
+</a>
+</li>
+<ul class='event-schedule'>
+<li>Opening ritual</li>
+<li>
+<a alt='PHURPA' class='ga-track' href='/2019/lineup/phurpa' target='_blank'>
+PHURPA Live
+</a>
+</li>
+<li>Performances</li>
+<li>DJ Sets</li>
+</ul>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/samhain.jpg'>
+</div>
+<div class='date'>
+<li class='date-name'>Friday, 01 November, 11:00 - 02:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>Full Access to Friday Conference Schedule</li>
+<ul class='event-schedule'>
+<li>Lectures</li>
+<li>Workshops</li>
+<li>Panel Discussions</li>
+</ul>
+<li>Full Access to exhibitions and performances</li>
+<li>Full Access to OCCULTURE VENERALIA</li>
+</ul>
+</div>
+<div class='avatar'></div>
+<div class='date'>
+<li class='date-name'>Saturday, 02 November, 11:00 - 05:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>Full Access to Saturday Conference Schedule</li>
+<ul class='event-schedule'>
+<li>Lectures</li>
+<li>Workshops</li>
+<li>Panel Discussions</li>
+</ul>
+<li>Full Access to exhibitions and performances</li>
+<li class='parent-event'>
+Full Access to
+<a alt='SATURNALIA' class='ga-track' href='https://www.facebook.com/events/2459374967619420' target='_blank'>
+OCCULTURE SATURNALIA
+</a>
+</li>
+<ul class='event-schedule'>
+<li>
+<a alt='kroeter' class='ga-track' href='/2019/lineup/kroeter' target='_blank'>
+Kröter Live
+</a>
+</li>
+<li>
+<a alt='kroeter' class='ga-track' href='/2019/lineup/the-butterfly-wheel' target='_blank'>
+The Butterfly Wheel Live
+</a>
+</li>
+</ul>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/saturnalia.jpg'>
+</div>
+<div class='date'>
+<li class='date-name'>Sunday, 03 November, 11:00 - 20:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>Full Access to Sunday Conference Schedule</li>
+<ul class='event-schedule'>
+<li>Lectures</li>
+<li>Workshops</li>
+<li>Panel Discussions</li>
+</ul>
+<li>Full Access to exhibitions and performances</li>
+<li>Full Access to OCCULTURE CLOSING RITUAL</li>
+</ul>
+</div>
+</ul>
+<div class='ticket-button center'>
+<script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+</div>
+</div>
+</div>
+<!-- hehehe -->
+<div class='ticket master'>
+<div class='name ga-track'>Master (Patron Ticket)</div>
+<div class='cost'>233€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li>FULL Conference Access (everything included in the standard ticket)</li>
+<li>OCCULTURE Conference bag</li>
+<li>T-shirt specially designed by Daniel Martin Diaz</li>
+<li>Limited Print specially designed by Daniel Martin Diaz</li>
+</div>
+</ul>
+<div class='ticket-button center'>
+<script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+</div>
+</div>
+</div>
+</div>
 </section>
+</div>
+<div class='outer' id='promo-video-section-wrap'>
+<section class='inner center' id='promo-video-wrap'>
+<iframe src='https://www.youtube.com/embed/WaDvAEHNGpM?controls=0'></iframe>
 </section>
-<section id='high-priority-information'>
+</div>
+<div class='outer' id='top-speakers-section-wrap'>
+<section class='inner center' id='top-speakers-wrap'>
+<div class='headline'>
 3 nights and 3 days of Lectures, Workshops, Rituals & Performances from experts in the esoteric
+</div>
 <div id='top-speakers'>
 <div class='speaker'>
 <div class='img-wrap'>
@@ -198,24 +286,33 @@ Daniel<br>Pinchbeck
 </div>
 </div>
 </div>
-<a class='ga-track' data-tracker='tickets-page-lineup' href='/2019/lineup' id='and-more'>
->> click here to see the lineup <<
+<div id='and-more'>
+...And many more!
+<br>
+<a class='ga-track' data-tracker='tickets-page-lineup' href='/2019/lineup'>
+click here to see the full lineup
 </a>
+</div>
 </section>
 </div>
+<div class='outer' id='countdown-section-wrap'>
+<img class='alchemical-pointer' src='images/alchemical-pointer-left.png'>
+<section class='inner center' id='countdown-wrap'>
+<div id='countdown'></div>
+<div class='ticket-button'>
+<script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
 </div>
+</section>
+<img class='alchemical-pointer' src='images/alchemical-pointer-right.png'>
+</div>
+<!-- FOOTER -->
+<!-- <footer class='outer' id='footer-wrap'><div class='inner' id='footer-links'><ul><li class='fb-like' data-action='like' data-href='https://www.facebook.com/occultureberlin' data-layout='button_count' data-share='false' data-show-faces='false' data-size='large'></li><li></li><li class='fb-share-button' data-href='/tickets.html' data-layout='button_count' data-size='large'></li><li></li><li><a class='ga-track' onclick='goToPage(&#39;impressum.html&#39;)'>Impressum</a></li><li><a class='ga-track' data-tracker='footer-home' href='/index.html'>Home</a></li><li><a class='ga-track' data-tracker='footer-tickets' href='/tickets.html'>Tickets</a></li></ul></div></footer> -->
 
-
-    <!-- FOOTER -->
-    <footer class='outer' id='footer-wrap'><div class='inner' id='footer-links'><ul><li class='fb-like' data-action='like' data-href='https://www.facebook.com/occultureberlin' data-layout='button_count' data-share='false' data-show-faces='false' data-size='large'></li><li></li><li class='fb-share-button' data-href='/tickets.html' data-layout='button_count' data-size='large'></li><li></li><li><a class='ga-track' onclick='goToPage(&#39;impressum.html&#39;)'>Impressum</a></li><li><a class='ga-track' data-tracker='footer-home' href='/index.html'>Home</a></li><li><a class='ga-track' data-tracker='footer-tickets' href='/index.html'>Tickets</a></li></ul></div></footer>
   </body>
 
-  <section class='outer hidden' id='mailing-list-wrap'><div id='mailing-list'><!-- %img.logo{src:'images/occulture-logo-alpha.png', alt:'occulture berlin'} --><form action='https://tinyletter.com/occulture-berlin' class='ga-track' data-tracker='input-mailing-list' method='post' target='_blank'><label for='tlemail'>Join our mailing list for updates and information about OCCULTURE:</label><div id='mailing-list-input'><input id='tlemail' name='email' type='text'><input name='embed' type='hidden' value='1'><input class='button ga-track' data-tracker='submit-mailing-list' type='submit' value='Subscribe'></div><div id='mailing-list-buttons'><div class='close-button ga-track' data-tracker='close-mailing-list' onclick='closeMailingList()'>Close</div></div></form></div></section>
-
-  <script src="javascripts/js.cookie.js" type="text/javascript"></script>
-  <script src="javascripts/cycle_lite.js" type="text/javascript"></script>
   <script src="javascripts/mustache.min.js" type="text/javascript"></script>
   <script src="javascripts/main.js" type="text/javascript"></script>
-  <script src="javascripts/lineup_2019.js" type="text/javascript"></script>
-  <script src="javascripts/fancybox.min.js" type="text/javascript"></script>
+  <script src="javascripts/cycle_lite.js" type="text/javascript"></script>
+  <script src="javascripts/countdown.min.js" type="text/javascript"></script>
+  <script src="javascripts/tickets.js" type="text/javascript"></script>
 </html>
