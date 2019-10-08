@@ -109,7 +109,7 @@ hideLandingPage = function() {
   $("#landing-wrap .close-button").fadeOut(300);
   // fade out the components more quickly for a slower, smooter transition
   $("#landing").fadeOut(1200);
-  $("#landing-wrap").fadeOut(3000, function() {
+  $("#landing-wrap").fadeOut(1000, function() {
     $("footer").show();
     displayMailingList();
   });
