@@ -21,6 +21,8 @@
   carousel: false
 - path: 'images/events/2018/light.jpg'
   carousel: false
+- path: 'images/events/2018/spiral.jpg'
+  carousel: false
 - path: 'images/events/2018/david_lee.jpg'
   carousel: false
 - path: 'images/events/2018/tea_ceremony.jpg'
