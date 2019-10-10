@@ -205,6 +205,61 @@
     Shall we go there?
   bio:
   duration:
+- name: Prisma
+  searchString: prisma
+  title: Prisma Dj Set (Shika Shika)
+  type: Performance
+  keynote: 0
+  avatarPath: https://www.occultureberlin.org/images/speakers/prisma.jpg
+  description: Prisma is Nicolas Di Bernardo, born in Buenos Aires and currently based
+    between Berlin and Thailand. Organic, crackling textures that shift between tranquility
+    and turbulence. Complex rhythms, otherworldly atmospheres, warm sequences, Influences
+    from inner and outer space exploration
+  bio: Prisma is Nicolas Di Bernardo, born in Buenos Aires and currently based between
+    Berlin and Thailand. Organic, crackling textures that shift between tranquility
+    and turbulence. Complex rhythms, otherworldly atmospheres, warm sequences, Influences
+    from inner and outer space exploration
+  duration:
+- name: Charlyne864
+  searchString: charlyne864
+  title: Untied – Released
+  type: Performance
+  keynote: 0
+  avatarPath: https://i.imgur.com/XtNdmcr.jpg
+  description: 'Follow her along a path towards self-love. From a broken and crippled
+    self, she recovers her capacity to allow herself to be vulnerable yet in control.
+    Her eventual release from suffering and despair leads her to a deeply cathartic
+    experience. Her struggle captivates the audience with ropes, needles and blood. '
+  bio: Charlyne864 fell in love with the Japanese art of Shibari while watching a
+    performance at Torture Garden in London in 2009. Since then, she started learning
+    the art herself along with piercing and body suspension. An early influence on
+    her work was Meister Schmerz from L.A., with whom she lived in a dungeon. In Berlin
+    since 2013, she has moved further into the realm of occult and spiritual performances
+    and private sessions.
+  duration:
+- name: Jon Darrall-Rew
+  searchString: jon-darrall-rew
+  title: The Power of the Divine Dark - Marrying Angels, Beasts, Gods and Goddesses
+  type: Workshop
+  keynote: 0
+  avatarPath: https://www.occultureberlin.org/images/speakers/darrall-rew-jon.jpg
+  description: 'Many of the ancient Occult and Mystery Schools had as their highest
+    initiation a ritual awakening to divine darkness. This was a return to Source,
+    and the revelation of its infinite power and creativity was the initiate''s entry
+    into mastery. For this awakening to fully land in the initiate, they needed to
+    integrate all the different aspects of their being - their angelic and animal
+    nature, as well as their masculine and feminine in an alchemical, tantric embrace.
+    This required huge courage and vulnerability from the initiate to face and integrate
+    the extreme ends of what it means to be human. In this experiential workshop,
+    Jon Darrall-Rew will guide us through a modern version of this process, bringing
+    us face to face with the full spectrum of our being, and our source as the divine
+    darkness of spirit. '
+  bio: |-
+    Jon Darrall-Rew: Jon’s passion is to live and share in the wild power of spirit through heart, soul and body. He co-leads Shamballa School, an international spiritual community focussed on Fire of Spirit. To learn more about his work see:
+
+    https://www.shamballaschool.org/
+    https://www.awakeningineden.life/
+  duration:
 - name: Astarte Oasis - Ordo Templi Orientis
   searchString: astarte-oasis---ordo-templi-orientis
   title: Liber XV - Gnostic Mass
@@ -1208,3 +1263,15 @@
     sentences. He is focusing at the moment in Thoth deck which he find a well rounded
     study in the tarot imagery. Astrology, alchemy, kabbalah and Lacanian psychoanalysis
     are some of what he uses in a divination session. '
+- name: Réka
+  searchString: reka
+  type: Divination
+  servicesOffered: Tarot
+  avatarPath: https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/70403530_10156861032320432_5887947138255552512_n.jpg?_nc_cat=103&_nc_oc=AQlbfjGqL9YZipTvhGG0cZ-mJ2pfX8oskjpEwX0JJNryY50c0YQmQ2R3IuAdUc4lyXlyXgcvx-kGW7wX_d-GxpDI&_nc_ht=scontent.ftxl3-1.fna&oh=a5fcfe507fe7fd23dc37b2b618cf219e&oe=5E3B9569
+  availableOn: Friday 1 November, Saturday 2 November
+  servicesString: Offering Tarot on Friday 1 November and Saturday 2 November
+  bio: Réka is a Berlin based ethnobotanist, massage practitioner, energy worker,
+    ritual performer, Yoga teacher and Tarot reader. She has extensively travelled
+    the world by land and sea as an associate of Global Ecotechnics and is now voyaging
+    the urban world by offering her skills in healing, divination and the co-creation
+    of transformative and magical spaces.
