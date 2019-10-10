@@ -101,9 +101,10 @@ class ParseAbstracts
   end
 
   def sanitize(str)
-    str.gsub(/[äöüß]/) do |match|
+    str.gsub(/[äéöüß]/) do |match|
       case match
       when "ä" then 'ae'
+      when "é" then 'e'
       when "ö" then 'oe'
       when "ü" then 'ue'
       when "ß" then 'ss'
