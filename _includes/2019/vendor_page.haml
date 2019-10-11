@@ -1,0 +1,15 @@
+{% assign eventQuery = site.data.events-2019 | where: 'searchString', page.searchString %}
+{% assign event = eventQuery.first %}
+
+%section#event.inner.center
+  .title
+    {{ event.name }}
+  .avatar
+    %img{src:'{{event.avatarPath}}', alt:'{{event.name}}', onError:'loadDefaultAvatar(this)'}
+    .name
+      %a{style: 'color:white;', target: 'blank', href: '{{event.shopUrl}}'}
+        {{event.shopUrl}}
+  .main-info-wrap
+    .bio.justifed
+      {{event.bio}}
+    .diviner-details.justified

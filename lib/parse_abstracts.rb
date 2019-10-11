@@ -2,14 +2,15 @@ require 'csv'
 require 'yaml'
 
 class ParseAbstracts
-  def self.call(abstracts, diviners, target)
-    new(abstracts, diviners, target).call
+  def self.call(abstracts, diviners, vendors, target)
+    new(abstracts, diviners, vendors, target).call
   end
 
-  def initialize(abstracts, diviners, target)
+  def initialize(abstracts, diviners, vendors, target)
     @search_strings = []
     @events = serialize_events(CSV.read(abstracts, headers: true))
     @diviners = serialize_diviners(CSV.read(diviners, headers: true))
+    @vendors = serialize_vendors(CSV.read(vendors, headers: true))
     @target = target
   end
 
@@ -20,7 +21,7 @@ class ParseAbstracts
   end
 
   private
-  attr_reader :events, :diviners, :target
+  attr_reader :events, :diviners, :vendors, :target
 
   def write_full_lineup
     File.open(target, 'w+') do |f|
@@ -29,7 +30,7 @@ class ParseAbstracts
   end
 
   def lineup
-    events + diviners
+    events + diviners + vendors
   end
 
   def log_output
@@ -38,6 +39,7 @@ class ParseAbstracts
       print "#{events.count} #{type.downcase} events\n"
     end
     print "#{diviners.count} diviners\n"
+    print "#{vendors.count} vendors\n"
   end
 
   def serialize_events(abstracts)
@@ -76,6 +78,22 @@ class ParseAbstracts
         'availableOn' => diviner['Dates'],
         'servicesString' => build_diviner_string(diviner),
         'bio' => diviner['Bio'],
+      }
+    end
+  end
+
+  def serialize_vendors(input)
+    input.map do |vendor|
+      search_string = ensure_unique_identifier(vendor['Name'], 'vendor')
+      santized_search_string = sanitize(search_string)
+
+      {
+        'name' => vendor['Name'].split.each(&:capitalize).join(' '),
+        'searchString' => santized_search_string,
+        'type' => 'Vendor',
+        'avatarPath' => vendor['Avatar'],
+        'shopUrl' => vendor['Shop url'],
+        'bio' => vendor['Bio'],
       }
     end
   end
@@ -121,6 +139,7 @@ end
 
 abstracts = ENV.fetch('ABSTRACTS')
 diviners = ENV.fetch('DIVINERS')
+vendors = ENV.fetch('VENDORS')
 year = ENV.fetch('YEAR')
 target = "./_data/events-#{year}.yml"
 
@@ -129,4 +148,4 @@ print "If you continue, you will overwrite file '#{target}'\n\n"
 print "Are you sure you want to proceed? (y/n)"
 
 response = gets.chomp.strip == 'y' ? true : false
-ParseAbstracts.call(abstracts, diviners, target) if response == true
+ParseAbstracts.call(abstracts, diviners, vendors, target) if response == true
