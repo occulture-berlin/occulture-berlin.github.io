@@ -42,8 +42,13 @@ class GenerateEventPages
       page.gsub!('__title', event['title'])
     end
 
-    if %w[Divination Wellness].include?(event['type'])
+    case event['type']
+    when 'Divination'
       page.gsub!('__pageType', 'divination_page')
+    when 'Wellness'
+      page.gsub!('__pageType', 'divination_page')
+    when 'Vendor'
+      page.gsub!('__pageType', 'vendor_page')
     else
       page.gsub!('__pageType', 'event_page')
     end
