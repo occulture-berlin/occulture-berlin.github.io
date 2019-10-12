@@ -1,16 +1,5 @@
 ---
-- name: Jessica Grote
-  searchString: jessica-grote
-  title: 'The heretic pathways of the Kosmic Gnosis: Strongholds of the daemonic All'
-  type: Lecture
-  keynote: 1
-  avatarPath: https://theionpublishing.com/wp-content/uploads/2018/01/JGprofilebw.jpg
-  description: |-
-    As occultists we are inclined to see ourselves as heretics: dissidents from the mainstream. And yet it seems that most occult, pagan or gnostic movements follow the same route as the modern mind in general: (unconsciously) losing access to the magical reality by favoring abstract mental constructions, power-fantasies & feel-good-spirituality.
-
-    There is no quick fix & certainly no one-fits-all solution. However, in this talk we will explore the alternative heresy of the Kosmic Gnosis, embodied in initiatic paths of Gnostic Sacramentalism & Voudon. Their adepts exalt soul-body & seek ecstatic becoming in an erotic exchange with the maternal kosmos. Instead of replacing the One with a Goddess or an over-inflated Ego, they celebrate Life in all its daemonic expressions!
-
-    Sharing from an inside perspective, I will highlight how the initiates of this current erect strongholds of their Gnosis & provide practical suggestions for the independent practitioner to magically re-enchant their world.
+- avatarPath: https://theionpublishing.com/wp-content/uploads/2018/01/JGprofilebw.jpg
   bio: "Jessica Grote has been an initiate of the Kosmic Gnosis under its Hierophant
     David Beth for more than a decade and is currently the presiding bishop of the
     Ecclesia Gnostic Aeterna and an advanced member of the Société Voudon Gnostique.
@@ -18,14 +7,27 @@
     occult tomes as co-owner of Theion Publishing. She received an M.A. in religious
     studies from the University of Heidelberg and lives in Munich.\n\nSee www.kosmic-gnosis.org
     and www.theionpublishing.com "
+  date: 01 November
+  description: |-
+    As occultists we are inclined to see ourselves as heretics: dissidents from the mainstream. And yet it seems that most occult, pagan or gnostic movements follow the same route as the modern mind in general: (unconsciously) losing access to the magical reality by favoring abstract mental constructions, power-fantasies & feel-good-spirituality.
+
+    There is no quick fix & certainly no one-fits-all solution. However, in this talk we will explore the alternative heresy of the Kosmic Gnosis, embodied in initiatic paths of Gnostic Sacramentalism & Voudon. Their adepts exalt soul-body & seek ecstatic becoming in an erotic exchange with the maternal kosmos. Instead of replacing the One with a Goddess or an over-inflated Ego, they celebrate Life in all its daemonic expressions!
+
+    Sharing from an inside perspective, I will highlight how the initiates of this current erect strongholds of their Gnosis & provide practical suggestions for the independent practitioner to magically re-enchant their world.
   duration: 30
-  location: lecture_room
-- name: david bramwell
-  searchString: david-bramwell
-  title: The Cult of Water
-  type: Performance
   keynote: 1
-  avatarPath: https://folkestonefringe.com/site/assets/files/2662/david_bramwell_2.768x0.jpg
+  location: lecture_room
+  name: Jessica Grote
+  searchString: jessica-grote
+  time: '15:00'
+  title: 'The heretic pathways of the Kosmic Gnosis: Strongholds of the daemonic All'
+  type: Lecture
+- avatarPath: https://folkestonefringe.com/site/assets/files/2662/david_bramwell_2.768x0.jpg
+  bio: David Bramwell is a Sony-Award winning presenter for BBC Radio 3 and BBC Radio
+    4, having made programmes on subjects ranging from Damanhur to Ken Campbell. He
+    has won awards for ‘outstanding theatre’ and ‘best comedy’ for his one-man shows
+    and is the author of The Haunted Moustache, The No9 Bus to Utopia and The Odditorium.
+  date: 03 November
   description: "Combining music, animation and archive film with a captivating monologue,
     David Bramwell takes audiences on a dreamy candle-lit journey, in search of the
     occult secrets of rivers – back into a pre-Christian era when rivers and springs
@@ -39,18 +41,23 @@
     focal point for a psycho-geographical journey, at heart this is a meditation on
     the symbolic and ritual power of water and its association with feminine power.
     \ \n"
-  bio: David Bramwell is a Sony-Award winning presenter for BBC Radio 3 and BBC Radio
-    4, having made programmes on subjects ranging from Damanhur to Ken Campbell. He
-    has won awards for ‘outstanding theatre’ and ‘best comedy’ for his one-man shows
-    and is the author of The Haunted Moustache, The No9 Bus to Utopia and The Odditorium.
   duration: 60
-  location: lecture_room
-- name: Gary Lachman
-  searchString: gary-lachman
-  title: 'Dark Star Rising: Magick and Power in the Age of Trump'
-  type: Lecture
   keynote: 1
-  avatarPath: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTmIv1DLE-johhB061KWdKXiJS3nqxn3HKErfHhnBtpsxl1n9
+  location: lecture_room
+  name: david bramwell
+  searchString: david-bramwell
+  time: '18:00'
+  title: The Cult of Water
+  type: Performance
+- avatarPath: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTmIv1DLE-johhB061KWdKXiJS3nqxn3HKErfHhnBtpsxl1n9
+  bio: Gary Lachman is the author of twenty-two books on consciousness, culture, and
+    the western esoteric tradition, including The Secret Teachers of the Western World,
+    Lost Knowledge of the Imagination, and The Quest for Hermes Trismegistus. He writes
+    for several journals in the UK, US, and Europe, lectures around the world, and
+    his work has been translated into more than a dozen languages. In a past life
+    he was a founding member of the pop group Blondie and in 2006 was inducted into
+    the Rock and Roll Hall of Fame. His website can be reached at www.garylachman.co.uk
+  date: 02 November
   description: |-
     Did “positive thinking” and “mental science” help put Donald Trump in the White House? And are there other kinds of “occult politics” at work in the world today?
 
@@ -59,45 +66,33 @@
     From New Thought to Chaos Magick to the far-right esotericism of Julius Evola and the Traditionalists, a web of connections stretches out across the globe bringing together such disparate characters and phenomena as Norman Vincent Peale, Pepe the Frog, the Alt-Right, Vladimir Putin, President Trump, Reality TV, “meme magick” and much else in a weird tangle of postmodern occultism in which reality is up for grabs, facts give way to internet fictions, and truth is a negotiable commodity.
 
     My talk will look at this post-truth alternative fact landscape in which reality is defined as what you can get away with.
-  bio: Gary Lachman is the author of twenty-two books on consciousness, culture, and
-    the western esoteric tradition, including The Secret Teachers of the Western World,
-    Lost Knowledge of the Imagination, and The Quest for Hermes Trismegistus. He writes
-    for several journals in the UK, US, and Europe, lectures around the world, and
-    his work has been translated into more than a dozen languages. In a past life
-    he was a founding member of the pop group Blondie and in 2006 was inducted into
-    the Rock and Roll Hall of Fame. His website can be reached at www.garylachman.co.uk
   duration: 60
-  location: lecture_room
-- name: Phurpa
-  searchString: phurpa
-  title: Chanting Meditation
-  type: Performance
   keynote: 1
-  avatarPath: https://www.occultureberlin.org/images/speakers/phurpa.jpg
-  description: |-
-    Before Buddhism reached Tibet, practices involving shamanic rites derived from various ancestral cults became known as Bon. Phurpa, led by contemporary artist Alexei Tegin, is a Moscow based group in this tradition.
-
-    This Tibetan monastic choir uses a specific kind of overtone chanting which is based on the principle of the singer's transmogrification during the "chanting meditation".
+  location: lecture_room
+  name: Gary Lachman
+  searchString: gary-lachman
+  time: '17:00'
+  title: 'Dark Star Rising: Magick and Power in the Age of Trump'
+  type: Lecture
+- avatarPath: https://www.occultureberlin.org/images/speakers/phurpa.jpg
   bio: Phurpa is a roving monastic choir that espouses a rogue form of Bön, the shamanistic
     spirituality of pre-Buddhist Tibet. The ensuing tale is a captivating journey
     shrouded in Himalayan mysticism; from the shadow of the Kremlin to the pyramids
     of Egypt and further on into the vast emptiness beyond.
+  date: 31 October
+  description: |-
+    Before Buddhism reached Tibet, practices involving shamanic rites derived from various ancestral cults became known as Bon. Phurpa, led by contemporary artist Alexei Tegin, is a Moscow based group in this tradition.
+
+    This Tibetan monastic choir uses a specific kind of overtone chanting which is based on the principle of the singer's transmogrification during the "chanting meditation".
   duration: 120
-  location: lecture_room
-- name: David Lee
-  searchString: david-lee
-  title: 'Soul of the West: Magic, Awakening and the Hellenic Gnosis'
-  type: Lecture
   keynote: 1
-  avatarPath: https://www.occultureberlin.org/images/speakers/lee-david.jpg
-  description: What is the function of magic and magicians in our waning Western civilization?
-    The magical origins of this civilization are becoming clearer as archaeologists
-    and scholars piece together the Hellenic world before Plato, a world of magicians
-    and prophets. Out of the magical currents of the 20th century a new generation
-    of mystery schools is emerging and re-presenting the practices of these ancient
-    schools. How can knowledge of the ancient world help us to understand our civilization’s
-    current plight? And more importantly, what do we have to help us reach back to
-    that eternal source and dream the magical heart of a new civilization?
+  location: lecture_room
+  name: Phurpa
+  searchString: phurpa
+  time: '22:30'
+  title: Chanting Meditation
+  type: Performance
+- avatarPath: https://www.occultureberlin.org/images/speakers/lee-david.jpg
   bio: "David Lee is a magician, breathwork coach and writer. He has spent most of
     his ‘adult’ life undoing conditioning and changing realities, using techniques
     that include magic, psychedelics and energy work. He is a leading light in the
@@ -106,14 +101,34 @@
     Psychedelia and Chaos Magic can be found on his website, http://www.chaotopia.com/.
     You can sign up for David’s near-monthly Chaotopia Newsletter at http://eepurl.com/bSOtwf,
     for news about his events and other strange things.  "
+  date: 02 November
+  description: What is the function of magic and magicians in our waning Western civilization?
+    The magical origins of this civilization are becoming clearer as archaeologists
+    and scholars piece together the Hellenic world before Plato, a world of magicians
+    and prophets. Out of the magical currents of the 20th century a new generation
+    of mystery schools is emerging and re-presenting the practices of these ancient
+    schools. How can knowledge of the ancient world help us to understand our civilization’s
+    current plight? And more importantly, what do we have to help us reach back to
+    that eternal source and dream the magical heart of a new civilization?
   duration: 30
-  location: lecture_room
-- name: Susan Wands
-  searchString: susan-wands
-  title: Sigils, Symbols & Spells in Tarot Mythology
-  type: Lecture
   keynote: 1
-  avatarPath: https://www.occultureberlin.org/images/speakers/wands-susan.jpg
+  location: lecture_room
+  name: David Lee
+  searchString: david-lee
+  time: '12:30'
+  title: 'Soul of the West: Magic, Awakening and the Hellenic Gnosis'
+  type: Lecture
+- avatarPath: https://www.occultureberlin.org/images/speakers/wands-susan.jpg
+  bio: 'Susan Wands is a writer, tarot reader, actor, filmmaker and producer. In addition
+    to being a guest-featured writer for Kindred Spirits magazine, and a guest-speaker
+    for the New York Historical Novel Society, Ms. Wands can be found guest-starring
+    on tarot podcasts: ''Biddy Tarot'', ‘Bad Ass Bitches Tarot’ and the ‘Spirited
+    Tarot’ youtube channel. She lectured at Watkins Books in London for their Recorded
+    Authors series, the lecture is currently on Watkins Books’ website. Her first
+    book in a series, Magician and Fool, was published in England  and will soon be
+    published in the U.S. Her novel series explores the life of Pamela Colman Smith,
+    the Waite-Smith tarot deck creator. The next two books are in development. www.magicianandfool.com'
+  date: 03 November
   description: 'The seductive lure of the mysterious message has been the basis for
     tarot card readings for generations. Susan Wands will explore the magical language
     of tarot art and its ability to communicate on a higher level than speech. Ms.
@@ -127,23 +142,23 @@
     recognizable icons, whose vibrations resonate uniquely with every person.
 
     '
-  bio: 'Susan Wands is a writer, tarot reader, actor, filmmaker and producer. In addition
-    to being a guest-featured writer for Kindred Spirits magazine, and a guest-speaker
-    for the New York Historical Novel Society, Ms. Wands can be found guest-starring
-    on tarot podcasts: ''Biddy Tarot'', ‘Bad Ass Bitches Tarot’ and the ‘Spirited
-    Tarot’ youtube channel. She lectured at Watkins Books in London for their Recorded
-    Authors series, the lecture is currently on Watkins Books’ website. Her first
-    book in a series, Magician and Fool, was published in England  and will soon be
-    published in the U.S. Her novel series explores the life of Pamela Colman Smith,
-    the Waite-Smith tarot deck creator. The next two books are in development. www.magicianandfool.com'
-  duration: 30
-  location: lecture_room
-- name: David Rankine
-  searchString: david-rankine
-  title: Magic for Money - the Practices of British Cunning-Folk
-  type: Lecture
+  duration: 60
   keynote: 1
-  avatarPath: https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/69180631_10156253351827120_1142914381131022336_n.jpg?_nc_cat=103&_nc_oc=AQlz3UgMZi2qpf6fH_BpbTptN1EVGMSJsn84bU6uRPIMSkmkgADlS7-rSfQqmpY-g3cRhfd8UdtDgAK_vL2s9m9A&_nc_ht=scontent.ftxl3-1.fna&oh=5495ca06a4f302742f851bc0b85353de&oe=5E148294
+  location: lecture_room
+  name: Susan Wands
+  searchString: susan-wands
+  time: '16:30'
+  title: Sigils, Symbols & Spells in Tarot Mythology
+  type: Lecture
+- avatarPath: https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/69180631_10156253351827120_1142914381131022336_n.jpg?_nc_cat=103&_nc_oc=AQlz3UgMZi2qpf6fH_BpbTptN1EVGMSJsn84bU6uRPIMSkmkgADlS7-rSfQqmpY-g3cRhfd8UdtDgAK_vL2s9m9A&_nc_ht=scontent.ftxl3-1.fna&oh=5495ca06a4f302742f851bc0b85353de&oe=5E148294
+  bio: David Rankine is a magician, author and esoteric researcher who has been practicing
+    for 40 years. To date he has written 30 books on various esoteric subjects, as
+    well as hundreds of articles for magazines and journals. In the last two decades
+    his work has focused especially on grimoires and cunning-magic, and he has authored
+    and co-authored a dozen books in this field including The Goetia of Dr Rudd, The
+    Veritable Key of Solomon, Clavis Inferni, The Grimoire of Arthur Gauntlet and
+    A Cunning Man’s Grimoire. For more information see www.davidrankine.com
+  date: 02 November
   description: From the Middle Ages to modern times, Cunning folk acted as magicians
     for hire to their local communities. Merging the parallel strands of Grimoire
     magic and Book of Secrets charms, they operated across all levels of society,
@@ -153,49 +168,51 @@
     I will be exploring their magic from ancient roots through to contemporary practices,
     including examples of some of the most prominent Cunning practitioners and their
     work.
-  bio: David Rankine is a magician, author and esoteric researcher who has been practicing
-    for 40 years. To date he has written 30 books on various esoteric subjects, as
-    well as hundreds of articles for magazines and journals. In the last two decades
-    his work has focused especially on grimoires and cunning-magic, and he has authored
-    and co-authored a dozen books in this field including The Goetia of Dr Rudd, The
-    Veritable Key of Solomon, Clavis Inferni, The Grimoire of Arthur Gauntlet and
-    A Cunning Man’s Grimoire. For more information see www.davidrankine.com
   duration: 30
-  location: lecture_room
-- name: Daniel Pinchbeck
-  searchString: daniel-pinchbeck
-  title: The Occult Control System
-  type: Lecture
   keynote: 1
-  avatarPath: https://www.occultureberlin.org/images/speakers/pinchbeck-daniel.jpeg
-  description: 'Mainstream news coverage of UFOs and alien visitations has increased
-    massively to the point where it seems some kind of "Disclosure" is under way.
-    The history of this phenomenon is fascinating from an occult or spiritual science
-    perspective. How can we inquire into its true nature? '
+  location: lecture_room
+  name: David Rankine
+  searchString: david-rankine
+  time: '15:00'
+  title: Magic for Money - the Practices of British Cunning-Folk
+  type: Lecture
+- avatarPath: https://www.occultureberlin.org/images/speakers/pinchbeck-daniel.jpeg
   bio: 'Daniel Pinchbeck is the author of Breaking Open the Head, 2012: The Return
     of Quetzalcoatl, How Soon Is Now, The Occult Control System and When Plants Dream
     (with Sophia Rokhlin). He is the editorial director of Liminal ( www.liminal.news
     ), a new online magazine. '
+  date: 01 November
+  description: 'Mainstream news coverage of UFOs and alien visitations has increased
+    massively to the point where it seems some kind of "Disclosure" is under way.
+    The history of this phenomenon is fascinating from an occult or spiritual science
+    perspective. How can we inquire into its true nature? '
   duration: 60
+  keynote: 1
   location: lecture_room
-- name: Growler
-  searchString: growler
-  title: Sacred Vulva
-  type: Performance
-  keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/growler.jpg
+  name: Daniel Pinchbeck
+  searchString: daniel-pinchbeck
+  time: '17:00'
+  title: The Occult Control System
+  type: Lecture
+- avatarPath: https://www.occultureberlin.org/images/speakers/growler.jpg
+  bio: Growler will preform with "The Butterfly Wheel"
+  date: 02 November
   description: |-
     GROWLER is a 79 year old Vulva from the inner city of Dublin in Ireland. She is currently exiled in Berlin after being evicted from her home. Growler transmutes women's pain through storytelling, singing, comedy and spoken word. She embodies irreverent reverence
     deirdre-mulrooney.com
-  bio: Growler will preform with "The Butterfly Wheel"
   duration: 60
-  location: lecture_room
-- name: Kröter
-  searchString: kroeter
-  title: God is Toad
-  type: Performance
   keynote: 0
-  avatarPath: https://i.imgur.com/kcqA5qC.jpg
+  location: lecture_room
+  name: Growler
+  searchString: growler
+  time: '22:00'
+  title: Sacred Vulva
+  type: Performance
+- avatarPath: https://i.imgur.com/kcqA5qC.jpg
+  bio: |
+    Since their foundation in 2016,this band have trodden a path between genres. Combining the shapeshifting, and evolving qualities of the creatures they named themselves after- Kröter (Toad) can be tadpoles wiggling in jazz pop ponds, then sprouting back legs they begin to jump around in techno and krautrock even hopping casually onto land for a moment to sound like some fucked up radio play.
+    Run as a collective the band continuously cross-fertilises with other musicians. The Debut release albums 2018  “A,B and C” feature, Henry Sargeant (WevieStonder, Mr Vast),Christoph Rothemeier (Hunger,The Entertainers Dry eye) Kalle Zeier (Andromeda Mega Express Orchestra, Onom Agemo & The Disco Jumpers) and Jörg Hochapfel (Piho Hupo, Hosho, Hunger, Andromeda Mega Express Orchestra).
+  date: 02 November
   description: Kröter are perhaps best understood live. Always spontaneous, the sets
     are based on their pool of formerly recorded pieces. Visually they are “full on”
     ...Expect self-made costumes, weird stage designs and videos. Slippery in water,
@@ -203,17 +220,17 @@
     hard to define... indeed at times they are deliberately provocative and abstract,
     but If we are up to the challenge, it seems these magical creatures are inviting
     the listener into unexplored terrain, intangible and intensely present!
-  bio: |
-    Since their foundation in 2016,this band have trodden a path between genres. Combining the shapeshifting, and evolving qualities of the creatures they named themselves after- Kröter (Toad) can be tadpoles wiggling in jazz pop ponds, then sprouting back legs they begin to jump around in techno and krautrock even hopping casually onto land for a moment to sound like some fucked up radio play.
-    Run as a collective the band continuously cross-fertilises with other musicians. The Debut release albums 2018  “A,B and C” feature, Henry Sargeant (WevieStonder, Mr Vast),Christoph Rothemeier (Hunger,The Entertainers Dry eye) Kalle Zeier (Andromeda Mega Express Orchestra, Onom Agemo & The Disco Jumpers) and Jörg Hochapfel (Piho Hupo, Hosho, Hunger, Andromeda Mega Express Orchestra).
   duration: 60
-  location: lecture_room
-- name: Carl H Smith and Sarah Janes
-  searchString: carl-h-smith-and-sarah-janes
-  title: 'Dark Radiance: The Web of Light'
-  type: Lecture
   keynote: 0
-  avatarPath: https://miro.medium.com/max/703/1*m_RYYXlsn7SshTVzBXPWlQ.jpeg
+  location: lecture_room
+  name: Kröter
+  searchString: kroeter
+  time: '21:00'
+  title: God is Toad
+  type: Performance
+- avatarPath: https://miro.medium.com/max/703/1*m_RYYXlsn7SshTVzBXPWlQ.jpeg
+  bio: 
+  date: 02 November
   description: What is light and what is sight? How do the artificial light producing
     inventions of the last few hundred years influence our consciousness, our dreams
     and our imaginations? How do we see within our dreams? What are the mechanisms
@@ -233,15 +250,25 @@
     produces a dream making machine that generates visuals from within the human,
     rather than projecting onto the human - we'll be going somewhere very different.
     Shall we go there?
-  bio: 
   duration: 30
-  location: lecture_room
-- name: Katharina Louise
-  searchString: katharina-louise
-  title: Water Blessing Ceremony
-  type: Ritual
   keynote: 0
-  avatarPath: https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/53423719_2259592817647772_4980842791140589568_o.jpg?_nc_cat=108&_nc_oc=AQkNQ7pZAlThijztzP57vO-Mqrq6JF6yt3A0kcSfFDLWk6TcKhGHyCsRGnkBePZBH98GsBRqdwF5FVTpNiztKypr&_nc_ht=scontent.ftxl3-1.fna&oh=1b95dd6bb2ff376678fb5393d397c089&oe=5E1B73F3
+  location: lecture_room
+  name: Carl H Smith and Sarah Janes
+  searchString: carl-h-smith-and-sarah-janes
+  time: '16:30'
+  title: 'Dark Radiance: The Web of Light'
+  type: Lecture
+- avatarPath: https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/53423719_2259592817647772_4980842791140589568_o.jpg?_nc_cat=108&_nc_oc=AQkNQ7pZAlThijztzP57vO-Mqrq6JF6yt3A0kcSfFDLWk6TcKhGHyCsRGnkBePZBH98GsBRqdwF5FVTpNiztKypr&_nc_ht=scontent.ftxl3-1.fna&oh=1b95dd6bb2ff376678fb5393d397c089&oe=5E1B73F3
+  bio: Katharina is a Creatress, Medicine Woman and Devotee of the great Mystery.
+    She is passionate about Knowledge of the Self, the Earth and our Solar System,
+    exploring these Worlds through Astrology, Anthropology, Psychology and Mysticism.
+    All she does is motivated by protecting, celebrating, honoring and co-creating
+    with the Diversity of Expression found in this Reality. An Activist of the Sacred
+    Remembrance she is engaged in the Fusion of different Practices and Perspectives
+    to decolonize and dismantle Patriarchy and create Change for a more holistic and
+    vibrant Future. She is always down to go deep and just as much up for dirty Jokes
+    and Laughter.
+  date: 01 November
   description: Water is the Lifeblood of our Planet, the bigger Body which our Bodies
     are born from. In this Ceremony we want to remember the Ancient Knowledge which
     is held in the Memory of the Water, circling through Earths Eco-System since longer
@@ -254,39 +281,39 @@
     yet powerful Practice of acknowledging the Medicine already present, internally
     and externally, creating Resonance through tuning into the Wisdom of this healing
     Element.
-  bio: Katharina is a Creatress, Medicine Woman and Devotee of the great Mystery.
-    She is passionate about Knowledge of the Self, the Earth and our Solar System,
-    exploring these Worlds through Astrology, Anthropology, Psychology and Mysticism.
-    All she does is motivated by protecting, celebrating, honoring and co-creating
-    with the Diversity of Expression found in this Reality. An Activist of the Sacred
-    Remembrance she is engaged in the Fusion of different Practices and Perspectives
-    to decolonize and dismantle Patriarchy and create Change for a more holistic and
-    vibrant Future. She is always down to go deep and just as much up for dirty Jokes
-    and Laughter.
   duration: 60
-  location: workshop_room
-- name: Prisma
-  searchString: prisma
-  title: Prisma Dj Set (Shika Shika)
-  type: Performance
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/prisma.jpg
-  description: Prisma is Nicolas Di Bernardo, born in Buenos Aires and currently based
-    between Berlin and Thailand. Organic, crackling textures that shift between tranquility
-    and turbulence. Complex rhythms, otherworldly atmospheres, warm sequences, Influences
-    from inner and outer space exploration
+  location: workshop_room
+  name: Katharina Louise
+  searchString: katharina-louise
+  time: '17:30'
+  title: Water Blessing Ceremony
+  type: Ritual
+- avatarPath: https://www.occultureberlin.org/images/speakers/prisma.jpg
   bio: Prisma is Nicolas Di Bernardo, born in Buenos Aires and currently based between
     Berlin and Thailand. Organic, crackling textures that shift between tranquility
     and turbulence. Complex rhythms, otherworldly atmospheres, warm sequences, Influences
     from inner and outer space exploration
+  date: 
+  description: Prisma is Nicolas Di Bernardo, born in Buenos Aires and currently based
+    between Berlin and Thailand. Organic, crackling textures that shift between tranquility
+    and turbulence. Complex rhythms, otherworldly atmospheres, warm sequences, Influences
+    from inner and outer space exploration
   duration: 60
-  location: lecture_room
-- name: Jon Darrall-Rew
-  searchString: jon-darrall-rew
-  title: The Power of the Divine Dark - Marrying Angels, Beasts, Gods and Goddesses
-  type: Workshop
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/darrall-rew-jon.jpg
+  location: lecture_room
+  name: Prisma
+  searchString: prisma
+  time: 
+  title: Prisma Dj Set (Shika Shika)
+  type: Performance
+- avatarPath: https://www.occultureberlin.org/images/speakers/darrall-rew-jon.jpg
+  bio: |-
+    Jon Darrall-Rew: Jon’s passion is to live and share in the wild power of spirit through heart, soul and body. He co-leads Shamballa School, an international spiritual community focussed on Fire of Spirit. To learn more about his work see:
+
+    https://www.shamballaschool.org/
+    https://www.awakeningineden.life/
+  date: 03 November
   description: 'Many of the ancient Occult and Mystery Schools had as their highest
     initiation a ritual awakening to divine darkness. This was a return to Source,
     and the revelation of its infinite power and creativity was the initiate''s entry
@@ -298,35 +325,43 @@
     Jon Darrall-Rew will guide us through a modern version of this process, bringing
     us face to face with the full spectrum of our being, and our source as the divine
     darkness of spirit. '
-  bio: |-
-    Jon Darrall-Rew: Jon’s passion is to live and share in the wild power of spirit through heart, soul and body. He co-leads Shamballa School, an international spiritual community focussed on Fire of Spirit. To learn more about his work see:
-
-    https://www.shamballaschool.org/
-    https://www.awakeningineden.life/
   duration: 60
-  location: workshop_room
-- name: Astarte Oasis - Ordo Templi Orientis
-  searchString: astarte-oasis---ordo-templi-orientis
-  title: Liber XV - Gnostic Mass
-  type: Ritual
   keynote: 0
-  avatarPath: https://upload.wikimedia.org/wikipedia/en/9/9d/Ordo_Templi_Orientis_%28insignia%29.png
-  description: 'Liber XV: The Gnostic Mass is a participatory Eucharistic ritual written
-    by Aleister Crowley in 1913. It is the central rite of Ordo Templi Orientis and
-    its ecclesiastical arm, Ecclesia Gnostica Catholica.'
+  location: workshop_room
+  name: Jon Darrall-Rew
+  searchString: jon-darrall-rew
+  time: '16:30'
+  title: The Power of the Divine Dark - Marrying Angels, Beasts, Gods and Goddesses
+  type: Workshop
+- avatarPath: https://upload.wikimedia.org/wikipedia/en/9/9d/Ordo_Templi_Orientis_%28insignia%29.png
   bio: |-
     Astarte Oasis is a chartered body of Ordo Templi Orientis (O.T.O.), a Fraternal Order of men and women united by common adherence to the Law of Thelema and by common interest in the traditions of mysticism and magick, based on the ideals of self-knowledge, individual liberty, and universal brotherhood.
 
     For more infomation, please see: http://www.oto.de
     Our Events in Berlin: https://www.meetup.com/de-DE/AstarteOasisBerlin/
+  date: 03 November
+  description: 'Liber XV: The Gnostic Mass is a participatory Eucharistic ritual written
+    by Aleister Crowley in 1913. It is the central rite of Ordo Templi Orientis and
+    its ecclesiastical arm, Ecclesia Gnostica Catholica.'
   duration: 120
-  location: workshop_room
-- name: Kazim
-  searchString: kazim
-  title: The Dark Shaman
-  type: Art
   keynote: 0
-  avatarPath: http://dark-shaman.com/videos/Kazim2.jpg
+  location: workshop_room
+  name: Astarte Oasis - Ordo Templi Orientis
+  searchString: astarte-oasis---ordo-templi-orientis
+  time: '12:00'
+  title: Liber XV - Gnostic Mass
+  type: Ritual
+- avatarPath: http://dark-shaman.com/videos/Kazim2.jpg
+  bio: 'Kazim is a multi-disciplinary artist and magician expressing his personal
+    reification of the Craft through different mediums as ritual performance, visual
+    art, photomontage, prose and writing. Often in a dark tinted ambiance his work,
+    as a reflection of his spiritual journey, invites the viewer to a travel and an
+    encounter at the doors of the spirits world. His work has been published in different
+    journals and anthologies: Anathema Pillars Journal, Qliphoth Journal, Sabbatica,
+    Silver Star Journal.. He has performed and exhibited in esoteric events in France,
+    Europe and South America. He presently works on a grimoire presenting his own
+    recension of the Sabbatic Craft.'
+  date: 
   description: "Originally manifested as an online project, the Dark-Shaman is an
     interactive shamanic journey manifesting 3 years of magickal exploration through
     the dark realms of the psyche. The visual and symbolism bring together ancient
@@ -338,29 +373,15 @@
     allegorically called 'the Way of the Seven Skulls'. At the final stage, the adept
     is confronted to the Ordeal of the Abyss. Will he succumb to the wrathful demon
     Choronzon? Come and see the Dark Shaman.\n"
-  bio: 'Kazim is a multi-disciplinary artist and magician expressing his personal
-    reification of the Craft through different mediums as ritual performance, visual
-    art, photomontage, prose and writing. Often in a dark tinted ambiance his work,
-    as a reflection of his spiritual journey, invites the viewer to a travel and an
-    encounter at the doors of the spirits world. His work has been published in different
-    journals and anthologies: Anathema Pillars Journal, Qliphoth Journal, Sabbatica,
-    Silver Star Journal.. He has performed and exhibited in esoteric events in France,
-    Europe and South America. He presently works on a grimoire presenting his own
-    recension of the Sabbatic Craft.'
   duration: 0
-  location: 
-- name: Suit Kei Witches Are Back
-  searchString: suit-kei-witches-are-back
-  title: Techno DJ set
-  type: Performance
   keynote: 0
-  avatarPath: https://scontent.fham1-1.fna.fbcdn.net/v/t1.0-0/p370x247/11800476_1179724508721051_6529264894415196816_n.jpg?_nc_cat=103&_nc_oc=AQnrRkAq9TiU-5nYWKvSfku9o3ZWk0wx3y655MK5eM3qKVDYXCCvCaaGIkADRHrrwrU&_nc_ht=scontent.fham1-1.fna&oh=64dea481c4fd1b15b823533684c3cfbf&oe=5E369B3D
-  description: 'The hypnotic beat of Techno Music it''s a perfect way to close a day
-    of esoteric conferences, rituals and performances. It melts the inputs, process
-    the knowledge''s progresses, relax and regenerates body and mind. It''s a ritual
-    itself, open to very personal and inner interpretations and possibilities.
-
-    '
+  location: 
+  name: Kazim
+  searchString: kazim
+  time: 
+  title: The Dark Shaman
+  type: Art
+- avatarPath: https://scontent.fham1-1.fna.fbcdn.net/v/t1.0-0/p370x247/11800476_1179724508721051_6529264894415196816_n.jpg?_nc_cat=103&_nc_oc=AQnrRkAq9TiU-5nYWKvSfku9o3ZWk0wx3y655MK5eM3qKVDYXCCvCaaGIkADRHrrwrU&_nc_ht=scontent.fham1-1.fna&oh=64dea481c4fd1b15b823533684c3cfbf&oe=5E369B3D
   bio: "Suit Kei is founder of the crew Drastic Beat, landmark of italian underground,
     and of Witches Are Back, international feminist collective producing art events,
     collecting respectful feedbacks in some capital cities. She brings across Europe
@@ -370,20 +391,22 @@
     party scene since 1998, DJ since 2001, produces, organizes and plays in lots of
     events that leaved a mark on the scene.\nShe performs in many cities, clubs and
     festivals in Italy, Germany, Czech Republic, Spain, France, Holland."
+  date: 
+  description: 'The hypnotic beat of Techno Music it''s a perfect way to close a day
+    of esoteric conferences, rituals and performances. It melts the inputs, process
+    the knowledge''s progresses, relax and regenerates body and mind. It''s a ritual
+    itself, open to very personal and inner interpretations and possibilities.
+
+    '
   duration: 60
-  location: lecture_room
-- name: Orryelle Defenestrate-Bascule
-  searchString: orryelle-defenestrate-bascule-art
-  title: Esoterotica artwork
-  type: Art
   keynote: 0
-  avatarPath: http://www.crossroads.wild.net.au/time&fatebottomw.jpg
-  description: "The 'esoteric' being inner as opposed to 'exoteric' (outer), the title
-    of this exhibition may seem contradictory as erotica is generally associated with
-    the physical body's expressions. But I depict more than just the outer forms in
-    their interactions - my paintings & sculptures show the inner fire which inspires
-    such activity, and the spirits and elementals therefrom. The inter-play between
-    the flesh and the spirit. \nhttp://www.crossroads.wild.net.au/esoterotica.htm"
+  location: lecture_room
+  name: Suit Kei Witches Are Back
+  searchString: suit-kei-witches-are-back
+  time: 
+  title: Techno DJ set
+  type: Performance
+- avatarPath: http://www.crossroads.wild.net.au/time&fatebottomw.jpg
   bio: "Orryelle Defenestrate-Bascule is an esoteric artist in many media, including
     painting, writing, sculpture, sound, film and performance art. \nCreator of the
     Tela Quadrivium book web from Fulgur (Conjunctio, Coagula, Solve, Distillatio)
@@ -392,23 +415,22 @@
     spiritual and emotional relationships with creativity.\nThe interplay of the figurative/representational
     and the abstract, the organic and ’synthetic’ (the actual and the virtual) are
     aspects of these explorations, which aim to delve below the surface of things...\n\n"
+  date: 
+  description: "The 'esoteric' being inner as opposed to 'exoteric' (outer), the title
+    of this exhibition may seem contradictory as erotica is generally associated with
+    the physical body's expressions. But I depict more than just the outer forms in
+    their interactions - my paintings & sculptures show the inner fire which inspires
+    such activity, and the spirits and elementals therefrom. The inter-play between
+    the flesh and the spirit. \nhttp://www.crossroads.wild.net.au/esoterotica.htm"
   duration: 0
-  location: 
-- name: Common Eider King Eider
-  searchString: common-eider-king-eider
-  title: A Wound Of Body, A Wound Of Earth
-  type: Performance
   keynote: 0
-  avatarPath: https://i.imgur.com/hpYepkM.jpg
-  description: 'A Wound Of Body, A Wound Of Earth is an animistic sonic ritual exploring
-    the internalized wounds caused by capitalism, christianity, and patriarchy, and
-    how those wounds influence our relationship to ourselves, our sexuality, our relationships
-    with community, and our relationships to the Spirits of the Land. Voice, viola,
-    antler, dirt, and bone channel energies and voices speaking to both the sorrow
-    of environmental destruction and the negative imposed psychic frameworks placed
-    on the body, but also of beauty, hope, and of finding the narrow moonlit path
-    winding into the center of the darkest woods. There strength lies, solace is found,
-    and rage is unleashed. '
+  location: 
+  name: Orryelle Defenestrate-Bascule
+  searchString: orryelle-defenestrate-bascule-art
+  time: 
+  title: Esoterotica artwork
+  type: Art
+- avatarPath: https://i.imgur.com/hpYepkM.jpg
   bio: 'Common Eider, King Eider is a musical and ritual collective created by Bees
     in 2006, as a vehicle to explore the intersectional possibilities between creativity,
     spirituality, magick, and political action. Over the past 13 years, Bees and CEKE
@@ -418,28 +440,49 @@
     of both beauty and terror, sadness and hope. Bees is a practicing animist, Cascadian
     anarchist Witch, devotee of Unhuulda and Miria,  and lover of coffee. Bees facilitates
     a long distance, coordinated magick coven called River Of Blood. '
+  date: 
+  description: 'A Wound Of Body, A Wound Of Earth is an animistic sonic ritual exploring
+    the internalized wounds caused by capitalism, christianity, and patriarchy, and
+    how those wounds influence our relationship to ourselves, our sexuality, our relationships
+    with community, and our relationships to the Spirits of the Land. Voice, viola,
+    antler, dirt, and bone channel energies and voices speaking to both the sorrow
+    of environmental destruction and the negative imposed psychic frameworks placed
+    on the body, but also of beauty, hope, and of finding the narrow moonlit path
+    winding into the center of the darkest woods. There strength lies, solace is found,
+    and rage is unleashed. '
   duration: 60
-  location: lecture_room
-- name: SCARH222
-  searchString: scarh222
-  title: Visual Arts
-  type: Art
   keynote: 0
-  avatarPath: https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/72245061_1707726892698290_4772850826509025280_o.jpg?_nc_cat=103&_nc_oc=AQliBYxi5BR7UkeCgUZ9MRKgn6wcsTh0LVDj2kUdiLV2WSZTK_OXQYYcmXO0NlVCnSE&_nc_ht=scontent-lhr3-1.xx&oh=dcf742ef4e8571a845f6ed5c7e6565c1&oe=5E3210D2
-  description: An attempt to spark some element of the self within us all and to inspire
-    some kind of further individuation through connecting with symbology and geometry.
+  location: lecture_room
+  name: Common Eider King Eider
+  searchString: common-eider-king-eider
+  time: 
+  title: A Wound Of Body, A Wound Of Earth
+  type: Performance
+- avatarPath: https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/72245061_1707726892698290_4772850826509025280_o.jpg?_nc_cat=103&_nc_oc=AQliBYxi5BR7UkeCgUZ9MRKgn6wcsTh0LVDj2kUdiLV2WSZTK_OXQYYcmXO0NlVCnSE&_nc_ht=scontent-lhr3-1.xx&oh=dcf742ef4e8571a845f6ed5c7e6565c1&oe=5E3210D2
   bio: With a passion for detail and precision in geometry, SCARH222 has spent the
     last 4 years working quietly on various visual projects and is now sufficiently
     charged to begin sharing the works. The person behind the art remains as anonymous
     as possible so as to be separated from the work itself.
+  date: 
+  description: An attempt to spark some element of the self within us all and to inspire
+    some kind of further individuation through connecting with symbology and geometry.
   duration: 0
-  location: 
-- name: Dimitar Dimitrov
-  searchString: dimitar-dimitrov
-  title: 'Satan: Instrument of Liberty. History and evolution of Satanism.'
-  type: Lecture
   keynote: 0
-  avatarPath: https://lh3.googleusercontent.com/i_w-XZEFHeccXv3Sh5jJ4yQsTdQbUGmCuQRbg7P5qOfdXEyLh0zawVq82s7VsarOfa_aDN_WvvlQtLNUZ5fpXYXg3V6fRPdZs29vfP2d6jR2-rNOrUijDdTBouNLXbKXMEw5J5cp2a4A2JjIwDMzHfYgVpRLz1D4c3rsZKZkW70A_69xkrRse6yGLTL88Td4eM1geYtqhBquFYWB8rNRmswa4-XzmOOrP6LfpjAz49oG9sOehoElhfeb5JgcSDpQ1yXL9irivH1fQvbBWlxBmWPG6aSx9pMlcNXZm-3MjzMi0ASAwp82bouzmWLj9GPCvfH6z7feyTACIxko6baeUeDqogYf6AeVJU1IcHjbGrZXW4SzBU554qU7_vdUT0F1JRtY-iwV1OxB_6k819bbWn8wlLgy3pjnVvvwQdY_ix82cfplRRwFVy10lRlgCKhdyrmGsOrqHw1mvj8jSGw7Ut-FQjq2UVamCAoRXL_LHvQ2ASze1bgHxD14AQaCd2EONRYG7FG-e75E2uyYzQegMICZSnfNLqG9zpN5y85spvcklTur-HEaXy-GcGf8kPvavmQQABnQfP6ax62bHrzd6ZkDN_n9cfa_NsFXinL90YJeRNtvWCzgs941L3rnjfuy9h1pMAFcltfjJ18lfVCMWPC2zrnL6YlbU6Vj1aEFdsb9pbN2rky575LlE5UT5lNzWCln-agwnqg0ppSA_8cOdDyBRlaIAD64jrTx7sND1W7ISA=s250-k-no
+  location: 
+  name: SCARH222
+  searchString: scarh222
+  time: 
+  title: Visual Arts
+  type: Art
+- avatarPath: https://lh3.googleusercontent.com/i_w-XZEFHeccXv3Sh5jJ4yQsTdQbUGmCuQRbg7P5qOfdXEyLh0zawVq82s7VsarOfa_aDN_WvvlQtLNUZ5fpXYXg3V6fRPdZs29vfP2d6jR2-rNOrUijDdTBouNLXbKXMEw5J5cp2a4A2JjIwDMzHfYgVpRLz1D4c3rsZKZkW70A_69xkrRse6yGLTL88Td4eM1geYtqhBquFYWB8rNRmswa4-XzmOOrP6LfpjAz49oG9sOehoElhfeb5JgcSDpQ1yXL9irivH1fQvbBWlxBmWPG6aSx9pMlcNXZm-3MjzMi0ASAwp82bouzmWLj9GPCvfH6z7feyTACIxko6baeUeDqogYf6AeVJU1IcHjbGrZXW4SzBU554qU7_vdUT0F1JRtY-iwV1OxB_6k819bbWn8wlLgy3pjnVvvwQdY_ix82cfplRRwFVy10lRlgCKhdyrmGsOrqHw1mvj8jSGw7Ut-FQjq2UVamCAoRXL_LHvQ2ASze1bgHxD14AQaCd2EONRYG7FG-e75E2uyYzQegMICZSnfNLqG9zpN5y85spvcklTur-HEaXy-GcGf8kPvavmQQABnQfP6ax62bHrzd6ZkDN_n9cfa_NsFXinL90YJeRNtvWCzgs941L3rnjfuy9h1pMAFcltfjJ18lfVCMWPC2zrnL6YlbU6Vj1aEFdsb9pbN2rky575LlE5UT5lNzWCln-agwnqg0ppSA_8cOdDyBRlaIAD64jrTx7sND1W7ISA=s250-k-no
+  bio: Dimitar DIMITROV is the founder of La Voix de Satan (The Voice of Satan), a
+    French esoteric review, dedicated to the art and the history of Satanism. Graduate
+    of the School of Architecture of Marseille, he is a pluridisciplinary artist,
+    writer and musician. Black metal veteran, he later evolved into dark ambient and
+    more experimental spheres of ritualistic composition. Dimitar is part of the free-thinking
+    Satanic collective AMSG (Alliance Mystique de Satan Glorifié) based in the South
+    of France. The publishings of AMSG are available at www.gloireasatan.com.
+  date: 01 November
   description: Satan was born about 3000 years ago in the desert of the Near East.
     His faces and reputation have changed over the centuries, but his name has remained
     the same. It represents knowledge, opposition, personal development… the force
@@ -453,26 +496,15 @@
     those who provoke the establishment. “Spiritual atheists", embracing the Hebrew
     root of the word "Satan" as "adversary", they consider Satan as a positive archetype
     that represents pride and liberty.
-  bio: Dimitar DIMITROV is the founder of La Voix de Satan (The Voice of Satan), a
-    French esoteric review, dedicated to the art and the history of Satanism. Graduate
-    of the School of Architecture of Marseille, he is a pluridisciplinary artist,
-    writer and musician. Black metal veteran, he later evolved into dark ambient and
-    more experimental spheres of ritualistic composition. Dimitar is part of the free-thinking
-    Satanic collective AMSG (Alliance Mystique de Satan Glorifié) based in the South
-    of France. The publishings of AMSG are available at www.gloireasatan.com.
   duration: 30
-  location: lecture_room
-- name: Nika Fontaine
-  searchString: nika-fontaine
-  title: Zohar revealed
-  type: Art
   keynote: 0
-  avatarPath: https://www.creative-city-berlin.de/media/people/NikaFontaine/avatar/_cache/201901122054190889.jpg_og.jpg?t=201901130114
-  description: |-
-    Inspired by tales from the Zohar I carve narrative Kabbalistic illustrations of the wisdom I extracted.
-    The subtle qualities of the embossings serve as a beautiful metaphor for the knowledge which awaits to be revealed.
-    There is no addition nor subtraction in the medium, only the trace of the spirit acting on matter.
-    As light embraces the surface what is convex or concave merge in a single form. Being reversible, the works speak of: As above so below, as below so above.
+  location: lecture_room
+  name: Dimitar Dimitrov
+  searchString: dimitar-dimitrov
+  time: '14:30'
+  title: 'Satan: Instrument of Liberty. History and evolution of Satanism.'
+  type: Lecture
+- avatarPath: https://www.creative-city-berlin.de/media/people/NikaFontaine/avatar/_cache/201901122054190889.jpg_og.jpg?t=201901130114
   bio: "Nika Fontaine is not only visual artist translating her initiatic path into
     matter, but as well spiritual entrepreneur who puts her creativity to the service
     of humanity. \nIn 2015 she transitioned publicly from male to female, this thought
@@ -483,17 +515,21 @@
     she wants to connect international lightworkers to establish a pivotal force that
     would influence the wellbeing of society on a practical level. It is what she
     calls a Sozialgesamtkunstwerk. \n"
+  date: 
+  description: |-
+    Inspired by tales from the Zohar I carve narrative Kabbalistic illustrations of the wisdom I extracted.
+    The subtle qualities of the embossings serve as a beautiful metaphor for the knowledge which awaits to be revealed.
+    There is no addition nor subtraction in the medium, only the trace of the spirit acting on matter.
+    As light embraces the surface what is convex or concave merge in a single form. Being reversible, the works speak of: As above so below, as below so above.
   duration: 0
-  location: 
-- name: Peter Horneland
-  searchString: peter-horneland-art
-  title: The PM Tarot
-  type: Art
   keynote: 0
-  avatarPath: https://freight.cargo.site/t/original/i/cf8a20af34d700821e0e20a01b41c4fbad36fdb75d2ecdd17bdec42ee612f93e/21-XXI-MAP.png
-  description: |
-    Pattern Manipulator - Palace Map - Probability Matrix. Per Manus Post Meridiem Plus Minus Private Messages. Public models, personal moments.
-    22 black and white prints of the Major Arcana from The PM Tarot, designed by Peter Horneland. Produced through digital collage, with source material gathered through combining divinatory principles and information technology, creating unexpected (even to the artist) juxtapositions that then has to be composed so as to represent and reinforce the traditional symbolism of each card. The overloaded nature of the cards’ aesthetic lends itself well to both symbolic saturation and systemic analysis, leaning into the Tarot’s syncretic nature in modern times, as well as intuitive contemplation and free association through the almost Rorschach-like patterns. From pop culture references to petroglyphs, from the mundane to the mystical.
+  location: 
+  name: Nika Fontaine
+  searchString: nika-fontaine
+  time: 
+  title: Zohar revealed
+  type: Art
+- avatarPath: https://freight.cargo.site/t/original/i/cf8a20af34d700821e0e20a01b41c4fbad36fdb75d2ecdd17bdec42ee612f93e/21-XXI-MAP.png
   bio: "Peter Horneland, artist and vitki from Norway. Currently studying at the Piet
     Zwart Institute in Rotterdam. Operates in the intersection of art, technology
     and occulture, usually in the form of performance, installation, social practice
@@ -503,23 +539,19 @@
     meaning-sets to open up new horizons (as in cut-up technique, dérive, machine-learning
     experiments, and divination). Awarded a residency at FKDS Ateliers at Kunstnernes
     Hus, Oslo, Norway, and the From Dusk till Dawn PNEK Art Prize︎.\nwww.peterhorneland.com\n"
+  date: 
+  description: |
+    Pattern Manipulator - Palace Map - Probability Matrix. Per Manus Post Meridiem Plus Minus Private Messages. Public models, personal moments.
+    22 black and white prints of the Major Arcana from The PM Tarot, designed by Peter Horneland. Produced through digital collage, with source material gathered through combining divinatory principles and information technology, creating unexpected (even to the artist) juxtapositions that then has to be composed so as to represent and reinforce the traditional symbolism of each card. The overloaded nature of the cards’ aesthetic lends itself well to both symbolic saturation and systemic analysis, leaning into the Tarot’s syncretic nature in modern times, as well as intuitive contemplation and free association through the almost Rorschach-like patterns. From pop culture references to petroglyphs, from the mundane to the mystical.
   duration: 0
-  location: 
-- name: Peter Horneland
-  searchString: peter-horneland
-  title: Please Raise Your Hand
-  type: Ritual
   keynote: 0
-  avatarPath: https://freight.cargo.site/t/original/i/86ba8be1de1c2b78253c955a4d9392342496b2a024227163dc70723970e7887c/perfav.jpg
-  description: "“Please raise your hand if you’re willing to answer my questions quickly
-    and honestly”. “Please raise your hand if you know why you are here”. “Please
-    raise your hand if you slept well last night”. A (for the most part) gentle exploration
-    of what it means to be one of us, presented in the format of a series of questions.
-    Questions range from the mundane to the mystical, from the profane to the sacred.
-    A survey, an act of voluntary manipulation, a confessional, an absolution. After
-    each question a quick estimated percentage of hands up or down is noted on the
-    clipboard, and the next question is read. Previously performed in Amsterdam, Rotterdam,
-    den Haag, Oslo, and Featherstone Castle in Northumberland."
+  location: 
+  name: Peter Horneland
+  searchString: peter-horneland-art
+  time: 
+  title: The PM Tarot
+  type: Art
+- avatarPath: https://freight.cargo.site/t/original/i/86ba8be1de1c2b78253c955a4d9392342496b2a024227163dc70723970e7887c/perfav.jpg
   bio: "Peter Horneland, artist and vitki from Norway. Currently studying at the Piet
     Zwart Institute in Rotterdam. Operates in the intersection of art, technology
     and occulture, usually in the form of performance, installation, social practice
@@ -530,30 +562,45 @@
     dérive, machine-learning experiments, and divination). Awarded a residency at
     FKDS Ateliers at Kunstnernes Hus, Oslo, Norway, and the From Dusk till Dawn PNEK
     Art Prize︎.\nwww.peterhorneland.com"
+  date: 
+  description: "“Please raise your hand if you’re willing to answer my questions quickly
+    and honestly”. “Please raise your hand if you know why you are here”. “Please
+    raise your hand if you slept well last night”. A (for the most part) gentle exploration
+    of what it means to be one of us, presented in the format of a series of questions.
+    Questions range from the mundane to the mystical, from the profane to the sacred.
+    A survey, an act of voluntary manipulation, a confessional, an absolution. After
+    each question a quick estimated percentage of hands up or down is noted on the
+    clipboard, and the next question is read. Previously performed in Amsterdam, Rotterdam,
+    den Haag, Oslo, and Featherstone Castle in Northumberland."
   duration: 20
-  location: workshop_room
-- name: Hagen von Tulien
-  searchString: hagen-von-tulien-art
-  title: PANDAEMONIUM
-  type: Art
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/von-tulien-hagen-art.png
-  description: |-
-    The images Hagen von Tulien creates are functioning sacred diagrams, Veves and potent effigies whereby congress with the spirit world may be actuated.
-    Amalgamations of eyes, serpents, horns, skulls and other sigillic devices, these images become embodied vessels of power. They assist the practitioner in concentration, may be used in meditation or evocation, or as objects of talismanic effect. They are rich in iconic symbolism, the devices of esoteric tradition are recondite and explicit and the entities present are no less corporeal to the eye.
+  location: workshop_room
+  name: Peter Horneland
+  searchString: peter-horneland
+  time: 
+  title: Please Raise Your Hand
+  type: Ritual
+- avatarPath: https://www.occultureberlin.org/images/speakers/von-tulien-hagen-art.png
   bio: |-
     Hagen von Tulien is a contemporary artist and occultist. With more than forty years of intense magical theory and practice, he has specialized in creating art as an expression and manifestation of magical states of awareness and its use as an esoteric tool.
     He is working in a variety of media including pen and ink, paper cut, collage and digital formats.
     Throughout the 1990s Hagen was a key figure in the Chaos-Magical Pact of the Illuminates of Thanateros (I.O.T.), serving as its section head for Germany.
     He is currently a Master-Initiate of the Fraternitas Saturni (F.S.), an empowered adept of the Voudon Gnostic Current (member of O.T.O.A./L.C.N.), and a Gnostic Bishop of the Ecclesia Gnostica Spiritualis.
+  date: 
+  description: |-
+    The images Hagen von Tulien creates are functioning sacred diagrams, Veves and potent effigies whereby congress with the spirit world may be actuated.
+    Amalgamations of eyes, serpents, horns, skulls and other sigillic devices, these images become embodied vessels of power. They assist the practitioner in concentration, may be used in meditation or evocation, or as objects of talismanic effect. They are rich in iconic symbolism, the devices of esoteric tradition are recondite and explicit and the entities present are no less corporeal to the eye.
   duration: 0
-  location: 
-- name: Virtual Awakening x Imaginarium Theater x ritual Maya
-  searchString: virtual-awakening-x-imaginarium-theater-x-ritual-maya
-  title: Re-Remembering
-  type: VR
   keynote: 0
-  avatarPath: https://instagram.ftxl3-1.fna.fbcdn.net/vp/b462137984479aa954699575d2d90de5/5E176D52/t51.2885-15/e35/67977595_2454875304560720_7803237654200765910_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=108
+  location: 
+  name: Hagen von Tulien
+  searchString: hagen-von-tulien-art
+  time: 
+  title: PANDAEMONIUM
+  type: Art
+- avatarPath: https://instagram.ftxl3-1.fna.fbcdn.net/vp/b462137984479aa954699575d2d90de5/5E176D52/t51.2885-15/e35/67977595_2454875304560720_7803237654200765910_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=108
+  bio: 
+  date: 
   description: "A multi-sensorial dance between the worlds of ancient and modern technologies.\nOpen
     your senses, explore with playfulness all the stimulus we will provide \nyou,
     let your spirit to remember how wise and strong it is.\nJoin us into this mystical
@@ -563,18 +610,15 @@
     and underworld. The messages are delivered in the indigenous Mayan languages of
     Tzotzil and Lacandon. Our music is played with ancestral instruments and our costumes
     are authentic."
-  bio: 
   duration: 0
-  location: 
-- name: Hagen von Tulien
-  searchString: hagen-von-tulien
-  title: Chaos and Beyond
-  type: Lecture
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/von-tulien-hagen.jpg
-  description: An illustrated history of the origins and influences of Chaos Magic
-    from the beginning’s up till now, and an introduction and overview of its basic
-    elements, principles and methods. Also spiced with some personal anecdotes.
+  location: 
+  name: Virtual Awakening x Imaginarium Theater x ritual Maya
+  searchString: virtual-awakening-x-imaginarium-theater-x-ritual-maya
+  time: 
+  title: Re-Remembering
+  type: VR
+- avatarPath: https://www.occultureberlin.org/images/speakers/von-tulien-hagen.jpg
   bio: "Hagen von Tulien is a German artist and occultist working in a variety of
     media including pen and ink, paper cut, collage and digital formats. With about
     forty years of intense magical theory and practice, he has specialized in creating
@@ -587,47 +631,49 @@
     of the Ecclesia Gnostica Spiritualis (ordained by Michael Bertiaux), Hagen von
     Tulien is dedicated to manifesting the supreme and divine Gnosis within himself
     while assisting others on their own path to kosmic freedom and liberation."
+  date: 01 November
+  description: An illustrated history of the origins and influences of Chaos Magic
+    from the beginning’s up till now, and an introduction and overview of its basic
+    elements, principles and methods. Also spiced with some personal anecdotes.
   duration: 30
-  location: lecture_room
-- name: Emma Watkinson
-  searchString: emma-watkinson
-  title: Esoteric Archetypes in Art.
-  type: Lecture
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/watson-emma.jpg
+  location: lecture_room
+  name: Hagen von Tulien
+  searchString: hagen-von-tulien
+  time: '15:30'
+  title: Chaos and Beyond
+  type: Lecture
+- avatarPath: https://www.occultureberlin.org/images/speakers/watson-emma.jpg
+  bio: |
+    Emma is a contemporary visionary oil painter from the U.K . She works with the archetypes & mythology of various cultures , each painting is an invocation, designed to open portals in the psyche.   
+    Originally hailing from a Druidic background ,she is inspired by her travel & practice in various traditions .She has worked with Kabbalistic themes, Egyptology ,alchemy & tarot ,and spent time exploring Hindu & Tibetan buddhist practice in the East .Initially a self taught painter , she spent time assisting Ernst Fuchs, the founder of Fantastic Realism in Vienna. Her art has been exhibited widely at festivals, gallery & museums around the world. Her other interests are ritual theatre , making music ,& practicing chi gung. 
+  date: 03 November
   description: " From the cave paintings of Africa, indigenous medicine culture ,
     to the pantheons of deitys of Egypt ,Greece & India ,  art has always been instrumental
     in magical practice.  It can be used as a tool for divination , healing or manifestation
     . Emma investigates the use of symbols & Jungian archetypes within the context
     of Art history , magic & her own paintings. "
-  bio: |
-    Emma is a contemporary visionary oil painter from the U.K . She works with the archetypes & mythology of various cultures , each painting is an invocation, designed to open portals in the psyche.   
-    Originally hailing from a Druidic background ,she is inspired by her travel & practice in various traditions .She has worked with Kabbalistic themes, Egyptology ,alchemy & tarot ,and spent time exploring Hindu & Tibetan buddhist practice in the East .Initially a self taught painter , she spent time assisting Ernst Fuchs, the founder of Fantastic Realism in Vienna. Her art has been exhibited widely at festivals, gallery & museums around the world. Her other interests are ritual theatre , making music ,& practicing chi gung. 
   duration: 30
+  keynote: 0
   location: lecture_room
-- name: SINS
+  name: Emma Watkinson
+  searchString: emma-watkinson
+  time: '12:30'
+  title: Esoteric Archetypes in Art.
+  type: Lecture
+- avatarPath: https://i.ibb.co/6ghvQmH/20882732-1882456678437339-7465248439543451049-n.jpg
+  bio: 'SINS exists outside of time and space. '
+  date: 
+  description: Musical & Ritual invocation of Babalon
+  duration: 60
+  keynote: 0
+  location: workshop_room
+  name: SINS
   searchString: sins
+  time: 
   title: Innvocation of Babalon
   type: Ritual
-  keynote: 0
-  avatarPath: https://i.ibb.co/6ghvQmH/20882732-1882456678437339-7465248439543451049-n.jpg
-  description: Musical & Ritual invocation of Babalon
-  bio: 'SINS exists outside of time and space. '
-  duration: 60
-  location: workshop_room
-- name: Orryelle Defenestrate-Bascule
-  searchString: orryelle-defenestrate-bascule
-  title: Book of the Spider ritual dance theatre
-  type: Performance
-  keynote: 0
-  avatarPath: http://www.crossroads.wild.net.au/redkingportraitw.jpg
-  description: "Book of the Spider is an intensive ritual dance-theatre work exploring
-    (and resolving?) the apparent dichotomy between Fate and free Will. Verses from
-    The Book of the Spider (the received nexus of Orryelle's tome 'Time, Fate and
-    Spider Magic' -publ. Avalonia Books 2015) are orated/semi-sung with live and looped
-    violin. To this spiraling soundscape the multi-layered meanings of the verses
-    are interpreted with extreme arachnean movement upon a web mandala. \nPreviously
-    performed in Melbourne, Oslo, Portland..."
+- avatarPath: http://www.crossroads.wild.net.au/redkingportraitw.jpg
   bio: "Orryelle Defenestrate-Bascule is an esoteric artist in many media, inc. painting,
     writing, sculpture, sound, film and performance. \nHe is the writer-director of
     Australian-originating Metamorphic Ritual Theatre Company who have presented many
@@ -637,31 +683,50 @@
     through aesthetic obsession; the merging of mental, spiritual and emotional relationships
     with creativity, in the vanguard of the current resurgence of the esoteric in
     art with its processes of re-enchantment.\nwww.crossroads.wild.net.au/morph.htm\n"
+  date: 
+  description: "Book of the Spider is an intensive ritual dance-theatre work exploring
+    (and resolving?) the apparent dichotomy between Fate and free Will. Verses from
+    The Book of the Spider (the received nexus of Orryelle's tome 'Time, Fate and
+    Spider Magic' -publ. Avalonia Books 2015) are orated/semi-sung with live and looped
+    violin. To this spiraling soundscape the multi-layered meanings of the verses
+    are interpreted with extreme arachnean movement upon a web mandala. \nPreviously
+    performed in Melbourne, Oslo, Portland..."
   duration: 45
-  location: lecture_room
-- name: Brujas
-  searchString: brujas
-  title: 'The Secret '
-  type: Performance
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/brujas.jpeg
-  description: Through the synchronicity between mind, body and soul, the Arcana dances
-    with the encrypted symbols of the collective unconsciousness in an Oniric landscape
-    of hidden meaning and sacred revelations.
+  location: lecture_room
+  name: Orryelle Defenestrate-Bascule
+  searchString: orryelle-defenestrate-bascule
+  time: 
+  title: Book of the Spider ritual dance theatre
+  type: Performance
+- avatarPath: https://www.occultureberlin.org/images/speakers/brujas.jpeg
   bio: |-
     Women united. Artists united.
     As a group with a wide variety of skills, from dancers,clothing designers  to body piercers, tattooers, and performers, these creative beings put their emphasis in female empowerment and the exploration beyond the physical world through their own bodies, using them as divine instruments.
     Sharp tools, fresh blood and dance moves will help them going through that process.
     Justine Sirena Peralta-Noraly Van Deursen-Maria Palomino Sedze-Martine Marie Quipique-Zoë Campbell
+  date: 
+  description: Through the synchronicity between mind, body and soul, the Arcana dances
+    with the encrypted symbols of the collective unconsciousness in an Oniric landscape
+    of hidden meaning and sacred revelations.
   duration: 60
-  location: lecture_room
-- name: Keith Readdy
-  searchString: keith-readdy
-  title: 'The Style of a Letter: The Thelemic Movement and its Culture of Publication
-    (1969-1996)'
-  type: Lecture
   keynote: 0
-  avatarPath: https://www.one-truth-one-spirit.com/wp-content/uploads/2019/10/Launch-One-Truth-One-Spirit-FL.jpg
+  location: lecture_room
+  name: Brujas
+  searchString: brujas
+  time: 
+  title: 'The Secret '
+  type: Performance
+- avatarPath: https://www.one-truth-one-spirit.com/wp-content/uploads/2019/10/Launch-One-Truth-One-Spirit-FL.jpg
+  bio: 'Keith Readdy holds a bachelors in philosophy from the University of Central
+    Florida and a master from the University of Amsterdam''s Center for the History
+    of Hermetic Philosophy and Related Currents. He is the author of the recent work
+    entitled One Truth and One Spirit: Aleister Crowley''s Spiritual Legacy, published
+    in 2018 by Ibis Press. He currently lives in London and serves as Chairman of
+    the newly established Boleskine House Foundation, a registered Scottish charity
+    that aims to restore and preserve former Crowley estate Boleskine House in Foyers,
+    Scotland.'
+  date: 02 November
   description: "This presentation by Keith Ready examines Thelema’s occulture between
     the 1960s and 1990s, discussing the impact that publication has made on the establishment
     and legitimization of Thelema, forwarded by Aleister Crowley in 1904 as a new
@@ -675,22 +740,20 @@
     will be seen that an epic battle for legitimization and authority ensued within
     the Thelemic occulture, culminating in legal battles for the acquisition of copyright
     and incorporation."
-  bio: 'Keith Readdy holds a bachelors in philosophy from the University of Central
-    Florida and a master from the University of Amsterdam''s Center for the History
-    of Hermetic Philosophy and Related Currents. He is the author of the recent work
-    entitled One Truth and One Spirit: Aleister Crowley''s Spiritual Legacy, published
-    in 2018 by Ibis Press. He currently lives in London and serves as Chairman of
-    the newly established Boleskine House Foundation, a registered Scottish charity
-    that aims to restore and preserve former Crowley estate Boleskine House in Foyers,
-    Scotland.'
   duration: 30
-  location: lecture_room
-- name: Piotr Zakrzewski
-  searchString: piotr-zakrzewski
-  title: 'Fortune Telling: from Poker deck to Tarot'
-  type: Workshop
   keynote: 0
-  avatarPath: https://i.ibb.co/P608wbf/61277304-575141209643998-1359838078146969600-n.png
+  location: lecture_room
+  name: Keith Readdy
+  searchString: keith-readdy
+  time: '12:00'
+  title: 'The Style of a Letter: The Thelemic Movement and its Culture of Publication
+    (1969-1996)'
+  type: Lecture
+- avatarPath: https://i.ibb.co/P608wbf/61277304-575141209643998-1359838078146969600-n.png
+  bio: |-
+    Tarot reader, poet and card maker from Poland. Specialist in Tarot de Marseille.
+    Working in the field of Bioenergetics and Holotropic Breathwork.
+  date: 01 November
   description: |-
     It is not true that in order to read Tarot you have to study card by card or read many books. It is much easier than it is considered to be! Tarot reading is unique for every person who approach cards because there are no rigid rules. You create your rules! To read Tarot is to describe what you see.
     But how to start? How not to be overloaded with the pictures and symbols?
@@ -698,34 +761,42 @@
     So everyone would learn how to intuitively do a fortune-telling. Then we will switch into Tarot.
     Our intuition knows the answer, cards can be used as a permission slip to manifest the material from intuition into words.
     This will be very practical workshop, hopefully with fun. Showing that we are masters of cards, however long is our adventure with them. It is us who decide if they are occult, joyful or whatever we would consider them to be.
-  bio: |-
-    Tarot reader, poet and card maker from Poland. Specialist in Tarot de Marseille.
-    Working in the field of Bioenergetics and Holotropic Breathwork.
   duration: 90
-  location: workshop_room
-- name: Kavi Karnapura
-  searchString: kavi-karnapura
-  title: Advanced Lunar Elections using Tara
-  type: Workshop
   keynote: 0
-  avatarPath: https://static1.squarespace.com/static/5ace07fc0dbda3d33eff799d/t/5cea2072eef1a12eced4477e/1564928495487/?format=1500w
+  location: workshop_room
+  name: Piotr Zakrzewski
+  searchString: piotr-zakrzewski
+  time: '14:30'
+  title: 'Fortune Telling: from Poker deck to Tarot'
+  type: Workshop
+- avatarPath: https://static1.squarespace.com/static/5ace07fc0dbda3d33eff799d/t/5cea2072eef1a12eced4477e/1564928495487/?format=1500w
+  bio: 'Kavi Karnapura is a Vedic astrologer based in Hamburg, where he is currently
+    studying Early Buddhist astrology at the University of Hamburg. He previously
+    spent 14 years as a monk studying and teaching Vaishnava tantra. '
+  date: 02 November
   description: "The fundamentals of using Moon phases in magical work are well known
     to most of us. However, what I aim to share is a simple but powerful technique
     derived from ancient Indian astrology that can significantly amplify your results.
     \n\nTara is a numerological technique that interprets the position of the Moon
     at the time of a ritual or magical operation, in relation to the placement of
     the Moon in your birth chart using the 27 Nakṣatras of Vedic astrology."
-  bio: 'Kavi Karnapura is a Vedic astrologer based in Hamburg, where he is currently
-    studying Early Buddhist astrology at the University of Hamburg. He previously
-    spent 14 years as a monk studying and teaching Vaishnava tantra. '
   duration: 60
-  location: workshop_room
-- name: Tobias Raayoni Last
-  searchString: tobias-raayoni-last
-  title: Close Encounters with Placeness
-  type: Workshop
   keynote: 0
-  avatarPath: https://i.postimg.cc/Nft3c9FV/placeness.jpg
+  location: workshop_room
+  name: Kavi Karnapura
+  searchString: kavi-karnapura
+  time: '12:30'
+  title: Advanced Lunar Elections using Tara
+  type: Workshop
+- avatarPath: https://i.postimg.cc/Nft3c9FV/placeness.jpg
+  bio: Tobias Raayoni Last is a performing video and media artist from Berlin. After
+    having been a sceptical muggle for most of his life, woo woo unexpectedly knocked
+    on his door three years ago and set him off on a path of reenchantment. Now he
+    enthusiastically researches and experiments with ancient Graeco-Egyptian sorcery
+    and modern chaos magick. "Placeness" has always played a central role in his art
+    and continues doing so in his spiritual endeavours. He regularly blogs about his
+    research and praxis on http://sublunar.space
+  date: 01 November
   description: "In this workshop we will explore different perspectives on approaching
     \"spirits of place.\" Taking Berlin as a subject we will take a closer look at
     some of its psychogeography, and mythology, moody river gods and places of power.
@@ -739,40 +810,30 @@
     will be given and how it can be applied to set off synchronicities, how to use
     it for divination or other magical applications, or simply for exploring familiar
     as well as foreign places for fun."
-  bio: Tobias Raayoni Last is a performing video and media artist from Berlin. After
-    having been a sceptical muggle for most of his life, woo woo unexpectedly knocked
-    on his door three years ago and set him off on a path of reenchantment. Now he
-    enthusiastically researches and experiments with ancient Graeco-Egyptian sorcery
-    and modern chaos magick. "Placeness" has always played a central role in his art
-    and continues doing so in his spiritual endeavours. He regularly blogs about his
-    research and praxis on http://sublunar.space
   duration: 60
-  location: workshop_room
-- name: The Butterfly Wheel
-  searchString: the-butterfly-wheel
-  title: Songs of Wisdom
-  type: Performance
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/the-butterfly-wheel.jpg
+  location: workshop_room
+  name: Tobias Raayoni Last
+  searchString: tobias-raayoni-last
+  time: '16:30'
+  title: Close Encounters with Placeness
+  type: Workshop
+- avatarPath: https://www.occultureberlin.org/images/speakers/the-butterfly-wheel.jpg
+  bio: 
+  date: 02 November
   description: The Butterflywheel unravel wisdom through their weaved songs and sounds.
     Theatrically and sensitively performing their attunements to the deep feminine,
     drawing on their inspirations from esoteric philosophy and their own core intuition.
     Their sound has been described as ‘wildly intriguing and haunting’.
-  bio: 
   duration: 90
-  location: lecture_room
-- name: Caught Between Worlds
-  searchString: caught-between-worlds
-  title: 'Beyond Duality: The Esoteric Realism of Beny Tchaicovsky'
-  type: Film
   keynote: 0
-  avatarPath: https://upload.wikimedia.org/wikipedia/commons/4/48/Beny_Tchaicovsky_Profile.jpg
-  description: The Call" is the first in the Morning Star Trilogy of animated movies
-    by Beny Tchaicovsky, followed by "Caught Between Worlds" and "Dimensional Connections."
-    An enigmatic soundtrack fuses with breathtaking imagery to create a journey of
-    insight and wonder. Fusing unusual sounds and music with state of the art computer
-    animation technology, Caught Between Worlds is a journey into worlds that can
-    only be described through technology.
+  location: lecture_room
+  name: The Butterfly Wheel
+  searchString: the-butterfly-wheel
+  time: '22:00'
+  title: Songs of Wisdom
+  type: Performance
+- avatarPath: https://upload.wikimedia.org/wikipedia/commons/4/48/Beny_Tchaicovsky_Profile.jpg
   bio: 'Beny Tchaicovsky (1954-2009) was a multimedia award-winning computer artist
     and visionary. His art has been categorized as Surrealism or Fantastic Realism,
     he termed his art as”Esoteric Realism”, in which creativity is used as a tool
@@ -783,21 +844,22 @@
     the Mind’s Eye” and “Odyssey into the Mind’s Eye”. It stood out because it was
     one of the few 3D works that deserved to be called truly creative, meaningful
     and artistic. '
+  date: 
+  description: The Call" is the first in the Morning Star Trilogy of animated movies
+    by Beny Tchaicovsky, followed by "Caught Between Worlds" and "Dimensional Connections."
+    An enigmatic soundtrack fuses with breathtaking imagery to create a journey of
+    insight and wonder. Fusing unusual sounds and music with state of the art computer
+    animation technology, Caught Between Worlds is a journey into worlds that can
+    only be described through technology.
   duration: 90
-  location: lecture_room
-- name: Sarah Janes
-  searchString: sarah-janes
-  title: 'Sleep Magic: Sleep Temples and Dream Incubation'
-  type: Workshop
   keynote: 0
-  avatarPath: https://scontent.ftxl3-2.fna.fbcdn.net/v/t1.0-9/14441023_1122807251148514_2145666311848351674_n.jpg?_nc_cat=106&_nc_oc=AQkc46U2yT2oD513LMu2Oda1lyE_O56xre2UKg5hFZD0uarpzqFn9UZc1Dy9L0yvDVjQE24uGx0qDTchn1UEcbhT&_nc_ht=scontent.ftxl3-2.fna&oh=445025df20f523e853bdbdb207825490&oe=5DF37F96
-  description: "In the unique state of lucid dream consciousness, the mind and body
-    connection is at its most potent. In this state we can seed intentions to manifest
-    healing and magic. \n\nThis was the foundation for the ancient Greek culture of
-    dream incubation - a form of hypnosis which guided patients through hypnagogia,
-    into a conscious sleep and contact with their healer gods. \n\nSarah Janes will
-    guide you through the sleep temples of Ancient Greece and into a dreamy reverie
-    for magical work in the other realms of sleep."
+  location: lecture_room
+  name: Caught Between Worlds
+  searchString: caught-between-worlds
+  time: 
+  title: 'Beyond Duality: The Esoteric Realism of Beny Tchaicovsky'
+  type: Film
+- avatarPath: https://scontent.ftxl3-2.fna.fbcdn.net/v/t1.0-9/14441023_1122807251148514_2145666311848351674_n.jpg?_nc_cat=106&_nc_oc=AQkc46U2yT2oD513LMu2Oda1lyE_O56xre2UKg5hFZD0uarpzqFn9UZc1Dy9L0yvDVjQE24uGx0qDTchn1UEcbhT&_nc_ht=scontent.ftxl3-2.fna&oh=445025df20f523e853bdbdb207825490&oe=5DF37F96
   bio: "Sarah Janes has been lucid dreaming since childhood and has written articles
     and papers on the subject of lucid dreaming and Ancient Greek dream culture for
     a range of publications including The Idler, The Journal of Paranthropology and
@@ -808,14 +870,30 @@
     world and one of her most recent projects has been developing a virtual reality
     mystery school initiation programme with Carl H. Smith and others (The Seventh
     Ray - Virtual Initiation). "
-  duration: 90
-  location: workshop_room
-- name: Bianca Carina Wertheimer
-  searchString: bianca-carina-wertheimer
-  title: 'Step out of the dark: Public Rituals and Interfaith Dialoge '
-  type: Lecture
+  date: 02 November
+  description: "In the unique state of lucid dream consciousness, the mind and body
+    connection is at its most potent. In this state we can seed intentions to manifest
+    healing and magic. \n\nThis was the foundation for the ancient Greek culture of
+    dream incubation - a form of hypnosis which guided patients through hypnagogia,
+    into a conscious sleep and contact with their healer gods. \n\nSarah Janes will
+    guide you through the sleep temples of Ancient Greece and into a dreamy reverie
+    for magical work in the other realms of sleep."
+  duration: 60
   keynote: 0
-  avatarPath: https://image.jimcdn.com/app/cms/image/transf/none/path/s23502ea2a23638c1/image/i710c62c1a73ad731/version/1467195653/image.jpg
+  location: workshop_room
+  name: Sarah Janes
+  searchString: sarah-janes
+  time: '11:30'
+  title: 'Sleep Magic: Sleep Temples and Dream Incubation'
+  type: Workshop
+- avatarPath: https://image.jimcdn.com/app/cms/image/transf/none/path/s23502ea2a23638c1/image/i710c62c1a73ad731/version/1467195653/image.jpg
+  bio: Bianca Carina Wertheimer is an Ovate Grade Druid of the Order of Bards, Ovates
+    and Druids and leader of the local druid group "Bärenwald". She runs a small witches
+    shop in Berlin and has supported the local pagan community for years with not
+    ony presswork, interfaith dialoge and public rituals but also tries to let people
+    explore her way of 21st century druidry through social media like YouTube and
+    Instagram.
+  date: 02 November
   description: "My own path, my beliefs, my experiences, isn't this something so personal
     that i should not talk about it? And what if i am going to lose my job if my collegues
     find out i am a witch, druid, shaman...?\n\nI have walked that path for 19 years
@@ -826,38 +904,44 @@
     hell of a ride with ups and downs. But it was worth it.\n\nLet us discuss why
     it is necessary to do this sometimes nasty but also exciting job and how it could
     help not only you but your circle, coven, grove and our whole pagan community. "
-  bio: Bianca Carina Wertheimer is an Ovate Grade Druid of the Order of Bards, Ovates
-    and Druids and leader of the local druid group "Bärenwald". She runs a small witches
-    shop in Berlin and has supported the local pagan community for years with not
-    ony presswork, interfaith dialoge and public rituals but also tries to let people
-    explore her way of 21st century druidry through social media like YouTube and
-    Instagram.
   duration: 30
-  location: lecture_room
-- name: Charlyne864
-  searchString: charlyne864
-  title: Untied – Released
-  type: Performance
   keynote: 0
-  avatarPath: https://i.imgur.com/XtNdmcr.jpg
-  description: 'Follow her along a path towards self-love. From a broken and crippled
-    self, she recovers her capacity to allow herself to be vulnerable yet in control.
-    Her eventual release from suffering and despair leads her to a deeply cathartic
-    experience. Her struggle captivates the audience with ropes, needles and blood. '
+  location: lecture_room
+  name: Bianca Carina Wertheimer
+  searchString: bianca-carina-wertheimer
+  time: '11:30'
+  title: 'Step out of the dark: Public Rituals and Interfaith Dialoge '
+  type: Lecture
+- avatarPath: https://i.imgur.com/XtNdmcr.jpg
   bio: Charlyne864 fell in love with the Japanese art of Shibari while watching a
     performance at Torture Garden in London in 2009. Since then, she started learning
     the art herself along with piercing and body suspension. An early influence on
     her work was Meister Schmerz from L.A., with whom she lived in a dungeon. In Berlin
     since 2013, she has moved further into the realm of occult and spiritual performances
     and private sessions.
+  date: 
+  description: 'Follow her along a path towards self-love. From a broken and crippled
+    self, she recovers her capacity to allow herself to be vulnerable yet in control.
+    Her eventual release from suffering and despair leads her to a deeply cathartic
+    experience. Her struggle captivates the audience with ropes, needles and blood. '
   duration: 45
-  location: lecture_room
-- name: Jason Revere
-  searchString: jason-revere
-  title: Maya - The Fantasy of Your Reality
-  type: Workshop
   keynote: 0
-  avatarPath: https://youcanyoga.nl/wp-content/uploads/2019/09/JasonRevere.jpg
+  location: lecture_room
+  name: Charlyne864
+  searchString: charlyne864
+  time: 
+  title: Untied – Released
+  type: Performance
+- avatarPath: https://youcanyoga.nl/wp-content/uploads/2019/09/JasonRevere.jpg
+  bio: Jason Revere is here to call bullshit on the “yoga” world, at least in regards
+    to enlightenment. He has 23 years of yoga and meditation practice, and 20 of those
+    years as a teacher, with two yoga schools in Amsterdam. As a victim of his pursuit
+    of enlightenment via yoga, Mr. Revere has authored his process of waking up in
+    his book GET YOUR HEAD OUT OF YOUR ASANA. Jason is best summed up as an experienced,
+    no bullshit, yogi whose crazy eyes don’t stop until people pause, take a breath
+    and question their own reality. To find out more about his latest projects and
+    upcoming books, podcasts and talks visit www.youcanyoga.nl/jason-revere/
+  date: 01 November
   description: 'Do you control reality or does reality control you? Gain a better
     awareness by discovering more about Maya (the illusory world we live in) and it''s
     pervasive influence on your life. Jason discusses what makes you a victim of your
@@ -869,22 +953,24 @@
     to change that perception by altering your physical reality. Finally, with your
     heightened awareness and understanding of Maya, he encourages you to look back
     at yourself and question what you think is real. Expect to shake things up! '
-  bio: Jason Revere is here to call bullshit on the “yoga” world, at least in regards
-    to enlightenment. He has 23 years of yoga and meditation practice, and 20 of those
-    years as a teacher, with two yoga schools in Amsterdam. As a victim of his pursuit
-    of enlightenment via yoga, Mr. Revere has authored his process of waking up in
-    his book GET YOUR HEAD OUT OF YOUR ASANA. Jason is best summed up as an experienced,
-    no bullshit, yogi whose crazy eyes don’t stop until people pause, take a breath
-    and question their own reality. To find out more about his latest projects and
-    upcoming books, podcasts and talks visit www.youcanyoga.nl/jason-revere/
   duration: 90
-  location: workshop_room
-- name: Coral Carte
-  searchString: coral-carte
-  title: Sacred transformational bodywork
-  type: Workshop
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/carte-coral.jpg
+  location: workshop_room
+  name: Jason Revere
+  searchString: jason-revere
+  time: '12:30'
+  title: Maya - The Fantasy of Your Reality
+  type: Workshop
+- avatarPath: https://www.occultureberlin.org/images/speakers/carte-coral.jpg
+  bio: Born on the shores of the Indian Ocean to nomadic mixed European parents Coral
+    began work documenting colonial life in the pre-Mandela era for a provincial newspaper.
+    A study bursary brought her to Italy and Milan gave her work fielding and resolving
+    problems as an advertising print and TV producer. A precog and lucid dreamer,
+    she studied Shamanism, Remote Viewing, then found the Arcanorium and Chaos Magick.
+    She facilitates movement and music projects with children, and adults, also team
+    building and workshops in the workplace. An operational Remote Viewer she also
+    writes, edits, translates, makes art, artifacts and talismanic jewelry. https://lifeoflight3.webnode.com/
+  date: 01 November
   description: "In a 90-minute dance/bodywork ritual participants will experience
     an integrative trance, deeply rooted in the body, restoring biological renewal
     and reintegration, in communion with the living universe in all its dimensions.\nIn
@@ -898,28 +984,15 @@
     alchemical state of dissolution into cosmic consciousness, reviving a mode of
     perception where the world is once again experienced as sensory, emotional and
     physical. \n\n"
-  bio: Born on the shores of the Indian Ocean to nomadic mixed European parents Coral
-    began work documenting colonial life in the pre-Mandela era for a provincial newspaper.
-    A study bursary brought her to Italy and Milan gave her work fielding and resolving
-    problems as an advertising print and TV producer. A precog and lucid dreamer,
-    she studied Shamanism, Remote Viewing, then found the Arcanorium and Chaos Magick.
-    She facilitates movement and music projects with children, and adults, also team
-    building and workshops in the workplace. An operational Remote Viewer she also
-    writes, edits, translates, makes art, artifacts and talismanic jewelry. https://lifeoflight3.webnode.com/
   duration: 90
-  location: workshop_room
-- name: Yoav Shavit
-  searchString: yoav-shavit
-  title: Biography of the Soul
-  type: Lecture
   keynote: 0
-  avatarPath: https://scontent.fham1-1.fna.fbcdn.net/v/t1.0-9/28951950_2053226474918054_657846882049648225_n.jpg?_nc_cat=102&_nc_oc=AQmvtqUYnTzDSYmvq5kHbw_F2i8bA6lTeTSIKwuYX2W-J1PUEyAjDZqyS3naF7fyb34&_nc_ht=scontent.fham1-1.fna&oh=aee8a9c33b443b5182a4929bab2006e7&oe=5DA42E75
-  description: The human genome mapping project, and it's growing accessibility, has
-    allowed us to revisit many dominating ideas of origin and identity. Yet the mystery
-    of the soul remains what differs us from our biological family. This talk explores
-    different theories and methods of observing that secret ingredient. By taking
-    various paths and angles to chart back the lives that may or may not exist within
-    us, we may reach a better understanding of the life we are living, here and now.
+  location: workshop_room
+  name: Coral Carte
+  searchString: coral-carte
+  time: '11:30'
+  title: Sacred transformational bodywork
+  type: Workshop
+- avatarPath: https://scontent.fham1-1.fna.fbcdn.net/v/t1.0-9/28951950_2053226474918054_657846882049648225_n.jpg?_nc_cat=102&_nc_oc=AQmvtqUYnTzDSYmvq5kHbw_F2i8bA6lTeTSIKwuYX2W-J1PUEyAjDZqyS3naF7fyb34&_nc_ht=scontent.fham1-1.fna&oh=aee8a9c33b443b5182a4929bab2006e7&oe=5DA42E75
   bio: "Yoav Shavit is a personal consultant and a spiritual therapist based in Berlin.
     After years of having one foot in the high-tech world and the other in the spiritual
     realm, he has developed a unique practice that merges intuitive-energetic methods
@@ -927,23 +1000,22 @@
     Past Life Regression, Therapeutic Lucid Dreaming and Meridian Psychotherapy since
     2013. \nYoav regularly gives workshops and lectures while currently expanding
     his practice in crystal healing and Shadow Work. \nwww.yoavontheway.com"
+  date: 01 November
+  description: The human genome mapping project, and it's growing accessibility, has
+    allowed us to revisit many dominating ideas of origin and identity. Yet the mystery
+    of the soul remains what differs us from our biological family. This talk explores
+    different theories and methods of observing that secret ingredient. By taking
+    various paths and angles to chart back the lives that may or may not exist within
+    us, we may reach a better understanding of the life we are living, here and now.
   duration: 30
-  location: lecture_room
-- name: Christian Ermel
-  searchString: christian-ermel
-  title: The Necronom-Icons / The Archetypes of Fear - An Iconographic Pantheon
-  type: Art
   keynote: 0
-  avatarPath: https://www.christian-ermel.com/s/cc_images/teaserbox_39410481.jpg
-  description: "Fear is a gate to other dimensions. Fear makes things become alive.
-    Fear is a wonderful force for magic. But mostly, fear creates the unwanted. \nAll
-    the suppressed ideas of the dualistic human mind becomes devils and demons and
-    get strong in the infinite spaces of the subconsciousness.\nMy paintings bring
-    these entities back to the divine spheres.\nI make them holy again and honour
-    them with a halo.\nI dig them out of the depth of religion and myths.\nMy icons
-    are the gates to the forgotten and bedeviled gods.\nTransformation by reversal,
-    enlightening by darkness.\nFace your demons! \nEnter the gates of the icons!\nFear
-    is a god!\n"
+  location: lecture_room
+  name: Yoav Shavit
+  searchString: yoav-shavit
+  time: '11:30'
+  title: Biography of the Soul
+  type: Lecture
+- avatarPath: https://www.christian-ermel.com/s/cc_images/teaserbox_39410481.jpg
   bio: "Christian Ermel is a painter who explores the dark sides.\nHe was born in
     Berlin in 1971 and did his first painting when he was 10 years old. His family
     trained him in fine arts and he learned by autodidactical practise.\nSince his
@@ -954,15 +1026,30 @@
     scene. \nBut because of his withdrawn living and the dark atmosphere of his art,
     he has had only a few exhibitions for nearly 30 years. Now he is showing his art
     to the world."
+  date: 
+  description: "Fear is a gate to other dimensions. Fear makes things become alive.
+    Fear is a wonderful force for magic. But mostly, fear creates the unwanted. \nAll
+    the suppressed ideas of the dualistic human mind becomes devils and demons and
+    get strong in the infinite spaces of the subconsciousness.\nMy paintings bring
+    these entities back to the divine spheres.\nI make them holy again and honour
+    them with a halo.\nI dig them out of the depth of religion and myths.\nMy icons
+    are the gates to the forgotten and bedeviled gods.\nTransformation by reversal,
+    enlightening by darkness.\nFace your demons! \nEnter the gates of the icons!\nFear
+    is a god!\n"
   duration: 0
-  location: 
-- name: Wahid Azal
-  searchString: wahid-azal
-  title: "“Verily I Am God” (إنّني أنا الله): Linguistic Theosis and Theurgical Apotheosis
-    in the writings of the Bāb"
-  type: Lecture
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/azal-n-wahid.jpg
+  location: 
+  name: Christian Ermel
+  searchString: christian-ermel
+  time: 
+  title: The Necronom-Icons / The Archetypes of Fear - An Iconographic Pantheon
+  type: Art
+- avatarPath: https://www.occultureberlin.org/images/speakers/azal-n-wahid.jpg
+  bio: Wahid Azal is an independent practitioner, scholar of Islamic magical and occult
+    texts and manuscripts, and an expert on the post-Islamic gnostic religion of the
+    Bayān. He is also an activist and the Grand Shaykh of the Fatimiya Sufi Order.
+    Recently widowed, he lives with his daughter in Berlin.
+  date: 03 November
   description: Immersed in the high Imamology of Twelver Shiʿi gnosis, the writings
     of Siyyid ʿAlī Muḥamad Shīrāzī, the Bāb (d. 1850) display some of the most interesting
     Joycean and Dadaesque (while thoroughly unconventional) usages of the Arabic language
@@ -974,25 +1061,16 @@
     a few samples from the Bāb’s Book of the Names of All-Things (kitāb asmāʾ kullu-shayʾ)
     and the Book of the Five Grades (kitāb panj shaʾn) will be discussed and offered
     in the original as well as in translation.
-  bio: Wahid Azal is an independent practitioner, scholar of Islamic magical and occult
-    texts and manuscripts, and an expert on the post-Islamic gnostic religion of the
-    Bayān. He is also an activist and the Grand Shaykh of the Fatimiya Sufi Order.
-    Recently widowed, he lives with his daughter in Berlin.
   duration: 30
-  location: lecture_room
-- name: Brian Cotnoir
-  searchString: brian-cotnoir
-  title: Alchemy, The Emerald Tablet and the Creative Act
-  type: Lecture
   keynote: 0
-  avatarPath: http://www.mortlake.co/uploads/1/0/5/4/105401839/brian-cotnoir-2019_orig.jpg
-  description: "Alchemy is the art and science of bringing something to its final
-    perfection. \nThe Emerald Tablet, a root text of alchemy, embodies all aspects
-    of alchemical work and can be read as both a physical and non-material process.
-    The challenge in the practice of alchemy is in the union of these two views. Working
-    with a new translation of the Emerald Tablet, I will examine this text in light
-    of the inner and outer practices of alchemy and its implications and possibilities
-    for any creative work."
+  location: lecture_room
+  name: Wahid Azal
+  searchString: wahid-azal
+  time: '15:30'
+  title: "“Verily I Am God” (إنّني أنا الله): Linguistic Theosis and Theurgical Apotheosis
+    in the writings of the Bāb"
+  type: Lecture
+- avatarPath: http://www.mortlake.co/uploads/1/0/5/4/105401839/brian-cotnoir-2019_orig.jpg
   bio: "Brian Cotnoir is an alchemist, artist, and award-winning filmmaker. A contributor
     to Frater Albertus’ Parachemy, he is also the author of a series of Alchemy Zines.
     His books include Alchemy: The Poetry of Matter, The Weiser Concise Guide to Alchemy,
@@ -1002,14 +1080,31 @@
     aspects of alchemical theory and practice based on his research.\nHis film work
     has been screened at Museum of Modern Art, Sundance Film Festival, HBO, PBS and
     other international venues.\n"
+  date: 03 November
+  description: "Alchemy is the art and science of bringing something to its final
+    perfection. \nThe Emerald Tablet, a root text of alchemy, embodies all aspects
+    of alchemical work and can be read as both a physical and non-material process.
+    The challenge in the practice of alchemy is in the union of these two views. Working
+    with a new translation of the Emerald Tablet, I will examine this text in light
+    of the inner and outer practices of alchemy and its implications and possibilities
+    for any creative work."
   duration: 30
-  location: lecture_room
-- name: Terje Sparby
-  searchString: terje-sparby
-  title: Meditative Experiences and The Guardian of the Threshold in Anthroposophy
-  type: Lecture
   keynote: 0
-  avatarPath: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Machelldweller.jpg/360px-Machelldweller.jpg
+  location: lecture_room
+  name: Brian Cotnoir
+  searchString: brian-cotnoir
+  time: '15:00'
+  title: Alchemy, The Emerald Tablet and the Creative Act
+  type: Lecture
+- avatarPath: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Machelldweller.jpg/360px-Machelldweller.jpg
+  bio: 'Terje Sparby studied philosophy, the history of religion, and the history
+    of ideas, at the University of Oslo. He received his PhD in philosophy at Heidelberg
+    University in 2012. Since then he has been a visiting scholar at the Mind & Life
+    Institute, and a postdoc at Humboldt University in Berlin and at the Bender Institute
+    of Neuroimaging. Currently he is working at the Witten/Herdecke University, focusing
+    on phenomenology, Anthroposophy, introspection, first-person methods, meditation,
+    and the philosophy of mind. '
+  date: 01 November
   description: 'There is hardly any being that is so archetypal as that of the wicked
     adversary. This being has many shapes: The devil, demons, maleficent sorcerers,
     and witches. They all tempt, seduce, challenge, and destroy. Around the early
@@ -1021,21 +1116,24 @@
     these ideas and present research on Anthroposophic practitioners who claim to
     have met this being, including reports from my own meditative adventures and encounters
     with such a sensed, evil presence.'
-  bio: 'Terje Sparby studied philosophy, the history of religion, and the history
-    of ideas, at the University of Oslo. He received his PhD in philosophy at Heidelberg
-    University in 2012. Since then he has been a visiting scholar at the Mind & Life
-    Institute, and a postdoc at Humboldt University in Berlin and at the Bender Institute
-    of Neuroimaging. Currently he is working at the Witten/Herdecke University, focusing
-    on phenomenology, Anthroposophy, introspection, first-person methods, meditation,
-    and the philosophy of mind. '
   duration: 30
-  location: lecture_room
-- name: Marleen Thaler
-  searchString: marleen-thaler
-  title: The New Jerusalem Diagram. John Michell's Staircase to Heaven
-  type: Lecture
   keynote: 0
-  avatarPath: https://rw-ktf.univie.ac.at/fileadmin/_processed_/csm_MarleenThaler_sw_e16daa391e.jpg
+  location: lecture_room
+  name: Terje Sparby
+  searchString: terje-sparby
+  time: '12:00'
+  title: Meditative Experiences and The Guardian of the Threshold in Anthroposophy
+  type: Lecture
+- avatarPath: https://rw-ktf.univie.ac.at/fileadmin/_processed_/csm_MarleenThaler_sw_e16daa391e.jpg
+  bio: Marleen is a PhD Candidate at the University of Vienna at the Department of
+    Religious Studies. Most of her previous study and research projects were dealing
+    with esoteric and alternative religious matters, such as Earth Mysteries, Neo-Paganism,
+    or the religious impacts within the psychedelic movement. Currently she is working
+    on her publication on John Michell’s Sacred Place Theory and on her PhD dissertation
+    on Kundalini within the Occult and Holistic Milieu. Originally from the Austrian
+    countryside Marleen has been living in Vienna for the last ten years from where
+    she was part-time working, studying and travelling.
+  date: 03 November
   description: |+
     The English writer and self proclaimed radical Traditionalist John
     Michell (1933-2009) occupied an outstanding position within the
@@ -1045,27 +1143,15 @@
     Diagram, a geometrical map of the Heavenly City, linking contemporary
     Glastonbury to the lost Atlantis and to the prospective New Jerusalem.
 
-  bio: Marleen is a PhD Candidate at the University of Vienna at the Department of
-    Religious Studies. Most of her previous study and research projects were dealing
-    with esoteric and alternative religious matters, such as Earth Mysteries, Neo-Paganism,
-    or the religious impacts within the psychedelic movement. Currently she is working
-    on her publication on John Michell’s Sacred Place Theory and on her PhD dissertation
-    on Kundalini within the Occult and Holistic Milieu. Originally from the Austrian
-    countryside Marleen has been living in Vienna for the last ten years from where
-    she was part-time working, studying and travelling.
   duration: 30
-  location: lecture_room
-- name: Fürst Claas vom Mars and Soror Aurora
-  searchString: fuerst-claas-vom-mars-and-soror-aurora
-  title: Abraxas-Ritual
-  type: Ritual
   keynote: 0
-  avatarPath: https://2.bp.blogspot.com/--bd2JWNo2D8/UyHVtTw2BsI/AAAAAAAAAJs/KB4c-3LmaC0/s1600/Abra+Maja+Wappen+10,5+x10,5.jpg
-  description: "The Abraxas-Ritual is an easy to adopt and internalize group-ritual,
-    based on 5 key messages of Aleister Crowleys Liber AL vel Legis: It strengthens
-    the consciousness of being free. The heart of the ritual is a mantra which you
-    might learn by heart, when you participate.\n\"I am the flame. \nI am the magician.
-    \nThere is a splendour in my name. \nThe end of the hiding. \nAbrahadabra\" "
+  location: lecture_room
+  name: Marleen Thaler
+  searchString: marleen-thaler
+  time: '14:30'
+  title: The New Jerusalem Diagram. John Michell's Staircase to Heaven
+  type: Lecture
+- avatarPath: https://2.bp.blogspot.com/--bd2JWNo2D8/UyHVtTw2BsI/AAAAAAAAAJs/KB4c-3LmaC0/s1600/Abra+Maja+Wappen+10,5+x10,5.jpg
   bio: Soror AuroRa studied ethnology and comparative religious studies. She is a
     self-confessed Thelemite for over 25 years and practices ritual magic. As a consecrated
     Priestess of the Gnostic Catholic Church and longtime member of OTO, she brings
@@ -1075,14 +1161,23 @@
     place in the Thelemic community. Hoffmanns Abraxas-Calendar is a mind-blowing
     revelation of the forces of the stars on planet earth. His band Time and Space
     Society is celebrating 15 Years on stage this year.
+  date: 
+  description: "The Abraxas-Ritual is an easy to adopt and internalize group-ritual,
+    based on 5 key messages of Aleister Crowleys Liber AL vel Legis: It strengthens
+    the consciousness of being free. The heart of the ritual is a mantra which you
+    might learn by heart, when you participate.\n\"I am the flame. \nI am the magician.
+    \nThere is a splendour in my name. \nThe end of the hiding. \nAbrahadabra\" "
   duration: 60
-  location: workshop_room
-- name: Alison Flora
-  searchString: alison-flora
-  title: 'Secret Society '
-  type: Art
   keynote: 0
-  avatarPath: https://www.zupimages.net/up/19/34/5f5h.jpg
+  location: workshop_room
+  name: Fürst Claas vom Mars and Soror Aurora
+  searchString: fuerst-claas-vom-mars-and-soror-aurora
+  time: 
+  title: Abraxas-Ritual
+  type: Ritual
+- avatarPath: https://www.zupimages.net/up/19/34/5f5h.jpg
+  bio: 
+  date: 
   description: "Alison Flora  is a multidisciplinary french artist, practicing in
     drawing, experimental audio-visual, and installation. She finds inspiration in
     DIY culture, arts from the ancient times, art brut, aspect of occultism and feminism
@@ -1094,19 +1189,15 @@
     the simulacrum of violence and resistance, and drawing parallels between mutilation,
     destruction, and creation. « Secret Society » series, is the meeting between the
     visible and the invisible."
-  bio: 
   duration: 0
-  location: 
-- name: Kyra Jacques-Grundy
-  searchString: kyra-jacques-grundy
-  title: Rediscovering Our Roots - Celtic Shamanism and the Ancestral Journey
-  type: Lecture
   keynote: 0
-  avatarPath: https://www.occultureberlin.org/images/speakers/jacques-grundy-kyra.jpg
-  description: |-
-    Shamanism is a worldwide, ancient practice that has increasingly been experiencing a resurgence in the Western World. At the same time, there has also been a rise in people searching to learn more about their ancestry, in particular amongst the children of European immigrants in North America. For many, the shamanism of Indigenous cultures doesn’t satisfy what they are searching for as it is not tied to their ancestral heritage. With approximately 80 million people from all over the world having Celtic heritage, Celtic shamanism has gradually grown alongside the New Age movement and into present day.
-
-    Celtic shamanism opens up the door for many people to reconnect to their lineage and by doing so, rediscover themselves. When we work with our ancestors, we reconnect to the rhythms of the Earth and what it truly means to belong. In this lecture, Kyra will be sharing her personal experience with Celtic shamanism, awakening, and the importance of seeking out our own ancestry.
+  location: 
+  name: Alison Flora
+  searchString: alison-flora
+  time: 
+  title: 'Secret Society '
+  type: Art
+- avatarPath: https://www.occultureberlin.org/images/speakers/jacques-grundy-kyra.jpg
   bio: "Kyra Jacques-Grundy is the creatrix of Nox Tarot and one half of the team
     at Otherworld Retreats. She is originally from the traditional, ancestral, and
     unceded territory of the Coast Salish peoples, also known as Vancouver, Canada.
@@ -1115,14 +1206,26 @@
     deck in 2015 and has been reading the cards for others ever since. In March 2019,
     she began her training in Celtic shamanism under John Matthews and experienced
     a spiritual awakening. \n"
+  date: 02 November
+  description: |-
+    Shamanism is a worldwide, ancient practice that has increasingly been experiencing a resurgence in the Western World. At the same time, there has also been a rise in people searching to learn more about their ancestry, in particular amongst the children of European immigrants in North America. For many, the shamanism of Indigenous cultures doesn’t satisfy what they are searching for as it is not tied to their ancestral heritage. With approximately 80 million people from all over the world having Celtic heritage, Celtic shamanism has gradually grown alongside the New Age movement and into present day.
+
+    Celtic shamanism opens up the door for many people to reconnect to their lineage and by doing so, rediscover themselves. When we work with our ancestors, we reconnect to the rhythms of the Earth and what it truly means to belong. In this lecture, Kyra will be sharing her personal experience with Celtic shamanism, awakening, and the importance of seeking out our own ancestry.
   duration: 30
-  location: lecture_room
-- name: Eudaimon
-  searchString: eudaimon
-  title: Iboga - Guided Near-Death-Experiences for spiritual Initiation
-  type: Lecture
   keynote: 0
-  avatarPath: https://i.postimg.cc/43Wz0h8W/IMG-20190131-WA0000.jpg
+  location: lecture_room
+  name: Kyra Jacques-Grundy
+  searchString: kyra-jacques-grundy
+  time: '14:30'
+  title: Rediscovering Our Roots - Celtic Shamanism and the Ancestral Journey
+  type: Lecture
+- avatarPath: https://i.postimg.cc/43Wz0h8W/IMG-20190131-WA0000.jpg
+  bio: Eudaimon has worked with and loved the Tabernanthe Iboga shrub since 2006.
+    After experiencing its enourmous healing qualities himself, he immersed deeply
+    into research and work with the sacred wood. Besides helping others to witness
+    and decode the ancient wisdom of Iboga for healing purposes as well as for psycho-spiritual
+    discovery, he writes, talks and organises Events evolving around Iboga.
+  date: 01 November
   description: This Lecture will elucidate the mystical plant Iboga. In Western Equatorial
     Africa, the root bark of the shrub Tabernanthe Iboga has been considered a sacred
     tool for centuries. It serves as medicine as well as a catalyst for spiritual
@@ -1130,41 +1233,34 @@
     that cause the astral body to detach from the physical body. The Initiate wanders
     the ancestral realms and astral planes, gains information about karmic entanglements
     and learns about the hidden forces of the cosmos.
-  bio: Eudaimon has worked with and loved the Tabernanthe Iboga shrub since 2006.
-    After experiencing its enourmous healing qualities himself, he immersed deeply
-    into research and work with the sacred wood. Besides helping others to witness
-    and decode the ancient wisdom of Iboga for healing purposes as well as for psycho-spiritual
-    discovery, he writes, talks and organises Events evolving around Iboga.
   duration: 30
-  location: lecture_room
-- name: Beatrice Eggers
-  searchString: beatrice-eggers
-  title: Movies as Magickal Talismans
-  type: Film
   keynote: 0
-  avatarPath: https://www.involutionfilm.se/wp-content/uploads/2019/08/FB_IMG_1557752654381.jpg
-  description: 'Films inspired by Kenneth Anger and Maya Deren. Film content involves
-    symbolism of The Qabbalistic Tree, Gnostic Mass, EGC. Interpersonal Sex Magick
-    Sigil Ritual. Priestess Pathworking, Estoteric images that invokes transcendental
-    statens. Liber Resh montage. Avant garde style and original soundracks. '
+  location: lecture_room
+  name: Eudaimon
+  searchString: eudaimon
+  time: '12:30'
+  title: Iboga - Guided Near-Death-Experiences for spiritual Initiation
+  type: Lecture
+- avatarPath: https://www.involutionfilm.se/wp-content/uploads/2019/08/FB_IMG_1557752654381.jpg
   bio: 'Beatrice Eggers is Director and Producer of Involutionfilm. Focusing on Estoteric
     subject matters. Her style is very both personal and interpersonal. She has been
     doing Film Art Performances in different settings such as swimming pool where
     audience float in water while watching The film. Change The perception of viewing
     and you change The persons perspective. '
+  date: 
+  description: 'Films inspired by Kenneth Anger and Maya Deren. Film content involves
+    symbolism of The Qabbalistic Tree, Gnostic Mass, EGC. Interpersonal Sex Magick
+    Sigil Ritual. Priestess Pathworking, Estoteric images that invokes transcendental
+    statens. Liber Resh montage. Avant garde style and original soundracks. '
   duration: 60
-  location: lecture_room
-- name: Kasper Opstrup
-  searchString: kasper-opstrup
-  title: 'Memories of the Space Age: The Cosmic Futurism of Timothy Leary and Robert
-    Anton Wilson'
-  type: Lecture
   keynote: 0
-  avatarPath: https://piccadillyexhibitioncompany.files.wordpress.com/2014/12/black_hole_udsnit-klar.jpg
-  description: |-
-    In the early 1970s, Timothy Leary began to receive cosmic transmissions in what has become known as the “Starseed” transmissions. At the same time, Robert Anton Wilson found himself in his “Chapel Perilous,” receiving transmissions from somewhere around Sirius. This marked a turn in the thinking of both Leary and Wilson towards cosmic futurism as well as the beginning of their collaboration.
-
-    This talk wants to explore the implications of the transmissions for their collaboration which they called SMI2LE (Space Migration, Increased Intelligence, Life Extension). This was on one hand a magical project that wanted to use collective will and language to actualise a desired future while it, on the other, can be seen as a forerunner to transhumanism, embracing technology and libertarianism, aiming to create a new type of human through the reception of channelled texts.
+  location: lecture_room
+  name: Beatrice Eggers
+  searchString: beatrice-eggers
+  time: 
+  title: Movies as Magickal Talismans
+  type: Film
+- avatarPath: https://piccadillyexhibitioncompany.files.wordpress.com/2014/12/black_hole_udsnit-klar.jpg
   bio: 'Dr. Kasper Opstrup is a writer and researcher based in Copenhagen. The Danish
     translator of Alexander Trocchi and William Burroughs, among others, he is currently
     working on a project about Cosmic Futurism while finishing a monograph with the
@@ -1173,8 +1269,20 @@
     and Radical Imaginaries in the UK Underground from 1961 to 1991 (Minor Compositions,
     2017) and the edited anthology Unexpected Encounters – Possible Futures (Antipyrine,
     2019).'
+  date: 03 November
+  description: |-
+    In the early 1970s, Timothy Leary began to receive cosmic transmissions in what has become known as the “Starseed” transmissions. At the same time, Robert Anton Wilson found himself in his “Chapel Perilous,” receiving transmissions from somewhere around Sirius. This marked a turn in the thinking of both Leary and Wilson towards cosmic futurism as well as the beginning of their collaboration.
+
+    This talk wants to explore the implications of the transmissions for their collaboration which they called SMI2LE (Space Migration, Increased Intelligence, Life Extension). This was on one hand a magical project that wanted to use collective will and language to actualise a desired future while it, on the other, can be seen as a forerunner to transhumanism, embracing technology and libertarianism, aiming to create a new type of human through the reception of channelled texts.
   duration: 30
+  keynote: 0
   location: lecture_room
+  name: Kasper Opstrup
+  searchString: kasper-opstrup
+  time: '12:00'
+  title: 'Memories of the Space Age: The Cosmic Futurism of Timothy Leary and Robert
+    Anton Wilson'
+  type: Lecture
 - name: The Octarine Fox
   searchString: the-octarine-fox
   type: Divination

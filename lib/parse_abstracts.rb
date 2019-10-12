@@ -1,5 +1,6 @@
 require 'csv'
 require 'yaml'
+require 'date'
 
 class ParseAbstracts
   def self.call(abstracts, diviners, vendors, target)
@@ -46,18 +47,21 @@ class ParseAbstracts
     events = abstracts.map do |event|
       search_string = ensure_unique_identifier(event['Name'], event['Type'])
       santized_search_string = sanitize(search_string)
+      event_datetime = parse_start_time(event['Start Time'])
 
       {
+        'avatarPath' => event['Avatar'],
+        'bio' => event['Bio'],
+        'date' => event_datetime['date'],
+        'description' => event['Abstract'],
+        'duration' => event['Duration'].to_i,
+        'keynote' => (event['Keynote'] == 'TRUE' ? 1 : 0),
+        'location' => determine_location(event),
         'name' => event['Name'].split.each(&:capitalize).join(' '),
         'searchString' => santized_search_string,
+        'time' => event_datetime['time'],
         'title' => event['Title'],
-        'type' => event['Type'],
-        'keynote' => (event['Keynote'] == 'TRUE' ? 1 : 0),
-        'avatarPath' => event['Avatar'],
-        'description' => event['Abstract'],
-        'bio' => event['Bio'],
-        'duration' => event['Duration'].to_i,
-        'location' => determine_location(event)
+        'type' => event['Type']
       }
     end
 
@@ -129,6 +133,16 @@ class ParseAbstracts
       when "ß" then 'ss'
       end
     end
+  end
+
+  def parse_start_time(timestamp)
+    return {} if timestamp.nil?
+
+    parsed = DateTime.parse(timestamp)
+    {
+      'date' => parsed.strftime('%d %B'),
+      'time' => parsed.strftime('%H:%M')
+    }
   end
 
   def determine_location(event)
