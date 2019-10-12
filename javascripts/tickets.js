@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  countdown.DEFAULTS = countdown.WEEKS
+  countdown.DEFAULTS = countdown.DAYS
 
   // set countdown
   displayCountdown();
