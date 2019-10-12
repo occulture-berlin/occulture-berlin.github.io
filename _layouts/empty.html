@@ -6,6 +6,7 @@
   description - meta tag description
   url - meta tag url
   image - open graph image displayed in previews
+  scope - for more easily including common js and css files
 -->
 
 <!DOCTYPE HTML>
@@ -63,8 +64,6 @@
     <meta property="og:site_name"     content="OCCULTURE Berlin" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{page.scope}}stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" media="screen"
-    href="{{page.scope}}stylesheets/tickets.css">
 
     <!-- fonts loaded from google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
@@ -76,7 +75,4 @@
 
   <script src="{{page.scope}}javascripts/mustache.min.js" type="text/javascript"></script>
   <script src="{{page.scope}}javascripts/main.js" type="text/javascript"></script>
-  <script src="{{page.scope}}javascripts/cycle_lite.js" type="text/javascript"></script>
-  <script src="{{page.scope}}javascripts/countdown.min.js" type="text/javascript"></script>
-  <script src="{{page.scope}}javascripts/tickets.js" type="text/javascript"></script>
 </html>
