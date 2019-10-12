@@ -56,7 +56,8 @@ class ParseAbstracts
         'avatarPath' => event['Avatar'],
         'description' => event['Abstract'],
         'bio' => event['Bio'],
-        'duration' => calculate_duration(event)
+        'duration' => event['Duration'].to_i,
+        'location' => determine_location(event)
       }
     end
 
@@ -130,10 +131,19 @@ class ParseAbstracts
     end
   end
 
-  def calculate_duration(event)
-    event.fetch('Duration') do
-      event['Keynote'] == 'TRUE' ? 60 : 30
-    end
+  def determine_location(event)
+    return location if event['Location']
+    location_map[event['Type']]
+  end
+
+  def location_map
+    {
+      'Lecture' => 'lecture_room',
+      'Workshop' => 'workshop_room',
+      'Ritual' => 'workshop_room',
+      'Performance' => 'lecture_room',
+      'Film' => 'lecture_room',
+    }
   end
 end
 
