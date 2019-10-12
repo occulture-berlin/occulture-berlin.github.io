@@ -672,7 +672,7 @@ section {
 #lineup-2019-wrap #lineup-sub-nav {
   position: sticky;
   position: -webkit-sticky;
-  top: 4vh;
+  top: 0;
   width: 100vw;
   background: black;
   padding-top: 0.5em;
@@ -1200,8 +1200,7 @@ Small Device Styles
   }
 
   #lineup-2019-wrap #lineup-sub-nav {
-    top: 5vh;
-    width: 90vw;
+    padding-bottom: 0.5em;
   }
 
   #lineup-2019-wrap #lineup-sub-nav li {
