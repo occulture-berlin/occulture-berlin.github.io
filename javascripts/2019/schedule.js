@@ -1,8 +1,11 @@
 $(document).ready(function() {
   // TODO: if the current day matches on date-nav day, select that by default
 
-  calcuateEventLength();
-  styleUniversalEvents();
+  $('.day-schedule').children('.event').each(function(){
+    calcuateEventLength(this);
+    styleUniversalEvents(this);
+    disableLinksToStaticEvents(this);
+  });
 
   $('#schedule-2019-wrap #schedule-date-nav li').on('click', function(){
     var selected = '#' + $(this).attr('id');
@@ -22,20 +25,22 @@ $(document).ready(function() {
   });
 });
 
-calcuateEventLength = function() {
-  $('.day-schedule').children('.event').each(function(){
-    var duration = $(this).data('duration');
-        span = duration / 30;
+calcuateEventLength = function(e) {
+  var duration = $(e).data('duration');
+      span = duration / 30;
 
-    $(this).css('grid-row', 'span '+span);
-  });
+  $(e).css('grid-row', 'span '+span);
 };
 
-styleUniversalEvents = function() {
-  $('.day-schedule').children('.event').each(function(){
-    console.log(this)
-    if(this.dataset.universal == 'true'){
-      $(this).css('grid-column', 'span 2');
-    }
-  });
+styleUniversalEvents = function(e) {
+  if(e.dataset.universal == 'true'){
+    $(e).css('grid-column', 'span 2');
+  }
+};
+
+disableLinksToStaticEvents = function(e) {
+  if(e.href.endsWith('lineup/')) {
+    $(e).attr('href', null);
+    $(e).css('cursor', 'unset');
+  }
 };

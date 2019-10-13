@@ -1,6 +1,6 @@
 #lineup-2019-wrap.outer
   %ul#lineup-sub-nav.sub-nav.center.hidden
-    {% assign categories = site.data.events-2019 | map: 'type' | uniq %}
+    {% assign categories = site.data.events-2019 | map: 'type' | uniq | compact %}
     %li#all all
     {% for category in categories %}
     %li{id: '{{category}}'} {{category}}
