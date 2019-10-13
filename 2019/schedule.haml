@@ -24,7 +24,7 @@ scope: '../../'
     %li#day-one
       .date 31
       .month October
-    %li#day-two.date
+    %li#day-two.date.selected
       .date 01
       .month November
     %li#day-three.date
@@ -45,7 +45,7 @@ scope: '../../'
     #day-one.hidden
       {% assign date = 'day_one' %}
       {% haml 2019/schedule/day_schedule.haml %}
-    #day-two.hidden
+    #day-two
       {% assign date = 'day_two' %}
       {% haml 2019/schedule/day_schedule.haml %}
     #day-three.hidden

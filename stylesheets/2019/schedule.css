@@ -122,7 +122,68 @@ body {
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
+  #high-priority-information #sub-info {
+    width: 100%;
+  }
+
+  #schedule-date-nav li {
+    font-size: 1em;
+    padding: 0.3em;
+    margin: 0;
+    margin-right: 0.5em;
+  }
+
+  section#schedule {
+    font-size: 1.1em;
+  }
+
+  .day-schedule .event {
+    margin: 0.25em;
+    padding: 0.25em;
+  }
+
+  #schedule-date-nav li .date {
+    font-size: 2em;
+  }
+
+  .event .classification {
+    display: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #schedule-date-nav li {
+    font-size: 0.8em;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  #header_wrap .inner {
+    padding: 0;
+  }
+
+  #schedule-date-nav {
+    background: black;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  #schedule-date-nav li {
+    font-size: 0.7em;
+  }
+
+  section#schedule {
+    font-size: unset;
+  }
+
+  .day-schedule .event {
+    margin: 0.1em;
+    padding: 0.1em;
+  }
+
+  .event .information .title {
+    padding: 0.1em;
+  }
 }
