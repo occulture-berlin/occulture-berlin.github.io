@@ -10,7 +10,7 @@
     #lineup-grid
       {% for event in site.data.events-2019 %}
 
-      %div{class: ['event-wrap {{ event.type }}'] }
+      %div{class: ['event-wrap {{event.type}}'], data: {visible: '{{event.visible}}' }}
         - link = "2019/lineup/{{event.searchString}}"
         .avatar.ga-track{onclick: "goToPage('#{link}')", data:{tracker: '{{event.searchString}}-event-avatar'}}
           %img{data: {path: '{{event.avatarPath}}'}, alt:'{{event.title}}', onError:'loadDefaultAvatar(this)'}

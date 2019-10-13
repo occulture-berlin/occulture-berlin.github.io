@@ -1,6 +1,7 @@
 $(document).ready(function() {
   // lazy load avatars on page ready
   lazyLoadAvatars();
+  hideStaticEvents();
 
   // hide the 'all' button in sub-nav by default
   $('#lineup-2019-wrap #lineup-sub-nav #all').hide();
@@ -37,6 +38,14 @@ $(document).ready(function() {
 lazyLoadAvatars = function() {
   $('img[data-path]').each( function(){
     $(this).attr('src', $(this).attr('data-path'));
+  });
+}
+
+hideStaticEvents = function() {
+  $('#lineup .event-wrap').each(function() {
+    if (this.dataset.visible == 'false') {
+      $(this).toggle();
+    }
   });
 }
 
