@@ -1,6 +1,15 @@
 %footer#footer-wrap.outer
-  #footer-links.inner
+  #footer-links
     %ul
+      %li
+        %a.ga-track{href: '/index.html', data: {tracker: 'footer-home'}}
+          Home
+      %li
+        %a.ga-track{href: '/tickets.html', data: {tracker: 'footer-tickets'}}
+          Tickets
+      %li
+        %a.ga-track{onclick: "goToPage('impressum.html')"}
+          Impressum
       %li.fb-like{data: {                                 |
         href: 'https://www.facebook.com/occultureberlin', |
         layout: 'button_count',                           |
@@ -13,14 +22,4 @@
         href: "{{ page.url }}",   |
         layout: 'button_count',   |
         size: 'large'}}           |
-      %li
-      %li
-        %a.ga-track{onclick: "goToPage('impressum.html')"}
-          Impressum
-      %li
-        %a.ga-track{href: '/index.html', data: {tracker: 'footer-home'}}
-          Home
-      %li
-        %a.ga-track{href: '/tickets.html', data: {tracker: 'footer-tickets'}}
-          Tickets
 
