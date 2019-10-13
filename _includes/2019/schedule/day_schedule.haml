@@ -1,0 +1,5 @@
+.day-schedule
+  {% assign sortedEvents = scheduledEvents | where: "date", date | sort: "runningOrder" %}
+  {% for event in sortedEvents %}
+  {% haml 2019/schedule/event.haml %}
+  {% endfor %}

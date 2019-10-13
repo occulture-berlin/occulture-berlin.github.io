@@ -21,8 +21,9 @@ class GenerateEventPages
 
     # build a page for each confirmed event in the lineup
     events.each do |event|
-      filename = "#{target_dir}/#{event['searchString']}.haml"
+      next unless event['visible']
 
+      filename = "#{target_dir}/#{event['searchString']}.haml"
       File.open(filename, 'w') { |f| f.write(build_page(event)) }
     end
 

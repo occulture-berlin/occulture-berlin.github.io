@@ -1,0 +1,11 @@
+%a.event.ga-track{class: '{{event.type}} {{event.location}}', data: { |
+  duration: '{{event.duration}}',                                     |
+  universal: '{{event.universal}}',                                   |
+  tracker: 'schedule-{{event.searchString}}'},                        |
+  href: '/2019/lineup/{{event.searchString}}'}                        |
+  .classification
+    .time {{ event.time }}
+    .type{class: "{{event.type}}"} {{ event.type }}
+  .information
+    .name {{ event.name }}
+    .title {{ event.title }}

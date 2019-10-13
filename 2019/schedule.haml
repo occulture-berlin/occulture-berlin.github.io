@@ -1,0 +1,54 @@
+---
+layout: default
+title: "OCCULTURE | Schedule 2019"
+url: https://www.occultureberlin.org/2019/schedule
+description: "See the full schedule of talks, workshops, performances and more taking place at OCCULTURE 2019"
+image: https://www.occultureberlin.org/images/2019/open-graph.jpg
+scope: '../../'
+---
+
+/ stylesheets
+%link{href: "../../stylesheets/2019/schedule.css", rel: "stylesheet", type: "text/css"}
+
+/ javascripts
+%script{src: "../../javascripts/2019/schedule.js", type: "text/javascript"}
+
+#high-priority-information-wrap.outer
+  %section#high-priority-information.inner.center
+    Schedule 2019
+
+#schedule-2019-wrap.outer
+  %ul#schedule-date-nav.sub-nav.inner.center
+    %li#day-one
+      .date 31
+      .month October
+    %li#day-two.date
+      .date 01
+      .month November
+    %li#day-three.date
+      .date 02
+      .month November
+    %li#day-four.date
+      .date 03
+      .month November
+
+  %section#schedule.inner.center
+    {% assign scheduledEvents = ''|split:''%}
+    {% for event in site.data.events-2019 %}
+      {% unless event.date.blank? %}
+        {% assign scheduledEvents = scheduledEvents | push:event%}
+      {% endunless %}
+    {% endfor %}
+
+    #day-one.hidden
+      {% assign date = 'day_one' %}
+      {% haml 2019/schedule/day_schedule.haml %}
+    #day-two.hidden
+      {% assign date = 'day_two' %}
+      {% haml 2019/schedule/day_schedule.haml %}
+    #day-three.hidden
+      {% assign date = 'day_three' %}
+      {% haml 2019/schedule/day_schedule.haml %}
+    #day-four.hidden
+      {% assign date = 'day_four' %}
+      {% haml 2019/schedule/day_schedule.haml %}

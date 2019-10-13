@@ -16,6 +16,8 @@ class ParseAbstracts
   end
 
   def call
+    inject_functional_events
+    calculate_running_order
     write_full_lineup
     log_output
     nil
@@ -23,6 +25,36 @@ class ParseAbstracts
 
   private
   attr_reader :events, :diviners, :vendors, :target
+
+  def inject_functional_events
+    %w[day_two day_three day_four].each do |day|
+      functional_events.each do |fe|
+        fe['date'] = day
+        events << fe
+      end
+    end
+  end
+
+  def functional_events
+    [
+      {
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '13:30',
+        'title' => 'Lunch Break',
+        'universal' => true,
+        'visible' => false
+      },
+      {
+        'duration' => 30,
+        'keynote' => 0,
+        'time' => '16:00',
+        'title' => 'Coffee Break',
+        'universal' => true,
+        'visible' => false
+      }
+    ]
+  end
 
   def write_full_lineup
     File.open(target, 'w+') do |f|
@@ -37,6 +69,7 @@ class ParseAbstracts
   def log_output
     print "Writing to #{target}\n"
     events.group_by { |e| e['type'] }.each do |type, events|
+      next if type.nil?
       print "#{events.count} #{type.downcase} events\n"
     end
     print "#{diviners.count} diviners\n"
@@ -61,7 +94,9 @@ class ParseAbstracts
         'searchString' => santized_search_string,
         'time' => event_datetime['time'],
         'title' => event['Title'],
-        'type' => event['Type']
+        'type' => event['Type'],
+        'universal' => false,
+        'visible' => true
       }
     end
 
@@ -83,6 +118,8 @@ class ParseAbstracts
         'availableOn' => diviner['Dates'],
         'servicesString' => build_diviner_string(diviner),
         'bio' => diviner['Bio'],
+        'universal' => false,
+        'visible' => true
       }
     end
   end
@@ -99,6 +136,8 @@ class ParseAbstracts
         'avatarPath' => vendor['Avatar'],
         'shopUrl' => vendor['Shop url'],
         'bio' => vendor['Bio'],
+        'universal' => false,
+        'visible' => true
       }
     end
   end
@@ -140,13 +179,50 @@ class ParseAbstracts
 
     parsed = DateTime.parse(timestamp)
     {
-      'date' => parsed.strftime('%d %B'),
+      'date' => determine_date(parsed),
       'time' => parsed.strftime('%H:%M')
     }
   end
 
+  def determine_date(datetime)
+    case datetime.strftime('%m%d%H%M').to_i
+    when 10311900..11010200 then 'day_one'
+    when 11010800..11020200 then 'day_two'
+    when 11020800..11030600 then 'day_three'
+    when 11030800..11032200 then 'day_four'
+    else
+      raise ArgumentError, "DateTime seems to be out of range: #{datetime}"
+    end
+  end
+
+  def calculate_running_order
+    days = events.select { |e| !e['date'].nil? }.group_by { |e| e['date'] }
+    days.each do |day, events|
+      sorted = events.sort_by do |e|
+        e['time'].split(':').map(&:to_i).join
+      end
+
+      rotate_by_time(sorted)
+      write_running_order(sorted)
+    end
+  end
+
+  def rotate_by_time(events)
+    prima_nocte = events.first['time'].split(':').first.to_i
+    return events if  prima_nocte > 8
+
+    events.rotate! if prima_nocte.between?(0,8)
+    rotate_by_time(events)
+  end
+
+  def write_running_order(events)
+    events.each_with_index do |event, i|
+      event['runningOrder'] = i + 1
+    end
+  end
+
   def determine_location(event)
-    return location if event['Location']
+    return event['Location'] if event['Location']
     location_map[event['Type']]
   end
 
