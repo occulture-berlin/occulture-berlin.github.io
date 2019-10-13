@@ -14,6 +14,7 @@ image: https://www.occultureberlin.org/images/2019/open-graph.jpg
 
 / constants
 - samhain_event = 'https://www.facebook.com/events/387069608900231'.freeze
+- veneralia_event = 'https://www.facebook.com/events/531727350936994'.freeze
 - saturnalia_event = 'https://www.facebook.com/events/2459374967619420'.freeze
 
 <!-- HEADER -->
@@ -33,6 +34,76 @@ image: https://www.occultureberlin.org/images/2019/open-graph.jpg
       .ticket.sold-out
         .name.ga-track Equinox Promo Ticket
         .cost sold out
+      .ticket.promo
+        .name.ga-track Full Moon Promo Ticket
+        .cost 123€
+        .details.hidden.align-left
+          .check-it Tickets Include:
+          %ul.ticket-schedule
+            .date
+              %li.date-name Thursday, 31 October, 20:00 - 02:00
+              %ul.date-schedule
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: "#{samhain_event}", target: '_blank', alt: 'SAMHAIN'}
+                    OCCULTURE SAMHAIN
+                %ul.event-schedule
+                  %li Opening ritual
+                  %li
+                    %a.ga-track{href: '/2019/lineup/phurpa', target: '_blank', alt: 'PHURPA'}
+                      PHURPA Live
+                  %li Performances
+                  %li DJ Sets
+            .avatar
+              %img{src: '/images/2019/samhain.jpg'}
+
+            .date
+              %li.date-name Friday, 01 November, 11:00 - 02:00
+              %ul.date-schedule
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                    Friday Conference Schedule
+                %li Full Access to exhibitions and performances
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: "#{veneralia_event}", target: '_blank', alt: 'VENERALIA'}
+                    OCCULTURE VENERALIA
+            .avatar
+              %img{src: '/images/2019/veneralia.jpg'}
+            .date
+              %li.date-name Saturday, 02 November, 11:00 - 05:00
+              %ul.date-schedule
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                    Saturday Conference Schedule
+                %li Full Access to exhibitions and performances
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: "#{saturnalia_event}", target: '_blank', alt: 'SATURNALIA'}
+                    OCCULTURE SATURNALIA
+                %ul.event-schedule
+                  %li
+                    %a.ga-track{href: '/2019/lineup/kroeter', target: '_blank', alt: 'kroeter'}
+                      Kröter Live
+                  %li
+                    %a.ga-track{href: '/2019/lineup/the-butterfly-wheel', target: '_blank', alt: 'kroeter'}
+                      The Butterfly Wheel Live
+            .avatar
+              %img{src: '/images/2019/saturnalia.jpg'}
+            .date
+              %li.date-name Sunday, 03 November, 11:00 - 20:00
+              %ul.date-schedule
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                    Sunday Conference Schedule
+                %li Full Access to exhibitions and performances
+                %li Full Access to OCCULTURE CLOSING RITUAL
+          .ticket-button.center
+            {% haml get_tickets.haml %}
+
       .ticket
         .name.ga-track Adept (Standard Ticket)
         .cost 144€
@@ -59,22 +130,24 @@ image: https://www.occultureberlin.org/images/2019/open-graph.jpg
             .date
               %li.date-name Friday, 01 November, 11:00 - 02:00
               %ul.date-schedule
-                %li.parent-event Full Access to Friday Conference Schedule
-                %ul.event-schedule
-                  %li Lectures
-                  %li Workshops
-                  %li Panel Discussions
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                    Friday Conference Schedule
                 %li Full Access to exhibitions and performances
-                %li Full Access to OCCULTURE VENERALIA
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: "#{veneralia_event}", target: '_blank', alt: 'VENERALIA'}
+                    OCCULTURE VENERALIA
             .avatar
+              %img{src: '/images/2019/veneralia.jpg'}
             .date
               %li.date-name Saturday, 02 November, 11:00 - 05:00
               %ul.date-schedule
-                %li.parent-event Full Access to Saturday Conference Schedule
-                %ul.event-schedule
-                  %li Lectures
-                  %li Workshops
-                  %li Panel Discussions
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                    Saturday Conference Schedule
                 %li Full Access to exhibitions and performances
                 %li.parent-event
                   Full Access to
@@ -92,11 +165,10 @@ image: https://www.occultureberlin.org/images/2019/open-graph.jpg
             .date
               %li.date-name Sunday, 03 November, 11:00 - 20:00
               %ul.date-schedule
-                %li.parent-event Full Access to Sunday Conference Schedule
-                %ul.event-schedule
-                  %li Lectures
-                  %li Workshops
-                  %li Panel Discussions
+                %li.parent-event
+                  Full Access to
+                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                    Sunday Conference Schedule
                 %li Full Access to exhibitions and performances
                 %li Full Access to OCCULTURE CLOSING RITUAL
           .ticket-button.center

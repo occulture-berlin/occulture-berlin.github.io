@@ -43,6 +43,12 @@ header .button {
   cursor: pointer;
 }
 
+#ticket-info-section-wrap #ticket-info .ticket.promo {
+  background: #DCE0DF;
+  color: black;
+  padding: 0.5em;
+}
+
 #ticket-info-section-wrap #ticket-info .ticket.sold-out {
   color: darkslategrey;
   cursor: unset;
