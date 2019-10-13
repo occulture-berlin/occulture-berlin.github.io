@@ -30,7 +30,58 @@ class ParseAbstracts
   def inject_placeholder_events
     placeholder_events =  [
       {
+        'date' => 'day_one',
+        'location' => 'workshop_room',
+        'duration' => 90,
+        'keynote' => 0,
+        'time' => '19:30',
+        'title' => 'TBA',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_one',
+        'location' => 'lecture_room',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '21:00',
+        'title' => 'Opening Ritual',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_one',
+        'location' => 'workshop_room',
+        'duration' => 120,
+        'keynote' => 0,
+        'time' => '22:00',
+        'title' => 'DJ Set (TBA)',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_one',
+        'location' => 'workshop_room',
+        'duration' => 30,
+        'keynote' => 0,
+        'time' => '00:00',
+        'title' => 'TBA',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_one',
+        'location' => 'workshop_room',
+        'duration' => 90,
+        'keynote' => 0,
+        'time' => '00:30',
+        'title' => 'TBA',
+        'universal' => false,
+        'visible' => false
+      },
+      {
         'date' => 'day_two',
+        'location' => 'lecture_room',
         'duration' => 30,
         'keynote' => 0,
         'time' => '16:30',
