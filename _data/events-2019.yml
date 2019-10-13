@@ -103,7 +103,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 1
+  runningOrder: 4
 - avatarPath: https://www.occultureberlin.org/images/speakers/lee-david.jpg
   bio: "David Lee is a magician, breathwork coach and writer. He has spent most of
     his ‘adult’ life undoing conditioning and changing realities, using techniques
@@ -1486,7 +1486,53 @@
   universal: false
   visible: true
   runningOrder: 2
+- date: day_one
+  location: workshop_room
+  duration: 90
+  keynote: 0
+  time: '19:30'
+  title: TBA
+  universal: false
+  visible: false
+  runningOrder: 1
+- date: day_one
+  location: lecture_room
+  duration: 60
+  keynote: 0
+  time: '21:00'
+  title: Opening Ritual
+  universal: false
+  visible: false
+  runningOrder: 2
+- date: day_one
+  location: workshop_room
+  duration: 120
+  keynote: 0
+  time: '22:00'
+  title: DJ Set (TBA)
+  universal: false
+  visible: false
+  runningOrder: 3
+- date: day_one
+  location: workshop_room
+  duration: 30
+  keynote: 0
+  time: '00:00'
+  title: TBA
+  universal: false
+  visible: false
+  runningOrder: 5
+- date: day_one
+  location: workshop_room
+  duration: 90
+  keynote: 0
+  time: '00:30'
+  title: TBA
+  universal: false
+  visible: false
+  runningOrder: 6
 - date: day_two
+  location: lecture_room
   duration: 30
   keynote: 0
   time: '16:30'
