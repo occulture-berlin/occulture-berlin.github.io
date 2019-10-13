@@ -1,5 +1,6 @@
 require 'csv'
 require 'yaml'
+require 'date'
 
 class ParseAbstracts
   def self.call(abstracts, diviners, vendors, target)
@@ -15,6 +16,8 @@ class ParseAbstracts
   end
 
   def call
+    inject_functional_events
+    calculate_running_order
     write_full_lineup
     log_output
     nil
@@ -22,6 +25,36 @@ class ParseAbstracts
 
   private
   attr_reader :events, :diviners, :vendors, :target
+
+  def inject_functional_events
+    %w[day_two day_three day_four].each do |day|
+      functional_events.each do |fe|
+        fe['date'] = day
+        events << fe
+      end
+    end
+  end
+
+  def functional_events
+    [
+      {
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '13:30',
+        'title' => 'Lunch Break',
+        'universal' => true,
+        'visible' => false
+      },
+      {
+        'duration' => 30,
+        'keynote' => 0,
+        'time' => '16:00',
+        'title' => 'Coffee Break',
+        'universal' => true,
+        'visible' => false
+      }
+    ]
+  end
 
   def write_full_lineup
     File.open(target, 'w+') do |f|
@@ -36,6 +69,7 @@ class ParseAbstracts
   def log_output
     print "Writing to #{target}\n"
     events.group_by { |e| e['type'] }.each do |type, events|
+      next if type.nil?
       print "#{events.count} #{type.downcase} events\n"
     end
     print "#{diviners.count} diviners\n"
@@ -46,17 +80,23 @@ class ParseAbstracts
     events = abstracts.map do |event|
       search_string = ensure_unique_identifier(event['Name'], event['Type'])
       santized_search_string = sanitize(search_string)
+      event_datetime = parse_start_time(event['Start Time'])
 
       {
+        'avatarPath' => event['Avatar'],
+        'bio' => event['Bio'],
+        'date' => event_datetime['date'],
+        'description' => event['Abstract'],
+        'duration' => event['Duration'].to_i,
+        'keynote' => (event['Keynote'] == 'TRUE' ? 1 : 0),
+        'location' => determine_location(event),
         'name' => event['Name'].split.each(&:capitalize).join(' '),
         'searchString' => santized_search_string,
+        'time' => event_datetime['time'],
         'title' => event['Title'],
         'type' => event['Type'],
-        'keynote' => (event['Keynote'] == 'TRUE' ? 1 : 0),
-        'avatarPath' => event['Avatar'],
-        'description' => event['Abstract'],
-        'bio' => event['Bio'],
-        'duration' => calculate_duration(event)
+        'universal' => false,
+        'visible' => true
       }
     end
 
@@ -78,6 +118,8 @@ class ParseAbstracts
         'availableOn' => diviner['Dates'],
         'servicesString' => build_diviner_string(diviner),
         'bio' => diviner['Bio'],
+        'universal' => false,
+        'visible' => true
       }
     end
   end
@@ -94,6 +136,8 @@ class ParseAbstracts
         'avatarPath' => vendor['Avatar'],
         'shopUrl' => vendor['Shop url'],
         'bio' => vendor['Bio'],
+        'universal' => false,
+        'visible' => true
       }
     end
   end
@@ -130,10 +174,66 @@ class ParseAbstracts
     end
   end
 
-  def calculate_duration(event)
-    event.fetch('Duration') do
-      event['Keynote'] == 'TRUE' ? 60 : 30
+  def parse_start_time(timestamp)
+    return {} if timestamp.nil?
+
+    parsed = DateTime.parse(timestamp)
+    {
+      'date' => determine_date(parsed),
+      'time' => parsed.strftime('%H:%M')
+    }
+  end
+
+  def determine_date(datetime)
+    case datetime.strftime('%m%d%H%M').to_i
+    when 10311900..11010200 then 'day_one'
+    when 11010800..11020200 then 'day_two'
+    when 11020800..11030600 then 'day_three'
+    when 11030800..11032200 then 'day_four'
+    else
+      raise ArgumentError, "DateTime seems to be out of range: #{datetime}"
     end
+  end
+
+  def calculate_running_order
+    days = events.select { |e| !e['date'].nil? }.group_by { |e| e['date'] }
+    days.each do |day, events|
+      sorted = events.sort_by do |e|
+        e['time'].split(':').map(&:to_i).join
+      end
+
+      rotate_by_time(sorted)
+      write_running_order(sorted)
+    end
+  end
+
+  def rotate_by_time(events)
+    prima_nocte = events.first['time'].split(':').first.to_i
+    return events if  prima_nocte > 8
+
+    events.rotate! if prima_nocte.between?(0,8)
+    rotate_by_time(events)
+  end
+
+  def write_running_order(events)
+    events.each_with_index do |event, i|
+      event['runningOrder'] = i + 1
+    end
+  end
+
+  def determine_location(event)
+    return event['Location'] if event['Location']
+    location_map[event['Type']]
+  end
+
+  def location_map
+    {
+      'Lecture' => 'lecture_room',
+      'Workshop' => 'workshop_room',
+      'Ritual' => 'workshop_room',
+      'Performance' => 'lecture_room',
+      'Film' => 'lecture_room',
+    }
   end
 end
 

@@ -6,6 +6,7 @@
   description - meta tag description
   url - meta tag url
   image - open graph image displayed in previews
+  scope - for more easily including common js and css files
 -->
 
 <!DOCTYPE HTML>
@@ -63,15 +64,18 @@
     <meta property="og:site_name"     content="OCCULTURE Berlin" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" media="screen"
-    href="stylesheets/tickets.css">
 
     <!-- fonts loaded from google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
   </head>
 
   <body>
-    <!-- constants -->
+    <!-- stylesheets -->
+<link href='stylesheets/tickets.css' rel='stylesheet' type='text/css'>
+<!-- javascripts -->
+<script src='javascripts/countdown.min.js' type='text/javascript'></script>
+<script src='javascripts/tickets.js' type='text/javascript'></script>
+<!-- constants -->
 <!-- HEADER -->
 <div class='outer' id='header_wrap'>
 <div class='center' id='tickets-header-img'>
@@ -321,7 +325,4 @@ click here to see the full lineup
 
   <script src="javascripts/mustache.min.js" type="text/javascript"></script>
   <script src="javascripts/main.js" type="text/javascript"></script>
-  <script src="javascripts/cycle_lite.js" type="text/javascript"></script>
-  <script src="javascripts/countdown.min.js" type="text/javascript"></script>
-  <script src="javascripts/tickets.js" type="text/javascript"></script>
 </html>

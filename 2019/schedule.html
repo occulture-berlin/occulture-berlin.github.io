@@ -1,0 +1,151 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  background_image - image in the background of the site
+  background_image_id - css id for the background image
+  onLoadAction - javascript function to run on page load
+  displayImageCarousel - [hidden by default] show the image carousel
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0">
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '302054690638448');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=302054690638448&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      type="text/javascript">
+    </script>
+
+    <title>OCCULTURE | Schedule 2019</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="See the full schedule of talks, workshops, performances and more taking place at OCCULTURE 2019">
+    <meta property="og:url"           content="/2019/schedule.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE | Schedule 2019" />
+    <meta property="og:description"   content="See the full schedule of talks, workshops, performances and more taking place at OCCULTURE 2019" />
+    <meta property="og:image"         content="https://www.occultureberlin.org/images/2019/open-graph.jpg" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+    <link rel="stylesheet" type='text/css' href="../../stylesheets/fancybox.min.css" />
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <span id="">
+      <img id='bg-image' src="">
+    </span>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <!-- TODO: This should go into a partial -->
+      
+
+      <header class="inner">
+        <a onclick="goToPage('index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <!-- stylesheets -->
+<link href='../../stylesheets/2019/schedule.css' rel='stylesheet' type='text/css'>
+<!-- javascripts -->
+<script src='../../javascripts/2019/schedule.js' type='text/javascript'></script>
+<div class='outer' id='high-priority-information-wrap'>
+<section class='inner center' id='high-priority-information'>
+Schedule 2019
+</section>
+</div>
+<div class='outer' id='schedule-2019-wrap'>
+<ul class='sub-nav inner center' id='schedule-date-nav'>
+<li id='day-one'>
+<div class='date'>31</div>
+<div class='month'>October</div>
+</li>
+<li class='date' id='day-two'>
+<div class='date'>01</div>
+<div class='month'>November</div>
+</li>
+<li class='date' id='day-three'>
+<div class='date'>02</div>
+<div class='month'>November</div>
+</li>
+<li class='date' id='day-four'>
+<div class='date'>03</div>
+<div class='month'>November</div>
+</li>
+</ul>
+<section class='inner center' id='schedule'>
+<div class='hidden' id='day-one'>
+<div class='day-schedule'><a class='event ga-track lecture_room Performance' data-duration='120' data-tracker='schedule-phurpa' data-universal='false' href='/2019/lineup/phurpa'><div class='classification'><div class='time'>22:30</div><div class='type Performance'>Performance</div></div><div class='information'><div class='name'>Phurpa</div><div class='title'>Chanting Meditation</div></div></a></div>
+</div>
+<div class='hidden' id='day-two'>
+<div class='day-schedule'><a class='event ga-track workshop_room Workshop' data-duration='60' data-tracker='schedule-coral-carte' data-universal='false' href='/2019/lineup/coral-carte'><div class='classification'><div class='time'>11:30</div><div class='type Workshop'>Workshop</div></div><div class='information'><div class='name'>Coral Carte</div><div class='title'>Sacred transformational bodywork</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-yoav-shavit' data-universal='false' href='/2019/lineup/yoav-shavit'><div class='classification'><div class='time'>11:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Yoav Shavit</div><div class='title'>Biography of the Soul</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-terje-sparby' data-universal='false' href='/2019/lineup/terje-sparby'><div class='classification'><div class='time'>12:00</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Terje Sparby</div><div class='title'>Meditative Experiences and The Guardian of the Threshold in Anthroposophy</div></div></a><a class='event ga-track workshop_room Workshop' data-duration='90' data-tracker='schedule-jason-revere' data-universal='false' href='/2019/lineup/jason-revere'><div class='classification'><div class='time'>12:30</div><div class='type Workshop'>Workshop</div></div><div class='information'><div class='name'>Jason Revere</div><div class='title'>Maya - The Fantasy of Your Reality</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-eudaimon' data-universal='false' href='/2019/lineup/eudaimon'><div class='classification'><div class='time'>12:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Eudaimon</div><div class='title'>Iboga - Guided Near-Death-Experiences for spiritual Initiation</div></div></a><a class='event ga-track  ' data-duration='60' data-tracker='schedule-' data-universal='true' href='/2019/lineup/'><div class='classification'><div class='time'>13:30</div><div class='type '></div></div><div class='information'><div class='name'></div><div class='title'>Lunch Break</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-dimitar-dimitrov' data-universal='false' href='/2019/lineup/dimitar-dimitrov'><div class='classification'><div class='time'>14:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Dimitar Dimitrov</div><div class='title'>Satan: Instrument of Liberty. History and evolution of Satanism.</div></div></a><a class='event ga-track workshop_room Workshop' data-duration='90' data-tracker='schedule-piotr-zakrzewski' data-universal='false' href='/2019/lineup/piotr-zakrzewski'><div class='classification'><div class='time'>14:30</div><div class='type Workshop'>Workshop</div></div><div class='information'><div class='name'>Piotr Zakrzewski</div><div class='title'>Fortune Telling: from Poker deck to Tarot</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-jessica-grote' data-universal='false' href='/2019/lineup/jessica-grote'><div class='classification'><div class='time'>15:00</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Jessica Grote</div><div class='title'>The heretic pathways of the Kosmic Gnosis: Strongholds of the daemonic All</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-hagen-von-tulien' data-universal='false' href='/2019/lineup/hagen-von-tulien'><div class='classification'><div class='time'>15:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Hagen von Tulien</div><div class='title'>Chaos and Beyond</div></div></a><a class='event ga-track  ' data-duration='30' data-tracker='schedule-' data-universal='true' href='/2019/lineup/'><div class='classification'><div class='time'>16:00</div><div class='type '></div></div><div class='information'><div class='name'></div><div class='title'>Coffee Break</div></div></a><a class='event ga-track workshop_room Workshop' data-duration='60' data-tracker='schedule-tobias-raayoni-last' data-universal='false' href='/2019/lineup/tobias-raayoni-last'><div class='classification'><div class='time'>16:30</div><div class='type Workshop'>Workshop</div></div><div class='information'><div class='name'>Tobias Raayoni Last</div><div class='title'>Close Encounters with Placeness</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='60' data-tracker='schedule-daniel-pinchbeck' data-universal='false' href='/2019/lineup/daniel-pinchbeck'><div class='classification'><div class='time'>17:00</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Daniel Pinchbeck</div><div class='title'>The Occult Control System</div></div></a><a class='event ga-track workshop_room Ritual' data-duration='60' data-tracker='schedule-katharina-louise' data-universal='false' href='/2019/lineup/katharina-louise'><div class='classification'><div class='time'>17:30</div><div class='type Ritual'>Ritual</div></div><div class='information'><div class='name'>Katharina Louise</div><div class='title'>Water Blessing Ceremony</div></div></a><a class='event ga-track workshop_room Performance' data-duration='150' data-tracker='schedule-common-eider-king-eider' data-universal='false' href='/2019/lineup/common-eider-king-eider'><div class='classification'><div class='time'>20:30</div><div class='type Performance'>Performance</div></div><div class='information'><div class='name'>Common Eider King Eider</div><div class='title'>A Wound Of Body, A Wound Of Earth</div></div></a><a class='event ga-track lecture_room Ritual' data-duration='20' data-tracker='schedule-peter-horneland' data-universal='false' href='/2019/lineup/peter-horneland'><div class='classification'><div class='time'>21:30</div><div class='type Ritual'>Ritual</div></div><div class='information'><div class='name'>Peter Horneland</div><div class='title'>Please Raise Your Hand</div></div></a><a class='event ga-track workshop_room Ritual' data-duration='60' data-tracker='schedule-sins' data-universal='false' href='/2019/lineup/sins'><div class='classification'><div class='time'>23:00</div><div class='type Ritual'>Ritual</div></div><div class='information'><div class='name'>SINS</div><div class='title'>Innvocation of Babalon</div></div></a><a class='event ga-track lecture_room Film' data-duration='60' data-tracker='schedule-beatrice-eggers' data-universal='false' href='/2019/lineup/beatrice-eggers'><div class='classification'><div class='time'>00:00</div><div class='type Film'>Film</div></div><div class='information'><div class='name'>Beatrice Eggers</div><div class='title'>Movies as Magickal Talismans</div></div></a><a class='event ga-track lecture_room Film' data-duration='90' data-tracker='schedule-caught-between-worlds' data-universal='false' href='/2019/lineup/caught-between-worlds'><div class='classification'><div class='time'>01:00</div><div class='type Film'>Film</div></div><div class='information'><div class='name'>Caught Between Worlds</div><div class='title'>Beyond Duality: The Esoteric Realism of Beny Tchaicovsky</div></div></a></div>
+</div>
+<div class='hidden' id='day-three'>
+<div class='day-schedule'><a class='event ga-track workshop_room Workshop' data-duration='60' data-tracker='schedule-sarah-janes' data-universal='false' href='/2019/lineup/sarah-janes'><div class='classification'><div class='time'>11:30</div><div class='type Workshop'>Workshop</div></div><div class='information'><div class='name'>Sarah Janes</div><div class='title'>Sleep Magic: Sleep Temples and Dream Incubation</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-bianca-carina-wertheimer' data-universal='false' href='/2019/lineup/bianca-carina-wertheimer'><div class='classification'><div class='time'>11:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Bianca Carina Wertheimer</div><div class='title'>Step out of the dark: Public Rituals and Interfaith Dialoge </div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-keith-readdy' data-universal='false' href='/2019/lineup/keith-readdy'><div class='classification'><div class='time'>12:00</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Keith Readdy</div><div class='title'>The Style of a Letter: The Thelemic Movement and its Culture of Publication (1969-1996)</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-david-lee' data-universal='false' href='/2019/lineup/david-lee'><div class='classification'><div class='time'>12:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>David Lee</div><div class='title'>Soul of the West: Magic, Awakening and the Hellenic Gnosis</div></div></a><a class='event ga-track workshop_room Workshop' data-duration='60' data-tracker='schedule-kavi-karnapura' data-universal='false' href='/2019/lineup/kavi-karnapura'><div class='classification'><div class='time'>12:30</div><div class='type Workshop'>Workshop</div></div><div class='information'><div class='name'>Kavi Karnapura</div><div class='title'>Advanced Lunar Elections using Tara</div></div></a><a class='event ga-track  ' data-duration='60' data-tracker='schedule-' data-universal='true' href='/2019/lineup/'><div class='classification'><div class='time'>13:30</div><div class='type '></div></div><div class='information'><div class='name'></div><div class='title'>Lunch Break</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-kyra-jacques-grundy' data-universal='false' href='/2019/lineup/kyra-jacques-grundy'><div class='classification'><div class='time'>14:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Kyra Jacques-Grundy</div><div class='title'>Rediscovering Our Roots - Celtic Shamanism and the Ancestral Journey</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-david-rankine' data-universal='false' href='/2019/lineup/david-rankine'><div class='classification'><div class='time'>15:00</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>David Rankine</div><div class='title'>Magic for Money - the Practices of British Cunning-Folk</div></div></a><a class='event ga-track  ' data-duration='30' data-tracker='schedule-' data-universal='true' href='/2019/lineup/'><div class='classification'><div class='time'>16:00</div><div class='type '></div></div><div class='information'><div class='name'></div><div class='title'>Coffee Break</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-carl-h-smith-and-sarah-janes' data-universal='false' href='/2019/lineup/carl-h-smith-and-sarah-janes'><div class='classification'><div class='time'>16:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Carl H Smith and Sarah Janes</div><div class='title'>Dark Radiance: The Web of Light</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='60' data-tracker='schedule-gary-lachman' data-universal='false' href='/2019/lineup/gary-lachman'><div class='classification'><div class='time'>17:00</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Gary Lachman</div><div class='title'>Dark Star Rising: Magick and Power in the Age of Trump</div></div></a><a class='event ga-track lecture_room Performance' data-duration='60' data-tracker='schedule-kroeter' data-universal='false' href='/2019/lineup/kroeter'><div class='classification'><div class='time'>21:00</div><div class='type Performance'>Performance</div></div><div class='information'><div class='name'>Kröter</div><div class='title'>God is Toad</div></div></a><a class='event ga-track workshop_room Ritual' data-duration='60' data-tracker='schedule-fuerst-claas-vom-mars-and-soror-aurora' data-universal='false' href='/2019/lineup/fuerst-claas-vom-mars-and-soror-aurora'><div class='classification'><div class='time'>21:00</div><div class='type Ritual'>Ritual</div></div><div class='information'><div class='name'>Fürst Claas vom Mars and Soror Aurora</div><div class='title'>Abraxas-Ritual</div></div></a><a class='event ga-track lecture_room Performance' data-duration='60' data-tracker='schedule-growler' data-universal='false' href='/2019/lineup/growler'><div class='classification'><div class='time'>22:00</div><div class='type Performance'>Performance</div></div><div class='information'><div class='name'>Growler</div><div class='title'>Sacred Vulva</div></div></a><a class='event ga-track lecture_room Performance' data-duration='90' data-tracker='schedule-the-butterfly-wheel' data-universal='false' href='/2019/lineup/the-butterfly-wheel'><div class='classification'><div class='time'>22:00</div><div class='type Performance'>Performance</div></div><div class='information'><div class='name'>The Butterfly Wheel</div><div class='title'>Songs of Wisdom</div></div></a><a class='event ga-track workshop_room Performance' data-duration='150' data-tracker='schedule-prisma' data-universal='false' href='/2019/lineup/prisma'><div class='classification'><div class='time'>22:30</div><div class='type Performance'>Performance</div></div><div class='information'><div class='name'>Prisma</div><div class='title'>Prisma Dj Set (Shika Shika)</div></div></a><a class='event ga-track lecture_room Performance' data-duration='60' data-tracker='schedule-brujas' data-universal='false' href='/2019/lineup/brujas'><div class='classification'><div class='time'>02:30</div><div class='type Performance'>Performance</div></div><div class='information'><div class='name'>Brujas</div><div class='title'>The Secret </div></div></a><a class='event ga-track workshop_room Performance' data-duration='120' data-tracker='schedule-suit-kei-witches-are-back' data-universal='false' href='/2019/lineup/suit-kei-witches-are-back'><div class='classification'><div class='time'>03:00</div><div class='type Performance'>Performance</div></div><div class='information'><div class='name'>Suit Kei Witches Are Back</div><div class='title'>Techno DJ set</div></div></a></div>
+</div>
+<div class='hidden' id='day-four'>
+<div class='day-schedule'><a class='event ga-track workshop_room Ritual' data-duration='120' data-tracker='schedule-astarte-oasis---ordo-templi-orientis' data-universal='false' href='/2019/lineup/astarte-oasis---ordo-templi-orientis'><div class='classification'><div class='time'>12:00</div><div class='type Ritual'>Ritual</div></div><div class='information'><div class='name'>Astarte Oasis - Ordo Templi Orientis</div><div class='title'>Liber XV - Gnostic Mass</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-kasper-opstrup' data-universal='false' href='/2019/lineup/kasper-opstrup'><div class='classification'><div class='time'>12:00</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Kasper Opstrup</div><div class='title'>Memories of the Space Age: The Cosmic Futurism of Timothy Leary and Robert Anton Wilson</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-emma-watkinson' data-universal='false' href='/2019/lineup/emma-watkinson'><div class='classification'><div class='time'>12:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Emma Watkinson</div><div class='title'>Esoteric Archetypes in Art.</div></div></a><a class='event ga-track  ' data-duration='60' data-tracker='schedule-' data-universal='true' href='/2019/lineup/'><div class='classification'><div class='time'>13:30</div><div class='type '></div></div><div class='information'><div class='name'></div><div class='title'>Lunch Break</div></div></a><a class='event ga-track workshop_room Workshop' data-duration='90' data-tracker='schedule-david-lee-workshop' data-universal='false' href='/2019/lineup/david-lee-workshop'><div class='classification'><div class='time'>14:30</div><div class='type Workshop'>Workshop</div></div><div class='information'><div class='name'>David Lee</div><div class='title'>DIY Chaos Rituals</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-marleen-thaler' data-universal='false' href='/2019/lineup/marleen-thaler'><div class='classification'><div class='time'>14:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Marleen Thaler</div><div class='title'>The New Jerusalem Diagram. John Michell's Staircase to Heaven</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-brian-cotnoir' data-universal='false' href='/2019/lineup/brian-cotnoir'><div class='classification'><div class='time'>15:00</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Brian Cotnoir</div><div class='title'>Alchemy, The Emerald Tablet and the Creative Act</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='30' data-tracker='schedule-wahid-azal' data-universal='false' href='/2019/lineup/wahid-azal'><div class='classification'><div class='time'>15:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Wahid Azal</div><div class='title'>“Verily I Am God” (إنّني أنا الله): Linguistic Theosis and Theurgical Apotheosis in the writings of the Bāb</div></div></a><a class='event ga-track  ' data-duration='30' data-tracker='schedule-' data-universal='true' href='/2019/lineup/'><div class='classification'><div class='time'>16:00</div><div class='type '></div></div><div class='information'><div class='name'></div><div class='title'>Coffee Break</div></div></a><a class='event ga-track lecture_room Lecture' data-duration='60' data-tracker='schedule-susan-wands' data-universal='false' href='/2019/lineup/susan-wands'><div class='classification'><div class='time'>16:30</div><div class='type Lecture'>Lecture</div></div><div class='information'><div class='name'>Susan Wands</div><div class='title'>Sigils, Symbols & Spells in Tarot Mythology</div></div></a><a class='event ga-track workshop_room Workshop' data-duration='60' data-tracker='schedule-jon-darrall-rew' data-universal='false' href='/2019/lineup/jon-darrall-rew'><div class='classification'><div class='time'>16:30</div><div class='type Workshop'>Workshop</div></div><div class='information'><div class='name'>Jon Darrall-Rew</div><div class='title'>The Power of the Divine Dark - Marrying Angels, Beasts, Gods and Goddesses</div></div></a><a class='event ga-track lecture_room Performance' data-duration='60' data-tracker='schedule-david-bramwell' data-universal='false' href='/2019/lineup/david-bramwell'><div class='classification'><div class='time'>18:00</div><div class='type Performance'>Performance</div></div><div class='information'><div class='name'>david bramwell</div><div class='title'>The Cult of Water</div></div></a></div>
+</div>
+</section>
+</div>
+
+
+    <!-- FOOTER -->
+    <footer class='outer' id='footer-wrap'><div class='inner' id='footer-links'><ul><li class='fb-like' data-action='like' data-href='https://www.facebook.com/occultureberlin' data-layout='button_count' data-share='false' data-show-faces='false' data-size='large'></li><li></li><li class='fb-share-button' data-href='/2019/schedule.html' data-layout='button_count' data-size='large'></li><li></li><li><a class='ga-track' onclick='goToPage(&#39;impressum.html&#39;)'>Impressum</a></li><li><a class='ga-track' data-tracker='footer-home' href='/index.html'>Home</a></li><li><a class='ga-track' data-tracker='footer-tickets' href='/tickets.html'>Tickets</a></li></ul></div></footer>
+  </body>
+
+  <section class='outer hidden' id='mailing-list-wrap'><div id='mailing-list'><!-- %img.logo{src:'images/occulture-logo-alpha.png', alt:'occulture berlin'} --><form action='https://tinyletter.com/occulture-berlin' class='ga-track' data-tracker='input-mailing-list' method='post' target='_blank'><label for='tlemail'>Join our mailing list for updates and information about OCCULTURE:</label><div id='mailing-list-input'><input id='tlemail' name='email' type='text'><input name='embed' type='hidden' value='1'><input class='button ga-track' data-tracker='submit-mailing-list' type='submit' value='Subscribe'></div><div id='mailing-list-buttons'><div class='close-button ga-track' data-tracker='close-mailing-list' onclick='closeMailingList()'>Close</div></div></form></div></section>
+
+  <script src="../../javascripts/js.cookie.js" type="text/javascript"></script>
+  <script src="../../javascripts/cycle_lite.js" type="text/javascript"></script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../../javascripts/lineup_2019.js" type="text/javascript"></script>
+  <script src="../../javascripts/fancybox.min.js" type="text/javascript"></script>
+</html>

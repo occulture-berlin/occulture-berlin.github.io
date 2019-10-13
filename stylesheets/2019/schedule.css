@@ -1,0 +1,118 @@
+body {
+  overflow-x: hidden;
+}
+
+#high-priority-information {
+  font-family: keepCalm;
+  font-size: 3em;
+  letter-spacing: 3px;
+  margin-bottom: 1em;
+}
+
+#schedule-date-nav {
+  margin-top: 0 !important;
+}
+
+#schedule-date-nav li {
+  padding: 0.5em;
+  margin-right: 2em;
+  cursor: pointer;
+}
+
+#schedule-date-nav li.selected {
+  background: white;
+  color: black;
+}
+
+#schedule-date-nav li .date {
+  font-size: 3em;
+}
+
+#schedule .day-schedule {
+  display: grid;
+  grid-template-columns:
+    [lecture-room] 1fr
+    [workshop-room] 1fr;
+}
+
+.day-schedule .room-name {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-family: keepCalm;
+  letter-spacing: 4px;
+}
+
+.day-schedule .event {
+  text-transform: uppercase;
+  font-family: latoBold;
+  color: #DCE0DF;
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 2px solid white;
+  display: grid;
+}
+
+.day-schedule .lecture_room {
+  grid-column: lecture-room;
+}
+
+.day-schedule .workshop_room {
+  grid-column: workshop-room;
+}
+
+.event .classification {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.event .classification .time {
+  grid-column: 1;
+  align-self: start;
+  justify-self: start;
+}
+
+.event .classification .type {
+  grid-column: 4;
+  font-size: 0.75em;
+  padding: 3px;
+  align-self: start;
+  justify-self: end;
+}
+
+.event .classification .type.Lecture {
+  background: lightslategray;
+}
+
+.event .classification .type.Workshop {
+  background: green;
+}
+
+.event .classification .type.Performance {
+  background: purple;
+}
+
+.event .classification .type.Ritual {
+  background: lightcoral;
+}
+
+.event .information {
+  margin-top: 0.5em;
+}
+
+.event .information .name {
+  align-self: center;
+}
+
+.event .information .title {
+  align-self: end;
+  background: #DCE0DF;
+  color: black;
+  margin-top: 0.5em;
+  padding: 0.3em;
+}
+
+@media (min-width: 0px) and (max-width: 1000px) {
+}
+
+@media screen and (max-width: 480px) {
+}
