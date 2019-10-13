@@ -16,7 +16,8 @@ class ParseAbstracts
   end
 
   def call
-    inject_functional_events
+    inject_placeholder_events
+    inject_static_events
     calculate_running_order
     write_full_lineup
     log_output
@@ -26,16 +27,40 @@ class ParseAbstracts
   private
   attr_reader :events, :diviners, :vendors, :target
 
-  def inject_functional_events
+  def inject_placeholder_events
+    placeholder_events =  [
+      {
+        'date' => 'day_two',
+        'duration' => 30,
+        'keynote' => 0,
+        'time' => '16:30',
+        'title' => 'TBA',
+        'universal' => false,
+        'visible' => false
+      }
+    ]
+
+    placeholder_events.each { |e| events << e }
+  end
+
+  def inject_static_events
     %w[day_two day_three day_four].each do |day|
-      functional_events.each do |fe|
-        fe['date'] = day
-        events << fe
+      universal_events.each do |e|
+        e['date'] = day
+        events << e
+      end
+
+      panel_discussions.each do |e|
+        # no evening panel discussion on sunday
+        next if e['time'].split(':').first.to_i > 17 and day == 'day_four'
+
+        e['date'] = day
+        events << e
       end
     end
   end
 
-  def functional_events
+  def universal_events
     [
       {
         'duration' => 60,
@@ -51,6 +76,29 @@ class ParseAbstracts
         'time' => '16:00',
         'title' => 'Coffee Break',
         'universal' => true,
+        'visible' => false
+      }
+    ]
+  end
+
+  def panel_discussions
+    [
+      {
+        'duration' => 30,
+        'keynote' => 0,
+        'time' => '13:00',
+        'location' => 'lecture_room',
+        'title' => 'Panel Discussion (TBA)',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '18:00',
+        'location' => 'lecture_room',
+        'title' => 'Panel Discussion (TBA)',
+        'universal' => false,
         'visible' => false
       }
     ]

@@ -9,6 +9,16 @@ body {
   margin-bottom: 1em;
 }
 
+#high-priority-information #sub-info {
+  font-size: 0.5em;
+  background: red;
+  color: black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em 0;
+}
+
 #schedule-date-nav {
   margin-top: 0 !important;
 }

@@ -37,7 +37,8 @@ class GenerateEventPages
     page = template.
       gsub('__name', event['name']).
       gsub('__searchString', event['searchString']).
-      gsub('__avatarPath', event['avatarPath'])
+      gsub('__avatarPath', event['avatarPath']).
+      gsub('__visibile', event['visible'].to_s)
 
     if event.key?('title')
       page.gsub!('__title', event['title'])
