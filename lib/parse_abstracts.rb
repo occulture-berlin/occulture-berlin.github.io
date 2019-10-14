@@ -35,7 +35,7 @@ class ParseAbstracts
         'duration' => 90,
         'keynote' => 0,
         'time' => '19:30',
-        'title' => 'TBA',
+        'title' => 'Visual Performance & DJ Set (TBA)',
         'universal' => false,
         'visible' => false
       },
@@ -45,17 +45,8 @@ class ParseAbstracts
         'duration' => 120,
         'keynote' => 0,
         'time' => '22:00',
-        'title' => 'DJ Set (TBA)',
-        'universal' => false,
-        'visible' => false
-      },
-      {
-        'date' => 'day_one',
-        'location' => 'workshop_room',
-        'duration' => 30,
-        'keynote' => 0,
-        'time' => '00:00',
-        'title' => 'TBA',
+        'type' => 'Performance',
+        'title' => 'Sam Waks (DJ Set)',
         'universal' => false,
         'visible' => false
       },
@@ -65,7 +56,8 @@ class ParseAbstracts
         'duration' => 90,
         'keynote' => 0,
         'time' => '00:30',
-        'title' => 'TBA',
+        'type' => 'Performance',
+        'title' => 'Jimmy Trash (DJ Set)',
         'universal' => false,
         'visible' => false
       },
@@ -80,6 +72,40 @@ class ParseAbstracts
         'visible' => false
       },
       {
+        'date' => 'day_two',
+        'location' => 'lecture_room',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '23:00',
+        'type' => 'Film',
+        'title' => 'TBA',
+        'name' => 'Vincent Moon',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_two',
+        'location' => 'workshop_room',
+        'duration' => 90,
+        'keynote' => 0,
+        'time' => '23:30',
+        'type' => 'Performance',
+        'title' => 'Alma Omega (DJ Set)',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_two',
+        'location' => 'workshop_room',
+        'duration' => 90,
+        'keynote' => 0,
+        'time' => '01:00',
+        'type' => 'Performance',
+        'title' => 'La Nuar (DJ Set)',
+        'universal' => false,
+        'visible' => false
+      },
+      {
         'date' => 'day_three',
         'location' => 'lecture_room',
         'duration' => 30,
@@ -88,7 +114,51 @@ class ParseAbstracts
         'title' => 'TBA',
         'universal' => false,
         'visible' => false
-      }
+      },
+      {
+        'date' => 'day_three',
+        'location' => 'lecture_room',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '01:00',
+        'type' => 'Performance',
+        'title' => 'Gabriel Soma (DJ Set)',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_three',
+        'location' => 'lecture_room',
+        'duration' => 90,
+        'keynote' => 0,
+        'time' => '02:00',
+        'type' => 'Performance',
+        'title' => 'Warte Mal (DJ Set)',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_three',
+        'location' => 'lecture_room',
+        'duration' => 120,
+        'keynote' => 0,
+        'time' => '03:30',
+        'type' => 'Performance',
+        'title' => 'Ulises (DJ Set)',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_three',
+        'location' => 'workshop_room',
+        'duration' => 90,
+        'keynote' => 0,
+        'time' => '22:30',
+        'type' => 'Performance',
+        'title' => 'Tigre Contro Tigre',
+        'universal' => false,
+        'visible' => false
+      },
     ]
 
     placeholder_events.each { |e| events << e }

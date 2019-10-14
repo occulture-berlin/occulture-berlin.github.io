@@ -23,7 +23,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 26
+  runningOrder: 29
 - avatarPath: https://theionpublishing.com/wp-content/uploads/2018/01/JGprofilebw.jpg
   bio: "Jessica Grote has been an initiate of the Kosmic Gnosis under its Hierophant
     David Beth for more than a decade and is currently the presiding bishop of the
@@ -285,7 +285,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 22
+  runningOrder: 23
 - avatarPath: https://i.imgur.com/kcqA5qC.jpg
   bio: |
     Since their foundation in 2016,this band have trodden a path between genres. Combining the shapeshifting, and evolving qualities of the creatures they named themselves after- Kröter (Toad) can be tadpoles wiggling in jazz pop ponds, then sprouting back legs they begin to jump around in techno and krautrock even hopping casually onto land for a moment to sound like some fucked up radio play.
@@ -648,7 +648,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 25
+  runningOrder: 28
 - avatarPath: http://www.crossroads.wild.net.au/time&fatebottomw.jpg
   bio: "Orryelle Defenestrate-Bascule is an esoteric artist in many media, including
     painting, writing, sculpture, sound, film and performance art. \nCreator of the
@@ -995,7 +995,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 24
+  runningOrder: 26
 - avatarPath: https://www.one-truth-one-spirit.com/wp-content/uploads/2019/10/Launch-One-Truth-One-Spirit-FL.jpg
   bio: 'Keith Readdy holds a bachelors in philosophy from the University of Central
     Florida and a master from the University of Amsterdam''s Center for the History
@@ -1126,7 +1126,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 23
+  runningOrder: 24
 - avatarPath: https://upload.wikimedia.org/wikipedia/commons/4/48/Beny_Tchaicovsky_Profile.jpg
   bio: 'Beny Tchaicovsky (1954-2009) was a multimedia award-winning computer artist
     and visionary. His art has been categorized as Surrealism or Fantastic Realism,
@@ -1155,7 +1155,7 @@
   type: Film
   universal: false
   visible: true
-  runningOrder: 22
+  runningOrder: 24
 - avatarPath: https://scontent.ftxl3-2.fna.fbcdn.net/v/t1.0-9/14441023_1122807251148514_2145666311848351674_n.jpg?_nc_cat=106&_nc_oc=AQkc46U2yT2oD513LMu2Oda1lyE_O56xre2UKg5hFZD0uarpzqFn9UZc1Dy9L0yvDVjQE24uGx0qDTchn1UEcbhT&_nc_ht=scontent.ftxl3-2.fna&oh=445025df20f523e853bdbdb207825490&oe=5DF37F96
   bio: "Sarah Janes has been lucid dreaming since childhood and has written articles
     and papers on the subject of lucid dreaming and Ancient Greek dream culture for
@@ -1601,7 +1601,7 @@
   type: Film
   universal: false
   visible: true
-  runningOrder: 21
+  runningOrder: 23
 - avatarPath: https://piccadillyexhibitioncompany.files.wordpress.com/2014/12/black_hole_udsnit-klar.jpg
   bio: 'Dr. Kasper Opstrup is a writer and researcher based in Copenhagen. The Danish
     translator of Alexander Trocchi and William Burroughs, among others, he is currently
@@ -1633,7 +1633,7 @@
   duration: 90
   keynote: 0
   time: '19:30'
-  title: TBA
+  title: Visual Performance & DJ Set (TBA)
   universal: false
   visible: false
   runningOrder: 1
@@ -1642,28 +1642,21 @@
   duration: 120
   keynote: 0
   time: '22:00'
-  title: DJ Set (TBA)
+  type: Performance
+  title: Sam Waks (DJ Set)
   universal: false
   visible: false
   runningOrder: 3
 - date: day_one
   location: workshop_room
-  duration: 30
-  keynote: 0
-  time: '00:00'
-  title: TBA
-  universal: false
-  visible: false
-  runningOrder: 6
-- date: day_one
-  location: workshop_room
   duration: 90
   keynote: 0
   time: '00:30'
-  title: TBA
+  type: Performance
+  title: Jimmy Trash (DJ Set)
   universal: false
   visible: false
-  runningOrder: 7
+  runningOrder: 6
 - date: day_two
   location: lecture_room
   duration: 30
@@ -1673,6 +1666,37 @@
   universal: false
   visible: false
   runningOrder: 14
+- date: day_two
+  location: lecture_room
+  duration: 60
+  keynote: 0
+  time: '23:00'
+  type: Film
+  title: TBA
+  name: Vincent Moon
+  universal: false
+  visible: false
+  runningOrder: 21
+- date: day_two
+  location: workshop_room
+  duration: 90
+  keynote: 0
+  time: '23:30'
+  type: Performance
+  title: Alma Omega (DJ Set)
+  universal: false
+  visible: false
+  runningOrder: 22
+- date: day_two
+  location: workshop_room
+  duration: 90
+  keynote: 0
+  time: '01:00'
+  type: Performance
+  title: La Nuar (DJ Set)
+  universal: false
+  visible: false
+  runningOrder: 25
 - date: day_three
   location: lecture_room
   duration: 30
@@ -1682,6 +1706,46 @@
   universal: false
   visible: false
   runningOrder: 11
+- date: day_three
+  location: lecture_room
+  duration: 60
+  keynote: 0
+  time: '01:00'
+  type: Performance
+  title: Gabriel Soma (DJ Set)
+  universal: false
+  visible: false
+  runningOrder: 25
+- date: day_three
+  location: lecture_room
+  duration: 90
+  keynote: 0
+  time: '02:00'
+  type: Performance
+  title: Warte Mal (DJ Set)
+  universal: false
+  visible: false
+  runningOrder: 27
+- date: day_three
+  location: lecture_room
+  duration: 120
+  keynote: 0
+  time: '03:30'
+  type: Performance
+  title: Ulises (DJ Set)
+  universal: false
+  visible: false
+  runningOrder: 30
+- date: day_three
+  location: workshop_room
+  duration: 90
+  keynote: 0
+  time: '22:30'
+  type: Performance
+  title: Tigre Contro Tigre
+  universal: false
+  visible: false
+  runningOrder: 22
 - duration: 60
   keynote: 0
   time: '13:30'
