@@ -1,4 +1,29 @@
 ---
+- avatarPath: https://www.residentadvisor.net/dj/jeff23
+  bio: |2
+
+    He was heavily involved in the organisation of the first large scale underground parties , Free parties and Teknival’s on the European mainland .
+    As well as being a key member of the SP23 collective he continues to organise mixed subculture events and innovate his musical style in Berlin alongside close friends and family under the name Freaky 23.
+    Jeff’s current sound is guided by hypnotic #techno and underground #house in their purest forms and he one of the pioneers of the new warehouse techno style. His instinctive ability to take dance floors on profound journeys have made him a leading figure in European techno .
+  date: day_three
+  description: Jeff 23 cut his teeth at some of the gangster-run London inner city
+    warehouse parties. He began to DJ in 1991 and played regularly at many club events
+    , underground parties and pirate radio in the UK. Tired of having to deal with
+    violent criminal promoters, he joined Spiral Tribe and helped spearhead the move
+    into continental Europe in 1992-93. Jeff was instrumental in forging a harder
+    edged Techno sound which influenced the scene throughout the 90s with the release
+    of over 50 vinyls and many cassettes as well as countless timeless performances.
+  duration: 150
+  keynote: 1
+  location: workshop_room
+  name: JEFF23 SPIRAL TRIBE
+  searchString: jeff23-spiral-tribe
+  time: '03:00'
+  title: VOODOO SET
+  type: Performance
+  universal: false
+  visible: true
+  runningOrder: 22
 - avatarPath: https://theionpublishing.com/wp-content/uploads/2018/01/JGprofilebw.jpg
   bio: "Jessica Grote has been an initiate of the Kosmic Gnosis under its Hierophant
     David Beth for more than a decade and is currently the presiding bishop of the
@@ -82,7 +107,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 12
+  runningOrder: 13
 - avatarPath: https://www.occultureberlin.org/images/speakers/phurpa.jpg
   bio: Phurpa is a roving monastic choir that espouses a rogue form of Bön, the shamanistic
     spirituality of pre-Buddhist Tibet. The ensuing tale is a captivating journey
@@ -103,7 +128,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 4
+  runningOrder: 5
 - avatarPath: https://www.occultureberlin.org/images/speakers/lee-david.jpg
   bio: "David Lee is a magician, breathwork coach and writer. He has spent most of
     his ‘adult’ life undoing conditioning and changing realities, using techniques
@@ -260,7 +285,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 16
+  runningOrder: 18
 - avatarPath: https://i.imgur.com/kcqA5qC.jpg
   bio: |
     Since their foundation in 2016,this band have trodden a path between genres. Combining the shapeshifting, and evolving qualities of the creatures they named themselves after- Kröter (Toad) can be tadpoles wiggling in jazz pop ponds, then sprouting back legs they begin to jump around in techno and krautrock even hopping casually onto land for a moment to sound like some fucked up radio play.
@@ -283,7 +308,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 14
+  runningOrder: 16
 - avatarPath: https://miro.medium.com/max/703/1*m_RYYXlsn7SshTVzBXPWlQ.jpeg
   bio: 
   date: day_three
@@ -317,6 +342,84 @@
   universal: false
   visible: true
   runningOrder: 11
+- avatarPath: https://www.facebook.com/111945166870572/photos/a.136403501091405/136403427758079/?type=3&av=111945166870572&eav=AfbWXKl4clnTPwQWP_uBotmcpmhxuZY6uIgk2yB4SeEUIayfGYXnfqeAYyPMptUCUfQ&theater
+  bio: |-
+    Many of us have came to this world with a strong sense of purpose.
+
+    Michael is a natural seeker of the hidden. He helps people find their purpose in the stars. He has discovered the keys to open the bridge that he naturally feels between this practical realm and the unseen world. He is offering an invitation to dive into the knowledge he has acquired from many years of deep study in astrology and ancient wisdom. He offers clarity and guidance for those seeking to understand themselves on the cosmic plane. It is his personal mission to share the language of the universe. His work is a combination of information rooting into the Egyptian teachings of the cosmos and flourish with both Tropical and Vedic Astrology.
+  date: day_three
+  description: " There is a natural current flowing in the astral plane which shapes
+    the apparent energy forms of this realm. Raising our awareness of this motion
+    means tuning ourselves with a unique hidden sens. We have all tasted a bite of
+    the celestial wisdom without having fully tapped into the complete experience.
+    This workshop will introduce you to new perspectives, aid feeling and understanding
+    the ways of Astrology, demystify and refine concepts and thoughts on this infinite
+    cosmic study. "
+  duration: 60
+  keynote: 0
+  location: workshop_room
+  name: Michael Henry
+  searchString: michael-henry
+  time: '16:30'
+  title: 'Astrology: Celestial Chapters'
+  type: Workshop
+  universal: false
+  visible: true
+  runningOrder: 12
+- avatarPath: https://www.facebook.com/BiancaWertheimer
+  bio: |+
+    If you wish to join the shamanic drumming while everyone walks the spiral one by one, you are invited to bring drums, flutes or rattles. Let us all raise energy and celebrate the living and dead.
+
+    You will also be able to leave little offerings at the altar if you wish to.
+
+  date: day_one
+  description: |-
+    Celebrating those before us – Life in death
+
+    As we are facing the “dark” side of the year, let us honor those who have lived before us: Our ancestors of the land, ancestors of blood (relatives) and ancestors in spirit and let us all together celebrate this magical time of the year!
+
+    We are going to set up a huge spiral in the room. After our celebrants have set the space, called in the elements and opened the gates to the west, everyone will be able to walk this spiral while our musicians will drum for you. In the middle of the spiral, there is going to be an altar on which you can light a tealight candle to honor a relative, a teacher or lector, a friend who has passed.
+  duration: 60
+  keynote: 0
+  location: lecture_room
+  name: Paganes Leben Berlin
+  searchString: paganes-leben-berlin
+  time: '21:00'
+  title: ANCESTORS RITUAL
+  type: Ritual
+  universal: false
+  visible: true
+  runningOrder: 2
+- avatarPath: https://www.occultureberlin.org/images/speakers/kaur-akal-anand.jpeg
+  bio: Akal Anand is a cosmic alchemist, a palm tree of dates in an oasis, walking
+    barefoot on desert earth. Her service to the earth is to truth and bliss, honouring
+    the awakening into our deathless nature through human form. With Kundalini yoga
+    as a medium, she shares her practice from a place of personal experience, simple
+    and precious. Akal believes in making dreams manifest and creating heartfelt experiences
+    for people that are unique and that they can come to integrate into their consciousness.
+    Her engagement is with presence and elevating through creative experimentation,
+    communication, and care.
+  date: day_three
+  description: 'Kundalini Yoga is a pure stream of ancient alchemical yogic practices
+    designed to support and elevate the true creative potential of all beings. As
+    a technology, it integrates mantra, mudra, asana and pranayama. Known as the yoga
+    of awareness, it’s name means “the curl of the lock of hair of the beloved”, a
+    reference to the powerful thermal current that flows thru through our genetic
+    code in this planetary dream. In this kundalini circle, you will be taken on a
+    journey to connect with the source of your alchemical sensory system, gaining
+    power to transmute and activate an alchemical process of consciousness in all
+    realms of life existence. '
+  duration: 60
+  keynote: 0
+  location: workshop_room
+  name: Akal Anand Kaur
+  searchString: akal-anand-kaur
+  time: '17:30'
+  title: 'Plantinum Alchemy: A Kundalini Circle'
+  type: Workshop
+  universal: false
+  visible: true
+  runningOrder: 14
 - avatarPath: https://instagram.ftxl3-1.fna.fbcdn.net/vp/933d172d652f3b103d32512170c6b18b/5E3674AF/t51.2885-15/e35/54513047_372882336725397_1705332031903418990_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=109
   bio: Martin Cederlund (Karlstad, Sweden) is a self-taught analogue collage/mixed
     media artist based in Berlin. He sources materials from vintage books and contemporary
@@ -397,7 +500,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 18
+  runningOrder: 20
 - avatarPath: https://www.occultureberlin.org/images/speakers/darrall-rew-jon.jpg
   bio: |-
     Jon Darrall-Rew: Jon’s passion is to live and share in the wild power of spirit through heart, soul and body. He co-leads Shamballa School, an international spiritual community focussed on Fire of Spirit. To learn more about his work see:
@@ -507,7 +610,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 20
+  runningOrder: 23
 - avatarPath: http://www.crossroads.wild.net.au/time&fatebottomw.jpg
   bio: "Orryelle Defenestrate-Bascule is an esoteric artist in many media, including
     painting, writing, sculpture, sound, film and performance art. \nCreator of the
@@ -615,7 +718,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 8
+  runningOrder: 7
 - avatarPath: https://www.creative-city-berlin.de/media/people/NikaFontaine/avatar/_cache/201901122054190889.jpg_og.jpg?t=201901130114
   bio: "Nika Fontaine is not only visual artist translating her initiatic path into
     matter, but as well spiritual entrepreneur who puts her creativity to the service
@@ -800,7 +903,7 @@
   name: SINS
   searchString: sins
   time: '23:00'
-  title: Innvocation of Babalon
+  title: Invocation of Babalon
   type: Ritual
   universal: false
   visible: true
@@ -853,7 +956,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 19
+  runningOrder: 21
 - avatarPath: https://www.one-truth-one-spirit.com/wp-content/uploads/2019/10/Launch-One-Truth-One-Spirit-FL.jpg
   bio: 'Keith Readdy holds a bachelors in philosophy from the University of Central
     Florida and a master from the University of Amsterdam''s Center for the History
@@ -911,7 +1014,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 9
+  runningOrder: 8
 - avatarPath: https://static1.squarespace.com/static/5ace07fc0dbda3d33eff799d/t/5cea2072eef1a12eced4477e/1564928495487/?format=1500w
   bio: 'Kavi Karnapura is a Vedic astrologer based in Hamburg, where he is currently
     studying Early Buddhist astrology at the University of Hamburg. He previously
@@ -984,7 +1087,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 17
+  runningOrder: 19
 - avatarPath: https://upload.wikimedia.org/wikipedia/commons/4/48/Beny_Tchaicovsky_Profile.jpg
   bio: 'Beny Tchaicovsky (1954-2009) was a multimedia award-winning computer artist
     and visionary. His art has been categorized as Surrealism or Fantastic Realism,
@@ -1126,7 +1229,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 4
+  runningOrder: 3
 - avatarPath: https://www.occultureberlin.org/images/speakers/carte-coral.jpg
   bio: Born on the shores of the Indian Ocean to nomadic mixed European parents Coral
     began work documenting colonial life in the pre-Mandela era for a provincial newspaper.
@@ -1150,18 +1253,18 @@
     alchemical state of dissolution into cosmic consciousness, reviving a mode of
     perception where the world is once again experienced as sensory, emotional and
     physical. \n\n"
-  duration: 60
+  duration: 90
   keynote: 0
   location: workshop_room
   name: Coral Carte
   searchString: coral-carte
-  time: '11:30'
+  time: '14:30'
   title: Sacred transformational bodywork
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 1
-- avatarPath: https://scontent.fham1-1.fna.fbcdn.net/v/t1.0-9/28951950_2053226474918054_657846882049648225_n.jpg?_nc_cat=102&_nc_oc=AQmvtqUYnTzDSYmvq5kHbw_F2i8bA6lTeTSIKwuYX2W-J1PUEyAjDZqyS3naF7fyb34&_nc_ht=scontent.fham1-1.fna&oh=aee8a9c33b443b5182a4929bab2006e7&oe=5DA42E75
+  runningOrder: 9
+- avatarPath: https://www.occultureberlin.org/images/speakers/shavit-yoav.jpg
   bio: "Yoav Shavit is a personal consultant and a spiritual therapist based in Berlin.
     After years of having one foot in the high-tech world and the other in the spiritual
     realm, he has developed a unique practice that merges intuitive-energetic methods
@@ -1186,7 +1289,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 2
+  runningOrder: 1
 - avatarPath: https://www.christian-ermel.com/s/cc_images/teaserbox_39410481.jpg
   bio: "Christian Ermel is a painter who explores the dark sides.\nHe was born in
     Berlin in 1971 and did his first painting when he was 10 years old. His family
@@ -1306,7 +1409,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 3
+  runningOrder: 2
 - avatarPath: https://rw-ktf.univie.ac.at/fileadmin/_processed_/csm_MarleenThaler_sw_e16daa391e.jpg
   bio: Marleen is a PhD Candidate at the University of Vienna at the Department of
     Religious Studies. Most of her previous study and research projects were dealing
@@ -1363,7 +1466,7 @@
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 15
+  runningOrder: 17
 - avatarPath: https://www.zupimages.net/up/19/34/5f5h.jpg
   bio: 
   date: 
@@ -1437,7 +1540,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 5
+  runningOrder: 4
 - avatarPath: https://www.involutionfilm.se/wp-content/uploads/2019/08/FB_IMG_1557752654381.jpg
   bio: 'Beatrice Eggers is Director and Producer of Involutionfilm. Focusing on Estoteric
     subject matters. Her style is very both personal and interpersonal. She has been
@@ -1503,7 +1606,7 @@
   title: Opening Ritual
   universal: false
   visible: false
-  runningOrder: 2
+  runningOrder: 3
 - date: day_one
   location: workshop_room
   duration: 120
@@ -1512,7 +1615,7 @@
   title: DJ Set (TBA)
   universal: false
   visible: false
-  runningOrder: 3
+  runningOrder: 4
 - date: day_one
   location: workshop_room
   duration: 30
@@ -1521,7 +1624,7 @@
   title: TBA
   universal: false
   visible: false
-  runningOrder: 5
+  runningOrder: 6
 - date: day_one
   location: workshop_room
   duration: 90
@@ -1530,7 +1633,7 @@
   title: TBA
   universal: false
   visible: false
-  runningOrder: 6
+  runningOrder: 7
 - date: day_two
   location: lecture_room
   duration: 30
@@ -1547,7 +1650,7 @@
   universal: true
   visible: false
   date: day_two
-  runningOrder: 7
+  runningOrder: 6
 - duration: 30
   keynote: 0
   time: '16:00'
@@ -1564,7 +1667,7 @@
   universal: false
   visible: false
   date: day_two
-  runningOrder: 6
+  runningOrder: 5
 - duration: 60
   keynote: 0
   time: '18:00'
@@ -1607,7 +1710,7 @@
   universal: false
   visible: false
   date: day_three
-  runningOrder: 13
+  runningOrder: 15
 - duration: 60
   keynote: 0
   time: '13:30'
@@ -1711,8 +1814,9 @@
   type: Wellness
   servicesOffered: Psychedelic Reiki Massage
   avatarPath: https://images.squarespace-cdn.com/content/v1/56cfd6063c44d8b9570eff6d/1523522942221-1M8WLTS7RLF3I8MQ5IQI/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pE4cef1KNtWo36k-CFnr6wOF2g5O-PFkVuvW_ba6dQUZZpzEt6WQHHQe4EHY-NJIA/ninakim.png?format=1500w
-  availableOn: Saturday 2 November
-  servicesString: Offering Psychedelic Reiki Massage on Saturday 2 November
+  availableOn: Friday 1 November, Saturday 2 November
+  servicesString: Offering Psychedelic Reiki Massage on Friday 1 November and Saturday
+    2 November
   bio: "Nina Kim - Reiki Master & Massage Therapist will be offering Psychedelic Reiki
     Massage for transdimensional relaxation and healing. It is a massage infused with
     Reiki (energy healing), which can bring you to an altered state of consciousness,
@@ -1840,6 +1944,18 @@
     the world by land and sea as an associate of Global Ecotechnics and is now voyaging
     the urban world by offering her skills in healing, divination and the co-creation
     of transformative and magical spaces.
+  universal: false
+  visible: true
+- name: Orryelle Defenestrate-Bascule
+  searchString: orryelle-defenestrate-bascule-divination
+  type: Divination
+  servicesOffered: Tarot
+  avatarPath: http://www.crossroads.wild.net.au/wheel.jpg
+  availableOn: Friday 1 November, Saturday 2 November
+  servicesString: Offering Tarot on Friday 1 November and Saturday 2 November
+  bio: |-
+    Orryelle -an esoteric artist in many media (drawing, painting, writing, sculpture, sound, performance) is the creator of The Book of Kaos Tarot (iNSPiRALink.Multimedia Press) with which he will be doing readings, and even -if the receiver so desires- tarot 'writings'. After all, what is the use of looking at facets of our mutable destiny if you don't believe you have the power to potentially then adjust things if warranted? Orryelle has developed methods for conjuring as well as divining with tarot...
+    http://www.crossroads.wild.net.au/tarot.htm
   universal: false
   visible: true
 - name: Schahmani
