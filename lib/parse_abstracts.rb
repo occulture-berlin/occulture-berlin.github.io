@@ -41,16 +41,6 @@ class ParseAbstracts
       },
       {
         'date' => 'day_one',
-        'location' => 'lecture_room',
-        'duration' => 60,
-        'keynote' => 0,
-        'time' => '21:00',
-        'title' => 'Opening Ritual',
-        'universal' => false,
-        'visible' => false
-      },
-      {
-        'date' => 'day_one',
         'location' => 'workshop_room',
         'duration' => 120,
         'keynote' => 0,
@@ -85,6 +75,16 @@ class ParseAbstracts
         'duration' => 30,
         'keynote' => 0,
         'time' => '16:30',
+        'title' => 'TBA',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_three',
+        'location' => 'lecture_room',
+        'duration' => 30,
+        'keynote' => 0,
+        'time' => '15:30',
         'title' => 'TBA',
         'universal' => false,
         'visible' => false
@@ -298,7 +298,7 @@ class ParseAbstracts
     days = events.select { |e| !e['date'].nil? }.group_by { |e| e['date'] }
     days.each do |day, events|
       sorted = events.sort_by do |e|
-        e['time'].split(':').map(&:to_i).join
+        e['time'].split(':').join
       end
 
       rotate_by_time(sorted)
@@ -308,9 +308,10 @@ class ParseAbstracts
 
   def rotate_by_time(events)
     prima_nocte = events.first['time'].split(':').first.to_i
+
     return events if  prima_nocte > 8
 
-    events.rotate! if prima_nocte.between?(0,8)
+    events.rotate!
     rotate_by_time(events)
   end
 
