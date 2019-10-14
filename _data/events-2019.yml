@@ -1,5 +1,5 @@
 ---
-- avatarPath: https://www.residentadvisor.net/dj/jeff23
+- avatarPath: https://www.residentadvisor.net/images/profiles/jeff23.jpg
   bio: |2
 
     He was heavily involved in the organisation of the first large scale underground parties , Free parties and Teknival’s on the European mainland .
@@ -342,7 +342,7 @@
   universal: false
   visible: true
   runningOrder: 11
-- avatarPath: https://www.facebook.com/111945166870572/photos/a.136403501091405/136403427758079/?type=3&av=111945166870572&eav=AfbWXKl4clnTPwQWP_uBotmcpmhxuZY6uIgk2yB4SeEUIayfGYXnfqeAYyPMptUCUfQ&theater
+- avatarPath: https://www.occultureberlin.org/images/speakers/henry-michael.jpg
   bio: |-
     Many of us have came to this world with a strong sense of purpose.
 
@@ -366,7 +366,7 @@
   universal: false
   visible: true
   runningOrder: 12
-- avatarPath: https://www.facebook.com/BiancaWertheimer
+- avatarPath: https://www.occultureberlin.org/images/speakers/wertheimer-bianca.jpg
   bio: |+
     If you wish to join the shamanic drumming while everyone walks the spiral one by one, you are invited to bring drums, flutes or rattles. Let us all raise energy and celebrate the living and dead.
 
@@ -415,7 +415,7 @@
   name: Akal Anand Kaur
   searchString: akal-anand-kaur
   time: '17:30'
-  title: 'Plantinum Alchemy: A Kundalini Circle'
+  title: 'Platinum Alchemy: A Kundalini Circle'
   type: Workshop
   universal: false
   visible: true
