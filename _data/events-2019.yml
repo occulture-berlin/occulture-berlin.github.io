@@ -13,17 +13,17 @@
     into continental Europe in 1992-93. Jeff was instrumental in forging a harder
     edged Techno sound which influenced the scene throughout the 90s with the release
     of over 50 vinyls and many cassettes as well as countless timeless performances.
-  duration: 150
+  duration: 120
   keynote: 1
   location: workshop_room
   name: JEFF23 SPIRAL TRIBE
   searchString: jeff23-spiral-tribe
-  time: '03:00'
+  time: '03:30'
   title: VOODOO SET
   type: Performance
   universal: false
   visible: true
-  runningOrder: 22
+  runningOrder: 26
 - avatarPath: https://theionpublishing.com/wp-content/uploads/2018/01/JGprofilebw.jpg
   bio: "Jessica Grote has been an initiate of the Kosmic Gnosis under its Hierophant
     David Beth for more than a decade and is currently the presiding bishop of the
@@ -107,7 +107,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 13
+  runningOrder: 15
 - avatarPath: https://www.occultureberlin.org/images/speakers/phurpa.jpg
   bio: Phurpa is a roving monastic choir that espouses a rogue form of Bön, the shamanistic
     spirituality of pre-Buddhist Tibet. The ensuing tale is a captivating journey
@@ -128,7 +128,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 5
+  runningOrder: 4
 - avatarPath: https://www.occultureberlin.org/images/speakers/lee-david.jpg
   bio: "David Lee is a magician, breathwork coach and writer. He has spent most of
     his ‘adult’ life undoing conditioning and changing realities, using techniques
@@ -221,7 +221,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 9
+  runningOrder: 10
 - avatarPath: https://www.occultureberlin.org/images/speakers/pinchbeck-daniel.jpeg
   bio: 'Daniel Pinchbeck is the author of Breaking Open the Head, 2012: The Return
     of Quetzalcoatl, How Soon Is Now, The Occult Control System and When Plants Dream
@@ -280,12 +280,12 @@
   location: lecture_room
   name: Growler
   searchString: growler
-  time: '22:00'
+  time: '23:30'
   title: Sacred Vulva
   type: Performance
   universal: false
   visible: true
-  runningOrder: 18
+  runningOrder: 22
 - avatarPath: https://i.imgur.com/kcqA5qC.jpg
   bio: |
     Since their foundation in 2016,this band have trodden a path between genres. Combining the shapeshifting, and evolving qualities of the creatures they named themselves after- Kröter (Toad) can be tadpoles wiggling in jazz pop ponds, then sprouting back legs they begin to jump around in techno and krautrock even hopping casually onto land for a moment to sound like some fucked up radio play.
@@ -298,17 +298,17 @@
     hard to define... indeed at times they are deliberately provocative and abstract,
     but If we are up to the challenge, it seems these magical creatures are inviting
     the listener into unexplored terrain, intangible and intensely present!
-  duration: 60
+  duration: 90
   keynote: 0
   location: lecture_room
   name: Kröter
   searchString: kroeter
-  time: '21:00'
+  time: '22:00'
   title: God is Toad
   type: Performance
   universal: false
   visible: true
-  runningOrder: 16
+  runningOrder: 19
 - avatarPath: https://miro.medium.com/max/703/1*m_RYYXlsn7SshTVzBXPWlQ.jpeg
   bio: 
   date: day_three
@@ -341,7 +341,45 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 11
+  runningOrder: 13
+- avatarPath: https://www.occultureberlin.org/images/speakers/von-tulien-hagen-workshop.jpg
+  bio: Hagen von Tulien is exploring the magical arts in theory and practice for about
+    40 years. During the 1980s he came in contact with the current of Chaos Magic,
+    which never ceased to attract and fascinate him ever since. Besides chaos magic
+    he also focus on deeply researching other occult systems and ways, which are currently
+    the Gnosis of the Saturnian Continuum and of Esoteric Voudon.
+  date: day_three
+  description: |-
+    “A life lived with magic in mind might itself be a kind of magic."
+    In this workshop we are going to explore in theory but even more so by practice some of the basic principles of the chaosmagical approach: Will - Imagination - Belief - Trance.
+  duration: 90
+  keynote: 0
+  location: workshop_room
+  name: Hagen von Tulien
+  searchString: hagen-von-tulien-workshop
+  time: '14:30'
+  title: How to make the Universe do what you want - Practical Chaos Magic
+  type: Workshop
+  universal: false
+  visible: true
+  runningOrder: 8
+- avatarPath: https://www.facebook.com/photo.php?fbid=10156841637623925&set=a.438302703924&type=3&sfns=mo
+  bio: "."
+  date: day_three
+  description: 'From the highest skies and the deepest caves to the core of your heart.
+    With pleasure and wisdom. Cosmic bass. Ancestral melody & states of deeper consciousness.
+    As above so below. '
+  duration: 60
+  keynote: 0
+  location: workshop_room
+  name: Chele Noaidi
+  searchString: chele-noaidi
+  time: '22:30'
+  title: DJ Set
+  type: Performance
+  universal: false
+  visible: true
+  runningOrder: 20
 - avatarPath: https://www.occultureberlin.org/images/speakers/henry-michael.jpg
   bio: |-
     Many of us have came to this world with a strong sense of purpose.
@@ -365,7 +403,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 12
+  runningOrder: 14
 - avatarPath: https://www.occultureberlin.org/images/speakers/wertheimer-bianca.jpg
   bio: |+
     If you wish to join the shamanic drumming while everyone walks the spiral one by one, you are invited to bring drums, flutes or rattles. Let us all raise energy and celebrate the living and dead.
@@ -419,7 +457,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 14
+  runningOrder: 16
 - avatarPath: https://instagram.ftxl3-1.fna.fbcdn.net/vp/933d172d652f3b103d32512170c6b18b/5E3674AF/t51.2885-15/e35/54513047_372882336725397_1705332031903418990_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=109
   bio: Martin Cederlund (Karlstad, Sweden) is a self-taught analogue collage/mixed
     media artist based in Berlin. He sources materials from vintage books and contemporary
@@ -500,7 +538,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 20
+  runningOrder: 21
 - avatarPath: https://www.occultureberlin.org/images/speakers/darrall-rew-jon.jpg
   bio: |-
     Jon Darrall-Rew: Jon’s passion is to live and share in the wild power of spirit through heart, soul and body. He co-leads Shamballa School, an international spiritual community focussed on Fire of Spirit. To learn more about his work see:
@@ -600,7 +638,7 @@
     itself, open to very personal and inner interpretations and possibilities.
 
     '
-  duration: 120
+  duration: 90
   keynote: 0
   location: workshop_room
   name: Suit Kei Witches Are Back
@@ -610,7 +648,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 23
+  runningOrder: 25
 - avatarPath: http://www.crossroads.wild.net.au/time&fatebottomw.jpg
   bio: "Orryelle Defenestrate-Bascule is an esoteric artist in many media, including
     painting, writing, sculpture, sound, film and performance art. \nCreator of the
@@ -657,12 +695,12 @@
     on the body, but also of beauty, hope, and of finding the narrow moonlit path
     winding into the center of the darkest woods. There strength lies, solace is found,
     and rage is unleashed. '
-  duration: 150
+  duration: 90
   keynote: 0
   location: workshop_room
   name: Common Eider King Eider
   searchString: common-eider-king-eider
-  time: '20:30'
+  time: '21:00'
   title: A Wound Of Body, A Wound Of Earth
   type: Performance
   universal: false
@@ -718,7 +756,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 7
+  runningOrder: 8
 - avatarPath: https://www.creative-city-berlin.de/media/people/NikaFontaine/avatar/_cache/201901122054190889.jpg_og.jpg?t=201901130114
   bio: "Nika Fontaine is not only visual artist translating her initiatic path into
     matter, but as well spiritual entrepreneur who puts her creativity to the service
@@ -899,10 +937,10 @@
   description: Musical & Ritual invocation of Babalon
   duration: 60
   keynote: 0
-  location: workshop_room
+  location: lecture_room
   name: SINS
   searchString: sins
-  time: '23:00'
+  time: '22:00'
   title: Invocation of Babalon
   type: Ritual
   universal: false
@@ -918,7 +956,7 @@
     through aesthetic obsession; the merging of mental, spiritual and emotional relationships
     with creativity, in the vanguard of the current resurgence of the esoteric in
     art with its processes of re-enchantment.\nwww.crossroads.wild.net.au/morph.htm\n"
-  date: 
+  date: day_one
   description: "Book of the Spider is an intensive ritual dance-theatre work exploring
     (and resolving?) the apparent dichotomy between Fate and free Will. Verses from
     The Book of the Spider (the received nexus of Orryelle's tome 'Time, Fate and
@@ -928,14 +966,15 @@
     performed in Melbourne, Oslo, Portland..."
   duration: 45
   keynote: 0
-  location: lecture_room
+  location: workshop_room
   name: Orryelle Defenestrate-Bascule
   searchString: orryelle-defenestrate-bascule
-  time: 
+  time: '23:45'
   title: Book of the Spider ritual dance theatre
   type: Performance
   universal: false
   visible: true
+  runningOrder: 5
 - avatarPath: https://www.occultureberlin.org/images/speakers/brujas.jpeg
   bio: |-
     Women united. Artists united.
@@ -948,15 +987,15 @@
     of hidden meaning and sacred revelations.
   duration: 60
   keynote: 0
-  location: lecture_room
+  location: workshop_room
   name: Brujas
   searchString: brujas
-  time: '02:30'
+  time: '02:00'
   title: 'The Secret '
   type: Performance
   universal: false
   visible: true
-  runningOrder: 21
+  runningOrder: 24
 - avatarPath: https://www.one-truth-one-spirit.com/wp-content/uploads/2019/10/Launch-One-Truth-One-Spirit-FL.jpg
   bio: 'Keith Readdy holds a bachelors in philosophy from the University of Central
     Florida and a master from the University of Amsterdam''s Center for the History
@@ -1009,12 +1048,12 @@
   location: workshop_room
   name: Piotr Zakrzewski
   searchString: piotr-zakrzewski
-  time: '14:30'
+  time: '11:30'
   title: 'Fortune Telling: from Poker deck to Tarot'
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 8
+  runningOrder: 1
 - avatarPath: https://static1.squarespace.com/static/5ace07fc0dbda3d33eff799d/t/5cea2072eef1a12eced4477e/1564928495487/?format=1500w
   bio: 'Kavi Karnapura is a Vedic astrologer based in Hamburg, where he is currently
     studying Early Buddhist astrology at the University of Hamburg. He previously
@@ -1082,12 +1121,12 @@
   location: lecture_room
   name: The Butterfly Wheel
   searchString: the-butterfly-wheel
-  time: '22:00'
+  time: '23:30'
   title: Songs of Wisdom
   type: Performance
   universal: false
   visible: true
-  runningOrder: 19
+  runningOrder: 23
 - avatarPath: https://upload.wikimedia.org/wikipedia/commons/4/48/Beny_Tchaicovsky_Profile.jpg
   bio: 'Beny Tchaicovsky (1954-2009) was a multimedia award-winning computer artist
     and visionary. His art has been categorized as Surrealism or Fantastic Realism,
@@ -1229,7 +1268,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 3
+  runningOrder: 4
 - avatarPath: https://www.occultureberlin.org/images/speakers/carte-coral.jpg
   bio: Born on the shores of the Indian Ocean to nomadic mixed European parents Coral
     began work documenting colonial life in the pre-Mandela era for a provincial newspaper.
@@ -1284,12 +1323,12 @@
   location: lecture_room
   name: Yoav Shavit
   searchString: yoav-shavit
-  time: '11:30'
+  time: '12:30'
   title: Biography of the Soul
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 1
+  runningOrder: 5
 - avatarPath: https://www.christian-ermel.com/s/cc_images/teaserbox_39410481.jpg
   bio: "Christian Ermel is a painter who explores the dark sides.\nHe was born in
     Berlin in 1971 and did his first painting when he was 10 years old. His family
@@ -1409,7 +1448,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 2
+  runningOrder: 3
 - avatarPath: https://rw-ktf.univie.ac.at/fileadmin/_processed_/csm_MarleenThaler_sw_e16daa391e.jpg
   bio: Marleen is a PhD Candidate at the University of Vienna at the Department of
     Religious Studies. Most of her previous study and research projects were dealing
@@ -1456,7 +1495,7 @@
     the consciousness of being free. The heart of the ritual is a mantra which you
     might learn by heart, when you participate.\n\"I am the flame. \nI am the magician.
     \nThere is a splendour in my name. \nThe end of the hiding. \nAbrahadabra\" "
-  duration: 60
+  duration: 90
   keynote: 0
   location: workshop_room
   name: Fürst Claas vom Mars and Soror Aurora
@@ -1466,7 +1505,7 @@
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 17
+  runningOrder: 18
 - avatarPath: https://www.zupimages.net/up/19/34/5f5h.jpg
   bio: 
   date: 
@@ -1515,7 +1554,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 8
+  runningOrder: 9
 - avatarPath: https://i.postimg.cc/43Wz0h8W/IMG-20190131-WA0000.jpg
   bio: Eudaimon has worked with and loved the Tabernanthe Iboga shrub since 2006.
     After experiencing its enourmous healing qualities himself, he immersed deeply
@@ -1535,12 +1574,12 @@
   location: lecture_room
   name: Eudaimon
   searchString: eudaimon
-  time: '12:30'
+  time: '11:30'
   title: Iboga - Guided Near-Death-Experiences for spiritual Initiation
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 4
+  runningOrder: 2
 - avatarPath: https://www.involutionfilm.se/wp-content/uploads/2019/08/FB_IMG_1557752654381.jpg
   bio: 'Beatrice Eggers is Director and Producer of Involutionfilm. Focusing on Estoteric
     subject matters. Her style is very both personal and interpersonal. She has been
@@ -1599,15 +1638,6 @@
   visible: false
   runningOrder: 1
 - date: day_one
-  location: lecture_room
-  duration: 60
-  keynote: 0
-  time: '21:00'
-  title: Opening Ritual
-  universal: false
-  visible: false
-  runningOrder: 3
-- date: day_one
   location: workshop_room
   duration: 120
   keynote: 0
@@ -1615,7 +1645,7 @@
   title: DJ Set (TBA)
   universal: false
   visible: false
-  runningOrder: 4
+  runningOrder: 3
 - date: day_one
   location: workshop_room
   duration: 30
@@ -1643,6 +1673,15 @@
   universal: false
   visible: false
   runningOrder: 14
+- date: day_three
+  location: lecture_room
+  duration: 30
+  keynote: 0
+  time: '15:30'
+  title: TBA
+  universal: false
+  visible: false
+  runningOrder: 11
 - duration: 60
   keynote: 0
   time: '13:30'
@@ -1650,7 +1689,7 @@
   universal: true
   visible: false
   date: day_two
-  runningOrder: 6
+  runningOrder: 7
 - duration: 30
   keynote: 0
   time: '16:00'
@@ -1667,7 +1706,7 @@
   universal: false
   visible: false
   date: day_two
-  runningOrder: 5
+  runningOrder: 6
 - duration: 60
   keynote: 0
   time: '18:00'
@@ -1692,7 +1731,7 @@
   universal: true
   visible: false
   date: day_three
-  runningOrder: 10
+  runningOrder: 12
 - duration: 30
   keynote: 0
   time: '13:00'
@@ -1710,7 +1749,7 @@
   universal: false
   visible: false
   date: day_three
-  runningOrder: 15
+  runningOrder: 17
 - duration: 60
   keynote: 0
   time: '13:30'
@@ -1877,7 +1916,7 @@
   searchString: yoav-shavit-divination
   type: Divination
   servicesOffered: Tarot, Rune Stones, Psychic Reading
-  avatarPath: https://scontent.fham1-1.fna.fbcdn.net/v/t1.0-9/28951950_2053226474918054_657846882049648225_n.jpg?_nc_cat=102&_nc_oc=AQmvtqUYnTzDSYmvq5kHbw_F2i8bA6lTeTSIKwuYX2W-J1PUEyAjDZqyS3naF7fyb34&_nc_ht=scontent.fham1-1.fna&oh=aee8a9c33b443b5182a4929bab2006e7&oe=5DA42E75
+  avatarPath: https://www.occultureberlin.org/images/speakers/shavit-yoav.jpg
   availableOn: Friday 1 November, Saturday 2 November
   servicesString: Offering Tarot / Rune Stones / Psychic Reading on Friday 1 November
     and Saturday 2 November
