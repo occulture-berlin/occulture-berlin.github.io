@@ -13,7 +13,7 @@
     into continental Europe in 1992-93. Jeff was instrumental in forging a harder
     edged Techno sound which influenced the scene throughout the 90s with the release
     of over 50 vinyls and many cassettes as well as countless timeless performances.
-  duration: 120
+  duration: 90
   keynote: 1
   location: workshop_room
   name: JEFF23 SPIRAL TRIBE
@@ -23,7 +23,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 29
+  runningOrder: 31
 - avatarPath: https://theionpublishing.com/wp-content/uploads/2018/01/JGprofilebw.jpg
   bio: "Jessica Grote has been an initiate of the Kosmic Gnosis under its Hierophant
     David Beth for more than a decade and is currently the presiding bishop of the
@@ -49,7 +49,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 10
+  runningOrder: 11
 - avatarPath: https://folkestonefringe.com/site/assets/files/2662/david_bramwell_2.768x0.jpg
   bio: David Bramwell is a Sony-Award winning presenter for BBC Radio 3 and BBC Radio
     4, having made programmes on subjects ranging from Damanhur to Ken Campbell. He
@@ -79,7 +79,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 13
+  runningOrder: 14
 - avatarPath: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTmIv1DLE-johhB061KWdKXiJS3nqxn3HKErfHhnBtpsxl1n9
   bio: Gary Lachman is the author of twenty-two books on consciousness, culture, and
     the western esoteric tradition, including The Secret Teachers of the Western World,
@@ -107,7 +107,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 15
+  runningOrder: 16
 - avatarPath: https://www.occultureberlin.org/images/speakers/phurpa.jpg
   bio: Phurpa is a roving monastic choir that espouses a rogue form of Bön, the shamanistic
     spirituality of pre-Buddhist Tibet. The ensuing tale is a captivating journey
@@ -128,7 +128,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 4
+  runningOrder: 5
 - avatarPath: https://www.occultureberlin.org/images/speakers/lee-david.jpg
   bio: "David Lee is a magician, breathwork coach and writer. He has spent most of
     his ‘adult’ life undoing conditioning and changing realities, using techniques
@@ -157,7 +157,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 4
+  runningOrder: 5
 - avatarPath: https://www.occultureberlin.org/images/speakers/wands-susan.jpg
   bio: 'Susan Wands is a writer, tarot reader, actor, filmmaker and producer. In addition
     to being a guest-featured writer for Kindred Spirits magazine, and a guest-speaker
@@ -192,7 +192,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 11
+  runningOrder: 12
 - avatarPath: https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/69180631_10156253351827120_1142914381131022336_n.jpg?_nc_cat=103&_nc_oc=AQlz3UgMZi2qpf6fH_BpbTptN1EVGMSJsn84bU6uRPIMSkmkgADlS7-rSfQqmpY-g3cRhfd8UdtDgAK_vL2s9m9A&_nc_ht=scontent.ftxl3-1.fna&oh=5495ca06a4f302742f851bc0b85353de&oe=5E148294
   bio: David Rankine is a magician, author and esoteric researcher who has been practicing
     for 40 years. To date he has written 30 books on various esoteric subjects, as
@@ -221,7 +221,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 10
+  runningOrder: 11
 - avatarPath: https://www.occultureberlin.org/images/speakers/pinchbeck-daniel.jpeg
   bio: 'Daniel Pinchbeck is the author of Breaking Open the Head, 2012: The Return
     of Quetzalcoatl, How Soon Is Now, The Occult Control System and When Plants Dream
@@ -242,7 +242,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 15
+  runningOrder: 16
 - avatarPath: https://www.occultureberlin.org/images/speakers/lee-david-workshop.jpg
   bio: "David Lee is a magician, breathwork coach and writer. He has spent most of
     his ‘adult’ life undoing conditioning and changing realities, using techniques
@@ -268,7 +268,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 6
+  runningOrder: 7
 - avatarPath: https://www.occultureberlin.org/images/speakers/growler.jpg
   bio: Growler will preform with "The Butterfly Wheel"
   date: day_three
@@ -285,7 +285,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 23
+  runningOrder: 25
 - avatarPath: https://i.imgur.com/kcqA5qC.jpg
   bio: |
     Since their foundation in 2016,this band have trodden a path between genres. Combining the shapeshifting, and evolving qualities of the creatures they named themselves after- Kröter (Toad) can be tadpoles wiggling in jazz pop ponds, then sprouting back legs they begin to jump around in techno and krautrock even hopping casually onto land for a moment to sound like some fucked up radio play.
@@ -308,7 +308,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 19
+  runningOrder: 22
 - avatarPath: https://miro.medium.com/max/703/1*m_RYYXlsn7SshTVzBXPWlQ.jpeg
   bio: 
   date: day_three
@@ -341,7 +341,26 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 13
+  runningOrder: 14
+- avatarPath: https://static.livebooks.com/e4adc0e305d94489aebc1be7e2b064e1/i/cbef43363ad04981b133715a672dfce5/1/2GTQbgiNxerRr5gcT6hkjr8dsnb6NBTxXMi2obS?dpr=1.25/cm_Letizia_Iman_0242-copyfw.jpg
+  bio: 'Letizia Iman is a analogue photographer and performer Berlin based. She discovered  Butoh
+    dance in 2016 and then started to explore all the expressive potential of the
+    body. '
+  date: 
+  description: "What if the body, in a certain state of consciousness, becomes something
+    else?\nThrough Butoh dance I get into body and mind limits, in order to reach
+    a point of total surrender. In this space the body explores his natural pulsion
+    to the ground, the depth, the abyss. \n"
+  duration: 0
+  keynote: 0
+  location: lecture_room
+  name: Letizia Iman
+  searchString: letizia-iman
+  time: 
+  title: Dirt Pulse
+  type: Performance
+  universal: false
+  visible: true
 - avatarPath: https://petitesplanetes.earth/content/biography/camille-bokhobza-web.jpg
   bio: Priscilla Telmon & Vincent Moon are a collaborating multidisciplinary artist
     duo working as independent filmmakers and sound-explorers. Together they produce
@@ -350,7 +369,7 @@
   date: day_two
   description: 'A selection of short films shot by Vincent Moon and Priscilla Telmon,
     from their own recordings for the Petites Planètes Collection. '
-  duration: 0
+  duration: 60
   keynote: 0
   location: lecture_room
   name: Vincent Moon and Petites Planètes
@@ -360,7 +379,7 @@
   type: Film
   universal: false
   visible: true
-  runningOrder: 21
+  runningOrder: 25
 - avatarPath: https://www.occultureberlin.org/images/speakers/unknown.jpg
   bio: Angstkiste is a solo musical project by Daniel Copeman to explore transcendetal
     and abrasive musical practices and sounds.
@@ -396,10 +415,10 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 8
+  runningOrder: 9
 - avatarPath: https://www.occultureberlin.org/images/speakers/janne.jpg
   bio: 
-  date: day_three
+  date: day_one
   description: 'From the highest skies and the deepest caves to the core of your heart.
     With pleasure and wisdom. Cosmic bass. Ancestral melody & states of deeper consciousness.
     As above so below. '
@@ -408,12 +427,12 @@
   location: workshop_room
   name: Chele Noaidi
   searchString: chele-noaidi
-  time: '22:30'
+  time: '22:00'
   title: DJ Set
   type: Performance
   universal: false
   visible: true
-  runningOrder: 20
+  runningOrder: 4
 - avatarPath: https://www.occultureberlin.org/images/speakers/henry-michael.jpg
   bio: |-
     Many of us have came to this world with a strong sense of purpose.
@@ -437,7 +456,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 14
+  runningOrder: 15
 - avatarPath: https://www.occultureberlin.org/images/speakers/wertheimer-bianca.jpg
   bio: |+
     If you wish to join the shamanic drumming while everyone walks the spiral one by one, you are invited to bring drums, flutes or rattles. Let us all raise energy and celebrate the living and dead.
@@ -461,7 +480,7 @@
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 2
+  runningOrder: 3
 - avatarPath: https://www.occultureberlin.org/images/speakers/kaur-akal-anand.jpeg
   bio: Akal Anand is a cosmic alchemist, a palm tree of dates in an oasis, walking
     barefoot on desert earth. Her service to the earth is to truth and bliss, honouring
@@ -491,7 +510,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 16
+  runningOrder: 17
 - avatarPath: https://instagram.ftxl3-1.fna.fbcdn.net/vp/933d172d652f3b103d32512170c6b18b/5E3674AF/t51.2885-15/e35/54513047_372882336725397_1705332031903418990_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=109
   bio: Martin Cederlund (Karlstad, Sweden) is a self-taught analogue collage/mixed
     media artist based in Berlin. He sources materials from vintage books and contemporary
@@ -551,7 +570,7 @@
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 16
+  runningOrder: 17
 - avatarPath: https://www.occultureberlin.org/images/speakers/prisma.jpg
   bio: Prisma is Nicolas Di Bernardo, born in Buenos Aires and currently based between
     Berlin and Thailand. Organic, crackling textures that shift between tranquility
@@ -562,17 +581,17 @@
     between Berlin and Thailand. Organic, crackling textures that shift between tranquility
     and turbulence. Complex rhythms, otherworldly atmospheres, warm sequences, Influences
     from inner and outer space exploration
-  duration: 150
+  duration: 90
   keynote: 0
-  location: workshop_room
+  location: lecture_room
   name: Prisma
   searchString: prisma
-  time: '22:30'
+  time: '01:00'
   title: Prisma Dj Set (Shika Shika)
   type: Performance
   universal: false
   visible: true
-  runningOrder: 21
+  runningOrder: 28
 - avatarPath: https://www.occultureberlin.org/images/speakers/darrall-rew-jon.jpg
   bio: |-
     Jon Darrall-Rew: Jon’s passion is to live and share in the wild power of spirit through heart, soul and body. He co-leads Shamballa School, an international spiritual community focussed on Fire of Spirit. To learn more about his work see:
@@ -601,7 +620,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 12
+  runningOrder: 13
 - avatarPath: https://upload.wikimedia.org/wikipedia/en/9/9d/Ordo_Templi_Orientis_%28insignia%29.png
   bio: |-
     Astarte Oasis is a chartered body of Ordo Templi Orientis (O.T.O.), a Fraternal Order of men and women united by common adherence to the Law of Thelema and by common interest in the traditions of mysticism and magick, based on the ideals of self-knowledge, individual liberty, and universal brotherhood.
@@ -612,7 +631,7 @@
   description: 'Liber XV: The Gnostic Mass is a participatory Eucharistic ritual written
     by Aleister Crowley in 1913. It is the central rite of Ordo Templi Orientis and
     its ecclesiastical arm, Ecclesia Gnostica Catholica.'
-  duration: 120
+  duration: 90
   keynote: 0
   location: workshop_room
   name: Astarte Oasis - Ordo Templi Orientis
@@ -622,7 +641,7 @@
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 1
+  runningOrder: 2
 - avatarPath: http://dark-shaman.com/videos/Kazim2.jpg
   bio: 'Kazim is a multi-disciplinary artist and magician expressing his personal
     reification of the Craft through different mediums as ritual performance, visual
@@ -677,12 +696,12 @@
   location: workshop_room
   name: Suit Kei Witches Are Back
   searchString: suit-kei-witches-are-back
-  time: '03:00'
+  time: '00:30'
   title: Techno DJ set
   type: Performance
   universal: false
   visible: true
-  runningOrder: 28
+  runningOrder: 27
 - avatarPath: http://www.crossroads.wild.net.au/time&fatebottomw.jpg
   bio: "Orryelle Defenestrate-Bascule is an esoteric artist in many media, including
     painting, writing, sculpture, sound, film and performance art. \nCreator of the
@@ -729,7 +748,7 @@
     on the body, but also of beauty, hope, and of finding the narrow moonlit path
     winding into the center of the darkest woods. There strength lies, solace is found,
     and rage is unleashed. '
-  duration: 90
+  duration: 60
   keynote: 0
   location: workshop_room
   name: Common Eider King Eider
@@ -739,7 +758,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 18
+  runningOrder: 21
 - avatarPath: https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/72245061_1707726892698290_4772850826509025280_o.jpg?_nc_cat=103&_nc_oc=AQliBYxi5BR7UkeCgUZ9MRKgn6wcsTh0LVDj2kUdiLV2WSZTK_OXQYYcmXO0NlVCnSE&_nc_ht=scontent-lhr3-1.xx&oh=dcf742ef4e8571a845f6ed5c7e6565c1&oe=5E3210D2
   bio: With a passion for detail and precision in geometry, SCARH222 has spent the
     last 4 years working quietly on various visual projects and is now sufficiently
@@ -790,7 +809,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 8
+  runningOrder: 9
 - avatarPath: https://www.creative-city-berlin.de/media/people/NikaFontaine/avatar/_cache/201901122054190889.jpg_og.jpg?t=201901130114
   bio: "Nika Fontaine is not only visual artist translating her initiatic path into
     matter, but as well spiritual entrepreneur who puts her creativity to the service
@@ -863,7 +882,7 @@
     each question a quick estimated percentage of hands up or down is noted on the
     clipboard, and the next question is read. Previously performed in Amsterdam, Rotterdam,
     den Haag, Oslo, and Featherstone Castle in Northumberland."
-  duration: 20
+  duration: 30
   keynote: 0
   location: lecture_room
   name: Peter Horneland
@@ -873,7 +892,7 @@
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 19
+  runningOrder: 22
 - avatarPath: https://www.occultureberlin.org/images/speakers/von-tulien-hagen-art.png
   bio: |-
     Hagen von Tulien is a contemporary artist and occultist. With more than forty years of intense magical theory and practice, he has specialized in creating art as an expression and manifestation of magical states of awareness and its use as an esoteric tool.
@@ -943,7 +962,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 11
+  runningOrder: 12
 - avatarPath: https://www.occultureberlin.org/images/speakers/watson-emma.jpg
   bio: |
     Emma is a contemporary visionary oil painter from the U.K . She works with the archetypes & mythology of various cultures , each painting is an invocation, designed to open portals in the psyche.   
@@ -964,7 +983,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 3
+  runningOrder: 4
 - avatarPath: https://i.ibb.co/6ghvQmH/20882732-1882456678437339-7465248439543451049-n.jpg
   bio: 'SINS exists outside of time and space. '
   date: day_two
@@ -979,7 +998,7 @@
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 20
+  runningOrder: 23
 - avatarPath: http://www.crossroads.wild.net.au/redkingportraitw.jpg
   bio: "Orryelle Defenestrate-Bascule is an esoteric artist in many media, inc. painting,
     writing, sculpture, sound, film and performance. \nHe is the writer-director of
@@ -998,17 +1017,17 @@
     violin. To this spiraling soundscape the multi-layered meanings of the verses
     are interpreted with extreme arachnean movement upon a web mandala. \nPreviously
     performed in Melbourne, Oslo, Portland..."
-  duration: 45
+  duration: 60
   keynote: 0
   location: workshop_room
   name: Orryelle Defenestrate-Bascule
   searchString: orryelle-defenestrate-bascule
-  time: '23:45'
+  time: '23:30'
   title: Book of the Spider ritual dance theatre
   type: Performance
   universal: false
   visible: true
-  runningOrder: 5
+  runningOrder: 6
 - avatarPath: https://www.occultureberlin.org/images/speakers/brujas.jpeg
   bio: |-
     Women united. Artists united.
@@ -1029,7 +1048,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 26
+  runningOrder: 29
 - avatarPath: https://www.one-truth-one-spirit.com/wp-content/uploads/2019/10/Launch-One-Truth-One-Spirit-FL.jpg
   bio: 'Keith Readdy holds a bachelors in philosophy from the University of Central
     Florida and a master from the University of Amsterdam''s Center for the History
@@ -1064,7 +1083,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 3
+  runningOrder: 4
 - avatarPath: https://i.ibb.co/P608wbf/61277304-575141209643998-1359838078146969600-n.png
   bio: |-
     Tarot reader, poet and card maker from Poland. Specialist in Tarot de Marseille.
@@ -1087,7 +1106,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 1
+  runningOrder: 2
 - avatarPath: https://static1.squarespace.com/static/5ace07fc0dbda3d33eff799d/t/5cea2072eef1a12eced4477e/1564928495487/?format=1500w
   bio: 'Kavi Karnapura is a Vedic astrologer based in Hamburg, where he is currently
     studying Early Buddhist astrology at the University of Hamburg. He previously
@@ -1109,7 +1128,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 5
+  runningOrder: 6
 - avatarPath: https://i.postimg.cc/Nft3c9FV/placeness.jpg
   bio: Tobias Raayoni Last is a performing video and media artist from Berlin. After
     having been a sceptical muggle for most of his life, woo woo unexpectedly knocked
@@ -1142,7 +1161,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 13
+  runningOrder: 14
 - avatarPath: https://www.occultureberlin.org/images/speakers/the-butterfly-wheel.jpg
   bio: 
   date: day_three
@@ -1160,7 +1179,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 24
+  runningOrder: 26
 - avatarPath: https://upload.wikimedia.org/wikipedia/commons/4/48/Beny_Tchaicovsky_Profile.jpg
   bio: 'Beny Tchaicovsky (1954-2009) was a multimedia award-winning computer artist
     and visionary. His art has been categorized as Surrealism or Fantastic Realism,
@@ -1189,7 +1208,7 @@
   type: Film
   universal: false
   visible: true
-  runningOrder: 24
+  runningOrder: 28
 - avatarPath: https://scontent.ftxl3-2.fna.fbcdn.net/v/t1.0-9/14441023_1122807251148514_2145666311848351674_n.jpg?_nc_cat=106&_nc_oc=AQkc46U2yT2oD513LMu2Oda1lyE_O56xre2UKg5hFZD0uarpzqFn9UZc1Dy9L0yvDVjQE24uGx0qDTchn1UEcbhT&_nc_ht=scontent.ftxl3-2.fna&oh=445025df20f523e853bdbdb207825490&oe=5DF37F96
   bio: "Sarah Janes has been lucid dreaming since childhood and has written articles
     and papers on the subject of lucid dreaming and Ancient Greek dream culture for
@@ -1219,7 +1238,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 1
+  runningOrder: 2
 - avatarPath: https://image.jimcdn.com/app/cms/image/transf/none/path/s23502ea2a23638c1/image/i710c62c1a73ad731/version/1467195653/image.jpg
   bio: Bianca Carina Wertheimer is an Ovate Grade Druid of the Order of Bards, Ovates
     and Druids and leader of the local druid group "Bärenwald". She runs a small witches
@@ -1248,7 +1267,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 2
+  runningOrder: 3
 - avatarPath: https://i.imgur.com/XtNdmcr.jpg
   bio: Charlyne864 fell in love with the Japanese art of Shibari while watching a
     performance at Torture Garden in London in 2009. Since then, she started learning
@@ -1271,7 +1290,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 6
+  runningOrder: 7
 - avatarPath: https://youcanyoga.nl/wp-content/uploads/2019/09/JasonRevere.jpg
   bio: Jason Revere is here to call bullshit on the “yoga” world, at least in regards
     to enlightenment. He has 23 years of yoga and meditation practice, and 20 of those
@@ -1303,7 +1322,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 4
+  runningOrder: 5
 - avatarPath: https://www.occultureberlin.org/images/speakers/carte-coral.jpg
   bio: Born on the shores of the Indian Ocean to nomadic mixed European parents Coral
     began work documenting colonial life in the pre-Mandela era for a provincial newspaper.
@@ -1337,7 +1356,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 9
+  runningOrder: 10
 - avatarPath: https://www.occultureberlin.org/images/speakers/shavit-yoav.jpg
   bio: "Yoav Shavit is a personal consultant and a spiritual therapist based in Berlin.
     After years of having one foot in the high-tech world and the other in the spiritual
@@ -1363,7 +1382,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 5
+  runningOrder: 6
 - avatarPath: https://www.christian-ermel.com/s/cc_images/teaserbox_39410481.jpg
   bio: "Christian Ermel is a painter who explores the dark sides.\nHe was born in
     Berlin in 1971 and did his first painting when he was 10 years old. His family
@@ -1423,7 +1442,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 9
+  runningOrder: 10
 - avatarPath: http://www.mortlake.co/uploads/1/0/5/4/105401839/brian-cotnoir-2019_orig.jpg
   bio: "Brian Cotnoir is an alchemist, artist, and award-winning filmmaker. A contributor
     to Frater Albertus’ Parachemy, he is also the author of a series of Alchemy Zines.
@@ -1452,7 +1471,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 8
+  runningOrder: 9
 - avatarPath: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Machelldweller.jpg/360px-Machelldweller.jpg
   bio: 'Terje Sparby studied philosophy, the history of religion, and the history
     of ideas, at the University of Oslo. He received his PhD in philosophy at Heidelberg
@@ -1483,7 +1502,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 3
+  runningOrder: 4
 - avatarPath: https://rw-ktf.univie.ac.at/fileadmin/_processed_/csm_MarleenThaler_sw_e16daa391e.jpg
   bio: Marleen is a PhD Candidate at the University of Vienna at the Department of
     Religious Studies. Most of her previous study and research projects were dealing
@@ -1513,7 +1532,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 7
+  runningOrder: 8
 - avatarPath: https://2.bp.blogspot.com/--bd2JWNo2D8/UyHVtTw2BsI/AAAAAAAAAJs/KB4c-3LmaC0/s1600/Abra+Maja+Wappen+10,5+x10,5.jpg
   bio: Soror AuroRa studied ethnology and comparative religious studies. She is a
     self-confessed Thelemite for over 25 years and practices ritual magic. As a consecrated
@@ -1532,15 +1551,15 @@
     \nThere is a splendour in my name. \nThe end of the hiding. \nAbrahadabra\" "
   duration: 90
   keynote: 0
-  location: workshop_room
+  location: lecture_room
   name: Fürst Claas vom Mars and Soror Aurora
   searchString: fuerst-claas-vom-mars-and-soror-aurora
-  time: '21:00'
+  time: '20:30'
   title: Abraxas-Ritual
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 18
+  runningOrder: 20
 - avatarPath: https://www.zupimages.net/up/19/34/5f5h.jpg
   bio: 
   date: 
@@ -1589,7 +1608,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 9
+  runningOrder: 10
 - avatarPath: https://i.postimg.cc/43Wz0h8W/IMG-20190131-WA0000.jpg
   bio: Eudaimon has worked with and loved the Tabernanthe Iboga shrub since 2006.
     After experiencing its enourmous healing qualities himself, he immersed deeply
@@ -1614,7 +1633,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 2
+  runningOrder: 3
 - avatarPath: https://www.involutionfilm.se/wp-content/uploads/2019/08/FB_IMG_1557752654381.jpg
   bio: 'Beatrice Eggers is Director and Producer of Involutionfilm. Focusing on Estoteric
     subject matters. Her style is very both personal and interpersonal. She has been
@@ -1636,7 +1655,7 @@
   type: Film
   universal: false
   visible: true
-  runningOrder: 23
+  runningOrder: 27
 - avatarPath: https://piccadillyexhibitioncompany.files.wordpress.com/2014/12/black_hole_udsnit-klar.jpg
   bio: 'Dr. Kasper Opstrup is a writer and researcher based in Copenhagen. The Danish
     translator of Alexander Trocchi and William Burroughs, among others, he is currently
@@ -1662,7 +1681,15 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 2
+  runningOrder: 3
+- date: day_one
+  duration: 30
+  keynote: 0
+  time: '19:00'
+  title: Doors Open
+  universal: true
+  visible: false
+  runningOrder: 1
 - date: day_one
   location: workshop_room
   duration: 90
@@ -1671,17 +1698,7 @@
   title: Visual Performance & DJ Set (TBA)
   universal: false
   visible: false
-  runningOrder: 1
-- date: day_one
-  location: workshop_room
-  duration: 90
-  keynote: 0
-  time: '22:00'
-  type: Performance
-  title: Sam Waks (DJ Set)
-  universal: false
-  visible: false
-  runningOrder: 3
+  runningOrder: 2
 - date: day_one
   location: workshop_room
   duration: 90
@@ -1691,7 +1708,15 @@
   title: Jimmy Trash (DJ Set)
   universal: false
   visible: false
-  runningOrder: 7
+  runningOrder: 8
+- date: day_two
+  duration: 60
+  keynote: 0
+  time: '10:30'
+  title: Doors Open
+  universal: true
+  visible: false
+  runningOrder: 1
 - date: day_two
   location: lecture_room
   duration: 30
@@ -1700,7 +1725,35 @@
   title: TBA
   universal: false
   visible: false
-  runningOrder: 14
+  runningOrder: 15
+- date: day_two
+  duration: 60
+  keynote: 0
+  time: '19:00'
+  title: Dinner Break
+  universal: true
+  visible: false
+  runningOrder: 19
+- date: day_two
+  location: workshop_room
+  duration: 60
+  keynote: 0
+  time: '20:00'
+  type: Performance
+  title: Sam Waks (DJ Set)
+  universal: false
+  visible: false
+  runningOrder: 20
+- date: day_two
+  location: workshop_room
+  duration: 90
+  keynote: 0
+  time: '22:00'
+  type: Performance
+  title: Gabriel Soma (DJ Set)
+  universal: false
+  visible: false
+  runningOrder: 24
 - date: day_two
   location: workshop_room
   duration: 90
@@ -1710,7 +1763,7 @@
   title: Alma Omega (DJ Set)
   universal: false
   visible: false
-  runningOrder: 22
+  runningOrder: 26
 - date: day_two
   location: workshop_room
   duration: 90
@@ -1720,7 +1773,15 @@
   title: La Nuar (DJ Set)
   universal: false
   visible: false
-  runningOrder: 25
+  runningOrder: 29
+- date: day_three
+  duration: 60
+  keynote: 0
+  time: '10:30'
+  title: Doors Open
+  universal: true
+  visible: false
+  runningOrder: 1
 - date: day_three
   location: lecture_room
   duration: 30
@@ -1729,47 +1790,73 @@
   title: TBA
   universal: false
   visible: false
-  runningOrder: 11
+  runningOrder: 12
+- date: day_three
+  duration: 90
+  keynote: 0
+  time: '19:00'
+  title: Dinner Break
+  universal: true
+  visible: false
+  runningOrder: 19
 - date: day_three
   location: lecture_room
   duration: 60
   keynote: 0
-  time: '01:00'
-  type: Performance
-  title: Gabriel Soma (DJ Set)
-  universal: false
-  visible: false
-  runningOrder: 25
-- date: day_three
-  location: lecture_room
-  duration: 90
-  keynote: 0
-  time: '02:00'
+  time: '02:30'
   type: Performance
   title: Warte Mal (DJ Set)
   universal: false
   visible: false
-  runningOrder: 27
+  runningOrder: 30
 - date: day_three
   location: lecture_room
-  duration: 120
+  duration: 90
   keynote: 0
   time: '03:30'
   type: Performance
   title: Ulises (DJ Set)
   universal: false
   visible: false
-  runningOrder: 30
+  runningOrder: 32
 - date: day_three
   location: workshop_room
   duration: 90
   keynote: 0
-  time: '22:30'
+  time: '20:30'
   type: Performance
   title: Tigre Contro Tigre
   universal: false
   visible: false
-  runningOrder: 22
+  runningOrder: 21
+- date: day_three
+  location: workshop_room
+  duration: 60
+  keynote: 0
+  time: '22:00'
+  type: Performance
+  title: ANTHONY ALVARADO
+  universal: false
+  visible: false
+  runningOrder: 23
+- date: day_three
+  location: workshop_room
+  duration: 90
+  keynote: 0
+  time: '23:00'
+  type: Performance
+  title: ODYSSEUS
+  universal: false
+  visible: false
+  runningOrder: 24
+- date: day_four
+  duration: 60
+  keynote: 0
+  time: '11:00'
+  title: Doors Open
+  universal: true
+  visible: false
+  runningOrder: 1
 - duration: 60
   keynote: 0
   time: '13:30'
@@ -1777,7 +1864,7 @@
   universal: true
   visible: false
   date: day_two
-  runningOrder: 7
+  runningOrder: 8
 - duration: 30
   keynote: 0
   time: '16:00'
@@ -1785,7 +1872,7 @@
   universal: true
   visible: false
   date: day_two
-  runningOrder: 12
+  runningOrder: 13
 - duration: 30
   keynote: 0
   time: '13:00'
@@ -1794,7 +1881,7 @@
   universal: false
   visible: false
   date: day_two
-  runningOrder: 6
+  runningOrder: 7
 - duration: 60
   keynote: 0
   time: '18:00'
@@ -1803,7 +1890,7 @@
   universal: false
   visible: false
   date: day_two
-  runningOrder: 17
+  runningOrder: 18
 - duration: 60
   keynote: 0
   time: '13:30'
@@ -1811,7 +1898,7 @@
   universal: true
   visible: false
   date: day_three
-  runningOrder: 7
+  runningOrder: 8
 - duration: 30
   keynote: 0
   time: '16:00'
@@ -1819,7 +1906,7 @@
   universal: true
   visible: false
   date: day_three
-  runningOrder: 12
+  runningOrder: 13
 - duration: 30
   keynote: 0
   time: '13:00'
@@ -1828,7 +1915,7 @@
   universal: false
   visible: false
   date: day_three
-  runningOrder: 6
+  runningOrder: 7
 - duration: 60
   keynote: 0
   time: '18:00'
@@ -1837,32 +1924,32 @@
   universal: false
   visible: false
   date: day_three
-  runningOrder: 17
+  runningOrder: 18
 - duration: 60
   keynote: 0
   time: '13:30'
   title: Lunch Break
   universal: true
+  visible: false
+  date: day_four
+  runningOrder: 6
+- duration: 30
+  keynote: 0
+  time: '16:00'
+  title: Coffee Break
+  universal: true
+  visible: false
+  date: day_four
+  runningOrder: 11
+- duration: 30
+  keynote: 0
+  time: '13:00'
+  location: lecture_room
+  title: Panel Discussion (TBA)
+  universal: false
   visible: false
   date: day_four
   runningOrder: 5
-- duration: 30
-  keynote: 0
-  time: '16:00'
-  title: Coffee Break
-  universal: true
-  visible: false
-  date: day_four
-  runningOrder: 10
-- duration: 30
-  keynote: 0
-  time: '13:00'
-  location: lecture_room
-  title: Panel Discussion (TBA)
-  universal: false
-  visible: false
-  date: day_four
-  runningOrder: 4
 - name: The Octarine Fox
   searchString: the-octarine-fox
   type: Divination

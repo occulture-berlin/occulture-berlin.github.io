@@ -31,12 +31,11 @@ class ParseAbstracts
     placeholder_events =  [
       {
         'date' => 'day_one',
-        'location' => 'workshop_room',
-        'duration' => 90,
+        'duration' => 30,
         'keynote' => 0,
-        'time' => '19:30',
-        'title' => 'Visual Performance & DJ Set (TBA)',
-        'universal' => false,
+        'time' => '19:00',
+        'title' => 'Doors Open',
+        'universal' => true,
         'visible' => false
       },
       {
@@ -44,9 +43,8 @@ class ParseAbstracts
         'location' => 'workshop_room',
         'duration' => 90,
         'keynote' => 0,
-        'time' => '22:00',
-        'type' => 'Performance',
-        'title' => 'Sam Waks (DJ Set)',
+        'time' => '19:30',
+        'title' => 'Visual Performance & DJ Set (TBA)',
         'universal' => false,
         'visible' => false
       },
@@ -63,11 +61,51 @@ class ParseAbstracts
       },
       {
         'date' => 'day_two',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '10:30',
+        'title' => 'Doors Open',
+        'universal' => true,
+        'visible' => false
+      },
+      {
+        'date' => 'day_two',
         'location' => 'lecture_room',
         'duration' => 30,
         'keynote' => 0,
         'time' => '16:30',
         'title' => 'TBA',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_two',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '19:00',
+        'title' => 'Dinner Break',
+        'universal' => true,
+        'visible' => false
+      },
+      {
+        'date' => 'day_two',
+        'location' => 'workshop_room',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '20:00',
+        'type' => 'Performance',
+        'title' => 'Sam Waks (DJ Set)',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_two',
+        'location' => 'workshop_room',
+        'duration' => 90,
+        'keynote' => 0,
+        'time' => '22:00',
+        'type' => 'Performance',
+        'title' => 'Gabriel Soma (DJ Set)',
         'universal' => false,
         'visible' => false
       },
@@ -95,6 +133,15 @@ class ParseAbstracts
       },
       {
         'date' => 'day_three',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '10:30',
+        'title' => 'Doors Open',
+        'universal' => true,
+        'visible' => false
+      },
+      {
+        'date' => 'day_three',
         'location' => 'lecture_room',
         'duration' => 30,
         'keynote' => 0,
@@ -105,21 +152,19 @@ class ParseAbstracts
       },
       {
         'date' => 'day_three',
-        'location' => 'lecture_room',
-        'duration' => 60,
+        'duration' => 90,
         'keynote' => 0,
-        'time' => '01:00',
-        'type' => 'Performance',
-        'title' => 'Gabriel Soma (DJ Set)',
-        'universal' => false,
+        'time' => '19:00',
+        'title' => 'Dinner Break',
+        'universal' => true,
         'visible' => false
       },
       {
         'date' => 'day_three',
         'location' => 'lecture_room',
-        'duration' => 90,
+        'duration' => 60,
         'keynote' => 0,
-        'time' => '02:00',
+        'time' => '02:30',
         'type' => 'Performance',
         'title' => 'Warte Mal (DJ Set)',
         'universal' => false,
@@ -128,7 +173,7 @@ class ParseAbstracts
       {
         'date' => 'day_three',
         'location' => 'lecture_room',
-        'duration' => 120,
+        'duration' => 90,
         'keynote' => 0,
         'time' => '03:30',
         'type' => 'Performance',
@@ -141,12 +186,43 @@ class ParseAbstracts
         'location' => 'workshop_room',
         'duration' => 90,
         'keynote' => 0,
-        'time' => '22:30',
+        'time' => '20:30',
         'type' => 'Performance',
         'title' => 'Tigre Contro Tigre',
         'universal' => false,
         'visible' => false
       },
+      {
+        'date' => 'day_three',
+        'location' => 'workshop_room',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '22:00',
+        'type' => 'Performance',
+        'title' => 'ANTHONY ALVARADO',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_three',
+        'location' => 'workshop_room',
+        'duration' => 90,
+        'keynote' => 0,
+        'time' => '23:00',
+        'type' => 'Performance',
+        'title' => 'ODYSSEUS',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_four',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '11:00',
+        'title' => 'Doors Open',
+        'universal' => true,
+        'visible' => false
+      }
     ]
 
     placeholder_events.each { |e| events << e }
