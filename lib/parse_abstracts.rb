@@ -42,7 +42,7 @@ class ParseAbstracts
       {
         'date' => 'day_one',
         'location' => 'workshop_room',
-        'duration' => 120,
+        'duration' => 90,
         'keynote' => 0,
         'time' => '22:00',
         'type' => 'Performance',
