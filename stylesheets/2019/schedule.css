@@ -7,10 +7,7 @@ body {
   font-size: 3em;
   letter-spacing: 3px;
   margin-bottom: 1em;
-}
 
-#high-priority-information #sub-info {
-  font-size: 0.5em;
   background: red;
   color: black;
   width: 50%;
@@ -244,7 +241,7 @@ body {
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
-  #high-priority-information #sub-info {
+  #high-priority-information {
     width: 100%;
   }
 
