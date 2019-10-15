@@ -7,10 +7,7 @@ body {
   font-size: 3em;
   letter-spacing: 3px;
   margin-bottom: 1em;
-}
 
-#high-priority-information #sub-info {
-  font-size: 0.5em;
   background: red;
   color: black;
   width: 50%;
@@ -62,12 +59,134 @@ body {
   display: grid;
 }
 
+
 .day-schedule .lecture_room {
   grid-column: lecture-room;
 }
 
 .day-schedule .workshop_room {
   grid-column: workshop-room;
+}
+
+/* sorry not sorry */
+#day-one .day-schedule {
+  grid-template-rows:
+    [time-1900] 1fr
+    [time-1930] 1fr
+    [time-2000] 1fr
+    [time-2030] 1fr
+    [time-2100] 1fr
+    [time-2130] 1fr
+    [time-2200] 1fr
+    [time-2230] 1fr
+    [time-2300] 1fr
+    [time-2330] 1fr
+    [time-0000] 1fr
+    [time-0030] 1fr
+    [time-0100] 1fr
+    [time-0130] 1fr
+    [time-0200] 1fr;
+}
+
+#day-two .day-schedule {
+  grid-template-rows:
+    [time-1030] 1fr
+    [time-1100] 1fr
+    [time-1130] 1fr
+    [time-1200] 1fr
+    [time-1230] 1fr
+    [time-1300] 1fr
+    [time-1330] 1fr
+    [time-1400] 1fr
+    [time-1430] 1fr
+    [time-1500] 1fr
+    [time-1530] 1fr
+    [time-1600] 1fr
+    [time-1630] 1fr
+    [time-1700] 1fr
+    [time-1730] 1fr
+    [time-1800] 1fr
+    [time-1830] 1fr
+    [time-1900] 1fr
+    [time-1930] 1fr
+    [time-2000] 1fr
+    [time-2030] 1fr
+    [time-2100] 1fr
+    [time-2130] 1fr
+    [time-2200] 1fr
+    [time-2230] 1fr
+    [time-2300] 1fr
+    [time-2330] 1fr
+    [time-0000] 1fr
+    [time-0030] 1fr
+    [time-0100] 1fr
+    [time-0130] 1fr
+    [time-0200] 1fr;
+}
+
+#day-three .day-schedule {
+  grid-template-rows:
+    [time-1030] 1fr
+    [time-1100] 1fr
+    [time-1130] 1fr
+    [time-1200] 1fr
+    [time-1230] 1fr
+    [time-1300] 1fr
+    [time-1330] 1fr
+    [time-1400] 1fr
+    [time-1430] 1fr
+    [time-1500] 1fr
+    [time-1530] 1fr
+    [time-1600] 1fr
+    [time-1630] 1fr
+    [time-1700] 1fr
+    [time-1730] 1fr
+    [time-1800] 1fr
+    [time-1830] 1fr
+    [time-1900] 1fr
+    [time-1930] 1fr
+    [time-2000] 1fr
+    [time-2030] 1fr
+    [time-2100] 1fr
+    [time-2130] 1fr
+    [time-2200] 1fr
+    [time-2230] 1fr
+    [time-2300] 1fr
+    [time-2330] 1fr
+    [time-0000] 1fr
+    [time-0030] 1fr
+    [time-0100] 1fr
+    [time-0130] 1fr
+    [time-0200] 1fr
+    [time-0230] 1fr
+    [time-0300] 1fr
+    [time-0330] 1fr
+    [time-0400] 1fr
+    [time-0430] 1fr
+    [time-0500] 1fr;
+}
+
+#day-four .day-schedule {
+  grid-template-rows:
+    [time-1100] 1fr
+    [time-1130] 1fr
+    [time-1200] 1fr
+    [time-1230] 1fr
+    [time-1300] 1fr
+    [time-1330] 1fr
+    [time-1400] 1fr
+    [time-1430] 1fr
+    [time-1500] 1fr
+    [time-1530] 1fr
+    [time-1600] 1fr
+    [time-1630] 1fr
+    [time-1700] 1fr
+    [time-1730] 1fr
+    [time-1800] 1fr
+    [time-1830] 1fr
+    [time-1900] 1fr
+    [time-1930] 1fr
+    [time-2000] 1fr
 }
 
 .event .classification {
@@ -122,7 +241,7 @@ body {
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
-  #high-priority-information #sub-info {
+  #high-priority-information {
     width: 100%;
   }
 

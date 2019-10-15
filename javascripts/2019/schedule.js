@@ -1,10 +1,10 @@
 $(document).ready(function() {
   // TODO: if the current day matches on date-nav day, select that by default
 
-  $('.day-schedule').children('.event').each(function(){
-    calcuateEventLength(this);
-    styleUniversalEvents(this);
-    disableLinksToStaticEvents(this);
+  $('.day-schedule').children('.event').each(function(i, element){
+    calcuateEventLength(element);
+    styleUniversalEvents(element);
+    disableLinksToStaticEvents(element);
   });
 
   $('#schedule-2019-wrap #schedule-date-nav li').on('click', function(){
@@ -25,22 +25,32 @@ $(document).ready(function() {
   });
 });
 
-calcuateEventLength = function(e) {
+function calcuateEventLength(e) {
   var duration = $(e).data('duration');
       span = duration / 30;
+      gridStart = 'time-'+$(e).data('starttime').split(':').join('');
+      gridEnd = 'span '+span;
 
-  $(e).css('grid-row', 'span '+span);
+  console.log(gridStart);
+  $(e).css('grid-row-start', gridStart);
+  $(e).css('grid-row-end', gridEnd);
 };
 
-styleUniversalEvents = function(e) {
+function styleUniversalEvents(e) {
   if(e.dataset.universal == 'true'){
     $(e).css('grid-column', 'span 2');
   }
 };
 
-disableLinksToStaticEvents = function(e) {
+function disableLinksToStaticEvents(e) {
   if(e.href.endsWith('lineup/')) {
     $(e).attr('href', null);
     $(e).css('cursor', 'unset');
   }
 };
+
+function unique(array) {
+  return $.grep(array, function(el, index) {
+    return index === $.inArray(el, array);
+  });
+}
