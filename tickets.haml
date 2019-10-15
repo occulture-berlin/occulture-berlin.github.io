@@ -22,172 +22,240 @@ image: https://www.occultureberlin.org/images/2019/open-graph.jpg
   #tickets-header-img.center
     %img{src: 'images/events/2018/divination.jpg'}
     %img#tickets-logo{src: 'images/occulture-logo-alpha-no-text.png'}
-  %header.inner.center
+  %header.buttons.inner.center
+    %a.bland.button.ga-track{href: '/2019/lineup', data: {tracker: 'tickets-to-lineup'}} Lineup
     {% haml get_tickets.haml %}
+    %a.bland.button.ga-track{href: '/2019/schedule', data: {tracker: 'tickets-to-schedul'}} Schedule
 
 #ticket-info-section-wrap.outer
   %section#ticket-info-wrap.inner.center
     #ticket-info
-      .ticket.sold-out
-        .name.ga-track Initiate (Early Bird Ticket)
-        .cost sold out
-      .ticket.sold-out
-        .name.ga-track Equinox Promo Ticket
-        .cost sold out
-      .ticket.promo
-        .name.ga-track Full Moon Promo Ticket
-        .cost 123€
-        .details.hidden.align-left
-          .check-it Tickets Include:
-          %ul.ticket-schedule
-            .date
-              %li.date-name Thursday, 31 October, 20:00 - 02:00
-              %ul.date-schedule
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: "#{samhain_event}", target: '_blank', alt: 'SAMHAIN'}
-                    OCCULTURE SAMHAIN
-                %ul.event-schedule
-                  %li Opening ritual
-                  %li
-                    %a.ga-track{href: '/2019/lineup/phurpa', target: '_blank', alt: 'PHURPA'}
-                      PHURPA Live
-                  %li Performances
-                  %li DJ Sets
-            .avatar
-              %img{src: '/images/2019/samhain.jpg'}
+      #full-tickets
+        .ticket-header Full Conference passes
+        .ticket.sold-out
+          .name.ga-track Initiate (Early Bird Ticket)
+          .cost sold out
+        .ticket.sold-out
+          .name.ga-track Equinox Promo Ticket
+          .cost sold out
+        .ticket
+          .name.ga-track Adept (Standard Ticket)
+          .cost 144€
+          .details.hidden.align-left
+            .check-it Tickets Include:
+            %ul.ticket-schedule
+              .date
+                %li.date-name Thursday, 31 October, 20:00 - 02:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: "#{samhain_event}", target: '_blank', alt: 'SAMHAIN'}
+                      OCCULTURE SAMHAIN
+                  %ul.event-schedule
+                    %li Opening ritual
+                    %li
+                      %a.ga-track{href: '/2019/lineup/phurpa', target: '_blank', alt: 'PHURPA'}
+                        PHURPA Live
+                    %li Performances
+                    %li DJ Sets
+              .avatar
+                %img{src: '/images/2019/samhain.jpg'}
 
-            .date
-              %li.date-name Friday, 01 November, 11:00 - 02:00
-              %ul.date-schedule
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
-                    Friday Conference Schedule
-                %li Full Access to exhibitions and performances
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: "#{veneralia_event}", target: '_blank', alt: 'VENERALIA'}
-                    OCCULTURE VENERALIA
-            .avatar
-              %img{src: '/images/2019/veneralia.jpg'}
-            .date
-              %li.date-name Saturday, 02 November, 11:00 - 05:00
-              %ul.date-schedule
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
-                    Saturday Conference Schedule
-                %li Full Access to exhibitions and performances
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: "#{saturnalia_event}", target: '_blank', alt: 'SATURNALIA'}
-                    OCCULTURE SATURNALIA
-                %ul.event-schedule
-                  %li
-                    %a.ga-track{href: '/2019/lineup/kroeter', target: '_blank', alt: 'kroeter'}
-                      Kröter Live
-                  %li
-                    %a.ga-track{href: '/2019/lineup/the-butterfly-wheel', target: '_blank', alt: 'kroeter'}
-                      The Butterfly Wheel Live
-            .avatar
-              %img{src: '/images/2019/saturnalia.jpg'}
-            .date
-              %li.date-name Sunday, 03 November, 11:00 - 20:00
-              %ul.date-schedule
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
-                    Sunday Conference Schedule
-                %li Full Access to exhibitions and performances
-                %li Full Access to OCCULTURE CLOSING RITUAL
-          .ticket-button.center
-            {% haml get_tickets.haml %}
+              .date
+                %li.date-name Friday, 01 November, 11:00 - 02:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                      Friday Conference Schedule
+                  %li Full Access to exhibitions and performances
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: "#{veneralia_event}", target: '_blank', alt: 'VENERALIA'}
+                      OCCULTURE VENERALIA
+              .avatar
+                %img{src: '/images/2019/veneralia.jpg'}
+              .date
+                %li.date-name Saturday, 02 November, 11:00 - 05:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                      Saturday Conference Schedule
+                  %li Full Access to exhibitions and performances
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: "#{saturnalia_event}", target: '_blank', alt: 'SATURNALIA'}
+                      OCCULTURE SATURNALIA
+                  %ul.event-schedule
+                    %li
+                      %a.ga-track{href: '/2019/lineup/kroeter', target: '_blank', alt: 'kroeter'}
+                        Kröter Live
+                    %li
+                      %a.ga-track{href: '/2019/lineup/the-butterfly-wheel', target: '_blank', alt: 'kroeter'}
+                        The Butterfly Wheel Live
+              .avatar
+                %img{src: '/images/2019/saturnalia.jpg'}
+              .date
+                %li.date-name Sunday, 03 November, 11:00 - 20:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                      Sunday Conference Schedule
+                  %li Full Access to exhibitions and performances
+                  %li Full Access to OCCULTURE CLOSING RITUAL
+            .ticket-button.center
+              {% haml get_tickets.haml %}
 
-      .ticket
-        .name.ga-track Adept (Standard Ticket)
-        .cost 144€
-        .details.hidden.align-left
-          .check-it Tickets Include:
-          %ul.ticket-schedule
-            .date
-              %li.date-name Thursday, 31 October, 20:00 - 02:00
-              %ul.date-schedule
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: "#{samhain_event}", target: '_blank', alt: 'SAMHAIN'}
-                    OCCULTURE SAMHAIN
-                %ul.event-schedule
-                  %li Opening ritual
-                  %li
-                    %a.ga-track{href: '/2019/lineup/phurpa', target: '_blank', alt: 'PHURPA'}
-                      PHURPA Live
-                  %li Performances
-                  %li DJ Sets
-            .avatar
-              %img{src: '/images/2019/samhain.jpg'}
+        / hehehe
+        .ticket.master
+          .name.ga-track Master (Patron Ticket)
+          .cost 233€
+          .details.hidden.align-left
+            .check-it Tickets Include:
+            %ul.ticket-schedule
+              .date
+                %li FULL Conference Access (everything included in the standard ticket)
+                %li OCCULTURE Conference bag
+                %li T-shirt specially designed by Daniel Martin Diaz
+                %li Limited Print specially designed by Daniel Martin Diaz
+            .ticket-button.center
+              {% haml get_tickets.haml %}
 
-            .date
-              %li.date-name Friday, 01 November, 11:00 - 02:00
-              %ul.date-schedule
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
-                    Friday Conference Schedule
-                %li Full Access to exhibitions and performances
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: "#{veneralia_event}", target: '_blank', alt: 'VENERALIA'}
-                    OCCULTURE VENERALIA
-            .avatar
-              %img{src: '/images/2019/veneralia.jpg'}
-            .date
-              %li.date-name Saturday, 02 November, 11:00 - 05:00
-              %ul.date-schedule
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
-                    Saturday Conference Schedule
-                %li Full Access to exhibitions and performances
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: "#{saturnalia_event}", target: '_blank', alt: 'SATURNALIA'}
-                    OCCULTURE SATURNALIA
-                %ul.event-schedule
-                  %li
-                    %a.ga-track{href: '/2019/lineup/kroeter', target: '_blank', alt: 'kroeter'}
-                      Kröter Live
-                  %li
-                    %a.ga-track{href: '/2019/lineup/the-butterfly-wheel', target: '_blank', alt: 'kroeter'}
-                      The Butterfly Wheel Live
-            .avatar
-              %img{src: '/images/2019/saturnalia.jpg'}
-            .date
-              %li.date-name Sunday, 03 November, 11:00 - 20:00
-              %ul.date-schedule
-                %li.parent-event
-                  Full Access to
-                  %a.ga-track{href: '/2019/schedule', target: '_blank'}
-                    Sunday Conference Schedule
-                %li Full Access to exhibitions and performances
-                %li Full Access to OCCULTURE CLOSING RITUAL
-          .ticket-button.center
-            {% haml get_tickets.haml %}
+      #day-tickets
+        .ticket-header Single Day passes (includes day and night activities)
+        .ticket
+          .name.ga-track Samhain Ticket
+          .cost 16€
+          .details.hidden.align-left
+            .check-it Tickets Include:
+            %ul.ticket-schedule
+              .date
+                %li.date-name Thursday, 31 October, 20:00 - 02:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: "#{samhain_event}", target: '_blank', alt: 'SAMHAIN'}
+                      OCCULTURE SAMHAIN
+                  %ul.event-schedule
+                    %li Opening ritual
+                    %li
+                      %a.ga-track{href: '/2019/lineup/phurpa', target: '_blank', alt: 'PHURPA'}
+                        PHURPA Live
+                    %li Performances
+                    %li DJ Sets
+              .avatar
+                %img{src: '/images/2019/samhain.jpg'}
+        .ticket
+          .name.ga-track Friday Full Ticket
+          .cost 55€
+          .details.hidden.align-left
+            .check-it Tickets Include:
+            %ul.ticket-schedule
+              .date
+                %li.date-name Friday, 01 November, 11:00 - 02:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                      Friday Conference Schedule
+                  %li Full Access to exhibitions and performances
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: "#{veneralia_event}", target: '_blank', alt: 'VENERALIA'}
+                      OCCULTURE VENERALIA
+              .avatar
+                %img{src: '/images/2019/veneralia.jpg'}
+        .ticket
+          .name.ga-track Saturday Full Ticket
+          .cost 55€
+          .details.hidden.align-left
+            .check-it Tickets Include:
+            %ul.ticket-schedule
+              .date
+                %li.date-name Saturday, 02 November, 11:00 - 05:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                      Saturday Conference Schedule
+                  %li Full Access to exhibitions and performances
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: "#{saturnalia_event}", target: '_blank', alt: 'SATURNALIA'}
+                      OCCULTURE SATURNALIA
+                  %ul.event-schedule
+                    %li
+                      %a.ga-track{href: '/2019/lineup/kroeter', target: '_blank', alt: 'kroeter'}
+                        Kröter Live
+                    %li
+                      %a.ga-track{href: '/2019/lineup/the-butterfly-wheel', target: '_blank', alt: 'kroeter'}
+                        The Butterfly Wheel Live
+              .avatar
+                %img{src: '/images/2019/saturnalia.jpg'}
+        .ticket
+          .name.ga-track Sunday Full Ticket
+          .cost 44€
+          .details.hidden.align-left
+            .check-it Tickets Include:
+            %ul.ticket-schedule
+              .date
+                %li.date-name Sunday, 03 November, 11:00 - 20:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                      Sunday Conference Schedule
+                  %li Full Access to exhibitions and performances
+                  %li Full Access to OCCULTURE CLOSING RITUAL
+            .ticket-button.center
+              {% haml get_tickets.haml %}
 
-      / hehehe
-      .ticket.master
-        .name.ga-track Master (Patron Ticket)
-        .cost 233€
-        .details.hidden.align-left
-          .check-it Tickets Include:
-          %ul.ticket-schedule
-            .date
-              %li FULL Conference Access (everything included in the standard ticket)
-              %li OCCULTURE Conference bag
-              %li T-shirt specially designed by Daniel Martin Diaz
-              %li Limited Print specially designed by Daniel Martin Diaz
-          .ticket-button.center
-            {% haml get_tickets.haml %}
+      #night-tickets
+        .ticket-header Evening Passes
+        .ticket
+          .name.ga-track Veneralia Ticket (Fri. Night)
+          .cost 12€
+          .details.hidden.align-left
+            .check-it Tickets Include:
+            %ul.ticket-schedule
+              .date
+                %li.date-name Friday, 01 November, 19:00 - 02:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: '/2019/schedule', target: '_blank'}
+                      Friday Conference Schedule
+                  %li Full Access to exhibitions and performances
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: "#{veneralia_event}", target: '_blank', alt: 'VENERALIA'}
+                      OCCULTURE VENERALIA
+              .avatar
+                %img{src: '/images/2019/veneralia.jpg'}
+        .ticket
+          .name.ga-track Saturnalia Ticket (Sat. Night)
+          .cost 17€
+          .details.hidden.align-left
+            .check-it Tickets Include:
+            %ul.ticket-schedule
+              .date
+                %li.date-name Saturday, 02 November, 19:00 - 05:00
+                %ul.date-schedule
+                  %li.parent-event
+                    Full Access to
+                    %a.ga-track{href: "#{saturnalia_event}", target: '_blank', alt: 'SATURNALIA'}
+                      OCCULTURE SATURNALIA
+                  %ul.event-schedule
+                    %li
+                      %a.ga-track{href: '/2019/lineup/kroeter', target: '_blank', alt: 'kroeter'}
+                        Kröter Live
+                    %li
+                      %a.ga-track{href: '/2019/lineup/the-butterfly-wheel', target: '_blank', alt: 'kroeter'}
+                        The Butterfly Wheel Live
+              .avatar
+                %img{src: '/images/2019/saturnalia.jpg'}
 
 #promo-video-section-wrap.outer
   %section#promo-video-wrap.inner.center
