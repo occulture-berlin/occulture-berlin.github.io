@@ -23,6 +23,12 @@ header .button {
   font-size: 2em;
   position: relative;
   top: -5em;
+  margin-left: 1em;
+}
+
+header .bland.button {
+  background: white;
+  color: red;
 }
 
 #ticket-info-section-wrap {
@@ -35,12 +41,24 @@ header .button {
   grid-gap: 0.7em;
 }
 
+#ticket-info-section-wrap #ticket-info .ticket-header {
+  background: white;
+  color: black;
+  text-transform: uppercase;
+  font-family: latoBold;
+  font-size: 1.5em;
+  padding: 0.5em;
+  margin: 1em 0;
+}
+
 #ticket-info-section-wrap #ticket-info .ticket {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr;
   text-transform: uppercase;
   font-family: keepCalm;
   cursor: pointer;
+  border-bottom: 1px solid white;
+  padding: 4px 0;
 }
 
 #ticket-info-section-wrap #ticket-info .ticket.promo {
