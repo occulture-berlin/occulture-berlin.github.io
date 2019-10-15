@@ -73,18 +73,6 @@ class ParseAbstracts
       },
       {
         'date' => 'day_two',
-        'location' => 'lecture_room',
-        'duration' => 60,
-        'keynote' => 0,
-        'time' => '23:00',
-        'type' => 'Film',
-        'title' => 'TBA',
-        'name' => 'Vincent Moon',
-        'universal' => false,
-        'visible' => false
-      },
-      {
-        'date' => 'day_two',
         'location' => 'workshop_room',
         'duration' => 90,
         'keynote' => 0,
@@ -332,10 +320,11 @@ class ParseAbstracts
   end
 
   def sanitize(str)
-    str.gsub(/[äéöüß]/) do |match|
+    str.gsub(/[äéèöüß]/) do |match|
       case match
       when "ä" then 'ae'
       when "é" then 'e'
+      when "è" then 'e'
       when "ö" then 'oe'
       when "ü" then 'ue'
       when "ß" then 'ss'
