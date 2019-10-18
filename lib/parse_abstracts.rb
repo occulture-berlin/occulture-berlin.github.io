@@ -186,28 +186,6 @@ class ParseAbstracts
         'location' => 'workshop_room',
         'duration' => 90,
         'keynote' => 0,
-        'time' => '20:30',
-        'type' => 'Performance',
-        'title' => 'Tigre Contro Tigre',
-        'universal' => false,
-        'visible' => false
-      },
-      {
-        'date' => 'day_three',
-        'location' => 'workshop_room',
-        'duration' => 60,
-        'keynote' => 0,
-        'time' => '22:00',
-        'type' => 'Performance',
-        'title' => 'ANTHONY ALVARADO',
-        'universal' => false,
-        'visible' => false
-      },
-      {
-        'date' => 'day_three',
-        'location' => 'workshop_room',
-        'duration' => 90,
-        'keynote' => 0,
         'time' => '23:00',
         'type' => 'Performance',
         'title' => 'ODYSSEUS',

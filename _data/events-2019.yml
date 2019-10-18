@@ -243,6 +243,28 @@
   universal: false
   visible: true
   runningOrder: 16
+- avatarPath: https://www.occultureberlin.org/images/speakers/dod-juan.jpg
+  bio: |-
+    The Berlin based art project " La Tercera Mano" was formed in 2013. Involving artistic practices and diverse media, such as text, engraving, drawing, collage, installation, animation, assemblage, ready-made, found footage, and is primarly devoted to the reanimation of various archival materials, objects and obsolete disciplines.
+    From anthropological myths to early discourses about madness, death and disease to the psychoanalytic underpinnings of the Bourgeoisie. Contact: instagram/facebook La.tercera.mano
+  date: 
+  description: 'Inspired by historical cabinets of wonders, pataphysical inventions,
+    religious iconography, relics of  forgotten times & objets trouvés, alchemistic
+    hallucinations, the morbid beauty of anatomical art, Svankmajeresk surrealism,
+    and Bataillean philosophy, my art wants to take you into the twilight of a morbid
+    and grotesque but aesthetically pleasing world.
+
+    '
+  duration: 0
+  keynote: 0
+  location: 
+  name: Pablo Dodogson
+  searchString: pablo-dodogson
+  time: 
+  title: Metamorphosis Hypnagogica
+  type: Art
+  universal: false
+  visible: true
 - avatarPath: https://www.occultureberlin.org/images/speakers/lee-david-workshop.jpg
   bio: "David Lee is a magician, breathwork coach and writer. He has spent most of
     his ‘adult’ life undoing conditioning and changing realities, using techniques
@@ -342,6 +364,74 @@
   universal: false
   visible: true
   runningOrder: 14
+- avatarPath: https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/44083356_902797619930847_278442558000988160_n.jpg?_nc_cat=107&_nc_oc=AQn20vmcsDWqXUX7XpsdADed3IvgZnrmrxOr95t1-NAFqe2nXhZCwPPi712cJi9UJXc&_nc_ht=scontent-cdt1-1.xx&oh=da89c96a4ce6bf84cbaf4ba9f142aa0d&oe=5E231BAE
+  bio: Lucas Alvarado is a musician composer/sound artist/performer, who is crossing
+    borders between occultism, experimentation, improvisation & DJ sets.
+  date: day_three
+  description: Composer/Sound artist Lucas Alvarado will immerse into his inner God
+    by trance to bring to this world an experimental Dj set.
+  duration: 60
+  keynote: 0
+  location: workshop_room
+  name: Lucas Alvarado
+  searchString: lucas-alvarado
+  time: '22:00'
+  title: Renunciation of the Self
+  type: Performance
+  universal: false
+  visible: true
+  runningOrder: 23
+- avatarPath: https://images.squarespace-cdn.com/content/v1/5cba78a4b2cf795d946d08c2/1567701077350-1LWML5SFUG8K1PIO3UU0/ke17ZwdGBToddI8pDm48kNDlWfDP6XluSho8pv7T5nBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIz_haFSx3oKMEH9SWB9N68OVtMvA1Pukd8B_ydJwkXyAKMshLAGzx4R3EDFOm1kBS/new66inkwitch_tattoo_artist_moira_ink_installations_dark.jpg?format=750w
+  bio: "The four beings Moira InkWitch, Osfyn, Áphoth and JoNarcissa carefully mastered
+    their skills from mentors spread all over the world. They now offer them, merged
+    into one Ceremony for you to receive. \nOsfyn loves loosing herself in other people’s
+    minds reading their true desires through Tarots.  Áphoth uses this and creates
+    sigils with the ability to bend reality. Moira InkWitch will activate the sigil
+    and manifest what is destined to be revealed below their skin with ink. As a psychic
+    protection JoNarcissa carefully crafted masks that are used during the ceremony.
+    \L\L\n\nhttps://www.inkwitch.tattoo/\nInstagram.com/jonarcissa"
+  date: 
+  description: 'Sigil tattoos are a skin deep manifestation of inner wishes and desires
+    that one strives for to become reality. The custom designs that we create, only
+    work for occult creatures such as Witches, Shamans and Magicians etc. or souls
+    who wish to become such, as protectors and reminders of their inner path and placed
+    intentions. The fated tattoo will be created by skillfully plunging into ones
+    subconscious, studying its aura thoroughly and revealing its true intentions in
+    the visual world. '
+  duration: 0
+  keynote: 0
+  location: workshop_room
+  name: InkWitch
+  searchString: inkwitch
+  time: 
+  title: Tattoo Ceremony
+  type: Ritual
+  universal: false
+  visible: true
+- avatarPath: https://www.occultureberlin.org/images/speakers/tigre-contra-tigre.jpg
+  bio: "Tigre Contre Tigre is the fusion of two artists who grew up together. \nThrough
+    diverse musical collaborations, they have learnt how to transcend each other’s
+    limitations to create a single entity. \nRelocated from the suburbs of Paris to
+    Berlin, they have created in their studio a space for rituals, where the drive
+    for self-exploration and musical endeavours can be expressed as one. That is in
+    essence what they share during their performances on stage: a glimpse in their
+    intimate space merged with the collective presence of an audience.\n"
+  date: day_three
+  description: |-
+    The music and stage performance of Tigre Contre Tigre tends to open a specific mental and temporal space.
+    Through musical rituals made of machines and voices, they trigger symbiosis and leap into the unknown.
+    Primal, futuristic, mystic and electronic; so can be described these soft and brutal performances.
+  duration: 90
+  keynote: 0
+  location: workshop_room
+  name: Tigre Contre Tigre
+  searchString: tigre-contre-tigre
+  time: '20:30'
+  title: Live-set Ritual
+  type: Performance
+  universal: false
+  visible: true
+  runningOrder: 20
 - avatarPath: https://static.livebooks.com/e4adc0e305d94489aebc1be7e2b064e1/i/cbef43363ad04981b133715a672dfce5/1/2GTQbgiNxerRr5gcT6hkjr8dsnb6NBTxXMi2obS?dpr=1.25/cm_Letizia_Iman_0242-copyfw.jpg
   bio: 'Letizia Iman is a analogue photographer and performer Berlin based. She discovered  Butoh
     dance in 2016 and then started to explore all the expressive potential of the
@@ -1559,7 +1649,7 @@
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 20
+  runningOrder: 21
 - avatarPath: https://www.zupimages.net/up/19/34/5f5h.jpg
   bio: 
   date: 
@@ -1819,26 +1909,6 @@
   universal: false
   visible: false
   runningOrder: 32
-- date: day_three
-  location: workshop_room
-  duration: 90
-  keynote: 0
-  time: '20:30'
-  type: Performance
-  title: Tigre Contro Tigre
-  universal: false
-  visible: false
-  runningOrder: 21
-- date: day_three
-  location: workshop_room
-  duration: 60
-  keynote: 0
-  time: '22:00'
-  type: Performance
-  title: ANTHONY ALVARADO
-  universal: false
-  visible: false
-  runningOrder: 23
 - date: day_three
   location: workshop_room
   duration: 90
