@@ -1,5 +1,29 @@
 $(document).ready(function() {
   // TODO: if the current day matches on date-nav day, select that by default
+  var date = new Date;
+      year = date.getFullYear();
+      month = date.getMonth();
+      day = date.getDate();
+      hour = date.getHours();
+      dateString = year + month + day + hour;
+
+  switch(true) {
+    case dateString < 2019110106:
+    displaySelectedDay('#day-one')
+    break;
+    case dateString < 2019110206:
+    displaySelectedDay('#day-two')
+    break;
+    case dateString < 2019110306:
+    displaySelectedDay('#day-three')
+    break;
+    case dateString < 2019110406:
+    displaySelectedDay('#day-four')
+    break;
+    default:
+    displaySelectedDay('#day-one')
+  }
+
 
   $('.day-schedule').children('.event').each(function(i, element){
     calcuateEventLength(element);
@@ -9,21 +33,26 @@ $(document).ready(function() {
 
   $('#schedule-2019-wrap #schedule-date-nav li').on('click', function(){
     var selected = '#' + $(this).attr('id');
-    var schedule = $('#schedule-2019-wrap #schedule');
-
-    //// this is nothing
-    $(this).parent().children().removeClass('selected');
-
-    // hide all events (clean slate)
-    schedule.children().addClass('hidden');
-
-    //// this is something
-    $(this).addClass('selected');
-
-    // show all events on the given date
-    schedule.find(selected).removeClass('hidden');
+    displaySelectedDay(selected);
   });
 });
+
+function displaySelectedDay(day) {
+  var schedule = $('#schedule-2019-wrap #schedule');
+
+  console.log(day)
+  //// this is nothing
+  $(day).parent().children().removeClass('selected');
+
+  // hide all events (clean slate)
+  schedule.children().addClass('hidden');
+
+  //// this is something
+  $(day).addClass('selected');
+
+  // show all events on the given date
+  schedule.find(day).removeClass('hidden');
+}
 
 function calcuateEventLength(e) {
   var duration = $(e).data('duration');
@@ -31,7 +60,6 @@ function calcuateEventLength(e) {
       gridStart = 'time-'+$(e).data('starttime').split(':').join('');
       gridEnd = 'span '+span;
 
-  console.log(gridStart);
   $(e).css('grid-row-start', gridStart);
   $(e).css('grid-row-end', gridEnd);
 };
