@@ -12,6 +12,7 @@ class ParseAbstracts
     @events = serialize_events(CSV.read(abstracts, headers: true))
     @diviners = serialize_diviners(CSV.read(diviners, headers: true))
     @vendors = serialize_vendors(CSV.read(vendors, headers: true))
+    # @healers = serialize_healers(CSV.read(healers, headers: true))
     @target = target
   end
 
@@ -27,6 +28,7 @@ class ParseAbstracts
   private
   attr_reader :events, :diviners, :vendors, :target
 
+  # TODO: put these in a csv
   def inject_placeholder_events
     placeholder_events =  [
       {
@@ -70,11 +72,11 @@ class ParseAbstracts
       },
       {
         'date' => 'day_two',
-        'location' => 'lecture_room',
         'duration' => 30,
         'keynote' => 0,
-        'time' => '16:30',
-        'title' => 'TBA',
+        'time' => '18:30',
+        'location' => 'lecture_room',
+        'title' => 'Panel Discussion (TBA)',
         'universal' => false,
         'visible' => false
       },
@@ -152,6 +154,16 @@ class ParseAbstracts
       },
       {
         'date' => 'day_three',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '18:00',
+        'location' => 'lecture_room',
+        'title' => 'Panel Discussion (TBA)',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_three',
         'duration' => 90,
         'keynote' => 0,
         'time' => '19:00',
@@ -199,6 +211,16 @@ class ParseAbstracts
         'time' => '11:00',
         'title' => 'Doors Open',
         'universal' => true,
+        'visible' => false
+      },
+      {
+        'date' => 'day_four',
+        'location' => 'lecture_room',
+        'duration' => 30,
+        'keynote' => 0,
+        'time' => '15:30',
+        'title' => 'Panel Discussion / Q&A',
+        'universal' => false,
         'visible' => false
       }
     ]
@@ -250,15 +272,6 @@ class ParseAbstracts
         'duration' => 30,
         'keynote' => 0,
         'time' => '13:00',
-        'location' => 'lecture_room',
-        'title' => 'Panel Discussion (TBA)',
-        'universal' => false,
-        'visible' => false
-      },
-      {
-        'duration' => 60,
-        'keynote' => 0,
-        'time' => '18:00',
         'location' => 'lecture_room',
         'title' => 'Panel Discussion (TBA)',
         'universal' => false,
