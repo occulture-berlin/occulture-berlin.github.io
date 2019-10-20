@@ -47,8 +47,8 @@ class GenerateEventPages
     case event['type']
     when 'Divination'
       page.gsub!('__pageType', 'divination_page')
-    when 'Wellness'
-      page.gsub!('__pageType', 'divination_page')
+    when 'Sanctum'
+      page.gsub!('__pageType', 'healer_page')
     when 'Vendor'
       page.gsub!('__pageType', 'vendor_page')
     else

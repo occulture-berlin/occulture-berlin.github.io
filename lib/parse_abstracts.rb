@@ -3,17 +3,17 @@ require 'yaml'
 require 'date'
 
 class ParseAbstracts
-  def self.call(abstracts, diviners, vendors, target)
-    new(abstracts, diviners, vendors, target).call
+  def self.call(params)
+    new(params).call
   end
 
-  def initialize(abstracts, diviners, vendors, target)
+  def initialize(params)
     @search_strings = []
-    @events = serialize_events(CSV.read(abstracts, headers: true))
-    @diviners = serialize_diviners(CSV.read(diviners, headers: true))
-    @vendors = serialize_vendors(CSV.read(vendors, headers: true))
-    # @healers = serialize_healers(CSV.read(healers, headers: true))
-    @target = target
+    @events = serialize_events(CSV.read(params[:abstracts], headers: true))
+    @diviners = serialize_diviners(CSV.read(params[:diviners], headers: true))
+    @vendors = serialize_vendors(CSV.read(params[:vendors], headers: true))
+    @healers = serialize_healers(CSV.read(params[:healers], headers: true))
+    @target = params[:target]
   end
 
   def call
@@ -26,7 +26,7 @@ class ParseAbstracts
   end
 
   private
-  attr_reader :events, :diviners, :vendors, :target
+  attr_reader :events, :diviners, :healers, :vendors, :target
 
   # TODO: put these in a csv
   def inject_placeholder_events
@@ -287,7 +287,7 @@ class ParseAbstracts
   end
 
   def lineup
-    events + diviners + vendors
+    events + diviners + vendors + healers
   end
 
   def log_output
@@ -298,6 +298,7 @@ class ParseAbstracts
     end
     print "#{diviners.count} diviners\n"
     print "#{vendors.count} vendors\n"
+    print "#{healers.count} healers\n"
   end
 
   def serialize_events(abstracts)
@@ -331,12 +332,11 @@ class ParseAbstracts
     input.map do |diviner|
       search_string = ensure_unique_identifier(diviner['Name'], 'divination')
       santized_search_string = sanitize(search_string)
-      service_type = determine_service_type(santized_search_string)
 
       {
         'name' => diviner['Name'].split.each(&:capitalize).join(' '),
         'searchString' => santized_search_string,
-        'type' => service_type,
+        'type' => 'Divination',
         'servicesOffered' => diviner['Types'],
         'avatarPath' => diviner['Avatar'],
         'availableOn' => diviner['Dates'],
@@ -366,16 +366,30 @@ class ParseAbstracts
     end
   end
 
-  def determine_service_type(search_string)
-    return 'Wellness' if search_string == 'nina-kim' # hack. don't overwrite her type
-    'Divination'
+  def serialize_healers(input)
+    input.map do |healer|
+      search_string = ensure_unique_identifier(healer['Name'], 'healer')
+      santized_search_string = sanitize(search_string)
+
+      {
+        'name' => healer['Name'].split.each(&:capitalize).join(' '),
+        'searchString' => santized_search_string,
+        'type' => 'Sanctum',
+        'title' => healer['Title'],
+        'dates' => healer['Dates'],
+        'avatarPath' => healer['Avatar'],
+        'description' => healer['Description'],
+        'universal' => false,
+        'visible' => true
+      }
+    end
   end
 
   def build_diviner_string(diviner)
     offerings = diviner['Types'].split(', ').join(' / ')
     availability = diviner['Dates'].split(', ').join(' and ')
 
-    "Offering #{offerings} on #{availability}"
+    "Offering #{offerings} readings on #{availability}"
   end
 
   def ensure_unique_identifier(name, secondary_identifier)
@@ -465,6 +479,7 @@ end
 
 abstracts = ENV.fetch('ABSTRACTS')
 diviners = ENV.fetch('DIVINERS')
+healers = ENV.fetch('HEALERS')
 vendors = ENV.fetch('VENDORS')
 year = ENV.fetch('YEAR')
 target = "./_data/events-#{year}.yml"
@@ -474,4 +489,11 @@ print "If you continue, you will overwrite file '#{target}'\n\n"
 print "Are you sure you want to proceed? (y/n)"
 
 response = gets.chomp.strip == 'y' ? true : false
-ParseAbstracts.call(abstracts, diviners, vendors, target) if response == true
+params = {
+  abstracts: abstracts,
+  diviners: diviners,
+  healers: healers,
+  target: target,
+  vendors: vendors
+}
+ParseAbstracts.call(params) if response == true
