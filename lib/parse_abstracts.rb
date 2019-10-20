@@ -331,12 +331,11 @@ class ParseAbstracts
     input.map do |diviner|
       search_string = ensure_unique_identifier(diviner['Name'], 'divination')
       santized_search_string = sanitize(search_string)
-      service_type = determine_service_type(santized_search_string)
 
       {
         'name' => diviner['Name'].split.each(&:capitalize).join(' '),
         'searchString' => santized_search_string,
-        'type' => service_type,
+        'type' => 'Divination',
         'servicesOffered' => diviner['Types'],
         'avatarPath' => diviner['Avatar'],
         'availableOn' => diviner['Dates'],
@@ -366,16 +365,11 @@ class ParseAbstracts
     end
   end
 
-  def determine_service_type(search_string)
-    return 'Wellness' if search_string == 'nina-kim' # hack. don't overwrite her type
-    'Divination'
-  end
-
   def build_diviner_string(diviner)
     offerings = diviner['Types'].split(', ').join(' / ')
     availability = diviner['Dates'].split(', ').join(' and ')
 
-    "Offering #{offerings} on #{availability}"
+    "Offering #{offerings} readings on #{availability}"
   end
 
   def ensure_unique_identifier(name, secondary_identifier)
