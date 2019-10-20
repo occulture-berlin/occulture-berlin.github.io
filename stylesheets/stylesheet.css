@@ -421,12 +421,12 @@ hr {
   text-align: center;
 }
 
-.justifed {
+.justified {
   text-align: justify;
   text-justify: inter-word;
 }
 
-.center-justifed {
+.center-justified {
   text-align: justify;
   text-justify: inter-word;
   text-align-last: center;
@@ -989,6 +989,13 @@ code.donation-address {
   grid-row-gap: 0.5em;
 }
 
+#event .schedule {
+  margin: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: keepCalm;
+}
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -1226,6 +1233,10 @@ Small Device Styles
 
   #event {
     display: block;
+  }
+
+  #event .schedule {
+    grid-row: 1;
   }
 }
 
