@@ -23,7 +23,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 31
+  runningOrder: 30
 - avatarPath: https://theionpublishing.com/wp-content/uploads/2018/01/JGprofilebw.jpg
   bio: "Jessica Grote has been an initiate of the Kosmic Gnosis under its Hierophant
     David Beth for more than a decade and is currently the presiding bishop of the
@@ -79,7 +79,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 14
+  runningOrder: 16
 - avatarPath: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTmIv1DLE-johhB061KWdKXiJS3nqxn3HKErfHhnBtpsxl1n9
   bio: Gary Lachman is the author of twenty-two books on consciousness, culture, and
     the western esoteric tradition, including The Secret Teachers of the Western World,
@@ -107,7 +107,7 @@
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 16
+  runningOrder: 15
 - avatarPath: https://www.occultureberlin.org/images/speakers/phurpa.jpg
   bio: Phurpa is a roving monastic choir that espouses a rogue form of Bön, the shamanistic
     spirituality of pre-Buddhist Tibet. The ensuing tale is a captivating journey
@@ -211,7 +211,7 @@
     I will be exploring their magic from ancient roots through to contemporary practices,
     including examples of some of the most prominent Cunning practitioners and their
     work.
-  duration: 30
+  duration: 60
   keynote: 1
   location: lecture_room
   name: David Rankine
@@ -247,7 +247,7 @@
   bio: |-
     The Berlin based art project " La Tercera Mano" was formed in 2013. Involving artistic practices and diverse media, such as text, engraving, drawing, collage, installation, animation, assemblage, ready-made, found footage, and is primarly devoted to the reanimation of various archival materials, objects and obsolete disciplines.
     From anthropological myths to early discourses about madness, death and disease to the psychoanalytic underpinnings of the Bourgeoisie. Contact: instagram/facebook La.tercera.mano
-  date: 
+  date:
   description: 'Inspired by historical cabinets of wonders, pataphysical inventions,
     religious iconography, relics of  forgotten times & objets trouvés, alchemistic
     hallucinations, the morbid beauty of anatomical art, Svankmajeresk surrealism,
@@ -257,10 +257,10 @@
     '
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Pablo Dodogson
   searchString: pablo-dodogson
-  time: 
+  time:
   title: Metamorphosis Hypnagogica
   type: Art
   universal: false
@@ -307,7 +307,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 25
+  runningOrder: 24
 - avatarPath: https://i.imgur.com/kcqA5qC.jpg
   bio: |
     Since their foundation in 2016,this band have trodden a path between genres. Combining the shapeshifting, and evolving qualities of the creatures they named themselves after- Kröter (Toad) can be tadpoles wiggling in jazz pop ponds, then sprouting back legs they begin to jump around in techno and krautrock even hopping casually onto land for a moment to sound like some fucked up radio play.
@@ -330,9 +330,9 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 22
+  runningOrder: 21
 - avatarPath: https://miro.medium.com/max/703/1*m_RYYXlsn7SshTVzBXPWlQ.jpeg
-  bio: 
+  bio:
   date: day_three
   description: What is light and what is sight? How do the artificial light producing
     inventions of the last few hundred years influence our consciousness, our dreams
@@ -363,7 +363,115 @@
   type: Lecture
   universal: false
   visible: true
+  runningOrder: 13
+- avatarPath: https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/69180631_10156253351827120_1142914381131022336_n.jpg?_nc_cat=103&_nc_oc=AQlz3UgMZi2qpf6fH_BpbTptN1EVGMSJsn84bU6uRPIMSkmkgADlS7-rSfQqmpY-g3cRhfd8UdtDgAK_vL2s9m9A&_nc_ht=scontent.ftxl3-1.fna&oh=5495ca06a4f302742f851bc0b85353de&oe=5E148294
+  bio: David Rankine is a magician, author and esoteric researcher who has been practicing
+    for 40 years. To date he has written 30 books on various esoteric subjects, as
+    well as hundreds of articles for magazines and journals. In the last two decades
+    his work has focused especially on grimoires and cunning-magic, and he has authored
+    and co-authored a dozen books in this field including The Goetia of Dr Rudd, The
+    Veritable Key of Solomon, Clavis Inferni, The Grimoire of Arthur Gauntlet and
+    A Cunning Man’s Grimoire. For more information see www.davidrankine.com
+  date: day_four
+  description: This workshop will focus on vibrating Hebrew letters in combination
+    with visualisation to achieve results. The emphasis is on practices from more
+    classical practice, pre-Golden Dawn, especially using the Mother and Double letters.
+    If there are sufficient attendees (22 needed) we will also work a version of the
+    rarely used 231 Gates technique. No experience of Qabalah is required as I will
+    give the necessary background for the techniques which form the foci of the workshop.
+  duration: 60
+  keynote: 0
+  location: workshop_room
+  name: David Rankine
+  searchString: david-rankine-workshop
+  time: '17:30'
+  title: Qabalistic Sound Magic with the Hebrew Alphabet
+  type: Workshop
+  universal: false
+  visible: true
   runningOrder: 14
+- avatarPath: https://geraldinewolfe.files.wordpress.com/2019/10/librablotcloseup2.jpg?w=750
+  date:
+  description: "A performative and experiential research project relating to the empirical
+    experience of the female body when in liminal space. Investigating an instinctual
+    connection to the land, topography and hierophany.\n\nPart I was the culmination
+    of various private rituals and field research, a performative rite dedicated to
+    Hekate, in combination with a five channel sound piece using recordings from my
+    own body and sacred sites, this being a one off act which took place at  Occulture,
+    November 2018. \nPart VI, A triptych of mantic stains of the body, exhibited at
+    Occulture this year, is a culmination of the year long project, the stains being
+    reminiscent of ink blots, the old Scandinavian name for sacrifice being blœt,
+    \ made using various organic materials, the main components being pomegranate
+    juice and ash created at the autumn equinox from burning old sketchbooks and unused
+    work in order to create new material .. and the cycle continues. \n\nhttps://www.instagram.com/geraldine.e.p.wolfe/\n"
+  duration: 0
+  keynote: 0
+  location:
+  name: Geraldine Hudson
+  searchString: geraldine-hudson-art
+  time:
+  title: 'Topography Of The Witch VI - BLŒT (Mantic stains of the body) '
+  type: Art
+  universal: false
+  visible: true
+- avatarPath: https://geraldinewolfe.files.wordpress.com/2019/10/blurredcrowhand.jpg?w=750
+  bio: "Geraldine is an interdisciplinary British artist and curator currently based
+    in Stockholm. \nAfter finishing her masters in 2006, where she was working with
+    Jungian archetypes, sexuality and transgression in relation to carnival/ritual,
+    place and event, her practice has gradually evolved to acknowledge her own relationship
+    to the esoteric, as experiential research rather than anthropological study. \nWorking
+    primarily at the intersections between site/place, myth, psychological topography
+    & the liminal experience of the female magickal body. With an ongoing obsession
+    with heterotopia and hierophany, she attempts to communicate something about the
+    human state of being, through embracing the shadow, specifically focusing on the
+    space between. "
+  date: day_four
+  description: "(Fully naked inside a circle of candles, I begin to unfurl from the
+    floor, the watchers sit still in the darkness, smothered in the sound of my heartbeat.
+    Slowly and deliberately, I paint my bare flesh with juice and the ash from before,
+    clothe myself in my robe, and begin the working)  \n\nTopography Of The Witch
+    is an ongoing experiential research project started last year where I attempt
+    to communicate the inaudible and the unseen, the relationship between the flesh
+    and the dirt, to translate longing of the visceral into a language, albeit an
+    occulted, codified one. I explore the phenomenological experience of the body
+    as a transmitting device, intuitive and consciously unconscious. \nThis artists
+    talk is a reflection on the female magickal body in performative ritual practice,
+    as trained artist and practicing occultist my performances nearly always take
+    place at a specific site in order to connect with the genius loci, the piece at
+    Occulture 2018 was an exception. \n\n\n"
+  duration: 30
+  keynote: 0
+  location: lecture_room
+  name: Geraldine Hudson
+  searchString: geraldine-hudson
+  time: '14:30'
+  title: Where Does A Body End - Artists talk reflecting on ritual performative practice
+  type: Lecture
+  universal: false
+  visible: true
+  runningOrder: 8
+- avatarPath: https://scontent.fham1-1.fna.fbcdn.net/v/t1.0-9/12523147_975733022499029_5294977582656267851_n.jpg?_nc_cat=103&_nc_oc=AQm4qc1FRTKXQJxftqfSnRnB10D4gN9U-1MhjaFs4vTOKpaPYxAsENcHzxLIhJ3Xxx4&_nc_ht=scontent.fham1-1.fna&oh=495d42435341f9f6cbc6ac00feee7064&oe=5E2B3E62
+  bio: 'Jimmy Trash is a musician, writer and film maker based in Berlin. He has written
+    and produced musicals for Haus Der Kulturen Der Welt, toured as the organist for
+    a freak show, worked as a writer and researcher for record label Analog Africa,
+    and organised his own festival of eclectic and strange music, “Trashfest”. Known
+    for his bloody performances and ritualistic live acts, he has turned his projects
+    in later years towards an understanding and artistic representation of ancient
+    texts and rituals. '
+  date: day_one
+  description: Vinyl Dj Set of Edits, Mixes and Reworkings of African, South American
+    and Brazilian rhythms.
+  duration: 90
+  keynote: 0
+  location: workshop_room
+  name: Jimmy Trash
+  searchString: jimmy-trash
+  time: '00:30'
+  title: DJ SET
+  type: Performance
+  universal: false
+  visible: true
+  runningOrder: 7
 - avatarPath: https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/44083356_902797619930847_278442558000988160_n.jpg?_nc_cat=107&_nc_oc=AQn20vmcsDWqXUX7XpsdADed3IvgZnrmrxOr95t1-NAFqe2nXhZCwPPi712cJi9UJXc&_nc_ht=scontent-cdt1-1.xx&oh=da89c96a4ce6bf84cbaf4ba9f142aa0d&oe=5E231BAE
   bio: Lucas Alvarado is a musician composer/sound artist/performer, who is crossing
     borders between occultism, experimentation, improvisation & DJ sets.
@@ -380,7 +488,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 23
+  runningOrder: 22
 - avatarPath: https://images.squarespace-cdn.com/content/v1/5cba78a4b2cf795d946d08c2/1567701077350-1LWML5SFUG8K1PIO3UU0/ke17ZwdGBToddI8pDm48kNDlWfDP6XluSho8pv7T5nBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIz_haFSx3oKMEH9SWB9N68OVtMvA1Pukd8B_ydJwkXyAKMshLAGzx4R3EDFOm1kBS/new66inkwitch_tattoo_artist_moira_ink_installations_dark.jpg?format=750w
   bio: "The four beings Moira InkWitch, Osfyn, Áphoth and JoNarcissa carefully mastered
     their skills from mentors spread all over the world. They now offer them, merged
@@ -390,7 +498,7 @@
     and manifest what is destined to be revealed below their skin with ink. As a psychic
     protection JoNarcissa carefully crafted masks that are used during the ceremony.
     \L\L\n\nhttps://www.inkwitch.tattoo/\nInstagram.com/jonarcissa"
-  date: 
+  date:
   description: 'Sigil tattoos are a skin deep manifestation of inner wishes and desires
     that one strives for to become reality. The custom designs that we create, only
     work for occult creatures such as Witches, Shamans and Magicians etc. or souls
@@ -403,7 +511,7 @@
   location: workshop_room
   name: InkWitch
   searchString: inkwitch
-  time: 
+  time:
   title: Tattoo Ceremony
   type: Ritual
   universal: false
@@ -431,12 +539,12 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 20
+  runningOrder: 19
 - avatarPath: https://static.livebooks.com/e4adc0e305d94489aebc1be7e2b064e1/i/cbef43363ad04981b133715a672dfce5/1/2GTQbgiNxerRr5gcT6hkjr8dsnb6NBTxXMi2obS?dpr=1.25/cm_Letizia_Iman_0242-copyfw.jpg
   bio: 'Letizia Iman is a analogue photographer and performer Berlin based. She discovered  Butoh
     dance in 2016 and then started to explore all the expressive potential of the
     body. '
-  date: 
+  date:
   description: "What if the body, in a certain state of consciousness, becomes something
     else?\nThrough Butoh dance I get into body and mind limits, in order to reach
     a point of total surrender. In this space the body explores his natural pulsion
@@ -446,7 +554,7 @@
   location: lecture_room
   name: Letizia Iman
   searchString: letizia-iman
-  time: 
+  time:
   title: Dirt Pulse
   type: Performance
   universal: false
@@ -473,14 +581,14 @@
 - avatarPath: https://www.occultureberlin.org/images/speakers/unknown.jpg
   bio: Angstkiste is a solo musical project by Daniel Copeman to explore transcendetal
     and abrasive musical practices and sounds.
-  date: 
+  date:
   description: An improvised electronic accompaniment to a divination.
   duration: 0
   keynote: 0
   location: lecture_room
   name: A N G S T K I S T E
   searchString: a-n-g-s-t-k-i-s-t-e
-  time: 
+  time:
   title: IMPROVISATION FOR DIVINATION
   type: Performance
   universal: false
@@ -507,12 +615,12 @@
   visible: true
   runningOrder: 9
 - avatarPath: https://www.occultureberlin.org/images/speakers/janne.jpg
-  bio: 
+  bio:
   date: day_one
   description: 'From the highest skies and the deepest caves to the core of your heart.
     With pleasure and wisdom. Cosmic bass. Ancestral melody & states of deeper consciousness.
     As above so below. '
-  duration: 60
+  duration: 90
   keynote: 0
   location: workshop_room
   name: Chele Noaidi
@@ -546,7 +654,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 15
+  runningOrder: 14
 - avatarPath: https://www.occultureberlin.org/images/speakers/wertheimer-bianca.jpg
   bio: |+
     If you wish to join the shamanic drumming while everyone walks the spiral one by one, you are invited to bring drums, flutes or rattles. Let us all raise energy and celebrate the living and dead.
@@ -600,7 +708,7 @@
   type: Workshop
   universal: false
   visible: true
-  runningOrder: 17
+  runningOrder: 16
 - avatarPath: https://instagram.ftxl3-1.fna.fbcdn.net/vp/933d172d652f3b103d32512170c6b18b/5E3674AF/t51.2885-15/e35/54513047_372882336725397_1705332031903418990_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=109
   bio: Martin Cederlund (Karlstad, Sweden) is a self-taught analogue collage/mixed
     media artist based in Berlin. He sources materials from vintage books and contemporary
@@ -610,7 +718,7 @@
     onto acrylic transfer. The resultant collages play with and deconstruct varying
     psychological and cultural messages.  He uses symmetry and beauty to combine opposing
     concepts of our disturbing times.
-  date: 
+  date:
   description: A series of analog collagues, that include elements of the Occult,
     symbolism, geometric patterning and inferences to memento mori; the reality and
     inevitability of death, impermanence and transformation. He is inspired by DMT,
@@ -619,10 +727,10 @@
     imagery and a deliberately disorientating aesthetic agency.
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Martin Cederlund
   searchString: martin-cederlund
-  time: 
+  time:
   title: Memento Mori
   type: Art
   universal: false
@@ -681,7 +789,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 28
+  runningOrder: 27
 - avatarPath: https://www.occultureberlin.org/images/speakers/darrall-rew-jon.jpg
   bio: |-
     Jon Darrall-Rew: Jon’s passion is to live and share in the wild power of spirit through heart, soul and body. He co-leads Shamballa School, an international spiritual community focussed on Fire of Spirit. To learn more about his work see:
@@ -742,7 +850,7 @@
     Silver Star Journal.. He has performed and exhibited in esoteric events in France,
     Europe and South America. He presently works on a grimoire presenting his own
     recension of the Sabbatic Craft.'
-  date: 
+  date:
   description: "Originally manifested as an online project, the Dark-Shaman is an
     interactive shamanic journey manifesting 3 years of magickal exploration through
     the dark realms of the psyche. The visual and symbolism bring together ancient
@@ -756,10 +864,10 @@
     Choronzon? Come and see the Dark Shaman.\n"
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Kazim
   searchString: kazim
-  time: 
+  time:
   title: The Dark Shaman
   type: Art
   universal: false
@@ -791,7 +899,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 27
+  runningOrder: 26
 - avatarPath: http://www.crossroads.wild.net.au/time&fatebottomw.jpg
   bio: "Orryelle Defenestrate-Bascule is an esoteric artist in many media, including
     painting, writing, sculpture, sound, film and performance art. \nCreator of the
@@ -801,7 +909,7 @@
     spiritual and emotional relationships with creativity.\nThe interplay of the figurative/representational
     and the abstract, the organic and ’synthetic’ (the actual and the virtual) are
     aspects of these explorations, which aim to delve below the surface of things...\n\n"
-  date: 
+  date:
   description: "The 'esoteric' being inner as opposed to 'exoteric' (outer), the title
     of this exhibition may seem contradictory as erotica is generally associated with
     the physical body's expressions. But I depict more than just the outer forms in
@@ -810,10 +918,10 @@
     the flesh and the spirit. \nhttp://www.crossroads.wild.net.au/esoterotica.htm"
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Orryelle Defenestrate-Bascule
   searchString: orryelle-defenestrate-bascule-art
-  time: 
+  time:
   title: Esoterotica artwork
   type: Art
   universal: false
@@ -854,15 +962,15 @@
     last 4 years working quietly on various visual projects and is now sufficiently
     charged to begin sharing the works. The person behind the art remains as anonymous
     as possible so as to be separated from the work itself.
-  date: 
+  date:
   description: An attempt to spark some element of the self within us all and to inspire
     some kind of further individuation through connecting with symbology and geometry.
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: SCARH222
   searchString: scarh222
-  time: 
+  time:
   title: Visual Arts
   type: Art
   universal: false
@@ -911,7 +1019,7 @@
     she wants to connect international lightworkers to establish a pivotal force that
     would influence the wellbeing of society on a practical level. It is what she
     calls a Sozialgesamtkunstwerk. \n"
-  date: 
+  date:
   description: |-
     Inspired by tales from the Zohar I carve narrative Kabbalistic illustrations of the wisdom I extracted.
     The subtle qualities of the embossings serve as a beautiful metaphor for the knowledge which awaits to be revealed.
@@ -919,10 +1027,10 @@
     As light embraces the surface what is convex or concave merge in a single form. Being reversible, the works speak of: As above so below, as below so above.
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Nika Fontaine
   searchString: nika-fontaine
-  time: 
+  time:
   title: Zohar revealed
   type: Art
   universal: false
@@ -937,16 +1045,16 @@
     meaning-sets to open up new horizons (as in cut-up technique, dérive, machine-learning
     experiments, and divination). Awarded a residency at FKDS Ateliers at Kunstnernes
     Hus, Oslo, Norway, and the From Dusk till Dawn PNEK Art Prize︎.\nwww.peterhorneland.com\n"
-  date: 
+  date:
   description: |
     Pattern Manipulator - Palace Map - Probability Matrix. Per Manus Post Meridiem Plus Minus Private Messages. Public models, personal moments.
     22 black and white prints of the Major Arcana from The PM Tarot, designed by Peter Horneland. Produced through digital collage, with source material gathered through combining divinatory principles and information technology, creating unexpected (even to the artist) juxtapositions that then has to be composed so as to represent and reinforce the traditional symbolism of each card. The overloaded nature of the cards’ aesthetic lends itself well to both symbolic saturation and systemic analysis, leaning into the Tarot’s syncretic nature in modern times, as well as intuitive contemplation and free association through the almost Rorschach-like patterns. From pop culture references to petroglyphs, from the mundane to the mystical.
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Peter Horneland
   searchString: peter-horneland-art
-  time: 
+  time:
   title: The PM Tarot
   type: Art
   universal: false
@@ -989,23 +1097,23 @@
     He is working in a variety of media including pen and ink, paper cut, collage and digital formats.
     Throughout the 1990s Hagen was a key figure in the Chaos-Magical Pact of the Illuminates of Thanateros (I.O.T.), serving as its section head for Germany.
     He is currently a Master-Initiate of the Fraternitas Saturni (F.S.), an empowered adept of the Voudon Gnostic Current (member of O.T.O.A./L.C.N.), and a Gnostic Bishop of the Ecclesia Gnostica Spiritualis.
-  date: 
+  date:
   description: |-
     The images Hagen von Tulien creates are functioning sacred diagrams, Veves and potent effigies whereby congress with the spirit world may be actuated.
     Amalgamations of eyes, serpents, horns, skulls and other sigillic devices, these images become embodied vessels of power. They assist the practitioner in concentration, may be used in meditation or evocation, or as objects of talismanic effect. They are rich in iconic symbolism, the devices of esoteric tradition are recondite and explicit and the entities present are no less corporeal to the eye.
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Hagen von Tulien
   searchString: hagen-von-tulien-art
-  time: 
+  time:
   title: PANDAEMONIUM
   type: Art
   universal: false
   visible: true
 - avatarPath: https://instagram.ftxl3-1.fna.fbcdn.net/vp/b462137984479aa954699575d2d90de5/5E176D52/t51.2885-15/e35/67977595_2454875304560720_7803237654200765910_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=108
-  bio: 
-  date: 
+  bio:
+  date:
   description: "A multi-sensorial dance between the worlds of ancient and modern technologies.\nOpen
     your senses, explore with playfulness all the stimulus we will provide \nyou,
     let your spirit to remember how wise and strong it is.\nJoin us into this mystical
@@ -1017,10 +1125,10 @@
     are authentic."
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Virtual Awakening x Imaginarium Theater x ritual Maya
   searchString: virtual-awakening-x-imaginarium-theater-x-ritual-maya
-  time: 
+  time:
   title: Re-Remembering
   type: VR
   universal: false
@@ -1138,7 +1246,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 29
+  runningOrder: 28
 - avatarPath: https://www.one-truth-one-spirit.com/wp-content/uploads/2019/10/Launch-One-Truth-One-Spirit-FL.jpg
   bio: 'Keith Readdy holds a bachelors in philosophy from the University of Central
     Florida and a master from the University of Amsterdam''s Center for the History
@@ -1253,7 +1361,7 @@
   visible: true
   runningOrder: 14
 - avatarPath: https://www.occultureberlin.org/images/speakers/the-butterfly-wheel.jpg
-  bio: 
+  bio:
   date: day_three
   description: The Butterflywheel unravel wisdom through their weaved songs and sounds.
     Theatrically and sensitively performing their attunements to the deep feminine,
@@ -1269,7 +1377,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 26
+  runningOrder: 25
 - avatarPath: https://upload.wikimedia.org/wikipedia/commons/4/48/Beny_Tchaicovsky_Profile.jpg
   bio: 'Beny Tchaicovsky (1954-2009) was a multimedia award-winning computer artist
     and visionary. His art has been categorized as Surrealism or Fantastic Realism,
@@ -1380,7 +1488,7 @@
   type: Performance
   universal: false
   visible: true
-  runningOrder: 7
+  runningOrder: 8
 - avatarPath: https://youcanyoga.nl/wp-content/uploads/2019/09/JasonRevere.jpg
   bio: Jason Revere is here to call bullshit on the “yoga” world, at least in regards
     to enlightenment. He has 23 years of yoga and meditation practice, and 20 of those
@@ -1484,7 +1592,7 @@
     scene. \nBut because of his withdrawn living and the dark atmosphere of his art,
     he has had only a few exhibitions for nearly 30 years. Now he is showing his art
     to the world."
-  date: 
+  date:
   description: "Fear is a gate to other dimensions. Fear makes things become alive.
     Fear is a wonderful force for magic. But mostly, fear creates the unwanted. \nAll
     the suppressed ideas of the dualistic human mind becomes devils and demons and
@@ -1496,10 +1604,10 @@
     is a god!\n"
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Christian Ermel
   searchString: christian-ermel
-  time: 
+  time:
   title: The Necronom-Icons / The Archetypes of Fear - An Iconographic Pantheon
   type: Art
   universal: false
@@ -1617,12 +1725,12 @@
   location: lecture_room
   name: Marleen Thaler
   searchString: marleen-thaler
-  time: '14:30'
+  time: '13:00'
   title: The New Jerusalem Diagram. John Michell's Staircase to Heaven
   type: Lecture
   universal: false
   visible: true
-  runningOrder: 8
+  runningOrder: 5
 - avatarPath: https://2.bp.blogspot.com/--bd2JWNo2D8/UyHVtTw2BsI/AAAAAAAAAJs/KB4c-3LmaC0/s1600/Abra+Maja+Wappen+10,5+x10,5.jpg
   bio: Soror AuroRa studied ethnology and comparative religious studies. She is a
     self-confessed Thelemite for over 25 years and practices ritual magic. As a consecrated
@@ -1649,10 +1757,10 @@
   type: Ritual
   universal: false
   visible: true
-  runningOrder: 21
+  runningOrder: 20
 - avatarPath: https://www.zupimages.net/up/19/34/5f5h.jpg
-  bio: 
-  date: 
+  bio:
+  date:
   description: "Alison Flora  is a multidisciplinary french artist, practicing in
     drawing, experimental audio-visual, and installation. She finds inspiration in
     DIY culture, arts from the ancient times, art brut, aspect of occultism and feminism
@@ -1666,10 +1774,10 @@
     visible and the invisible."
   duration: 0
   keynote: 0
-  location: 
+  location:
   name: Alison Flora
   searchString: alison-flora
-  time: 
+  time:
   title: 'Secret Society '
   type: Art
   universal: false
@@ -1789,16 +1897,6 @@
   universal: false
   visible: false
   runningOrder: 2
-- date: day_one
-  location: workshop_room
-  duration: 90
-  keynote: 0
-  time: '00:30'
-  type: Performance
-  title: Jimmy Trash (DJ Set)
-  universal: false
-  visible: false
-  runningOrder: 8
 - date: day_two
   duration: 60
   keynote: 0
@@ -1810,9 +1908,18 @@
 - date: day_two
   duration: 30
   keynote: 0
+  time: '13:00'
+  location: lecture_room
+  title: 'Panel Discussion: LIMINALITY AND THE ABYSS'
+  universal: false
+  visible: false
+  runningOrder: 7
+- date: day_two
+  duration: 30
+  keynote: 0
   time: '18:30'
   location: lecture_room
-  title: Panel Discussion (TBA)
+  title: 'Panel Discussion: OCCULT STATES OF CONSCIOUSNESS'
   universal: false
   visible: false
   runningOrder: 18
@@ -1860,7 +1967,7 @@
   keynote: 0
   time: '01:00'
   type: Performance
-  title: La Nuar (DJ Set)
+  title: La Nuar and Fenou (DJ Set)
   universal: false
   visible: false
   runningOrder: 29
@@ -1873,23 +1980,23 @@
   visible: false
   runningOrder: 1
 - date: day_three
-  location: lecture_room
   duration: 30
   keynote: 0
-  time: '15:30'
-  title: TBA
+  time: '13:00'
+  location: lecture_room
+  title: 'Panel Discussion: MOVEMENTS OF GNOSIS'
   universal: false
   visible: false
-  runningOrder: 12
+  runningOrder: 7
 - date: day_three
   duration: 60
   keynote: 0
   time: '18:00'
   location: lecture_room
-  title: Panel Discussion (TBA)
+  title: 'Panel Discussion: THE MYTH OF DYSTOPIA'
   universal: false
   visible: false
-  runningOrder: 18
+  runningOrder: 17
 - date: day_three
   duration: 90
   keynote: 0
@@ -1897,7 +2004,7 @@
   title: Dinner Break
   universal: true
   visible: false
-  runningOrder: 19
+  runningOrder: 18
 - date: day_three
   location: lecture_room
   duration: 60
@@ -1907,7 +2014,7 @@
   title: Warte Mal (DJ Set)
   universal: false
   visible: false
-  runningOrder: 30
+  runningOrder: 29
 - date: day_three
   location: lecture_room
   duration: 90
@@ -1917,7 +2024,7 @@
   title: Ulises (DJ Set)
   universal: false
   visible: false
-  runningOrder: 32
+  runningOrder: 31
 - date: day_three
   location: workshop_room
   duration: 90
@@ -1927,7 +2034,7 @@
   title: ODYSSEUS
   universal: false
   visible: false
-  runningOrder: 24
+  runningOrder: 23
 - date: day_four
   duration: 60
   keynote: 0
@@ -1941,10 +2048,19 @@
   duration: 30
   keynote: 0
   time: '15:30'
-  title: Panel Discussion / Q&A
+  title: 'Panel Discussion: IMAGINING THE OCCULTURE'
   universal: false
   visible: false
   runningOrder: 10
+- date: day_four
+  location: lecture_room
+  duration: 30
+  keynote: 0
+  time: '17:30'
+  title: Q&A
+  universal: false
+  visible: false
+  runningOrder: 15
 - duration: 60
   keynote: 0
   time: '13:30'
@@ -1961,15 +2077,6 @@
   visible: false
   date: day_two
   runningOrder: 13
-- duration: 30
-  keynote: 0
-  time: '13:00'
-  location: lecture_room
-  title: Panel Discussion (TBA)
-  universal: false
-  visible: false
-  date: day_two
-  runningOrder: 7
 - duration: 60
   keynote: 0
   time: '13:30'
@@ -1985,16 +2092,7 @@
   universal: true
   visible: false
   date: day_three
-  runningOrder: 13
-- duration: 30
-  keynote: 0
-  time: '13:00'
-  location: lecture_room
-  title: Panel Discussion (TBA)
-  universal: false
-  visible: false
-  date: day_three
-  runningOrder: 7
+  runningOrder: 12
 - duration: 60
   keynote: 0
   time: '13:30'
@@ -2011,15 +2109,6 @@
   visible: false
   date: day_four
   runningOrder: 11
-- duration: 30
-  keynote: 0
-  time: '13:00'
-  location: lecture_room
-  title: Panel Discussion (TBA)
-  universal: false
-  visible: false
-  date: day_four
-  runningOrder: 5
 - name: The Octarine Fox
   searchString: the-octarine-fox
   type: Divination
@@ -2285,7 +2374,7 @@
   searchString: hagazussa-herboratorium
   type: Vendor
   avatarPath: https://www.occultureberlin.org/images/speakers/janne-herbs.jpg
-  shopUrl: 
+  shopUrl:
   bio: "„The Hagazussa Herboratorium is an herbal collective between two bewildered
     and ancient witches. We are a ritual compendium crafting powerful lovepotions
     and playful elixirs out of our herbal healers, their spirits and our heartfilled
