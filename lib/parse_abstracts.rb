@@ -51,17 +51,6 @@ class ParseAbstracts
         'visible' => false
       },
       {
-        'date' => 'day_one',
-        'location' => 'workshop_room',
-        'duration' => 90,
-        'keynote' => 0,
-        'time' => '00:30',
-        'type' => 'Performance',
-        'title' => 'Jimmy Trash (DJ Set)',
-        'universal' => false,
-        'visible' => false
-      },
-      {
         'date' => 'day_two',
         'duration' => 60,
         'keynote' => 0,
@@ -74,9 +63,19 @@ class ParseAbstracts
         'date' => 'day_two',
         'duration' => 30,
         'keynote' => 0,
+        'time' => '13:00',
+        'location' => 'lecture_room',
+        'title' => 'Panel Discussion: LIMINALITY AND THE ABYSS',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_two',
+        'duration' => 30,
+        'keynote' => 0,
         'time' => '18:30',
         'location' => 'lecture_room',
-        'title' => 'Panel Discussion (TBA)',
+        'title' => 'Panel Discussion: OCCULT STATES OF CONSCIOUSNESS',
         'universal' => false,
         'visible' => false
       },
@@ -129,7 +128,7 @@ class ParseAbstracts
         'keynote' => 0,
         'time' => '01:00',
         'type' => 'Performance',
-        'title' => 'La Nuar (DJ Set)',
+        'title' => 'La Nuar and Fenou (DJ Set)',
         'universal' => false,
         'visible' => false
       },
@@ -144,11 +143,11 @@ class ParseAbstracts
       },
       {
         'date' => 'day_three',
-        'location' => 'lecture_room',
         'duration' => 30,
         'keynote' => 0,
-        'time' => '15:30',
-        'title' => 'TBA',
+        'time' => '13:00',
+        'location' => 'lecture_room',
+        'title' => 'Panel Discussion: MOVEMENTS OF GNOSIS',
         'universal' => false,
         'visible' => false
       },
@@ -158,7 +157,7 @@ class ParseAbstracts
         'keynote' => 0,
         'time' => '18:00',
         'location' => 'lecture_room',
-        'title' => 'Panel Discussion (TBA)',
+        'title' => 'Panel Discussion: THE MYTH OF DYSTOPIA',
         'universal' => false,
         'visible' => false
       },
@@ -219,7 +218,17 @@ class ParseAbstracts
         'duration' => 30,
         'keynote' => 0,
         'time' => '15:30',
-        'title' => 'Panel Discussion / Q&A',
+        'title' => 'Panel Discussion: IMAGINING THE OCCULTURE',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_four',
+        'location' => 'lecture_room',
+        'duration' => 30,
+        'keynote' => 0,
+        'time' => '17:30',
+        'title' => 'Q&A',
         'universal' => false,
         'visible' => false
       }
@@ -231,14 +240,6 @@ class ParseAbstracts
   def inject_static_events
     %w[day_two day_three day_four].each do |day|
       universal_events.each do |e|
-        e['date'] = day
-        events << e
-      end
-
-      panel_discussions.each do |e|
-        # no evening panel discussion on sunday
-        next if e['time'].split(':').first.to_i > 17 and day == 'day_four'
-
         e['date'] = day
         events << e
       end
@@ -261,20 +262,6 @@ class ParseAbstracts
         'time' => '16:00',
         'title' => 'Coffee Break',
         'universal' => true,
-        'visible' => false
-      }
-    ]
-  end
-
-  def panel_discussions
-    [
-      {
-        'duration' => 30,
-        'keynote' => 0,
-        'time' => '13:00',
-        'location' => 'lecture_room',
-        'title' => 'Panel Discussion (TBA)',
-        'universal' => false,
         'visible' => false
       }
     ]
