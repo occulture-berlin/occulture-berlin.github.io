@@ -41,16 +41,6 @@ class ParseAbstracts
         'visible' => false
       },
       {
-        'date' => 'day_one',
-        'location' => 'workshop_room',
-        'duration' => 90,
-        'keynote' => 0,
-        'time' => '19:30',
-        'title' => 'Visual Performance & DJ Set (TBA)',
-        'universal' => false,
-        'visible' => false
-      },
-      {
         'date' => 'day_two',
         'duration' => 60,
         'keynote' => 0,
@@ -95,7 +85,7 @@ class ParseAbstracts
         'keynote' => 0,
         'time' => '20:00',
         'type' => 'Performance',
-        'title' => 'Sam Waks (DJ Set)',
+        'title' => 'Soundstrider (DJ Set)',
         'universal' => false,
         'visible' => false
       },
