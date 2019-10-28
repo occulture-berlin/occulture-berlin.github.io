@@ -13,12 +13,12 @@
     into continental Europe in 1992-93. Jeff was instrumental in forging a harder
     edged Techno sound which influenced the scene throughout the 90s with the release
     of over 50 vinyls and many cassettes as well as countless timeless performances.
-  duration: 90
+  duration: 120
   keynote: 1
   location: workshop_room
   name: JEFF23 SPIRAL TRIBE
   searchString: jeff23-spiral-tribe
-  time: '03:30'
+  time: '03:00'
   title: VOODOO SET
   type: Performance
   universal: false
@@ -364,6 +364,60 @@
   universal: false
   visible: true
   runningOrder: 13
+- avatarPath: https://scontent-ber1-1.xx.fbcdn.net/v/t1.0-9/68838187_2398161623596248_6790587992147755008_n.jpg?_nc_cat=100&_nc_eui2=AeFtqdXzih2_gL8atcio8tXlnWgbBIUQ_1Qiy-Lfa9DL475OUaIjz0XbHOlu53cWliTCPLJ9c8c3DLc0DUZk_ip7Keyl81ek1lflivVWExVLIw&_nc_oc=AQkocydV-4xo2oD7MVqn1X__am7Nsrizqq3QDN_UN6xqNzsX1tG6s6kOQwXKQx5R6Cdnim37O6vRwkHXSZbD7KYj&_nc_ht=scontent-ber1-1.xx&oh=4cd6ab162325db9ba2591b97b13b435a&oe=5E24044A
+  bio: 'Earth Dragons is an explosive, captivating fire and dance performance collective,
+    composed of gypsy wanderers, pirates, and truth-seekers from around the globe.
+    Together, we co-create mystical, mesmerizing performances that provide an unforgettable
+    experience. The artistic vision is built on honoring the sacred fire within each
+    of us and the hypnotic transformational power of fire. Each performance is a ritual,
+    as together we burn what no longer serves us, and celebrate the spark of life
+    that gave birth to the sensual, playful flames that guide our movements.   '
+  date:
+  description: Fire bridges the unseen realm to our physical plane. It offers us the
+    chance to communicate with the spirit world. Words, wishes, prayers have been
+    cast into the transformative flames to share intention of manifestation in between
+    our worlds. What if these prayers would be embodied, danced, breathed, eaten,
+    swallowed in the gorges of our desires... The braze of our hypnotizing presence
+    will take your minds into unknown dimensions while spirits speak their will through
+    our enchanted bodies.
+  duration: 0
+  keynote: 0
+  location: lecture_room
+  name: Earth Dragons
+  searchString: earth-dragons
+  time:
+  title: Fire Ritual
+  type: Performance
+  universal: false
+  visible: true
+- avatarPath: https://www.occultureberlin.org/images/speakers/watkinson-emma.jpg
+  bio: "Emma was born on Dartmoor, Devon , May 1st 1973.  After completing a Diploma
+    in Fine Art she spent many years traveling exploring different cultures & is now
+    based in Sussex, U.k.  \n   Her Artwork is inspired by meditations on mythology
+    & esoteric study.  She practices Druidry, Buddhist meditation, trains in chi gung
+    , studied with a Kabbalistic lineage & is interested in Gnostic philosophy , Alchemy
+    and Jungian psychology. \n    Her art has been exhibited widely at festivals,
+    gallerys & museums around the world. Initially self taught, researching classical
+    Academy methods of painting, she assisted Ernst Fuchs (principle founder of Fantastic
+    Realism)  in 2012 in Vienna ,  trained on courses in oil painting in Italy & Austria,
+    & London. "
+  date:
+  description: "The inspiration for Emmas Art comes principally from explorations
+    in consciousness & esoteric study. The creation of each piece is a journey, initiated
+    by synchronicity, that becomes an invocation of the chosen archetype or deity.
+    In the creation of the painting she goes deeper, understanding more of the nature
+    & insights of each subject . The finished Artwork is designed to act both as a
+    transmitter of energy & a portal of reflection in the viewers psyche.    \n"
+  duration: 0
+  keynote: 0
+  location:
+  name: Emma Watkinson
+  searchString: emma-watkinson-art
+  time:
+  title: Emanations , the Art of Emma Watkinson
+  type: Art
+  universal: false
+  visible: true
 - avatarPath: https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/69180631_10156253351827120_1142914381131022336_n.jpg?_nc_cat=103&_nc_oc=AQlz3UgMZi2qpf6fH_BpbTptN1EVGMSJsn84bU6uRPIMSkmkgADlS7-rSfQqmpY-g3cRhfd8UdtDgAK_vL2s9m9A&_nc_ht=scontent.ftxl3-1.fna&oh=5495ca06a4f302742f851bc0b85353de&oe=5E148294
   bio: David Rankine is a magician, author and esoteric researcher who has been practicing
     for 40 years. To date he has written 30 books on various esoteric subjects, as
@@ -391,7 +445,6 @@
   visible: true
   runningOrder: 14
 - avatarPath: https://geraldinewolfe.files.wordpress.com/2019/10/librablotcloseup2.jpg?w=750
-  bio:
   date:
   description: "A performative and experiential research project relating to the empirical
     experience of the female body when in liminal space. Investigating an instinctual
@@ -764,7 +817,7 @@
   location: workshop_room
   name: Katharina Louise
   searchString: katharina-louise
-  time: '17:30'
+  time: '18:00'
   title: Water Blessing Ceremony
   type: Ritual
   universal: false
@@ -891,17 +944,17 @@
     itself, open to very personal and inner interpretations and possibilities.
 
     '
-  duration: 90
+  duration: 120
   keynote: 0
   location: workshop_room
   name: Suit Kei Witches Are Back
   searchString: suit-kei-witches-are-back
-  time: '00:30'
+  time: '01:00'
   title: Techno DJ set
   type: Performance
   universal: false
   visible: true
-  runningOrder: 26
+  runningOrder: 28
 - avatarPath: http://www.crossroads.wild.net.au/time&fatebottomw.jpg
   bio: "Orryelle Defenestrate-Bascule is an esoteric artist in many media, including
     painting, writing, sculpture, sound, film and performance art. \nCreator of the
@@ -1243,12 +1296,12 @@
   location: workshop_room
   name: Brujas
   searchString: brujas
-  time: '02:00'
+  time: '00:00'
   title: 'The Secret '
   type: Performance
   universal: false
   visible: true
-  runningOrder: 28
+  runningOrder: 26
 - avatarPath: https://www.one-truth-one-spirit.com/wp-content/uploads/2019/10/Launch-One-Truth-One-Spirit-FL.jpg
   bio: 'Keith Readdy holds a bachelors in philosophy from the University of Central
     Florida and a master from the University of Amsterdam''s Center for the History
@@ -1351,7 +1404,7 @@
     will be given and how it can be applied to set off synchronicities, how to use
     it for divination or other magical applications, or simply for exploring familiar
     as well as foreign places for fun."
-  duration: 60
+  duration: 90
   keynote: 0
   location: workshop_room
   name: Tobias Raayoni Last
@@ -2020,11 +2073,11 @@
   runningOrder: 31
 - date: day_three
   location: workshop_room
-  duration: 90
+  duration: 60
   keynote: 0
   time: '23:00'
   type: Performance
-  title: ODYSSEUS
+  title: ODYSSEUS (DJ Set)
   universal: false
   visible: false
   runningOrder: 23
@@ -2054,6 +2107,24 @@
   universal: false
   visible: false
   runningOrder: 15
+- date: day_four
+  location: workshop_room
+  duration: 60
+  keynote: 0
+  time: '18:30'
+  title: Samaa Dervish
+  universal: false
+  visible: false
+  runningOrder: 17
+- date: day_four
+  location: lecture_room
+  duration: 30
+  keynote: 0
+  time: '19:30'
+  title: Closing Ritual
+  universal: false
+  visible: false
+  runningOrder: 18
 - duration: 60
   keynote: 0
   time: '13:30'
@@ -2406,7 +2477,7 @@
   searchString: nina-kim
   type: Sanctum
   title: Psychedelic Reiki Massage
-  dates: Friday 20:00 - end, Saturday 18:30 - end
+  dates: Friday & Saturday
   avatarPath: https://images.squarespace-cdn.com/content/v1/56cfd6063c44d8b9570eff6d/1523522942221-1M8WLTS7RLF3I8MQ5IQI/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pE4cef1KNtWo36k-CFnr6wOF2g5O-PFkVuvW_ba6dQUZZpzEt6WQHHQe4EHY-NJIA/ninakim.png?format=1500w
   description: "Nina Kim - Reiki Master & Massage Therapist will be offering Psychedelic
     Reiki Massage for transdimensional relaxation and healing. It is a massage infused
