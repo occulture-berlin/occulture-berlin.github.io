@@ -35,9 +35,13 @@ $(document).ready(function() {
 });
 
 lazyLoadAvatars = function() {
-  $('img[data-path]').each( function(){
-    $(this).attr('src', $(this).attr('data-path'));
-  });
+  $('.avatar img').each(function(){
+    var this_image = this;
+    var src = $(this_image).attr('src') || '' ;
+    var lsrc = $(this_image).attr('data-path') || '' ;
+
+    this_image.src = lsrc;
+  })
 }
 
 loadDefaultAvatar = function(image) {

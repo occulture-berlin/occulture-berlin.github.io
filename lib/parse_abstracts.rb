@@ -185,11 +185,11 @@ class ParseAbstracts
       {
         'date' => 'day_three',
         'location' => 'workshop_room',
-        'duration' => 90,
+        'duration' => 60,
         'keynote' => 0,
         'time' => '23:00',
         'type' => 'Performance',
-        'title' => 'ODYSSEUS',
+        'title' => 'ODYSSEUS (DJ Set)',
         'universal' => false,
         'visible' => false
       },
@@ -219,6 +219,26 @@ class ParseAbstracts
         'keynote' => 0,
         'time' => '17:30',
         'title' => 'Q&A',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_four',
+        'location' => 'workshop_room',
+        'duration' => 60,
+        'keynote' => 0,
+        'time' => '18:30',
+        'title' => 'Samaa Dervish',
+        'universal' => false,
+        'visible' => false
+      },
+      {
+        'date' => 'day_four',
+        'location' => 'lecture_room',
+        'duration' => 30,
+        'keynote' => 0,
+        'time' => '19:30',
+        'title' => 'Closing Ritual',
         'universal' => false,
         'visible' => false
       }

@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  // TODO: if the current day matches on date-nav day, select that by default
   var date = new Date;
       year = date.getFullYear();
       month = date.getMonth();

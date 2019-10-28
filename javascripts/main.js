@@ -4,6 +4,15 @@ $(document).ready(function() {
     console.log("window width: "+$(window).width()+"px");
   };
 
+  // TEMPORARY - redirect to schedule page if during the conference
+  var date = new Date;
+      year = date.getFullYear();
+      month = date.getMonth();
+      day = date.getDate();
+      hour = date.getHours();
+      dateString = year + month + day + hour;
+
+
   // landing page
   // this also displays the mailing list when landing is closed
   displayLandingPage();
