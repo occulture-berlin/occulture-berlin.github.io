@@ -247,7 +247,7 @@
   bio: |-
     The Berlin based art project " La Tercera Mano" was formed in 2013. Involving artistic practices and diverse media, such as text, engraving, drawing, collage, installation, animation, assemblage, ready-made, found footage, and is primarly devoted to the reanimation of various archival materials, objects and obsolete disciplines.
     From anthropological myths to early discourses about madness, death and disease to the psychoanalytic underpinnings of the Bourgeoisie. Contact: instagram/facebook La.tercera.mano
-  date:
+  date: 
   description: 'Inspired by historical cabinets of wonders, pataphysical inventions,
     religious iconography, relics of  forgotten times & objets trouvés, alchemistic
     hallucinations, the morbid beauty of anatomical art, Svankmajeresk surrealism,
@@ -257,10 +257,10 @@
     '
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Pablo Dodogson
   searchString: pablo-dodogson
-  time:
+  time: 
   title: Metamorphosis Hypnagogica
   type: Art
   universal: false
@@ -332,7 +332,7 @@
   visible: true
   runningOrder: 21
 - avatarPath: https://miro.medium.com/max/703/1*m_RYYXlsn7SshTVzBXPWlQ.jpeg
-  bio:
+  bio: 
   date: day_three
   description: What is light and what is sight? How do the artificial light producing
     inventions of the last few hundred years influence our consciousness, our dreams
@@ -372,7 +372,7 @@
     of us and the hypnotic transformational power of fire. Each performance is a ritual,
     as together we burn what no longer serves us, and celebrate the spark of life
     that gave birth to the sensual, playful flames that guide our movements.   '
-  date:
+  date: 
   description: Fire bridges the unseen realm to our physical plane. It offers us the
     chance to communicate with the spirit world. Words, wishes, prayers have been
     cast into the transformative flames to share intention of manifestation in between
@@ -385,7 +385,7 @@
   location: lecture_room
   name: Earth Dragons
   searchString: earth-dragons
-  time:
+  time: 
   title: Fire Ritual
   type: Performance
   universal: false
@@ -401,7 +401,7 @@
     Academy methods of painting, she assisted Ernst Fuchs (principle founder of Fantastic
     Realism)  in 2012 in Vienna ,  trained on courses in oil painting in Italy & Austria,
     & London. "
-  date:
+  date: 
   description: "The inspiration for Emmas Art comes principally from explorations
     in consciousness & esoteric study. The creation of each piece is a journey, initiated
     by synchronicity, that becomes an invocation of the chosen archetype or deity.
@@ -410,10 +410,10 @@
     transmitter of energy & a portal of reflection in the viewers psyche.    \n"
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Emma Watkinson
   searchString: emma-watkinson-art
-  time:
+  time: 
   title: Emanations , the Art of Emma Watkinson
   type: Art
   universal: false
@@ -445,7 +445,8 @@
   visible: true
   runningOrder: 14
 - avatarPath: https://geraldinewolfe.files.wordpress.com/2019/10/librablotcloseup2.jpg?w=750
-  date:
+  bio: 
+  date: 
   description: "A performative and experiential research project relating to the empirical
     experience of the female body when in liminal space. Investigating an instinctual
     connection to the land, topography and hierophany.\n\nPart I was the culmination
@@ -460,10 +461,10 @@
     work in order to create new material .. and the cycle continues. \n\nhttps://www.instagram.com/geraldine.e.p.wolfe/\n"
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Geraldine Hudson
   searchString: geraldine-hudson-art
-  time:
+  time: 
   title: 'Topography Of The Witch VI - BLŒT (Mantic stains of the body) '
   type: Art
   universal: false
@@ -552,7 +553,7 @@
     and manifest what is destined to be revealed below their skin with ink. As a psychic
     protection JoNarcissa carefully crafted masks that are used during the ceremony.
     \L\L\n\nhttps://www.inkwitch.tattoo/\nInstagram.com/jonarcissa"
-  date:
+  date: 
   description: 'Sigil tattoos are a skin deep manifestation of inner wishes and desires
     that one strives for to become reality. The custom designs that we create, only
     work for occult creatures such as Witches, Shamans and Magicians etc. or souls
@@ -565,7 +566,7 @@
   location: workshop_room
   name: InkWitch
   searchString: inkwitch
-  time:
+  time: 
   title: Tattoo Ceremony
   type: Ritual
   universal: false
@@ -598,7 +599,7 @@
   bio: 'Letizia Iman is a analogue photographer and performer Berlin based. She discovered  Butoh
     dance in 2016 and then started to explore all the expressive potential of the
     body. '
-  date:
+  date: 
   description: "What if the body, in a certain state of consciousness, becomes something
     else?\nThrough Butoh dance I get into body and mind limits, in order to reach
     a point of total surrender. In this space the body explores his natural pulsion
@@ -608,7 +609,7 @@
   location: lecture_room
   name: Letizia Iman
   searchString: letizia-iman
-  time:
+  time: 
   title: Dirt Pulse
   type: Performance
   universal: false
@@ -635,14 +636,14 @@
 - avatarPath: https://www.occultureberlin.org/images/speakers/unknown.jpg
   bio: Angstkiste is a solo musical project by Daniel Copeman to explore transcendetal
     and abrasive musical practices and sounds.
-  date:
+  date: 
   description: An improvised electronic accompaniment to a divination.
   duration: 0
   keynote: 0
   location: lecture_room
   name: A N G S T K I S T E
   searchString: a-n-g-s-t-k-i-s-t-e
-  time:
+  time: 
   title: IMPROVISATION FOR DIVINATION
   type: Performance
   universal: false
@@ -669,7 +670,7 @@
   visible: true
   runningOrder: 9
 - avatarPath: https://www.occultureberlin.org/images/speakers/janne.jpg
-  bio:
+  bio: 
   date: day_one
   description: 'From the highest skies and the deepest caves to the core of your heart.
     With pleasure and wisdom. Cosmic bass. Ancestral melody & states of deeper consciousness.
@@ -772,7 +773,7 @@
     onto acrylic transfer. The resultant collages play with and deconstruct varying
     psychological and cultural messages.  He uses symmetry and beauty to combine opposing
     concepts of our disturbing times.
-  date:
+  date: 
   description: A series of analog collagues, that include elements of the Occult,
     symbolism, geometric patterning and inferences to memento mori; the reality and
     inevitability of death, impermanence and transformation. He is inspired by DMT,
@@ -781,10 +782,10 @@
     imagery and a deliberately disorientating aesthetic agency.
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Martin Cederlund
   searchString: martin-cederlund
-  time:
+  time: 
   title: Memento Mori
   type: Art
   universal: false
@@ -964,7 +965,7 @@
     spiritual and emotional relationships with creativity.\nThe interplay of the figurative/representational
     and the abstract, the organic and ’synthetic’ (the actual and the virtual) are
     aspects of these explorations, which aim to delve below the surface of things...\n\n"
-  date:
+  date: 
   description: "The 'esoteric' being inner as opposed to 'exoteric' (outer), the title
     of this exhibition may seem contradictory as erotica is generally associated with
     the physical body's expressions. But I depict more than just the outer forms in
@@ -973,10 +974,10 @@
     the flesh and the spirit. \nhttp://www.crossroads.wild.net.au/esoterotica.htm"
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Orryelle Defenestrate-Bascule
   searchString: orryelle-defenestrate-bascule-art
-  time:
+  time: 
   title: Esoterotica artwork
   type: Art
   universal: false
@@ -1017,15 +1018,15 @@
     last 4 years working quietly on various visual projects and is now sufficiently
     charged to begin sharing the works. The person behind the art remains as anonymous
     as possible so as to be separated from the work itself.
-  date:
+  date: 
   description: An attempt to spark some element of the self within us all and to inspire
     some kind of further individuation through connecting with symbology and geometry.
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: SCARH222
   searchString: scarh222
-  time:
+  time: 
   title: Visual Arts
   type: Art
   universal: false
@@ -1074,7 +1075,7 @@
     she wants to connect international lightworkers to establish a pivotal force that
     would influence the wellbeing of society on a practical level. It is what she
     calls a Sozialgesamtkunstwerk. \n"
-  date:
+  date: 
   description: |-
     Inspired by tales from the Zohar I carve narrative Kabbalistic illustrations of the wisdom I extracted.
     The subtle qualities of the embossings serve as a beautiful metaphor for the knowledge which awaits to be revealed.
@@ -1082,10 +1083,10 @@
     As light embraces the surface what is convex or concave merge in a single form. Being reversible, the works speak of: As above so below, as below so above.
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Nika Fontaine
   searchString: nika-fontaine
-  time:
+  time: 
   title: Zohar revealed
   type: Art
   universal: false
@@ -1100,16 +1101,16 @@
     meaning-sets to open up new horizons (as in cut-up technique, dérive, machine-learning
     experiments, and divination). Awarded a residency at FKDS Ateliers at Kunstnernes
     Hus, Oslo, Norway, and the From Dusk till Dawn PNEK Art Prize︎.\nwww.peterhorneland.com\n"
-  date:
+  date: 
   description: |
     Pattern Manipulator - Palace Map - Probability Matrix. Per Manus Post Meridiem Plus Minus Private Messages. Public models, personal moments.
     22 black and white prints of the Major Arcana from The PM Tarot, designed by Peter Horneland. Produced through digital collage, with source material gathered through combining divinatory principles and information technology, creating unexpected (even to the artist) juxtapositions that then has to be composed so as to represent and reinforce the traditional symbolism of each card. The overloaded nature of the cards’ aesthetic lends itself well to both symbolic saturation and systemic analysis, leaning into the Tarot’s syncretic nature in modern times, as well as intuitive contemplation and free association through the almost Rorschach-like patterns. From pop culture references to petroglyphs, from the mundane to the mystical.
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Peter Horneland
   searchString: peter-horneland-art
-  time:
+  time: 
   title: The PM Tarot
   type: Art
   universal: false
@@ -1152,38 +1153,46 @@
     He is working in a variety of media including pen and ink, paper cut, collage and digital formats.
     Throughout the 1990s Hagen was a key figure in the Chaos-Magical Pact of the Illuminates of Thanateros (I.O.T.), serving as its section head for Germany.
     He is currently a Master-Initiate of the Fraternitas Saturni (F.S.), an empowered adept of the Voudon Gnostic Current (member of O.T.O.A./L.C.N.), and a Gnostic Bishop of the Ecclesia Gnostica Spiritualis.
-  date:
+  date: 
   description: |-
     The images Hagen von Tulien creates are functioning sacred diagrams, Veves and potent effigies whereby congress with the spirit world may be actuated.
     Amalgamations of eyes, serpents, horns, skulls and other sigillic devices, these images become embodied vessels of power. They assist the practitioner in concentration, may be used in meditation or evocation, or as objects of talismanic effect. They are rich in iconic symbolism, the devices of esoteric tradition are recondite and explicit and the entities present are no less corporeal to the eye.
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Hagen von Tulien
   searchString: hagen-von-tulien-art
-  time:
+  time: 
   title: PANDAEMONIUM
   type: Art
   universal: false
   visible: true
 - avatarPath: https://instagram.ftxl3-1.fna.fbcdn.net/vp/b462137984479aa954699575d2d90de5/5E176D52/t51.2885-15/e35/67977595_2454875304560720_7803237654200765910_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=108
-  bio:
-  date:
-  description: "A multi-sensorial dance between the worlds of ancient and modern technologies.\nOpen
-    your senses, explore with playfulness all the stimulus we will provide \nyou,
-    let your spirit to remember how wise and strong it is.\nJoin us into this mystical
-    journey through XIBALBA (Mayan underworld) and other \nmultiverses full of eco-awareness.
-    And allow the old version of your \nself to die in order to reborn in this new
-    era of RITUALITY.\nThe story revolves around ceremony, sacred animals, warriors
-    and underworld. The messages are delivered in the indigenous Mayan languages of
-    Tzotzil and Lacandon. Our music is played with ancestral instruments and our costumes
-    are authentic."
+  bio: 
+  date: 
+  description: "It is a Mexican tradition, that on November 1st and 2nd, is believed
+    that throughout these days, the borders between the world of the living and the
+    dead fade away. To honor this tradition, we invite you to take a deep dive into
+    an immersive experience that will stimulate all your senses and offers an opportunity
+    for the old version of yourself to die and to be reborn in this RITUALITY (Ritual
+    + VR).\n\nIn this special edition, 3 Mexican artistic collectives, “Virtual Awakening”,
+    “Imaginarium Theater” and “Ritual Maya”; will join forces to guide you through
+    a mystical journey of eco and self-awareness into XIBALBA (the Mayan underworld)
+    and other universes, which aim to catalyze profound insights on Death and Dying.
+    \n\n\nThis ceremony will be open by “Ritual Maya” summoning the wisdom of Mayan
+    elders, with their powerful outdoor performance and hypnotic music created with
+    sacred instruments. Indoors “La Santa Muerte” will take you into the territory
+    of the unknown with “Imaginarium Theater” and perform psychomagic acts to prepare
+    you for the portal that “Virtual Awakening” is opening into the great  Mystery.
+    \n\nJoin us into this multi-sensorial journey between the worlds of ancient and
+    modern technologies and let yourself be mesmerized by the technological wisdom
+    of this synthesis. \n"
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Virtual Awakening x Imaginarium Theater x ritual Maya
   searchString: virtual-awakening-x-imaginarium-theater-x-ritual-maya
-  time:
+  time: 
   title: Re-Remembering
   type: VR
   universal: false
@@ -1416,7 +1425,7 @@
   visible: true
   runningOrder: 14
 - avatarPath: https://www.occultureberlin.org/images/speakers/the-butterfly-wheel.jpg
-  bio:
+  bio: 
   date: day_three
   description: The Butterflywheel unravel wisdom through their weaved songs and sounds.
     Theatrically and sensitively performing their attunements to the deep feminine,
@@ -1647,7 +1656,7 @@
     scene. \nBut because of his withdrawn living and the dark atmosphere of his art,
     he has had only a few exhibitions for nearly 30 years. Now he is showing his art
     to the world."
-  date:
+  date: 
   description: "Fear is a gate to other dimensions. Fear makes things become alive.
     Fear is a wonderful force for magic. But mostly, fear creates the unwanted. \nAll
     the suppressed ideas of the dualistic human mind becomes devils and demons and
@@ -1659,10 +1668,10 @@
     is a god!\n"
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Christian Ermel
   searchString: christian-ermel
-  time:
+  time: 
   title: The Necronom-Icons / The Archetypes of Fear - An Iconographic Pantheon
   type: Art
   universal: false
@@ -1814,8 +1823,8 @@
   visible: true
   runningOrder: 20
 - avatarPath: https://www.zupimages.net/up/19/34/5f5h.jpg
-  bio:
-  date:
+  bio: 
+  date: 
   description: "Alison Flora  is a multidisciplinary french artist, practicing in
     drawing, experimental audio-visual, and installation. She finds inspiration in
     DIY culture, arts from the ancient times, art brut, aspect of occultism and feminism
@@ -1829,10 +1838,10 @@
     visible and the invisible."
   duration: 0
   keynote: 0
-  location:
+  location: 
   name: Alison Flora
   searchString: alison-flora
-  time:
+  time: 
   title: 'Secret Society '
   type: Art
   universal: false
@@ -2438,7 +2447,7 @@
   searchString: hagazussa-herboratorium
   type: Vendor
   avatarPath: https://www.occultureberlin.org/images/speakers/janne-herbs.jpg
-  shopUrl:
+  shopUrl: 
   bio: "„The Hagazussa Herboratorium is an herbal collective between two bewildered
     and ancient witches. We are a ritual compendium crafting powerful lovepotions
     and playful elixirs out of our herbal healers, their spirits and our heartfilled
