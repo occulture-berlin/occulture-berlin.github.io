@@ -1,6 +1,6 @@
 @font-face {
   font-family: Cinzel;
-  src: url('../fonts/Cinzel-Black.ttf');
+  src: url('../fonts/Cinzel-Regular.ttf');
 }
 
 * {
@@ -42,21 +42,37 @@ section {
 
 #landing #content-wrapper {
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 12vh;
 
   font-family: Cinzel, 'serif';
-  font-size: 1.5em;
+  font-size: 1.333rem;
   color: darkgrey;
   text-transform: uppercase;
 }
 
 #landing #content-wrapper #logo {
-  width: 66vw;
-  margin-bottom: 2em;
+  width: 77vw;
+  margin-bottom: 1em;
 }
 
 #landing #content-wrapper .icon {
   margin: 1em auto;
 }
 
-footer {}
+@media(min-width: 500px) {
+  #landing #content-wrapper #logo {
+    width: 55vw;
+  }
+}
+
+@media(min-width: 1200px) {
+  #landing #content-wrapper {
+    margin-top: 8vh;
+  }
+
+  #landing #content-wrapper #logo {
+    width: 35vw;
+    margin-bottom: 1em;
+  }
+}
+
