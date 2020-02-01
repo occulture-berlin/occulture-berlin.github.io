@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Cinzel;
+  src: url('../fonts/Cinzel-Black.ttf');
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background: #000;
+}
+
+section {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+#landing {
+  background-image: url('../images/2020/bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#landing img.body {
+  position: absolute;
+  top: 20px;
+  height: 95vh;
+  opacity: 0.5;
+}
+
+#landing img#body-left {
+  left: 0;
+}
+
+#landing img#body-right {
+  right: 0;
+}
+
+#landing #content-wrapper {
+  text-align: center;
+  margin-top: 10vh;
+
+  font-family: Cinzel, 'serif';
+  font-size: 1.5em;
+  color: darkgrey;
+  text-transform: uppercase;
+}
+
+#landing #content-wrapper #logo {
+  width: 66vw;
+  margin-bottom: 2em;
+}
+
+#landing #content-wrapper .icon {
+  margin: 1em auto;
+}
+
+footer {}
