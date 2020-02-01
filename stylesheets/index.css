@@ -27,7 +27,7 @@ section {
 
 #landing img.body {
   position: absolute;
-  top: 20px;
+  top: 4vh;
   height: 95vh;
   opacity: 0.5;
 }
