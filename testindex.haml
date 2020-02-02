@@ -11,8 +11,8 @@ onLoadAction:
   %img#body-left.body{src: './images/2020/body-left-half.png'}
   %img#body-right.body{src: './images/2020/body-right-half.png'}
 
-  #content-wrapper
-    %img#logo{src: './images/2020/logo.png'}
+  .content-wrapper
+    %img.logo{src: './images/2020/logo.png'}
 
     %br
     %img.icon{src: './images/2020/ico_flame.png'}
@@ -24,3 +24,40 @@ onLoadAction:
     %h1 Ticket sales begin
     %h3 new moon in pisces
     %h3 23 February 2020
+
+%section#footer
+  .links-wrapper.inner
+    %h1.tag-line Uncover OCCULTURE
+    %ul.social-links
+      %li.ga-track{ data: { tracker: 'footer-social-insta' } }
+        %a{href: 'https://www.instagram.com/occultureberlin', target: '_blank'}
+          %img{src: './images/insta.png'}
+      %li.ga-track{ data: { tracker: 'footer-social-fb' } }
+        %a{href: 'https://www.fb.com/occultureberlin', target: '_blank'}
+          %img{src: './images/fb.png'}
+      %li.ga-track{ data: { tracker: 'footer-social-youtube' } }
+        %a{href: 'https://www.youtube.com/channel/UCbTZWQ4_YixzYRi4vuWXDGA', target: '_blank'}
+          %img{src: './images/youtube.png'}
+      %li.ga-track{ data: { tracker: 'footer-social-email' } }
+        %a{href: 'mailto:info@occultureberlin.org'}
+          %img{src: './images/email.png'}
+
+  .mailing-list-wrapper.inner
+    %form.ga-track{                                     |
+      action:"https://tinyletter.com/occulture-berlin", |
+      method:"post",                                    |
+      target:"_blank",                                  |
+      data:{tracker:"footer-input-mailing-list"}}       |
+
+      %label{for:"tlemail"}
+        .title Join our coven
+        .sub-title subscribe to the occulture mailing list
+      #mailing-list-input
+        %input#tlemail{type:"text", name:"email"}
+        %input{type:"hidden", value:"1",  name:"embed"}
+        %input.button.ga-track{                         |
+          type:"submit",                                |
+          value:"Subscribe",                            |
+          data:{tracker:"footer-submit-mailing-list"}}  |
+
+  .closing-ritual-image
