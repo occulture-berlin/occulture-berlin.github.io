@@ -1,0 +1,205 @@
+---
+layout: default
+title: "OCCULTURE Berlin"
+url: https://www.occultureberlin.org
+description: "OCCULTURE Esoteric Conference Berlin"
+displayImageCarousel: true
+image: https://www.occultureberlin.org/images/2019/open-graph.jpg
+onLoadAction:
+---
+
+/ display landing page, remember to uncomment displayLandingPage() in main.js
+/ {% haml landing_page.haml %}
+
+#high-priority-information-wrap.outer
+  %section#high-priority-information.inner.center
+    Deep gratitude to everyone who contributed to and participated in OCCULTURE 2019!
+  %section#mailing-list.inner.center
+    / TODO: change the way the mailing list includes file works...
+    %form.ga-track{                                     |
+      action:"https://tinyletter.com/occulture-berlin", |
+      method:"post",                                    |
+      target:"_blank",                                  |
+      data:{tracker:"input-mailing-list-contact-section"}}              |
+
+      %label{for:"tlemail"}
+        Subscribe for updates and information about OCCULTURE:
+      #mailing-list-input
+        %input{type:"text", name:"email", id:"tlemail"}
+        %input{type:"hidden", value:"1",  name:"embed"}
+        %input.button.ga-track{                 |
+          type:"submit",                        |
+          value:"Subscribe",                    |
+          data:{tracker:"submit-mailing-list-high-priority-section"}} |
+
+/ MAIN CONTENT
+/ Nav buttons
+#nav-wrap.outer
+  #mobile-nav-wrap.hidden
+    #hamburger-icon.ga-track
+      %img{src: 'images/hamburger_icon.png'}
+  %ul#nav.inner.center
+    %li.button.ga-track.hidden#tickets-button
+      %a{href: 'tickets'} Get Tickets
+    %li.button.ga-track#lineup-button
+      %a{href: '2019/lineup'} 2019 Lineup
+    %li.button.ga-track#schedule-button
+      %a{href: '2019/schedule'} Schedule
+    %li.button.ga-track.hidden#venue-button.tab-button Venue
+    %li.button.ga-track#contact-button.tab-button Contact
+    / %li.button.ga-track.hidden#call-for-abstracts-button.tab-button Proposals
+    %li.button.ga-track#media-button.tab-button Media
+    %li.button.ga-track.hidden#donate-button.tab-button Donate
+    / adblock hides this if it's called 'sponsors'
+    %li.button.ga-track#friends-button.tab-button Partners
+    %li.button.ga-track.hidden#lineup-2018-button
+      %a{:onclick => "goToPage('2018/lineup')"} 2018 Lineup
+
+#schedule-wrap.outer
+  %section#schedule.tab.inner.center.hidden
+    #schedule-image.hidden
+      %a{href: 'images/2019/schedule.png', target: '_blank'}
+        %img.ga-track{data:{tracker:'mobile-schedule'}, src: 'images/2019/schedule.png' }
+    #schedule-grid
+      .blank &nbsp;
+      .time 11:00
+      .time 12:00
+      .time 13:00
+      .time 14:00
+      .time 15:00
+      .time 16:00
+      .time 17:00
+      .time 18:00
+      .time 19:00
+      .time 20:00
+      .time 21:00
+      .time 22:00
+      .time 23:00
+      .time 00:00
+      .time 01:00
+      .time 02:00
+      .time 03:00
+      .time 04:00
+      .time 05:00
+
+      .thursday.day.day-name
+        .text Thursday 31.10
+      .thursday.day.holder
+      .thursday.day.registration
+        .text Registration
+      .thursday.day.opening-ritual
+        .text Opening Ritual + Phurpa
+      .thursday.day.party
+        .text Party and DJ Set
+
+      .friday.day.day-name
+        .text Friday 01.11
+      .friday.day.registration
+        .text Registration
+      .friday.day.conference
+        .text Lectures, Workshops, Panels, VR, Art Installations and other experiences
+      .friday.day.evening
+        .text Film screenings, Live Music and DJ Set, Divination, Performances
+
+      .saturday.day.day-name
+        .text Saturday 02.11
+      .saturday.day.registration
+        .text Registration
+      .saturday.day.conference
+        .text Lectures, Workshops, Panels, VR Art Installations and other experiences
+      .saturday.day.evening
+        .text Film screenings, Live Music, Divination, Performances
+      .saturday.day.party
+        .text OCCULTURE Party!
+
+      .sunday.day.day-name
+        .text Sunday 03.11
+      .sunday.day.registration
+        .text Registration
+      .sunday.day.conference
+        .text Lectures, Workshops, Panels and more
+      .sunday.day.closing-ritual
+        .text Closing Ritual
+
+#venue-wrap.outer
+  %section#venue.tab.inner.center.hidden
+    #map.center
+      // .:MRSLDHRMBR:.
+      %img{src: 'images/anomalie.jpg'}
+      %iframe{allowfullscreen:"",
+        src: "https://www.google.com/maps?q=Anomalie Berlin&output=embed&z=15"}
+      %br
+      %p  A safe, grounding haven is crucial to an esoteric journey, so to is the notion of home to people who find themselves on the periphery. For us, the place where we gather is very significant. It is a home, not a mere venue. Due to ignorance and fear of the unknown, the Musikbrauerei suddenly closed its doors to us in the midst of our programming.
+
+      %p As luck or fate would have it, a new partnership has been born out of the ashes of the old, with Anomalie Art Club, an astonishing location in Prenzlauer Berg. Anomalie is a location with an intense soul - inside and outside spaces - and a unique vibe. A place of art and creativity is the ideal canvas onto which we can pour our energy into a Temporary Autonomous Home, with freedom to connect, to experiment and to delve into the mysteries.
+
+
+#contact-wrap.outer
+  %section#contact.tab.inner.center.hidden
+    %p
+      Want to get in touch? Send us a message at
+      %a{href: "mailto:info@occultureberlin.org"} info@occultureberlin.org
+
+    / TODO: change the way the mailing list includes file works...
+    %form.ga-track{                                     |
+      action:"https://tinyletter.com/occulture-berlin", |
+      method:"post",                                    |
+      target:"_blank",                                  |
+      data:{tracker:"input-mailing-list-contact-section"}}              |
+
+      %label{for:"tlemail"}
+        Subscribe for updates and information about OCCULTURE:
+      #mailing-list-input
+        %input{type:"text", name:"email", id:"tlemail"}
+        %input{type:"hidden", value:"1",  name:"embed"}
+        %input.button.ga-track{                 |
+          type:"submit",                        |
+          value:"Subscribe",                    |
+          data:{tracker:"submit-mailing-list-contact-section"}} |
+
+#call-for-abstracts-wrap.outer
+  %section#call-for-abstracts.tab.inner.center.hidden
+    %p.description-text
+      The period for submitting proposals has ended. If you'd like to submit a proposal, you are welcome to do so using the form below, however as we have receieved a large number of applications already, we cannot guarantee that space will be available.
+
+    %a.submission-button.button.ga-track{href: 'https://forms.gle/sHi4srkGdFQWkq3f6'}
+      Submit a Proposal
+
+#media-wrap.outer
+  %section#media.tab.inner.center.hidden
+    {% haml media.haml %}
+
+#donate-wrap.outer
+  %section#donate.tab.inner.center.hidden
+    {% haml donate.haml %}
+
+/ adblock hides this tab if it's called 'sponsors'
+#friends-wrap.outer
+  %section#friends.tab.inner.center.hidden
+    %ul#friends-grid
+      / monterey not set for https
+      %li.bff.ga-track{data:{tracker: 'partner-thoth-hermes'}}
+        %a{href: "https://www.thothermes.com?redirect-from=occultureberlin"}
+          %img{alt: "Thoth Hermes Podcast", src: "images/thoth-hermes-logo.jpg"}
+      %li.ga-track{data:{tracker: 'partner-monterey-bar'}}
+        %a{href: "http://montereybar.com?redirect-from=occultureberlin"}
+          %img{alt: "Monterey Bar", src: "images/monterey-logo.png"}
+      %li.ga-track{data:{tracker: 'partner-okultura'}}
+        %a{href: "https://www.okultura.pl?redirect-from=occultureberlin"}
+          %img{alt: "Okultura", src: "images/okultura-logo.png"}
+      %li.ga-track{data:{tracker: 'partner-herbal-alchemy'}}
+        %a{href: "https://www.herbalalchemy.eu?redirect-from=occultureberlin"}
+          %img{alt: "Herbal Alchemy", src: "images/herbal-alchemy-logo.png"}
+      %li.ga-track{data:{tracker: 'partner-villaggio-della-luna'}}
+        %a{href: "https://www.facebook.com/villaggiodellaluna/"}
+          %img{alt: "Villaggio Della Luna", src: "images/villaggio-della-luna.png"}
+      / %li
+      /   %a{href: "https://www.anathemapublishing.com?redirect-from=occultureberlin"}
+      /     %img{alt: "Anathema Publishing", src: "images/anathema-logo-03.png"}/
+      / %a{href: "https://scarletimprint.com?redirect-from=occultureberlin"}
+      /   %img{alt: "Scarlet Imprint", src: "images/scarlet-imprint-logo.png"}/
+      / %a{href: "https://cycliclaw.com?redirect-from=occultureberlin"}
+      /   %img{alt: "Cyclic Law", src: "images/cyclic-law-logo.png"}/
+
+// this likes to be at the bottom for some reason, otherwise it blocks everything else
+{% haml 2019/lineup.haml %}
