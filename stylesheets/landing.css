@@ -1,0 +1,58 @@
+#landing {
+  background-image: url('../images/2020/bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#landing img.body {
+  position: absolute;
+  top: 4vh;
+  height: 95vh;
+  opacity: 0.5;
+}
+
+#landing img#body-left {
+  left: 0;
+}
+
+#landing img#body-right {
+  right: 0;
+}
+
+#landing .content-wrapper {
+  text-align: center;
+  margin-top: 12vh;
+
+  font-family: 'cinzel', 'serif';
+  font-size: 1.333rem;
+  text-transform: uppercase;
+}
+
+#landing .content-wrapper .logo {
+  width: 77vw;
+  margin-bottom: 1em;
+}
+
+#landing .content-wrapper .icon {
+  margin: 1em auto;
+}
+
+@media(min-width: 500px) {
+  #landing .content-wrapper .logo {
+    width: 55vw;
+  }
+}
+
+@media(min-width: 1200px) {
+  #landing .content-wrapper {
+    margin-top: 8vh;
+  }
+
+  #landing .content-wrapper .logo {
+    width: 35vw;
+    margin-bottom: 1em;
+  }
+}
+

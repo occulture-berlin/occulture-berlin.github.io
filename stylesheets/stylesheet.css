@@ -71,74 +71,6 @@ body {
   margin-bottom: 10em;
 }
 
-#landing-wrap {
-  position: fixed;
-  z-index: 23;
-  overflow: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background: #000;
-  font-family: keepCalm;
-}
-
-#landing-wrap #logo {
-  width: 50%;
-  border: none;
-  box-shadow: none;
-  display: block;
-  margin-top: 4vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#landing {
-  letter-spacing: 1px;
-  line-height: 1;
-}
-
-#landing .put-out-the-vibe {
-  margin-top: 1em;
-}
-
-#landing video {
-  width: auto;
-  height: 50vh ;
-}
-
-#landing .put-out-the-cold-facts {
-  font-family: latoBold;
-  width: 60vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#landing .put-out-the-cold-facts .promo {
-  font-family: keepCalm;
-  text-transform: uppercase;
-  color: red;
-  font-size: 120%;
-}
-
-#landing .fork-out-the-cash {
-  margin-bottom: 1em;
-}
-
-#landing .button {
-  background: red;
-  color: white;
-  margin-top: 1em;
-  display: inline-block;
-}
-
-#landing-wrap .close-button {
-  cursor: pointer;
-  text-transform: uppercase;
-  background: black;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 #main-ticket-button {
   position: relative; /* otherwise this is hidden by the absolute positioning of the seal */
   text-align: center;
@@ -1032,14 +964,6 @@ Small Device Styles
 }
 
 @media (max-width: 1120px) {
-  #landing {
-    grid-template-columns: 1fr;
-    justify-content: center;
-  }
-
-  #landing img {
-    width: 35vw;
-  }
 
   #call-for-abstracts .description-text {
     margin-bottom: 2em;
@@ -1113,10 +1037,6 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
-  #landing video {
-    width: 80vw;
-  }
-
   #mailing-list #mailing-list-input {
     width: 80vw;
   }
@@ -1240,10 +1160,6 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 800px) {
-  #landing img {
-    width: 45vw;
-  }
-
   #schedule #schedule-grid {
     display: none;
   }
