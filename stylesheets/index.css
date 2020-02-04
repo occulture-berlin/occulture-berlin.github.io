@@ -20,6 +20,7 @@
 a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 ol, ul {
@@ -40,40 +41,6 @@ section {
 
 .inner {
   margin: auto 7vw;
-}
-
-#footer {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-}
-
-#footer .links-wrapper {
-  grid-row: 1;
-  align-self: center;
-  justify-self: left;
-}
-
-#footer .links-wrapper .tag-line {
-  text-transform: uppercase;
-  font-family: 'keepCalm';
-  font-size: 3rem;
-  letter-spacing: 7px;
-  text-align: center;
-}
-
-#footer .links-wrapper .social-links {
-  margin-top: 2vh;
-}
-
-#footer .links-wrapper .social-links li {
-  display: inline-block;
-  width: 23%;
-  text-align: center;
-}
-
-#footer .links-wrapper .social-links li img {
-  width: 80%;
 }
 
 #footer .mailing-list-wrapper {
@@ -119,16 +86,6 @@ section {
   cursor: pointer;
   margin-top: 0.5em;
   border: none;
-}
-
-#footer .closing-ritual-image {
-  grid-row: 2;
-  grid-column: 1/3;
-  background-image: url('../images/events/2019/enid-closing-ritual.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: saturate(0.1);
 }
 
 @media(min-width: 500px) {
