@@ -22,12 +22,15 @@
 }
 
 #landing .content-wrapper {
-  text-align: center;
-  margin-top: 12vh;
+  margin-top: 6vh;
 
+  text-align: center;
   font-family: 'cinzel', 'serif';
-  font-size: 1.333rem;
+  font-size: 2vh;
   text-transform: uppercase;
+
+  z-index: 1;
+  position: relative;
 }
 
 #landing .content-wrapper .logo {
@@ -36,12 +39,17 @@
 }
 
 #landing .content-wrapper .icon {
-  margin: 1em auto;
+  width: 6vh;
 }
 
 @media(min-width: 500px) {
   #landing .content-wrapper .logo {
     width: 55vw;
+  }
+
+  #landing .content-wrapper .icon {
+    width: 4vh;
+    margin: 0.5em auto;
   }
 }
 
