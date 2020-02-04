@@ -42,6 +42,28 @@
   width: 6vh;
 }
 
+#landing .content-wrapper .social-links {
+  position: fixed;
+  bottom: 1.5vh;
+  width: 100%;
+}
+
+#landing .content-wrapper .social-links li {
+  display: inline-block;
+  text-align: center;
+}
+
+#landing .content-wrapper .social-links li img {
+  width: 80%;
+}
+
+#landing .impressum {
+  position: fixed;
+  bottom: 0.5vh;
+  width: 100%;
+  font-size: 10px;
+}
+
 @media(min-width: 500px) {
   #landing .content-wrapper .logo {
     width: 55vw;
@@ -59,7 +81,18 @@
   }
 
   #landing .content-wrapper .logo {
-    width: 35vw;
+    width: 45vw;
+    margin-bottom: 1em;
+  }
+}
+
+@media(min-width: 1600px) {
+  #landing .content-wrapper {
+    margin-top: 8vh;
+  }
+
+  #landing .content-wrapper .logo {
+    width: 30vw;
     margin-bottom: 1em;
   }
 }
