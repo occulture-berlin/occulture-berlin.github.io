@@ -24,3 +24,20 @@ onLoadAction:
     %h1 Ticket sales start
     %h3 new moon in pisces
     %h3 23 February 2020
+
+    %ul.social-links
+      %li.ga-track{ data: { tracker: 'footer-social-insta' } }
+        %a{href: 'https://www.instagram.com/occultureberlin', target: '_blank'}
+          %img{src: './images/insta.png'}
+      %li.ga-track{ data: { tracker: 'footer-social-fb' } }
+        %a{href: 'https://www.fb.com/occultureberlin', target: '_blank'}
+          %img{src: './images/fb.png'}
+      %li.ga-track{ data: { tracker: 'footer-social-youtube' } }
+        %a{href: 'https://www.youtube.com/channel/UCbTZWQ4_YixzYRi4vuWXDGA', target: '_blank'}
+          %img{src: './images/youtube.png'}
+      %li.ga-track{ data: { tracker: 'footer-social-email' } }
+        %a{href: 'mailto:info@occultureberlin.org'}
+          %img{src: './images/email.png'}
+
+    .impressum
+      %a.ga-track{onclick: "goToPage('impressum.html')"} Impressum
