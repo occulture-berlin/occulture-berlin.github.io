@@ -65,8 +65,15 @@
     <meta property="og:site_name"     content="OCCULTURE Berlin" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/16x16.png">
+
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/index.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/landing.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/mailing_list.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/tickets.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/venue.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/footer.css">
 
     <!-- fonts loaded from google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
@@ -74,6 +81,8 @@
 
   <body onLoad="{{ page.onLoadAction }}">
     {{ content }}
+
+    {% haml footer.haml %}
   </body>
 
   <script src="{{page.scope}}javascripts/js.cookie.js" type="text/javascript"></script>

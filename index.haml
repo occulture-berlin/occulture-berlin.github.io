@@ -7,11 +7,11 @@ image: https://www.occultureberlin.org/images/2020/open-graph.jpg
 onLoadAction:
 ---
 
-%section#landing
-  %img#body-left.body{src: './images/2020/body-left-half.png'}
-  %img#body-right.body{src: './images/2020/body-right-half.png'}
+%section#landing.vertically-centered-section
+  %img#body-system-left.body-system{src: './images/2020/body-left-half.png'}
+  %img#body-system-right.body-system{src: './images/2020/body-right-half.png'}
 
-  .content-wrapper
+  .vertically-centered-content-wrapper.content-wrapper
     %img.logo{src: './images/2020/logo.png'}
 
     %br
@@ -25,19 +25,43 @@ onLoadAction:
     %h3 new moon in pisces
     %h3 23 February 2020
 
-    %ul.social-links
-      %li.ga-track{ data: { tracker: 'footer-social-insta' } }
-        %a{href: 'https://www.instagram.com/occultureberlin', target: '_blank'}
-          %img{src: './images/insta.png'}
-      %li.ga-track{ data: { tracker: 'footer-social-fb' } }
-        %a{href: 'https://www.fb.com/occultureberlin', target: '_blank'}
-          %img{src: './images/fb.png'}
-      %li.ga-track{ data: { tracker: 'footer-social-youtube' } }
-        %a{href: 'https://www.youtube.com/channel/UCbTZWQ4_YixzYRi4vuWXDGA', target: '_blank'}
-          %img{src: './images/youtube.png'}
-      %li.ga-track{ data: { tracker: 'footer-social-email' } }
-        %a{href: 'mailto:info@occultureberlin.org'}
-          %img{src: './images/email.png'}
+%section#mailing-list.vertically-centered-section.half-section
+  .vertically-centered-content-wrapper.content-wrapper
+    %img.icon{src: './images/2020/ico_snake.png'}
+    {% haml mailing_list.haml %}
 
-    .impressum
-      %a.ga-track{onclick: "goToPage('impressum.html')"} Impressum
+// borders #b2b2b2
+// bg #141414
+%section#tickets
+  .content-wrapper
+    %img.icon{src: './images/2020/ico_hand.png'}
+    %h1 Tickets
+
+    #main-ticket-button.button.ga-track buy now
+    = # #ticket-content.inner
+    = #  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis sagittis diam, vitae finibus est. Ut ut nisl pellentesque, porttitor mi ut, consequat est. Suspendisse dignissim, nisl eget blandit dapibus, felis nibh consectetur lacus, nec interdum elit orci non eros. In id eros varius, vestibulum purus non, gravida quam. Fusce euismod tempus mauris, sed elementum risus tempus a. Aenean feugiat ligula eget lorem eleifend varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed eu sapien lectus.
+
+%section#venue
+  .content-wrapper
+    // TODO: should be eye
+    %img.icon{src: './images/2020/ico_flame.png'}
+    %h1 Venue
+    %h3 Anomalie Art Club, Berlin
+
+    #map
+      // .:MRSLDHRMBR:.
+      // %img{src: 'images/anomalie.jpg'}
+      %iframe{allowfullscreen:"",
+        src: "https://www.google.com/maps?q=Anomalie Art Club Berlin&output=embed&z=13"}
+
+%section#media
+  .content-wrapper
+    %h1 Media
+
+%section#friends
+  .content-wrapper
+    %h1 Partners
+
+%section#past-events
+  .content-wrapper
+    %h1 Past Events

@@ -39,57 +39,37 @@ section {
   height: 100vh;
 }
 
+/* use in conjunction with .vertically-centered-content-wrapper */
+.vertically-centered-section {
+  display: table;
+}
+
+/* use in conjunction with .vertically-centered-section */
+.vertically-centered-content-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.half-section {
+  height: 50vh;
+}
+
 .inner {
   margin: auto 7vw;
 }
 
-#footer .mailing-list-wrapper {
-  grid-row: 1;
-  align-self: center;
-  justify-self: center;
-}
+.content-wrapper {
+  margin-top: 6vh;
 
-#footer .mailing-list-wrapper .title {
-  font-size: 3rem;
-  font-family: 'cinzel';
-  text-transform: uppercase;
   text-align: center;
-  margin-bottom: 0.5em;
-}
-
-#footer .mailing-list-wrapper .sub-title {
-  font-family: 'keepCalm';
+  font-family: 'cinzel', 'serif';
+  font-size: 2vh;
   text-transform: uppercase;
-  text-align: center;
+
+  z-index: 1;
+  position: relative;
 }
 
-#footer .mailing-list-wrapper #mailing-list-input {
-  margin-top: 2vh;
-}
-
-#footer .mailing-list-wrapper #mailing-list-input #tlemail {
-  width: 95%;
-  height: 3vh;
-}
-
-#footer .mailing-list-wrapper #mailing-list-input .button {
-  width: 95%;
-  height: 3.5vh;
-  background: darkgrey;
-
-  font-family: 'keepCalm';
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-
-  cursor: pointer;
-  margin-top: 0.5em;
-  border: none;
-}
-
-@media(min-width: 500px) {
-  #footer .links-wrapper .social-links li img {
-    width: unset;
-  }
+.content-wrapper .icon {
+  width: 5vh;
 }

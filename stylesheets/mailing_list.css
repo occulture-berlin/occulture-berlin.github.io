@@ -1,0 +1,34 @@
+#mailing-list .icon {
+  margin-bottom: 1em;
+}
+
+#mailing-list #mailing-list-input {
+  margin-top: 2vh;
+}
+
+#mailing-list #mailing-list-input input#tlemail {
+  height: 6.9vh;
+  padding: 0; /* otherwise button has different height */
+
+  background-color: #141414;
+  border: 1px solid #333;
+}
+
+#mailing-list #mailing-list-input input#tlemail:focus {
+  border: 1px solid #fff;
+}
+
+#mailing-list #mailing-list-input .button {
+  height: 7vh;
+  margin: auto 5px;
+
+  font-family: 'cinzel';
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+  background: #000;
+  border: 1px solid #333;
+}

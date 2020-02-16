@@ -1,0 +1,14 @@
+#venue #map img {
+  width: 45%;
+  height: 450px;
+  opacity: 0.9;
+}
+
+#venue #map iframe {
+  margin-top: 4vh;
+  width: 98vw;
+  height: 66vh;
+  filter: invert(1);
+  border: none;
+}
+

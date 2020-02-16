@@ -106,119 +106,11 @@ body {
   float: left;
 }
 
-#venue #map img {
-  width: 45%;
-  height: 450px;
-  opacity: 0.9;
-}
-
-#venue #map iframe {
-  width: 45%;
-  height: 450px;
-}
-
 /* https://stackoverflow.com/a/20352949/2128691 */
 body::after {
   content: '';
   display: block;
   height: 3em; /* Set same as footer's height */
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: black;
-  text-align: center;
-  z-index: 23;
-}
-
-#footer-links ul {
-  list-style: none;
-  margin-left: 0;
-}
-
-#footer-links li {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 0.5em;
-}
-
-#footer-links a {
-  color: red;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#mailing-list-wrap {
-  background: #000;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  z-index: 101;
-}
-
-#mailing-list-wrap #mailing-list {
-  padding-top: 1em;
-}
-
-#mailing-list .button {
-  text-align: center;
-  cursor: pointer;
-  font-family: keepCalm;
-  margin: 0.75em 1em 0.75em 1em;
-  padding: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  border: none;
-  font-size: 1em;
-}
-
-#mailing-list .close-button {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  right: 2em;
-  font-weight: bold;
-  font-family: keepCalm;
-  text-transform: uppercase;
-}
-
-#mailing-list-wrap #mailing-list .logo {
-  width: 45vw; /* expands to 70 */
-  margin-left: auto;
-  margin-right: auto;
-  grid-row: 2;
-}
-
-#mailing-list form {
-  grid-row: 3;
-  text-align: center;
-  align-self: center;
-}
-
-#mailing-list form label {
-  vertical-align: middle;
-  font-family: 'Metamorphous';
-}
-
-#mailing-list #mailing-list-input {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-}
-
-#mailing-list #mailing-list-input #tlemail {
-  width: 30vw;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-#mailing-list #mailing-list-input .button {
-  background: red;
-  color: #DCE0DF;
 }
 
 #impressum {
@@ -805,22 +697,6 @@ section {
   font-size: 0.8em;
 }
 
-#contact {
-  font-size: 1.3em;
-}
-
-#contact a {
-  color: red;
-}
-
-#contact #mailing-list-input {
-  margin: 1em;
-}
-
-#contact #mailing-list-input #tlemail {
-  width: 40vw;
-}
-
 /* adblock hides this if it's called 'sponsors' */
 #friends-grid {
   display: grid;
@@ -952,19 +828,7 @@ Small Device Styles
   }
 }
 
-@media (max-width: 1500px) {
-  #venue #map img {
-    width: 80%;
-    height: auto;
-  }
-
-  #venue #map iframe {
-    width: 80%;
-  }
-}
-
 @media (max-width: 1120px) {
-
   #call-for-abstracts .description-text {
     margin-bottom: 2em;
   }
@@ -1037,21 +901,6 @@ Small Device Styles
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
-  #mailing-list #mailing-list-input {
-    width: 80vw;
-  }
-
-  #mailing-list .close-button {
-    position: unset;
-    cursor: pointer;
-    top: unset;
-    right: unset;
-    font-weight: bold;
-    font-family: keepCalm;
-    text-transform: uppercase;
-    margin-bottom: 1em;
-  }
-
   #nav-wrap.top-nav-bar {
     height: 5vh;
   }
@@ -1208,26 +1057,6 @@ Small Device Styles
 
   #logo {
     width: 90%;
-  }
-
-  #mailing-list-wrap {
-    top: 0;
-  }
-
-  #mailing-list-wrap #mailing-list {
-    margin: 3em;
-  }
-
-  #mailing-list #mailing-list-input {
-    width: auto;
-  }
-
-  #mailing-list #mailing-list-input #tlemail {
-    width: 85%;
-  }
-
-  #mailing-list #mailing-list-buttons {
-    width: auto;
   }
 
   #high-priority-information-wrap #tickets-wrap .button {

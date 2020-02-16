@@ -1,0 +1,33 @@
+footer {
+  position: fixed;
+  z-index: 23;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  padding-top: 5px;
+}
+
+footer .footer-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+footer .footer-wrapper .social-links li {
+  display: inline-block;
+  text-align: center;
+}
+
+footer .footer-wrapper .social-links li img {
+  width: 80%;
+}
+
+footer .footer-wrapper .impressum {
+  width: 100%;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+footer .footer-wrapper .impressum a {
+  cursor: pointer;
+  text-transform: uppercase;
+}
