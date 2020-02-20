@@ -1,17 +1,18 @@
-#mailing-list .icon {
-  margin-bottom: 1em;
-}
-
 #mailing-list #mailing-list-input {
-  margin-top: 2vh;
+  margin-top: 4vh;
 }
 
 #mailing-list #mailing-list-input input#tlemail {
-  height: 6.9vh;
-  padding: 0; /* otherwise button has different height */
+  width: 50vw;
+  height: 6.6vh;
+  vertical-align: bottom;
 
   background-color: #141414;
   border: 1px solid #333;
+
+  font-size: 1.5em;
+  padding-left: 7px;
+  color: #fff;
 }
 
 #mailing-list #mailing-list-input input#tlemail:focus {
@@ -19,10 +20,13 @@
 }
 
 #mailing-list #mailing-list-input .button {
+  width: 25vw;
   height: 7vh;
+  vertical-align: bottom;
   margin: auto 5px;
 
   font-family: 'cinzel';
+  font-size: 1.3em;
   color: white;
   text-align: center;
   text-transform: uppercase;

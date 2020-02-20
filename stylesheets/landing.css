@@ -22,17 +22,34 @@
 }
 
 #landing .content-wrapper .logo {
-  width: 77vw;
+  width: 70vw;
   margin-bottom: 1em;
+}
+
+#landing #landing-footer {
+  width: 100vw;
+  text-align: center;
+}
+
+#landing #landing-footer .social-links {
+  position: absolute;
+  bottom: 3vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#landing #landing-footer .social-links li img {
+  width: 80%;
 }
 
 @media(min-width: 500px) {
   #landing .content-wrapper .logo {
-    width: 55vw;
+    width: 50vw;
   }
 
   #landing .content-wrapper .icon {
-    width: 4vh;
     margin: 0.5em auto;
   }
 }
@@ -54,7 +71,7 @@
   }
 
   #landing .content-wrapper .logo {
-    width: 30vw;
+    width: 35vw;
     margin-bottom: 1em;
   }
 }

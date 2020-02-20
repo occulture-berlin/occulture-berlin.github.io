@@ -5,12 +5,19 @@
 }
 
 #tickets .content-wrapper #main-ticket-button {
-  margin-top: 18vh;
+  margin-top: 4vh;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 6vh;
+  padding: 0.5em 0;
 
   width: 66vw;
   border: 1px solid #ccc;
-  font-size: 3em;
+  font-size: 2em;
+}
+
+@media(min-width: 600px) {
+  #tickets .content-wrapper #main-ticket-button {
+    font-size: 3em;
+  }
 }

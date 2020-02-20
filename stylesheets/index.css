@@ -50,6 +50,15 @@ section {
   vertical-align: middle;
 }
 
+.vertically-centered-content-wrapper .fixed-title {
+   position: absolute;
+   top: 3vh;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .half-section {
   height: 50vh;
 }
@@ -58,8 +67,30 @@ section {
   margin: auto 7vw;
 }
 
+.hidden {
+  display: none;
+}
+
+/* catch the spacer in default nav styling */
+.nav {
+  color: #555;
+  font-size: 1.3em;
+}
+
+.nav li {
+  display: inline-block;
+  margin: auto 1vw;
+  cursor: pointer;
+
+  text-align: center;
+}
+
+.nav li.selected {
+  color: #fff;
+}
+
 .content-wrapper {
-  margin-top: 6vh;
+  margin-top: 3vh;
 
   text-align: center;
   font-family: 'cinzel', 'serif';
@@ -71,5 +102,11 @@ section {
 }
 
 .content-wrapper .icon {
-  width: 5vh;
+  width: 12vw;
+}
+
+@media(min-width: 500px) {
+  .content-wrapper .icon {
+    width: 8vw;
+  }
 }

@@ -7,11 +7,11 @@ image: https://www.occultureberlin.org/images/2020/open-graph.jpg
 onLoadAction:
 ---
 
-%section#landing.vertically-centered-section
+%section#landing
   %img#body-system-left.body-system{src: './images/2020/body-left-half.png'}
   %img#body-system-right.body-system{src: './images/2020/body-right-half.png'}
 
-  .vertically-centered-content-wrapper.content-wrapper
+  .content-wrapper
     %img.logo{src: './images/2020/logo.png'}
 
     %br
@@ -21,32 +21,43 @@ onLoadAction:
 
     %br
     %img.icon{src: './images/2020/ico_hand.png'}
-    %h1 Ticket sales start
-    %h3 new moon in pisces
-    %h3 23 February 2020
+    %h1 Tickets available now
+
+  #landing-footer
+    %ul.nav.social-links
+      %li.ga-track{ data: { tracker: 'landing-social-insta' } }
+        %a{href: 'https://www.instagram.com/occultureberlin', target: '_blank'}
+          %img{src: './images/insta.png'}
+      %li.ga-track{ data: { tracker: 'landing-social-fb' } }
+        %a{href: 'https://www.fb.com/occultureberlin', target: '_blank'}
+          %img{src: './images/fb.png'}
+      %li.ga-track{ data: { tracker: 'landing-social-youtube' } }
+        %a{href: 'https://www.youtube.com/channel/UCbTZWQ4_YixzYRi4vuWXDGA', target: '_blank'}
+          %img{src: './images/youtube.png'}
+      %li.ga-track{ data: { tracker: 'landing-social-email' } }
+        %a{href: 'mailto:info@occultureberlin.org'}
+          %img{src: './images/email.png'}
 
 %section#mailing-list.vertically-centered-section.half-section
   .vertically-centered-content-wrapper.content-wrapper
     %img.icon{src: './images/2020/ico_snake.png'}
     {% haml mailing_list.haml %}
 
-// borders #b2b2b2
-// bg #141414
-%section#tickets
-  .content-wrapper
+// TODO: add ticket types to ticket-tailor
+%section#tickets.vertically-centered-section.half-section
+  .vertically-centered-content-wrapper.content-wrapper
     %img.icon{src: './images/2020/ico_hand.png'}
     %h1 Tickets
 
-    #main-ticket-button.button.ga-track buy now
-    = # #ticket-content.inner
-    = #  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis sagittis diam, vitae finibus est. Ut ut nisl pellentesque, porttitor mi ut, consequat est. Suspendisse dignissim, nisl eget blandit dapibus, felis nibh consectetur lacus, nec interdum elit orci non eros. In id eros varius, vestibulum purus non, gravida quam. Fusce euismod tempus mauris, sed elementum risus tempus a. Aenean feugiat ligula eget lorem eleifend varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed eu sapien lectus.
+    #main-ticket-button.button.ga-track{ data: {tracker: 'main-ticket-button'}}
+      %a{href: 'https://app.tickettailor.com/events/occulture/352285/r/website-tickets-section'} buy now
 
 %section#venue
   .content-wrapper
-    // TODO: should be eye
-    %img.icon{src: './images/2020/ico_flame.png'}
-    %h1 Venue
-    %h3 Anomalie Art Club, Berlin
+    .fixed-title
+      %img.icon{src: './images/2020/ico_eye.png'}
+      %h1 Venue
+      %h3 Anomalie Art Club, Berlin
 
     #map
       // .:MRSLDHRMBR:.
@@ -54,14 +65,73 @@ onLoadAction:
       %iframe{allowfullscreen:"",
         src: "https://www.google.com/maps?q=Anomalie Art Club Berlin&output=embed&z=13"}
 
-%section#media
-  .content-wrapper
-    %h1 Media
+// // // MEDIA // // //
+// TODO: add 2019 photos
+// TODO: add context switching
+// TODO: styling for mobile
+%section#media.vertically-centered-section
+  .vertically-centered-content-wrapper.content-wrapper
+    .fixed-title
+      %img.icon{src: './images/2020/ico_eye.png'}
+      %h1 Media
 
-%section#friends
-  .content-wrapper
-    %h1 Partners
+    #image-gallery
+      {% for photo in site.data.photos %}
+      %a.ga-track{href: "{{ photo.path }}", data: {fancybox: "gallery", tracker: "image-{{ photo.tracker }}" }}
+        %img{src:"{{ photo.path }}"}
+      {% endfor %}
 
-%section#past-events
-  .content-wrapper
-    %h1 Past Events
+// // // PARTNERS // // //
+// %section#friends.vertically-centered-section
+//   .vertically-centered-content-wrapper.content-wrapper
+//     .fixed-title
+//       %img.icon{src: './images/2020/ico_flame.png'}
+//       %h1 Partners
+//
+//     %img{src: './images/2020/ico_flame.png'}
+//     %img{src: './images/2020/ico_flame.png'}
+//     %img{src: './images/2020/ico_flame.png'}
+//     %img{src: './images/2020/ico_flame.png'}
+
+// TODO: nav switching (js)
+// TODO: some blurb would be nice
+%section#past-events.vertically-centered-section
+  .vertically-centered-content-wrapper.content-wrapper
+    .fixed-title
+      %img.icon{src: './images/2020/ico_flame.png'}
+      %h1 Past Events
+      %ul.nav
+        %li.selected.ga-track{data: {tracker: 'past-events-2019'}} 2019
+        |
+        %li.ga-track{data: {tracker: 'past-events-2018'}} 2018
+
+    #information-2019
+      %h2 OCCULTURE 2019
+      %h4 31 October - 03 November
+      %h4 Anomalie Art Club, Berlin
+
+      %br
+      %a.ga-track{href: './2019/lineup', data: {tracker: '2019-lineup'}} Lineup
+      %br
+      %a.download-program.ga-track{href: './2019/program.pdf', data: {tracker: 'download-program-2019'}}
+        Download Program
+    #information-2018.hidden
+      %h2 OCCULTURE 2018
+      %h4 16-18 November
+      %h4 Flutgraben e.V, Berlin
+
+      // TODO: whole lotta refactorin' to do there
+      %br
+      %a.ga-track{href: './2018/lineup', data: {tracker: '2018-lineup'}} Lineup
+      %br
+      %a.download-program.ga-track{href: './2018/program.pdf', data: {tracker: 'download-program-2018'}}
+        Download Program
+
+// TODO: add link to proposals site
+// TODO: add blurb + theme
+%section#call-for-abstracts.vertically-centered-section
+  .vertically-centered-content-wrapper.content-wrapper
+    .fixed-title
+      %img.icon{src: './images/2020/ico_snake.png'}
+      %h1 Call for Abstracts
+    %a some links
