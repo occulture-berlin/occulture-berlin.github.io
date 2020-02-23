@@ -1,5 +1,11 @@
 %footer
   .footer-wrapper
+    .impressum
+      %a.ga-track{onclick: "goToPage('impressum.html')"} Impressum
+
+    .logo
+      %img{src: './images/occulture-logo-alpha.png'}
+
     %ul.nav.social-links
       %li.ga-track{ data: { tracker: 'footer-social-insta' } }
         %a{href: 'https://www.instagram.com/occultureberlin', target: '_blank'}
@@ -14,5 +20,3 @@
         %a{href: 'mailto:info@occultureberlin.org'}
           %img{src: './images/email.png'}
 
-    .impressum
-      %a.ga-track{onclick: "goToPage('impressum.html')"} Impressum

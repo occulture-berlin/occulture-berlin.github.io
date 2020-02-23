@@ -43,14 +43,14 @@ onLoadAction:
     %img.icon{src: './images/2020/ico_snake.png'}
     {% haml mailing_list.haml %}
 
-// TODO: add ticket types to ticket-tailor
 %section#tickets.vertically-centered-section.half-section
   .vertically-centered-content-wrapper.content-wrapper
     %img.icon{src: './images/2020/ico_hand.png'}
     %h1 Tickets
 
     #main-ticket-button.button.ga-track{ data: {tracker: 'main-ticket-button'}}
-      %a{href: 'https://app.tickettailor.com/events/occulture/352285/r/website-tickets-section'} buy now
+      %a{href: 'https://www.universe.com/events/occulture-2020-tickets-36QYWS'} buy now
+      // %a{href: 'https://app.tickettailor.com/events/occulture/352285/r/website-tickets-section'} buy now
 
 %section#venue
   .content-wrapper
@@ -67,19 +67,20 @@ onLoadAction:
 
 // // // MEDIA // // //
 // TODO: add 2019 photos
+// TODO: add videos
 // TODO: add context switching
 // TODO: styling for mobile
-%section#media.vertically-centered-section
-  .vertically-centered-content-wrapper.content-wrapper
-    .fixed-title
-      %img.icon{src: './images/2020/ico_eye.png'}
-      %h1 Media
-
-    #image-gallery
-      {% for photo in site.data.photos %}
-      %a.ga-track{href: "{{ photo.path }}", data: {fancybox: "gallery", tracker: "image-{{ photo.tracker }}" }}
-        %img{src:"{{ photo.path }}"}
-      {% endfor %}
+// %section#media.vertically-centered-section
+//   .vertically-centered-content-wrapper.content-wrapper
+//     .fixed-title
+//       %img.icon{src: './images/2020/ico_eye.png'}
+//       %h1 Media
+//
+//     #image-gallery
+//       {% for photo in site.data.photos %}
+//       %a.ga-track{href: "{{ photo.path }}", data: {fancybox: "gallery", tracker: "image-{{ photo.tracker }}" }}
+//         %img{src:"{{ photo.path }}"}
+//       {% endfor %}
 
 // // // PARTNERS // // //
 // %section#friends.vertically-centered-section
@@ -93,8 +94,6 @@ onLoadAction:
 //     %img{src: './images/2020/ico_flame.png'}
 //     %img{src: './images/2020/ico_flame.png'}
 
-// TODO: nav switching (js)
-// TODO: some blurb would be nice
 %section#past-events.vertically-centered-section
   .vertically-centered-content-wrapper.content-wrapper
     .fixed-title
@@ -105,33 +104,40 @@ onLoadAction:
         |
         %li.ga-track{data: {tracker: 'past-events-2018'}} 2018
 
-    #information-2019
+    #information-2019.past-event-wrapper
       %h2 OCCULTURE 2019
       %h4 31 October - 03 November
       %h4 Anomalie Art Club, Berlin
 
-      %br
-      %a.ga-track{href: './2019/lineup', data: {tracker: '2019-lineup'}} Lineup
-      %br
-      %a.download-program.ga-track{href: './2019/program.pdf', data: {tracker: 'download-program-2019'}}
-        Download Program
-    #information-2018.hidden
+      .image
+        %img{src: './images/events/2019/enid-closing-ritual.jpg'}
+        .rights
+          Photographer:
+          %a{href: 'https://www.instagram.com/WarmDefeat/', target: 'blank'} Enid Valu
+      .links
+        %a.ga-track{href: './2019/lineup', data: {tracker: '2019-lineup'}} Lineup
+        %br
+        %a.download-program.ga-track{href: './2019/program.pdf', data: {tracker: 'download-program-2019'}}
+          Download Program
+    #information-2018.past-event-wrapper.hidden
       %h2 OCCULTURE 2018
       %h4 16-18 November
-      %h4 Flutgraben e.V, Berlin
+      %h4 Flutgraben e.V., Berlin
 
-      // TODO: whole lotta refactorin' to do there
-      %br
-      %a.ga-track{href: './2018/lineup', data: {tracker: '2018-lineup'}} Lineup
-      %br
-      %a.download-program.ga-track{href: './2018/program.pdf', data: {tracker: 'download-program-2018'}}
-        Download Program
+      .image
+        %img{src: './images/events/2018/exterior.jpg'}
+      .links
+        // TODO: whole lotta refactorin' to do there
+        %a.ga-track{href: './2018/lineup', data: {tracker: '2018-lineup'}} Lineup
+        %br
+        %a.download-program.ga-track{href: './2018/program.pdf', data: {tracker: 'download-program-2018'}}
+          Download Program
 
 // TODO: add link to proposals site
 // TODO: add blurb + theme
-%section#call-for-abstracts.vertically-centered-section
-  .vertically-centered-content-wrapper.content-wrapper
-    .fixed-title
-      %img.icon{src: './images/2020/ico_snake.png'}
-      %h1 Call for Abstracts
-    %a some links
+// %section#call-for-abstracts.vertically-centered-section
+//   .vertically-centered-content-wrapper.content-wrapper
+//     .fixed-title
+//       %img.icon{src: './images/2020/ico_snake.png'}
+//       %h1 Call for Abstracts
+//     %a some links

@@ -110,3 +110,15 @@ section {
     width: 8vw;
   }
 }
+
+@media(min-width: 1000px) {
+  .content-wrapper .icon {
+    width: 6vw;
+  }
+}
+
+@media(min-width: 1500px) {
+  .content-wrapper .icon {
+    width: 4vw;
+  }
+}

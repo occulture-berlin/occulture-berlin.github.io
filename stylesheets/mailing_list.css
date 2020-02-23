@@ -36,3 +36,13 @@
   background: #000;
   border: 1px solid #333;
 }
+
+@media(min-width: 1000px) {
+  #mailing-list #mailing-list-input input#tlemail {
+    width: 30vw;
+  }
+
+  #mailing-list #mailing-list-input .button {
+    width: 15vw;
+  }
+}
