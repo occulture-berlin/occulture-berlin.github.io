@@ -65,8 +65,20 @@
     <meta property="og:site_name"     content="OCCULTURE Berlin" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/16x16.png">
+
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/index.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/landing.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/mailing_list.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/tickets.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/venue.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/media.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/past_events.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/footer.css">
+
+    <!-- third party -->
+    <link rel="stylesheet" type='text/css' href="./stylesheets/fancybox.min.css" />
 
     <!-- fonts loaded from google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
@@ -74,8 +86,8 @@
 
   <body onLoad="">
     <section id='landing'>
-<img class='body' id='body-left' src='./images/2020/body-left-half.png'>
-<img class='body' id='body-right' src='./images/2020/body-right-half.png'>
+<img class='body-system' id='body-system-left' src='./images/2020/body-left-half.png'>
+<img class='body-system' id='body-system-right' src='./images/2020/body-right-half.png'>
 <div class='content-wrapper'>
 <img class='logo' src='./images/2020/logo.png'>
 <br>
@@ -84,42 +96,199 @@
 <h3>Anomalie Art Club</h3>
 <br>
 <img class='icon' src='./images/2020/ico_hand.png'>
-<h1>Ticket sales start</h1>
-<h3>new moon in pisces</h3>
-<h3>23 February 2020</h3>
-<ul class='social-links'>
-<li class='ga-track' data-tracker='footer-social-insta'>
+<h1>Tickets available now</h1>
+</div>
+<div id='landing-footer'>
+<ul class='nav social-links'>
+<li class='ga-track' data-tracker='landing-social-insta'>
 <a href='https://www.instagram.com/occultureberlin' target='_blank'>
 <img src='./images/insta.png'>
 </a>
 </li>
-<li class='ga-track' data-tracker='footer-social-fb'>
+<li class='ga-track' data-tracker='landing-social-fb'>
 <a href='https://www.fb.com/occultureberlin' target='_blank'>
 <img src='./images/fb.png'>
 </a>
 </li>
-<li class='ga-track' data-tracker='footer-social-youtube'>
+<li class='ga-track' data-tracker='landing-social-youtube'>
 <a href='https://www.youtube.com/channel/UCbTZWQ4_YixzYRi4vuWXDGA' target='_blank'>
 <img src='./images/youtube.png'>
 </a>
 </li>
-<li class='ga-track' data-tracker='footer-social-email'>
+<li class='ga-track' data-tracker='landing-social-email'>
 <a href='mailto:info@occultureberlin.org'>
 <img src='./images/email.png'>
 </a>
 </li>
 </ul>
-<div class='impressum'>
-<a class='ga-track' onclick='goToPage(&#39;impressum.html&#39;)'>Impressum</a>
+</div>
+</section>
+<section class='vertically-centered-section half-section' id='mailing-list'>
+<div class='vertically-centered-content-wrapper content-wrapper'>
+<img class='icon' src='./images/2020/ico_snake.png'>
+<h1>Newsletter</h1><form action='https://tinyletter.com/occulture-berlin' class='ga-track' data-tracker='input-mailing-list' method='post' target='_blank'><label for='tlemail'>Join our coven</label><div id='mailing-list-input'><input id='tlemail' name='email' type='text'><input name='embed' type='hidden' value='1'><input class='button ga-track' data-tracker='submit-mailing-list' type='submit' value='Submit'></div></form>
+</div>
+</section>
+<section class='vertically-centered-section half-section' id='tickets'>
+<div class='vertically-centered-content-wrapper content-wrapper'>
+<img class='icon' src='./images/2020/ico_hand.png'>
+<h1>Tickets</h1>
+<div class='button ga-track' data-tracker='main-ticket-button' id='main-ticket-button'>
+<a href='https://www.universe.com/events/occulture-2020-tickets-36QYWS'>buy now</a>
+<!-- / %a{href: 'https://app.tickettailor.com/events/occulture/352285/r/website-tickets-section'} buy now -->
 </div>
 </div>
 </section>
+<section id='venue'>
+<div class='content-wrapper'>
+<div class='fixed-title'>
+<img class='icon' src='./images/2020/ico_eye.png'>
+<h1>Venue</h1>
+<h3>Anomalie Art Club, Berlin</h3>
+</div>
+<div id='map'>
+<!-- / .:MRSLDHRMBR:. -->
+<!-- / %img{src: 'images/anomalie.jpg'} -->
+<iframe allowfullscreen='' src='https://www.google.com/maps?q=Anomalie Art Club Berlin&amp;output=embed&amp;z=13'></iframe>
+</div>
+</div>
+</section>
+<!-- / // // MEDIA // // // -->
+<!-- / TODO: add 2019 photos -->
+<!-- / TODO: add videos -->
+<!-- / TODO: add context switching -->
+<!-- / TODO: styling for mobile -->
+<!-- / %section#media.vertically-centered-section -->
+<!-- /   .vertically-centered-content-wrapper.content-wrapper -->
+<!-- /     .fixed-title -->
+<!-- /       %img.icon{src: './images/2020/ico_eye.png'} -->
+<!-- /       %h1 Media -->
+<!-- / -->
+<!-- /     #image-gallery -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/exterior.jpg", data: {fancybox: "gallery", tracker: "image-2018-venue" }} -->
+<!-- /         %img{src:"images/events/2018/exterior.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/yoav.jpg", data: {fancybox: "gallery", tracker: "image-2018-yoav" }} -->
+<!-- /         %img{src:"images/events/2018/yoav.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/divination.jpg", data: {fancybox: "gallery", tracker: "image-2018-divination" }} -->
+<!-- /         %img{src:"images/events/2018/divination.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/janet.jpg", data: {fancybox: "gallery", tracker: "image-2018-janet" }} -->
+<!-- /         %img{src:"images/events/2018/janet.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/sabnok.jpg", data: {fancybox: "gallery", tracker: "image-2018-sabnok" }} -->
+<!-- /         %img{src:"images/events/2018/sabnok.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/sakrosankt.jpg", data: {fancybox: "gallery", tracker: "image-2018-sakrosankt" }} -->
+<!-- /         %img{src:"images/events/2018/sakrosankt.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/phurpa.jpg", data: {fancybox: "gallery", tracker: "image-2018-phurpa" }} -->
+<!-- /         %img{src:"images/events/2018/phurpa.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/suspension_performance.jpg", data: {fancybox: "gallery", tracker: "image-2018-suspension" }} -->
+<!-- /         %img{src:"images/events/2018/suspension_performance.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/above.jpg", data: {fancybox: "gallery", tracker: "image-2018-above" }} -->
+<!-- /         %img{src:"images/events/2018/above.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/isis.jpg", data: {fancybox: "gallery", tracker: "image-2018-isis" }} -->
+<!-- /         %img{src:"images/events/2018/isis.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/acolytes.jpg", data: {fancybox: "gallery", tracker: "image-2018-acolytes" }} -->
+<!-- /         %img{src:"images/events/2018/acolytes.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/altar.jpg", data: {fancybox: "gallery", tracker: "image-2018-altar" }} -->
+<!-- /         %img{src:"images/events/2018/altar.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/artwork.jpg", data: {fancybox: "gallery", tracker: "image-2018-artwork" }} -->
+<!-- /         %img{src:"images/events/2018/artwork.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/spiral.jpg", data: {fancybox: "gallery", tracker: "image-2018-spiral" }} -->
+<!-- /         %img{src:"images/events/2018/spiral.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/david_lee.jpg", data: {fancybox: "gallery", tracker: "image-2018-david-lee" }} -->
+<!-- /         %img{src:"images/events/2018/david_lee.jpg"} -->
+<!-- / -->
+<!-- /       %a.ga-track{href: "images/events/2018/tea_ceremony.jpg", data: {fancybox: "gallery", tracker: "image-2018-tea-ceremony" }} -->
+<!-- /         %img{src:"images/events/2018/tea_ceremony.jpg"} -->
+<!-- / -->
+<!-- / // // PARTNERS // // // -->
+<!-- / %section#friends.vertically-centered-section -->
+<!-- /   .vertically-centered-content-wrapper.content-wrapper -->
+<!-- /     .fixed-title -->
+<!-- /       %img.icon{src: './images/2020/ico_flame.png'} -->
+<!-- /       %h1 Partners -->
+<!-- / -->
+<!-- /     %img{src: './images/2020/ico_flame.png'} -->
+<!-- /     %img{src: './images/2020/ico_flame.png'} -->
+<!-- /     %img{src: './images/2020/ico_flame.png'} -->
+<!-- /     %img{src: './images/2020/ico_flame.png'} -->
+<section class='vertically-centered-section' id='past-events'>
+<div class='vertically-centered-content-wrapper content-wrapper'>
+<div class='fixed-title'>
+<img class='icon' src='./images/2020/ico_flame.png'>
+<h1>Past Events</h1>
+<ul class='nav'>
+<li class='selected ga-track' data-tracker='past-events-2019'>2019</li>
+|
+<li class='ga-track' data-tracker='past-events-2018'>2018</li>
+</ul>
+</div>
+<div class='past-event-wrapper' id='information-2019'>
+<h2>OCCULTURE 2019</h2>
+<h4>31 October - 03 November</h4>
+<h4>Anomalie Art Club, Berlin</h4>
+<div class='image'>
+<img src='./images/events/2019/enid-closing-ritual.jpg'>
+<div class='rights'>
+Photographer:
+<a href='https://www.instagram.com/WarmDefeat/' target='blank'>Enid Valu</a>
+</div>
+</div>
+<div class='links'>
+<a class='ga-track' data-tracker='2019-lineup' href='./2019/lineup'>Lineup</a>
+<br>
+<a class='download-program ga-track' data-tracker='download-program-2019' href='./2019/program.pdf'>
+Download Program
+</a>
+</div>
+</div>
+<div class='past-event-wrapper hidden' id='information-2018'>
+<h2>OCCULTURE 2018</h2>
+<h4>16-18 November</h4>
+<h4>Flutgraben e.V., Berlin</h4>
+<div class='image'>
+<img src='./images/events/2018/exterior.jpg'>
+</div>
+<div class='links'>
+<!-- / TODO: whole lotta refactorin' to do there -->
+<a class='ga-track' data-tracker='2018-lineup' href='./2018/lineup'>Lineup</a>
+<br>
+<a class='download-program ga-track' data-tracker='download-program-2018' href='./2018/program.pdf'>
+Download Program
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- / TODO: add link to proposals site -->
+<!-- / TODO: add blurb + theme -->
+<!-- / %section#call-for-abstracts.vertically-centered-section -->
+<!-- /   .vertically-centered-content-wrapper.content-wrapper -->
+<!-- /     .fixed-title -->
+<!-- /       %img.icon{src: './images/2020/ico_snake.png'} -->
+<!-- /       %h1 Call for Abstracts -->
+<!-- /     %a some links -->
 
+
+    <footer><div class='footer-wrapper'><div class='impressum'><a class='ga-track' onclick='goToPage(&#39;impressum.html&#39;)'>Impressum</a></div><div class='logo'><img src='./images/occulture-logo-alpha.png'></div><ul class='nav social-links'><li class='ga-track' data-tracker='footer-social-insta'><a href='https://www.instagram.com/occultureberlin' target='_blank'><img src='./images/insta.png'></a></li><li class='ga-track' data-tracker='footer-social-fb'><a href='https://www.fb.com/occultureberlin' target='_blank'><img src='./images/fb.png'></a></li><li class='ga-track' data-tracker='footer-social-youtube'><a href='https://www.youtube.com/channel/UCbTZWQ4_YixzYRi4vuWXDGA' target='_blank'><img src='./images/youtube.png'></a></li><li class='ga-track' data-tracker='footer-social-email'><a href='mailto:info@occultureberlin.org'><img src='./images/email.png'></a></li></ul></div></footer>
   </body>
 
   <script src="javascripts/js.cookie.js" type="text/javascript"></script>
-  <script src="javascripts/cycle_lite.js" type="text/javascript"></script>
   <script src="javascripts/mustache.min.js" type="text/javascript"></script>
   <script src="javascripts/main.js" type="text/javascript"></script>
+  <script src="javascripts/index.js" type="text/javascript"></script>
   <script src="javascripts/fancybox.min.js" type="text/javascript"></script>
 </html>

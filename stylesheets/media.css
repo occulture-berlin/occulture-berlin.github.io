@@ -1,0 +1,11 @@
+#media {
+  background-image: url('../images/2020/gravel.png');
+}
+
+#media #image-gallery img {
+  min-width: 20vw;
+  max-width: 20vw;
+  min-height: 10vh;
+  max-height: 10vh;
+  cursor: pointer;
+}

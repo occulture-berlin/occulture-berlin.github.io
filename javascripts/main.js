@@ -18,6 +18,7 @@ $(document).ready(function() {
   $('.ga-track').on('click', function() {
     var name = this.getAttribute('data-tracker') || $(this).text() || this.value
 
+    console.log('click registered:', name);
     gtag('event', 'click', {
       'event_category': 'engagement',
       'event_label': 'click-'+name

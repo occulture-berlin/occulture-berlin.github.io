@@ -1,0 +1,48 @@
+#mailing-list #mailing-list-input {
+  margin-top: 4vh;
+}
+
+#mailing-list #mailing-list-input input#tlemail {
+  width: 50vw;
+  height: 6.6vh;
+  vertical-align: bottom;
+
+  background-color: #141414;
+  border: 1px solid #333;
+
+  font-size: 1.5em;
+  padding-left: 7px;
+  color: #fff;
+}
+
+#mailing-list #mailing-list-input input#tlemail:focus {
+  border: 1px solid #fff;
+}
+
+#mailing-list #mailing-list-input .button {
+  width: 25vw;
+  height: 7vh;
+  vertical-align: bottom;
+  margin: auto 5px;
+
+  font-family: 'cinzel';
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+  background: #000;
+  border: 1px solid #333;
+}
+
+@media(min-width: 1000px) {
+  #mailing-list #mailing-list-input input#tlemail {
+    width: 30vw;
+  }
+
+  #mailing-list #mailing-list-input .button {
+    width: 15vw;
+  }
+}

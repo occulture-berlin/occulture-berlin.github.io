@@ -1,0 +1,18 @@
+#past-events {
+  background: #141414;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#past-events .image {
+  margin: 2vh auto;
+}
+
+#past-events .image img {
+  height: 30vh;
+  filter: saturate(0.3);
+}
+
+#past-events .image .rights {
+  font-size: x-small;
+}

@@ -39,57 +39,86 @@ section {
   height: 100vh;
 }
 
+/* use in conjunction with .vertically-centered-content-wrapper */
+.vertically-centered-section {
+  display: table;
+}
+
+/* use in conjunction with .vertically-centered-section */
+.vertically-centered-content-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.vertically-centered-content-wrapper .fixed-title {
+   position: absolute;
+   top: 3vh;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.half-section {
+  height: 50vh;
+}
+
 .inner {
   margin: auto 7vw;
 }
 
-#footer .mailing-list-wrapper {
-  grid-row: 1;
-  align-self: center;
-  justify-self: center;
+.hidden {
+  display: none;
 }
 
-#footer .mailing-list-wrapper .title {
-  font-size: 3rem;
-  font-family: 'cinzel';
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0.5em;
+/* catch the spacer in default nav styling */
+.nav {
+  color: #555;
+  font-size: 1.3em;
 }
 
-#footer .mailing-list-wrapper .sub-title {
-  font-family: 'keepCalm';
-  text-transform: uppercase;
-  text-align: center;
-}
-
-#footer .mailing-list-wrapper #mailing-list-input {
-  margin-top: 2vh;
-}
-
-#footer .mailing-list-wrapper #mailing-list-input #tlemail {
-  width: 95%;
-  height: 3vh;
-}
-
-#footer .mailing-list-wrapper #mailing-list-input .button {
-  width: 95%;
-  height: 3.5vh;
-  background: darkgrey;
-
-  font-family: 'keepCalm';
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-
+.nav li {
+  display: inline-block;
+  margin: auto 1vw;
   cursor: pointer;
-  margin-top: 0.5em;
-  border: none;
+
+  text-align: center;
+}
+
+.nav li.selected {
+  color: #fff;
+}
+
+.content-wrapper {
+  margin-top: 3vh;
+
+  text-align: center;
+  font-family: 'cinzel', 'serif';
+  font-size: 2vh;
+  text-transform: uppercase;
+
+  z-index: 1;
+  position: relative;
+}
+
+.content-wrapper .icon {
+  width: 12vw;
 }
 
 @media(min-width: 500px) {
-  #footer .links-wrapper .social-links li img {
-    width: unset;
+  .content-wrapper .icon {
+    width: 8vw;
+  }
+}
+
+@media(min-width: 1000px) {
+  .content-wrapper .icon {
+    width: 6vw;
+  }
+}
+
+@media(min-width: 1500px) {
+  .content-wrapper .icon {
+    width: 4vw;
   }
 }
