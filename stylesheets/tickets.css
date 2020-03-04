@@ -19,5 +19,6 @@
 @media(min-width: 600px) {
   #tickets .content-wrapper #main-ticket-button {
     font-size: 3em;
+    width: 50vw;
   }
 }
