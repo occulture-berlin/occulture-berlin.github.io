@@ -1,0 +1,33 @@
+#call-for-abstracts .content-wrapper #call-for-abstracts-button {
+  margin-top: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6vh;
+  padding: 0.5em 0;
+
+  width: 66vw;
+  border: 1px solid #ccc;
+  font-size: 2em;
+}
+
+#call-for-abstracts .content-wrapper ul {
+  margin-top: 1vh;
+}
+
+#call-for-abstracts .content-wrapper ul li {
+  letter-spacing: 0.1em;
+  line-height: 1.66em;
+}
+
+@media(min-width: 600px) {
+  #call-for-abstracts .content-wrapper #call-for-abstracts-button {
+    font-size: 2.5em;
+    width: 50%;
+  }
+}
+
+@media(min-width: 1200px) {
+  #call-for-abstracts .content-wrapper #call-for-abstracts-button {
+    width: 40%;
+  }
+}

@@ -120,9 +120,26 @@ onLoadAction:
 
 // TODO: add link to proposals site
 // TODO: add blurb + theme
-// %section#call-for-abstracts.vertically-centered-section
-//   .vertically-centered-content-wrapper.content-wrapper
-//     .fixed-title
-//       %img.icon{src: './images/2020/ico_snake.png'}
-//       %h1 Call for Abstracts
-//     %a some links
+%section#call-for-abstracts.vertically-centered-section
+  .vertically-centered-content-wrapper.content-wrapper
+    .fixed-title
+      %img.icon{src: './images/2020/ico_snake.png'}
+      %h1 Call for Proposals
+    #call-for-abstracts-button.button.ga-track{ data: {tracker: 'proposals-button'}}
+      %a{href: 'https://conf-admin-occulture.herokuapp.com/proposal/new'} apply now
+    .description.inner
+      %p We are interested in exploring all serious pursuits of esoteric knowledge
+      %p regardless of your background or qualifications.
+      %br
+      %p The deadline for submissions is the Summer Solstice (20 June, 2020)
+      %br
+      %h3 Proposals are now open for:
+      %ul
+        %li Lectures
+        %li Workshops
+        %li Rituals
+        %li Performances
+        %li Film Screenings
+        %li Art Exhibitions
+        %li Vendors
+
