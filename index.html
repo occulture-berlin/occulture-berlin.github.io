@@ -21,7 +21,10 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-124583019-1', {
-        'page_path': location.href
+        'page_path': location.href,
+        'linker': {
+          'domains': ['www.tickettailor.com']
+        }
       });
     </script>
 
@@ -75,6 +78,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/venue.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/media.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/past_events.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/call_for_abstracts.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/footer.css">
 
     <!-- third party -->
@@ -251,12 +255,34 @@ Download Program
 </section>
 <!-- / TODO: add link to proposals site -->
 <!-- / TODO: add blurb + theme -->
-<!-- / %section#call-for-abstracts.vertically-centered-section -->
-<!-- /   .vertically-centered-content-wrapper.content-wrapper -->
-<!-- /     .fixed-title -->
-<!-- /       %img.icon{src: './images/2020/ico_snake.png'} -->
-<!-- /       %h1 Call for Abstracts -->
-<!-- /     %a some links -->
+<section class='vertically-centered-section' id='call-for-abstracts'>
+<div class='vertically-centered-content-wrapper content-wrapper'>
+<div class='fixed-title'>
+<img class='icon' src='./images/2020/ico_snake.png'>
+<h1>Call for Proposals</h1>
+</div>
+<div class='button ga-track' data-tracker='proposals-button' id='call-for-abstracts-button'>
+<a href='https://conf-admin-occulture.herokuapp.com/proposal/new'>apply now</a>
+</div>
+<div class='description inner'>
+<p>We are interested in exploring all serious pursuits of esoteric knowledge</p>
+<p>regardless of your background or qualifications.</p>
+<br>
+<p>The deadline for submissions is the Summer Solstice (20 June, 2020)</p>
+<br>
+<h3>Proposals are now open for:</h3>
+<ul>
+<li>Lectures</li>
+<li>Workshops</li>
+<li>Rituals</li>
+<li>Performances</li>
+<li>Film Screenings</li>
+<li>Art Exhibitions</li>
+<li>Vendors</li>
+</ul>
+</div>
+</div>
+</section>
 
 
     <footer><div class='footer-wrapper'><div class='impressum'><a class='ga-track' onclick='goToPage(&#39;impressum.html&#39;)'>Impressum</a></div><div class='logo'><img src='./images/occulture-logo-alpha.png'></div><ul class='nav social-links'><li class='ga-track' data-tracker='footer-social-insta'><a href='https://www.instagram.com/occultureberlin' target='_blank'><img src='./images/insta.png'></a></li><li class='ga-track' data-tracker='footer-social-fb'><a href='https://www.fb.com/occultureberlin' target='_blank'><img src='./images/fb.png'></a></li><li class='ga-track' data-tracker='footer-social-youtube'><a href='https://www.youtube.com/channel/UCbTZWQ4_YixzYRi4vuWXDGA' target='_blank'><img src='./images/youtube.png'></a></li><li class='ga-track' data-tracker='footer-social-email'><a href='mailto:info@occultureberlin.org'><img src='./images/email.png'></a></li></ul></div></footer>
