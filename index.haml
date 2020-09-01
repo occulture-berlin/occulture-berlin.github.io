@@ -8,16 +8,12 @@ onLoadAction:
 ---
 
 %section#landing
-  %img#body-system-left.body-system{src: './images/2020/body-left-half.png'}
-  %img#body-system-right.body-system{src: './images/2020/body-right-half.png'}
-
   .content-wrapper
     %img.logo{src: './images/2020/logo.png'}
 
-    %br
-    %img.icon{src: './images/2020/ico_flame.png'}
-    %h1 Spring 2021
-    %h3 Anomalie Art Club
+    .information
+      %h1 Prague Samhain
+      %h3 30/31.10.2020
 
     -# %br
     -# %img.icon{src: './images/2020/ico_hand.png'}
@@ -40,7 +36,7 @@ onLoadAction:
     // %a{href: 'https://www.universe.com/events/occulture-2020-tickets-36QYWS'} buy now
     // %a{href: 'https://app.tickettailor.com/events/occulture/352285/r/website-tickets-section'} buy now
 
-%section#venue
+-#%section#venue
   .content-wrapper
     .fixed-title
       %img.icon{src: './images/2020/ico_eye.png'}
@@ -123,7 +119,7 @@ onLoadAction:
 
 // TODO: add link to proposals site
 // TODO: add blurb + theme
--# %section#call-for-abstracts.vertically-centered-section
+%section#call-for-abstracts.vertically-centered-section
   .vertically-centered-content-wrapper.content-wrapper
     .fixed-title
       %img.icon{src: './images/2020/ico_snake.png'}
@@ -131,18 +127,18 @@ onLoadAction:
     #call-for-abstracts-button.button.ga-track{ data: {tracker: 'proposals-button'}}
       %a{href: 'https://conf-admin-occulture.herokuapp.com/proposal/new'} apply now
     .description.inner
-      %p We are interested in exploring all serious pursuits of esoteric knowledge
-      %p regardless of your background or qualifications.
       %br
-      %p The deadline for submissions is the Summer Solstice (20 June, 2020)
+      %p You can use this form to apply for the Samhain event in Prague and/or the event next year in Berlin.
       %br
-      %h3 Proposals are now open for:
-      %ul
-        %li Lectures
-        %li Workshops
-        %li Rituals
-        %li Performances
-        %li Film Screenings
-        %li Art Exhibitions
-        %li Vendors
-
+      .topics
+        %h3 Proposals are now open for:
+        %ul
+          %li Lectures
+          %li Workshops
+          %li Rituals
+          %li Performances
+          %li Film Screenings
+          %li Art Exhibitions
+          %li Vendors
+      %br
+      %p We are interested in exploring all serious pursuits of esoteric knowledge regardless of your background or qualifications.

@@ -10,6 +10,12 @@
   font-size: 2em;
 }
 
+#call-for-abstracts .topics {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 1px solid white;
+}
+
 #call-for-abstracts .content-wrapper ul {
   margin-top: 1vh;
 }

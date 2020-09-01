@@ -1,29 +1,19 @@
 #landing {
-  background-image: url('../images/2020/bg.jpg');
-  background-position: center center;
+  background-image: url('../images/2020/prague-landing.jpg');
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-#landing img.body-system {
-  position: absolute;
-  top: 4vh;
-  height: 95vh;
-  opacity: 0.5;
-}
-
-#landing img#body-system-left {
-  left: 0;
-}
-
-#landing img#body-system-right {
-  right: 0;
-}
-
 #landing .content-wrapper .logo {
   width: 40vh;
   margin-bottom: 1em;
+}
+
+#landing .content-wrapper .information {
+  position: relative;
+  bottom: -40vh;
 }
 
 @media(min-width: 500px) {
@@ -33,6 +23,10 @@
 }
 
 @media(min-width: 1200px) {
+  #landing {
+    background-size: contain;
+  }
+
   #landing .content-wrapper {
     margin-top: 8vh;
   }
