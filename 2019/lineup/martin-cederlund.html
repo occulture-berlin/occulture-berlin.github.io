@@ -1,0 +1,93 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '302054690638448');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=302054690638448&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0">
+    </script>
+
+
+    <title>OCCULTURE Berlin | Martin Cederlund</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="Memento Mori @OCCULTURE Berlin 2019">
+    <meta property="og:url"           content="/2019/lineup/martin-cederlund.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin | Martin Cederlund" />
+    <meta property="og:description"   content="Memento Mori @OCCULTURE Berlin 2019" />
+    <meta property="og:image"         content="https://instagram.ftxl3-1.fna.fbcdn.net/vp/933d172d652f3b103d32512170c6b18b/5E3674AF/t51.2885-15/e35/54513047_372882336725397_1705332031903418990_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=109" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body onLoad="">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a onclick="goToPage('./index.html')">
+          <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+        </a>
+      </header>
+    </div>
+
+    <section class='inner center' id='event'><div class='title'>Memento Mori</div><div class='avatar'><img alt='Martin Cederlund' onError='loadDefaultAvatar(this)' src='https://instagram.ftxl3-1.fna.fbcdn.net/vp/933d172d652f3b103d32512170c6b18b/5E3674AF/t51.2885-15/e35/54513047_372882336725397_1705332031903418990_n.jpg?_nc_ht=instagram.ftxl3-1.fna.fbcdn.net&_nc_cat=109'><div class='name'>Martin Cederlund</div></div><div class='main-info-wrap'><div class='abstract justified'>A series of analog collagues, that include elements of the Occult, symbolism, geometric patterning and inferences to memento mori; the reality and inevitability of death, impermanence and transformation. He is inspired by DMT, ancient wisdoms, obscure truths, alchemie, rituals, funerals, macabre humour and psycho magic, his work mixes political and social critique, psychedelic and hypnagogic imagery and a deliberately disorientating aesthetic agency.</div><div class='bio justified'>Martin Cederlund (Karlstad, Sweden) is a self-taught analogue collage/mixed media artist based in Berlin. He sources materials from vintage books and contemporary magazines to make delicate yet morbid analogue collages. Throughout the years he has developed a distinct techniques and style, appropriating found photographs and other recycled paper ephemera, and adding paint, etchings and other materials onto acrylic transfer. The resultant collages play with and deconstruct varying psychological and cultural messages.  He uses symmetry and beauty to combine opposing concepts of our disturbing times.</div></div><!-- .button.ga-track{data:{tracker:'get-tickets-speaker-page-martin-cederlund'}} --><!-- <script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a> --></section>
+
+
+    <!-- FOOTER -->
+    <footer><div class='footer-wrapper'><div class='impressum'><a class='ga-track' onclick='goToPage(&#39;impressum.html&#39;)'>Impressum</a></div><div class='logo'><img src='./images/occulture-logo-alpha.png'></div><ul class='nav social-links'><li class='ga-track' data-tracker='footer-social-insta'><a href='https://www.instagram.com/occultureberlin' target='_blank'><img src='./images/insta.png'></a></li><li class='ga-track' data-tracker='footer-social-fb'><a href='https://www.fb.com/occultureberlin' target='_blank'><img src='./images/fb.png'></a></li><li class='ga-track' data-tracker='footer-social-youtube'><a href='https://www.youtube.com/channel/UCbTZWQ4_YixzYRi4vuWXDGA' target='_blank'><img src='./images/youtube.png'></a></li><li class='ga-track' data-tracker='footer-social-email'><a href='mailto:info@occultureberlin.org'><img src='./images/email.png'></a></li></ul></div></footer>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../../javascripts/event.js" type="text/javascript"></script>
+</html>

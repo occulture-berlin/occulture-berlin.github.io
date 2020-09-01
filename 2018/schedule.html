@@ -1,0 +1,126 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  onLoadAction - javascript function to run on page load
+
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <title>OCCULTURE Berlin | Schedule</title>
+
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description"          content=Schedule of activities @OCCULTURE Esoteric Conference Berlin 2018>
+    <meta property="og:url"           content="/2018/schedule.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="OCCULTURE Berlin 2018 | Schedule" />
+    <meta property="og:description"   content=Schedule of activities @OCCULTURE Esoteric Conference Berlin 2018/>
+    <meta property="og:image"         content="https://www.occultureberlin.org/images/open-graph.png" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../stylesheets/schedule-template.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body id='styles-2018' onLoad="">
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <img id="logo" src="../../images/occulture-logo-alpha.png" alt="Occulture Berlin">
+      </header>
+    </div>
+
+    <div class='outer' id='high-priority-information-wrap'>
+<section class='inner center' id='high-priority-information'>
+NOVEMBER 16-18, 2018
+</section>
+</div>
+<!-- MAIN CONTENT -->
+<!-- Nav buttons -->
+<div class='outer' id='nav-wrap'>
+<ul class='inner center' id='nav'>
+<li id='home-button'>
+<a onclick='goToPage(&#39;index.html&#39;)'>Home</a>
+</li>
+</ul>
+<ul class='sub-nav inner center' id='schedule-sub-nav'>
+<li class='tab-button' id='friday-button'>Friday, 16.11</li>
+<li class='tab-button' id='saturday-button'>Saturday, 17.11</li>
+<li class='tab-button' id='sunday-button'>Sunday, 18.11</li>
+</ul>
+</div>
+<div class='outer' id='schedule-wrap'>
+<div id='event-overlay'></div>
+<section class='tab sub-tab inner center hidden' id='friday'>
+<div class='cd-schedule js-full'>
+<div class='timeline'></div>
+<div class='events'>
+<ul></ul>
+</div>
+</div>
+</section>
+<section class='tab sub-tab inner center hidden' id='saturday'>
+<div class='cd-schedule js-full'>
+<div class='timeline'></div>
+<div class='events'>
+<ul>
+<li class='events-group'></li>
+</ul>
+</div>
+</div>
+</section>
+<section class='tab sub-tab inner center hidden' id='sunday'>
+<div class='cd-schedule js-full'>
+<div class='timeline'></div>
+<div class='events'>
+<ul>
+<li class='events-group'></li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><a onclick="goToPage('impressum.html')">Impressum</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    type="text/javascript">
+  </script>
+  <script src="../../javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="../../javascripts/main.js" type="text/javascript"></script>
+  <script src="../../data/events_2018.js" type="text/javascript"></script>
+  <script src="../../javascripts/lineup_2018.js" type="text/javascript"></script>
+</html>

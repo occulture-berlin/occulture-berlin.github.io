@@ -1,0 +1,550 @@
+<!--
+
+  this layout accepts the following variables:
+
+  title - meta tag title
+  description - meta tag description
+  url - meta tag url
+  image - open graph image displayed in previews
+  scope - for more easily including common js and css files
+-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124583019-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124583019-1', {
+        'page_path': location.href
+      });
+    </script>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0">
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '302054690638448');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=302054690638448&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      type="text/javascript">
+    </script>
+
+    <title>Tickets | OCCULTURE Berlin</title>
+
+    <meta charset='utf-8'>
+    <meta name="description"          content="Get your ticket today for OCCULTURE Esoteric Conference Berlin!">
+    <meta property="og:url"           content="/tickets.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Tickets | OCCULTURE Berlin" />
+    <meta property="og:description"   content="Get your ticket today for OCCULTURE Esoteric Conference Berlin!" />
+    <meta property="og:image"         content="https://www.occultureberlin.org/images/2019/open-graph.jpg" />
+    <meta property="og:site_name"     content="OCCULTURE Berlin" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <!-- fonts loaded from google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Metamorphous|Raleway" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- stylesheets -->
+<link href='stylesheets/tickets.css' rel='stylesheet' type='text/css'>
+<!-- javascripts -->
+<script src='javascripts/countdown.min.js' type='text/javascript'></script>
+<script src='javascripts/tickets.js' type='text/javascript'></script>
+<!-- constants -->
+<!-- HEADER -->
+<div class='outer' id='header_wrap'>
+<div class='center' id='tickets-header-img'>
+<img src='images/events/2018/divination.jpg'>
+<img id='tickets-logo' src='images/occulture-logo-alpha-no-text.png'>
+</div>
+<header class='buttons inner center'>
+<a class='bland button ga-track' data-tracker='tickets-to-lineup' href='/2019/lineup'>Lineup</a>
+<script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+<a class='bland button ga-track' data-tracker='tickets-to-schedul' href='/2019/schedule'>Schedule</a>
+</header>
+</div>
+<div class='outer' id='ticket-info-section-wrap'>
+<section class='inner center' id='ticket-info-wrap'>
+<div id='ticket-info'>
+<div id='full-tickets'>
+<div class='ticket-header'>Full Conference passes</div>
+<div class='ticket sold-out'>
+<div class='name ga-track'>Initiate (Early Bird Ticket)</div>
+<div class='cost'>sold out</div>
+</div>
+<div class='ticket sold-out'>
+<div class='name ga-track'>Equinox Promo Ticket</div>
+<div class='cost'>sold out</div>
+</div>
+<div class='ticket'>
+<div class='name ga-track'>Adept (Standard Ticket)</div>
+<div class='cost'>144€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li class='date-name'>Thursday, 31 October, 20:00 - 02:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a alt='SAMHAIN' class='ga-track' href='https://www.facebook.com/events/387069608900231' target='_blank'>
+OCCULTURE SAMHAIN
+</a>
+</li>
+<ul class='event-schedule'>
+<li>Opening ritual</li>
+<li>
+<a alt='PHURPA' class='ga-track' href='/2019/lineup/phurpa' target='_blank'>
+PHURPA Live
+</a>
+</li>
+<li>Performances</li>
+<li>DJ Sets</li>
+</ul>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/samhain.jpg'>
+</div>
+<div class='date'>
+<li class='date-name'>Friday, 01 November, 11:00 - 02:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a class='ga-track' href='/2019/schedule' target='_blank'>
+Friday Conference Schedule
+</a>
+</li>
+<li>Full Access to exhibitions and performances</li>
+<li class='parent-event'>
+Full Access to
+<a alt='VENERALIA' class='ga-track' href='https://www.facebook.com/events/531727350936994' target='_blank'>
+OCCULTURE VENERALIA
+</a>
+</li>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/veneralia.jpg'>
+</div>
+<div class='date'>
+<li class='date-name'>Saturday, 02 November, 11:00 - 05:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a class='ga-track' href='/2019/schedule' target='_blank'>
+Saturday Conference Schedule
+</a>
+</li>
+<li>Full Access to exhibitions and performances</li>
+<li class='parent-event'>
+Full Access to
+<a alt='SATURNALIA' class='ga-track' href='https://www.facebook.com/events/2459374967619420' target='_blank'>
+OCCULTURE SATURNALIA
+</a>
+</li>
+<ul class='event-schedule'>
+<li>
+<a alt='kroeter' class='ga-track' href='/2019/lineup/kroeter' target='_blank'>
+Kröter Live
+</a>
+</li>
+<li>
+<a alt='kroeter' class='ga-track' href='/2019/lineup/the-butterfly-wheel' target='_blank'>
+The Butterfly Wheel Live
+</a>
+</li>
+</ul>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/saturnalia.jpg'>
+</div>
+<div class='date'>
+<li class='date-name'>Sunday, 03 November, 11:00 - 20:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a class='ga-track' href='/2019/schedule' target='_blank'>
+Sunday Conference Schedule
+</a>
+</li>
+<li>Full Access to exhibitions and performances</li>
+<li>Full Access to OCCULTURE CLOSING RITUAL</li>
+</ul>
+</div>
+</ul>
+<div class='ticket-button center'>
+<script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+</div>
+</div>
+</div>
+<!-- hehehe -->
+<div class='ticket master'>
+<div class='name ga-track'>Master (Patron Ticket)</div>
+<div class='cost'>233€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li>FULL Conference Access (everything included in the standard ticket)</li>
+<li>OCCULTURE Conference bag</li>
+<li>T-shirt specially designed by Daniel Martin Diaz</li>
+<li>Limited Print specially designed by Daniel Martin Diaz</li>
+</div>
+</ul>
+<div class='ticket-button center'>
+<script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+</div>
+</div>
+</div>
+</div>
+<div id='day-tickets'>
+<div class='ticket-header'>Single Day passes (includes day and night activities)</div>
+<div class='ticket'>
+<div class='name ga-track'>Samhain Ticket</div>
+<div class='cost'>16€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li class='date-name'>Thursday, 31 October, 20:00 - 02:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a alt='SAMHAIN' class='ga-track' href='https://www.facebook.com/events/387069608900231' target='_blank'>
+OCCULTURE SAMHAIN
+</a>
+</li>
+<ul class='event-schedule'>
+<li>Opening ritual</li>
+<li>
+<a alt='PHURPA' class='ga-track' href='/2019/lineup/phurpa' target='_blank'>
+PHURPA Live
+</a>
+</li>
+<li>Performances</li>
+<li>DJ Sets</li>
+</ul>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/samhain.jpg'>
+</div>
+</ul>
+</div>
+</div>
+<div class='ticket'>
+<div class='name ga-track'>Friday Full Ticket</div>
+<div class='cost'>55€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li class='date-name'>Friday, 01 November, 11:00 - 02:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a class='ga-track' href='/2019/schedule' target='_blank'>
+Friday Conference Schedule
+</a>
+</li>
+<li>Full Access to exhibitions and performances</li>
+<li class='parent-event'>
+Full Access to
+<a alt='VENERALIA' class='ga-track' href='https://www.facebook.com/events/531727350936994' target='_blank'>
+OCCULTURE VENERALIA
+</a>
+</li>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/veneralia.jpg'>
+</div>
+</ul>
+</div>
+</div>
+<div class='ticket'>
+<div class='name ga-track'>Saturday Full Ticket</div>
+<div class='cost'>55€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li class='date-name'>Saturday, 02 November, 11:00 - 05:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a class='ga-track' href='/2019/schedule' target='_blank'>
+Saturday Conference Schedule
+</a>
+</li>
+<li>Full Access to exhibitions and performances</li>
+<li class='parent-event'>
+Full Access to
+<a alt='SATURNALIA' class='ga-track' href='https://www.facebook.com/events/2459374967619420' target='_blank'>
+OCCULTURE SATURNALIA
+</a>
+</li>
+<ul class='event-schedule'>
+<li>
+<a alt='kroeter' class='ga-track' href='/2019/lineup/kroeter' target='_blank'>
+Kröter Live
+</a>
+</li>
+<li>
+<a alt='kroeter' class='ga-track' href='/2019/lineup/the-butterfly-wheel' target='_blank'>
+The Butterfly Wheel Live
+</a>
+</li>
+</ul>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/saturnalia.jpg'>
+</div>
+</ul>
+</div>
+</div>
+<div class='ticket'>
+<div class='name ga-track'>Sunday Full Ticket</div>
+<div class='cost'>44€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li class='date-name'>Sunday, 03 November, 11:00 - 20:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a class='ga-track' href='/2019/schedule' target='_blank'>
+Sunday Conference Schedule
+</a>
+</li>
+<li>Full Access to exhibitions and performances</li>
+<li>Full Access to OCCULTURE CLOSING RITUAL</li>
+</ul>
+</div>
+</ul>
+<div class='ticket-button center'>
+<script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+</div>
+</div>
+</div>
+</div>
+<div id='night-tickets'>
+<div class='ticket-header'>Evening Passes</div>
+<div class='ticket'>
+<div class='name ga-track'>Veneralia Ticket (Fri. Night)</div>
+<div class='cost'>12€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li class='date-name'>Friday, 01 November, 19:00 - 02:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a class='ga-track' href='/2019/schedule' target='_blank'>
+Friday Conference Schedule
+</a>
+</li>
+<li>Full Access to exhibitions and performances</li>
+<li class='parent-event'>
+Full Access to
+<a alt='VENERALIA' class='ga-track' href='https://www.facebook.com/events/531727350936994' target='_blank'>
+OCCULTURE VENERALIA
+</a>
+</li>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/veneralia.jpg'>
+</div>
+</ul>
+</div>
+</div>
+<div class='ticket'>
+<div class='name ga-track'>Saturnalia Ticket (Sat. Night)</div>
+<div class='cost'>17€</div>
+<div class='details hidden align-left'>
+<div class='check-it'>Tickets Include:</div>
+<ul class='ticket-schedule'>
+<div class='date'>
+<li class='date-name'>Saturday, 02 November, 19:00 - 05:00</li>
+<ul class='date-schedule'>
+<li class='parent-event'>
+Full Access to
+<a alt='SATURNALIA' class='ga-track' href='https://www.facebook.com/events/2459374967619420' target='_blank'>
+OCCULTURE SATURNALIA
+</a>
+</li>
+<ul class='event-schedule'>
+<li>
+<a alt='kroeter' class='ga-track' href='/2019/lineup/kroeter' target='_blank'>
+Kröter Live
+</a>
+</li>
+<li>
+<a alt='kroeter' class='ga-track' href='/2019/lineup/the-butterfly-wheel' target='_blank'>
+The Butterfly Wheel Live
+</a>
+</li>
+</ul>
+</ul>
+</div>
+<div class='avatar'>
+<img src='/images/2019/saturnalia.jpg'>
+</div>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class='outer' id='promo-video-section-wrap'>
+<section class='inner center' id='promo-video-wrap'>
+<iframe src='https://www.youtube.com/embed/WaDvAEHNGpM?controls=0'></iframe>
+</section>
+</div>
+<div class='outer' id='top-speakers-section-wrap'>
+<section class='inner center' id='top-speakers-wrap'>
+<div class='headline'>
+3 nights and 3 days of Lectures, Workshops, Rituals & Performances from experts in the esoteric
+</div>
+<div id='top-speakers'>
+<div class='speaker'>
+<div class='img-wrap'>
+<img alt='VOODOO SET' src='https://www.residentadvisor.net/images/profiles/jeff23.jpg'>
+<br>
+</div>
+<div class='name'>
+JEFF23<br>SPIRAL<br>TRIBE
+</div>
+</div>
+<div class='speaker'>
+<div class='img-wrap'>
+<img alt='The heretic pathways of the Kosmic Gnosis: Strongholds of the daemonic All' src='https://theionpublishing.com/wp-content/uploads/2018/01/JGprofilebw.jpg'>
+<br>
+</div>
+<div class='name'>
+Jessica<br>Grote
+</div>
+</div>
+<div class='speaker'>
+<div class='img-wrap'>
+<img alt='The Cult of Water' src='https://folkestonefringe.com/site/assets/files/2662/david_bramwell_2.768x0.jpg'>
+<br>
+</div>
+<div class='name'>
+david<br>bramwell
+</div>
+</div>
+<div class='speaker'>
+<div class='img-wrap'>
+<img alt='Dark Star Rising: Magick and Power in the Age of Trump' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXTmIv1DLE-johhB061KWdKXiJS3nqxn3HKErfHhnBtpsxl1n9'>
+<br>
+</div>
+<div class='name'>
+Gary<br>Lachman
+</div>
+</div>
+<div class='speaker'>
+<div class='img-wrap'>
+<img alt='Chanting Meditation' src='https://www.occultureberlin.org/images/speakers/phurpa.jpg'>
+<br>
+</div>
+<div class='name'>
+Phurpa
+</div>
+</div>
+<div class='speaker'>
+<div class='img-wrap'>
+<img alt='Soul of the West: Magic, Awakening and the Hellenic Gnosis' src='https://www.occultureberlin.org/images/speakers/lee-david.jpg'>
+<br>
+</div>
+<div class='name'>
+David<br>Lee
+</div>
+</div>
+<div class='speaker'>
+<div class='img-wrap'>
+<img alt='Sigils, Symbols &amp; Spells in Tarot Mythology' src='https://www.occultureberlin.org/images/speakers/wands-susan.jpg'>
+<br>
+</div>
+<div class='name'>
+Susan<br>Wands
+</div>
+</div>
+<div class='speaker'>
+<div class='img-wrap'>
+<img alt='Magic for Money - the Practices of British Cunning-Folk' src='https://scontent.ftxl3-1.fna.fbcdn.net/v/t1.0-9/69180631_10156253351827120_1142914381131022336_n.jpg?_nc_cat=103&amp;_nc_oc=AQlz3UgMZi2qpf6fH_BpbTptN1EVGMSJsn84bU6uRPIMSkmkgADlS7-rSfQqmpY-g3cRhfd8UdtDgAK_vL2s9m9A&amp;_nc_ht=scontent.ftxl3-1.fna&amp;oh=5495ca06a4f302742f851bc0b85353de&amp;oe=5E148294'>
+<br>
+</div>
+<div class='name'>
+David<br>Rankine
+</div>
+</div>
+<div class='speaker'>
+<div class='img-wrap'>
+<img alt='The Occult Control System' src='https://www.occultureberlin.org/images/speakers/pinchbeck-daniel.jpeg'>
+<br>
+</div>
+<div class='name'>
+Daniel<br>Pinchbeck
+</div>
+</div>
+</div>
+<div id='and-more'>
+...And many more!
+<br>
+<a class='ga-track' data-tracker='tickets-page-lineup' href='/2019/lineup'>
+click here to see the full lineup
+</a>
+</div>
+</section>
+</div>
+<div class='outer' id='countdown-section-wrap'>
+<img class='alchemical-pointer' src='images/alchemical-pointer-left.png'>
+<section class='inner center' id='countdown-wrap'>
+<div id='countdown'></div>
+<div class='ticket-button'>
+<script data-state='' src='https://www.universe.com/embed2.js'></script><a class='button ga-track' href='https://www.universe.com/events/occulture-esoteric-conference-2019-tickets-berlin-86HFLD'>Get Tickets</a>
+</div>
+</section>
+<img class='alchemical-pointer' src='images/alchemical-pointer-right.png'>
+</div>
+<!-- FOOTER -->
+<!-- <footer><div class='footer-wrapper'><div class='impressum'><a class='ga-track' onclick='goToPage(&#39;impressum.html&#39;)'>Impressum</a></div><div class='logo'><img src='./images/occulture-logo-alpha.png'></div><ul class='nav social-links'><li class='ga-track' data-tracker='footer-social-insta'><a href='https://www.instagram.com/occultureberlin' target='_blank'><img src='./images/insta.png'></a></li><li class='ga-track' data-tracker='footer-social-fb'><a href='https://www.fb.com/occultureberlin' target='_blank'><img src='./images/fb.png'></a></li><li class='ga-track' data-tracker='footer-social-youtube'><a href='https://www.youtube.com/channel/UCbTZWQ4_YixzYRi4vuWXDGA' target='_blank'><img src='./images/youtube.png'></a></li><li class='ga-track' data-tracker='footer-social-email'><a href='mailto:info@occultureberlin.org'><img src='./images/email.png'></a></li></ul></div></footer> -->
+
+  </body>
+
+  <script src="javascripts/mustache.min.js" type="text/javascript"></script>
+  <script src="javascripts/main.js" type="text/javascript"></script>
+</html>
