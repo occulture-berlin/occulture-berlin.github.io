@@ -1,3 +1,9 @@
+#call-for-abstracts {
+  background: #141414;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
 #call-for-abstracts .content-wrapper #call-for-abstracts-button {
   margin-top: 4vh;
   margin-left: auto;

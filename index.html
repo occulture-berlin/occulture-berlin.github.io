@@ -77,6 +77,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/tickets.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/venue.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/media.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/upcoming_events.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/past_events.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/call_for_abstracts.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheets/footer.css">
@@ -104,14 +105,46 @@
 <h1>Newsletter</h1><form action='https://tinyletter.com/occulture-berlin' class='ga-track' data-tracker='input-mailing-list' method='post' target='_blank'><label for='tlemail'>Join our coven</label><div id='mailing-list-input'><input id='tlemail' name='email' type='text'><input name='embed' type='hidden' value='1'><input class='button ga-track' data-tracker='submit-mailing-list' type='submit' value='Submit'></div></form>
 </div>
 </section>
-<section class='vertically-centered-section half-section' id='tickets'>
+<section class='vertically-centered-section' id='upcoming-events'>
 <div class='vertically-centered-content-wrapper content-wrapper'>
+<div class='fixed-title'>
 <img class='icon' src='./images/2020/ico_hand.png'>
-<h1>Tickets</h1>
-<div class='button ga-track' data-tracker='main-ticket-button' id='main-ticket-button'>
-<!-- / spring 2021 -->
-<!-- / %a{href: 'https://app.tickettailor.com/events/occulture/352285/r/website-tickets-section'} buy now -->
-<a href='https://app.tickettailor.com/events/occulture/416199/r/website-tickets-section'>buy now</a>
+<h1>Upcoming Events</h1>
+<ul class='nav'>
+<li class='selected ga-track' data-tracker='upcoming-events-2020'>2020</li>
+|
+<li class='ga-track' data-tracker='upcoming-events-2021'>2021</li>
+</ul>
+</div>
+<div class='information-2020 upcoming-event-wrapper event-wrapper'>
+<h2>Prague Samhain</h2>
+<h4>30-31 October 2020</h4>
+<h4>Sacre Coeur, Prague</h4>
+<div class='image'>
+<img src='./images/2020/sacrecoeur-interior.jpg'>
+</div>
+<div class='tickets'>
+<button class='button ga-track' data-tracker='prague-samhain-ticket-button'>
+<a href='https://app.tickettailor.com/events/occulture/416199/r/website-tickets-section'>
+get tickets
+</a>
+</button>
+</div>
+</div>
+<div class='information-2021 upcoming-event-wrapper event-wrapper hidden'>
+<h2>OCCULTURE 2021</h2>
+<h4>Dates TBD</h4>
+<h4>Anomalie Art Club, Berlin</h4>
+<div class='image'>
+<img src='./images/anomalie.jpg'>
+</div>
+<div class='tickets'>
+<button class='button ga-track' data-tracker='prague-samhain-ticket-button'>
+<a href='https://app.tickettailor.com/events/occulture/352285/r/website-tickets-section'>
+get tickets
+</a>
+</button>
+</div>
 </div>
 </div>
 </section>
@@ -198,7 +231,7 @@
 <li class='ga-track' data-tracker='past-events-2018'>2018</li>
 </ul>
 </div>
-<div class='past-event-wrapper' id='information-2019'>
+<div class='information-2019 past-event-wrapper event-wrapper'>
 <h2>OCCULTURE 2019</h2>
 <h4>31 October - 03 November</h4>
 <h4>Anomalie Art Club, Berlin</h4>
@@ -217,7 +250,7 @@ Download Program
 </a>
 </div>
 </div>
-<div class='past-event-wrapper hidden' id='information-2018'>
+<div class='information-2018 past-event-wrapper event-wrapper hidden'>
 <h2>OCCULTURE 2018</h2>
 <h4>16-18 November</h4>
 <h4>Flutgraben e.V., Berlin</h4>
