@@ -24,7 +24,41 @@ onLoadAction:
     %img.icon{src: './images/2020/ico_snake.png'}
     {% haml mailing_list.haml %}
 
-%section#tickets.vertically-centered-section.half-section
+%section#upcoming-events.vertically-centered-section
+  .vertically-centered-content-wrapper.content-wrapper
+    .fixed-title
+      %img.icon{src: './images/2020/ico_hand.png'}
+      %h1 Upcoming Events
+      %ul.nav
+        %li.selected.ga-track{data: {tracker: 'upcoming-events-2020'}} 2020
+        |
+        %li.ga-track{data: {tracker: 'upcoming-events-2021'}} 2021
+
+    .information-2020.upcoming-event-wrapper.event-wrapper
+      %h2 Prague Samhain
+      %h4 30-31 October 2020
+      %h4 Sacre Coeur, Prague
+
+      .image
+        %img{src: './images/2020/sacrecoeur-interior.jpg'}
+      .tickets
+        %button.button.ga-track{data: {tracker: 'prague-samhain-ticket-button'}}
+          %a{href: 'https://app.tickettailor.com/events/occulture/416199/r/website-tickets-section'}
+            get tickets
+
+    .information-2021.upcoming-event-wrapper.event-wrapper.hidden
+      %h2 OCCULTURE 2021
+      %h4 Dates TBD
+      %h4 Anomalie Art Club, Berlin
+
+      .image
+        %img{src: './images/anomalie.jpg'}
+      .tickets
+        %button.button.ga-track{data: {tracker: 'prague-samhain-ticket-button'}}
+          %a{href: 'https://app.tickettailor.com/events/occulture/352285/r/website-tickets-section'}
+            get tickets
+
+-#%section#tickets.vertically-centered-section.half-section
   .vertically-centered-content-wrapper.content-wrapper
     %img.icon{src: './images/2020/ico_hand.png'}
     %h1 Tickets
@@ -87,7 +121,7 @@ onLoadAction:
         |
         %li.ga-track{data: {tracker: 'past-events-2018'}} 2018
 
-    #information-2019.past-event-wrapper
+    .information-2019.past-event-wrapper.event-wrapper
       %h2 OCCULTURE 2019
       %h4 31 October - 03 November
       %h4 Anomalie Art Club, Berlin
@@ -102,7 +136,7 @@ onLoadAction:
         %br
         %a.download-program.ga-track{href: './2019/program.pdf', data: {tracker: 'download-program-2019'}}
           Download Program
-    #information-2018.past-event-wrapper.hidden
+    .information-2018.past-event-wrapper.event-wrapper.hidden
       %h2 OCCULTURE 2018
       %h4 16-18 November
       %h4 Flutgraben e.V., Berlin

@@ -2,7 +2,6 @@
   background-image: url('../images/2020/prague-landing.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -23,16 +22,16 @@
 }
 
 @media(min-width: 1200px) {
-  #landing {
-    background-size: contain;
-  }
-
   #landing .content-wrapper {
     margin-top: 8vh;
   }
 }
 
 @media(min-width: 1600px) {
+  #landing {
+    background-size: contain;
+  }
+
   #landing .content-wrapper {
     margin-top: 8vh;
   }
