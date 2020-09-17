@@ -46,6 +46,6 @@ lazyLoadAvatars = function() {
 
 loadDefaultAvatar = function(image) {
   image.onError = '';
-  image.src = 'https://www.occultureberlin.org/images/speakers/unknown.png';
+  image.src = 'https://www.occultureconference.com/images/speakers/unknown.png';
   return true;
 }
