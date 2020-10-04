@@ -13,7 +13,8 @@ onLoadAction:
 
     .information
       %h1 Prague Samhain
-      %h3 30/31.10.2020
+      %h1 RESCHEDULED
+      %h3 30/31.10.2021
 
     -# %br
     -# %img.icon{src: './images/2020/ico_hand.png'}
@@ -29,34 +30,41 @@ onLoadAction:
     .fixed-title
       %img.icon{src: './images/2020/ico_hand.png'}
       %h1 Upcoming Events
-      %ul.nav
-        %li.selected.ga-track{data: {tracker: 'upcoming-events-2020'}} 2020
-        |
-        %li.ga-track{data: {tracker: 'upcoming-events-2021'}} 2021
+      -# %ul.nav
+      -#   %li.selected.ga-track{data: {tracker: 'upcoming-events-2020'}} 2020
+      -#   |
+      -#   %li.ga-track{data: {tracker: 'upcoming-events-2021'}} 2021
 
-    .information-2020.upcoming-event-wrapper.event-wrapper
-      %h2 Prague Samhain
-      %h4 30-31 October 2020
-      %h4 Sacre Coeur, Prague
-
-      .image
-        %img{src: './images/2020/sacrecoeur-stained-glass.jpg'}
-      .tickets
-        %button.button.ga-track{data: {tracker: 'prague-samhain-ticket-button'}}
-          %a{href: 'https://app.tickettailor.com/events/occulture/416199/r/website-tickets-section'}
-            get tickets
-
-    .information-2021.upcoming-event-wrapper.event-wrapper.hidden
+    .occulture-2021.upcoming-event-wrapper.event-wrapper
       %h2 OCCULTURE 2021
       %h4 Dates TBD
       %h4 Anomalie Art Club, Berlin
 
       .image
         %img{src: './images/anomalie.jpg'}
+      .toggle-event
+        %button.button{onclick: "toggleEvents2021(this);"}
+          next event
       .tickets
         %button.button.ga-track{data: {tracker: 'prague-samhain-ticket-button'}}
           %a{href: 'https://app.tickettailor.com/events/occulture/352285/r/website-tickets-section'}
             get tickets
+
+    .samhain-2021.upcoming-event-wrapper.event-wrapper.hidden
+      %h2 Prague Samhain
+      %h4 30-31 October 2021
+      %h4 Sacre Coeur, Prague
+
+      .image
+        %img{src: './images/2020/sacrecoeur-stained-glass.jpg'}
+      .toggle-event
+        %button.button{onclick: "toggleEvents2021(this);"}
+          previous event
+      .tickets
+        %button.button.ga-track{data: {tracker: 'prague-samhain-ticket-button'}}
+          %a{href: 'https://app.tickettailor.com/events/occulture/416199/r/website-tickets-section'}
+            get tickets
+
 
 -#%section#tickets.vertically-centered-section.half-section
   .vertically-centered-content-wrapper.content-wrapper
