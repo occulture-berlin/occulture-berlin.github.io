@@ -13,7 +13,7 @@
   filter: saturate(0.3);
 }
 
-#upcoming-events .tickets button {
+#upcoming-events button {
   width: 66vw;
   vertical-align: bottom;
   margin: auto 5px;
@@ -28,9 +28,8 @@
   cursor: pointer;
   background: #000;
   border: 1px solid #333;
-  margin-top: 4vh;
+  margin-top: 2vh;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 6vh;
   padding: 0.5em 0;
 }

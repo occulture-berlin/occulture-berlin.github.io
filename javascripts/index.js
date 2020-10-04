@@ -18,3 +18,13 @@ $(document).ready(function() {
   });
 
 });
+
+// cheap hack
+function toggleEvents2021(el) {
+  var selected = el.closest('.upcoming-event-wrapper');
+
+  console.log(selected)
+
+  selected.classList.add('hidden');
+  $(selected).siblings('.upcoming-event-wrapper').removeClass('hidden');
+}
